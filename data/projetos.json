@@ -232,8 +232,22 @@
     {
       "nome": "Finbook",
       "categoria": "Assistente Grok Bot",
-      "objetivo": "Assistente Grok Bot (sem repositório).",
-      "status": "Detalhes em breve"
+      "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
+      "status": "finbook.com.br no ar (21 páginas, calculadoras DAS/limite, ~12 artigos); 0 vendas; 43 visitas em 7 dias; 4 Shorts no YouTube/TikTok; redes ativas; 39 convites a contadores sem resposta.",
+      "recente": [
+        "10–11/10 – Kiwify configurado + afiliados 40%",
+        "12/10 – cupom, combo, logo nova, canais sociais",
+        "13/10 – 4º lote de convites",
+        "14/10 – revisão técnica do site + IndexNow"
+      ],
+      "proximos": [
+        "1 Short/dia e posts diários",
+        "Indexação Google/Bing",
+        "Reddit em 17/10",
+        "Convites a parceiros em 19/10"
+      ],
+      "atualizado": "14/10/2026",
+      "origem": "Assistente Finbook (Grok Bot), arquivos em /workspace/kit-mei-em-dia"
     }
   ]
 }
