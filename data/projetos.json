@@ -1,0 +1,239 @@
+{
+  "titulo": "Painel de Controle",
+  "gerado_em": "14/10/2026 16:51 (horário de Brasília)",
+  "projetos": [
+    {
+      "nome": "Abriu Agora",
+      "repo": "abriuagora",
+      "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
+      "status": "Em operação ativa: pipeline mensal, prospecção por e-mail e amostras por cidade rodando (muitos commits hoje).",
+      "recente": [
+        "14/10 15:22 – amostra de Lavras entregue com a base nova",
+        "14/10 15:11 – prospecção: limpeza grátis da fila; validador pago (NeverBounce) desligado",
+        "14/10 14:23 – espelho lê o Parquet remoto em duas passadas (limite de 244 MB)",
+        "14/10 14:09 – carga da base falhou por memória; PAUSA recriada",
+        "14/10 11:43 – D+3/D+7 passam a contar por dia de Brasília"
+      ],
+      "proximos": [
+        "Confirmar estabilidade da carga da base após a correção de memória",
+        "Acompanhar retomada dos envios e descadastros da prospecção",
+        "Sem issues/PRs abertos; próximos passos formais não estão documentados no README"
+      ],
+      "atualizado": "14/10/2026 15:22",
+      "url": "https://github.com/ratbragaia/abriuagora",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "PatentSonar",
+      "repo": "PatentSonar",
+      "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
+      "status": "Em operação: fase de prospecção de compradores nomeados com e-mails revisados por um agente crítico (ADRs até 0028).",
+      "recente": [
+        "14/10 06:11 – primeiros contatos v2 para 3 autores de artigos, aprovados pelo crítico e enfileirados",
+        "14/10 06:06 – pesquisa 13: 10 compradores nomeados importados",
+        "14/10 05:08 – busca de contato: páginas citadas pelo Hunter conferidas (3 de 4 desatualizadas)",
+        "13/10 08:32 – Hunter fica no plano grátis, teto de 36 buscas",
+        "13/10 – template da edição sinaliza resumos não-ingleses"
+      ],
+      "proximos": [
+        "Medir respostas dos primeiros contatos v2",
+        "Seguir o docs/handoff-checklist.md (pendências do fundador)",
+        "Converter primeiros assinantes pagos (não há dado de receita no repo)"
+      ],
+      "atualizado": "14/10/2026 06:11",
+      "url": "https://github.com/ratbragaia/PatentSonar",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "BlueBed",
+      "repo": "BlueBed",
+      "objetivo": "Site institucional da marca BlueBed (páginas de Agentes, Capacitação, Dados, manual de marca) e página no Facebook. Objetivo de negócio não está descrito em README.",
+      "status": "Site no ar em bluebed.com.br segundo o único commit; repositório sem README.",
+      "recente": [
+        "12/10 11:26 – 'Fim do dia 12/10: site no ar em bluebed.com.br' (commit único)"
+      ],
+      "proximos": [
+        "Criar README com objetivo e estado",
+        "Executar o PASSO-A-PASSO da página do Facebook",
+        "Revisar PLANO-site.md para próximas páginas"
+      ],
+      "atualizado": "12/10/2026 11:26",
+      "url": "https://github.com/ratbragaia/BlueBed",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Vagas SJDR",
+      "repo": "vagassjdr",
+      "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
+      "status": "Primeiro commit em 12/10 com planos, rotinas e fluxos; vagas pendentes de 02/10 a 07/10 na fila. Sem README.",
+      "recente": [
+        "12/10 11:02 – PLANO com GitHub oficial",
+        "12/10 11:01 – primeiro commit (PLANO, rotinas, scripts e fluxos n8n)"
+      ],
+      "proximos": [
+        "Criar README",
+        "Processar a fila de vagas pendentes",
+        "Ativar o fluxo de post pago/cobrança (status real não está claro)"
+      ],
+      "atualizado": "12/10/2026 11:02",
+      "url": "https://github.com/ratbragaia/vagassjdr",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Editallido",
+      "repo": "editallido",
+      "objetivo": "Radar de licitações (boletim de editais) para construtoras pequenas, com amostra grátis, e-mail frio e cobrança; plano de 90 dias.",
+      "status": "Em construção/teste com dados reais; PRs #14 e #15 integrados em 10/10. Sem README.",
+      "recente": [
+        "10/10 12:08 – merge do PR #15 (amostra com dados reais)",
+        "10/10 – regras conservadoras de garantia/atestado/valor (rodada 8)",
+        "10/10 – seguimento: link de pagamento (R$ 590 para quem testou)"
+      ],
+      "proximos": [
+        "Disparar o lote 1 de e-mail frio (script armar-lote1.sh existe; não sei se rodou)",
+        "Concluir revisão jurídica (legal/REVIEW_STATUS.md)",
+        "Criar README"
+      ],
+      "atualizado": "10/10/2026 12:08",
+      "url": "https://github.com/ratbragaia/editallido",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Lígia Daher – site",
+      "repo": "ligiadaher.com.br",
+      "objetivo": "Site institucional da psicóloga Lígia Daher (Resende Costa–MG), com blog/SEO e agendamento via WhatsApp, feito no Lovable.",
+      "status": "Site publicado (homepage novoligiadaher.vercel.app); melhorias de SEO local em andamento. 1 PR aberto antigo (Vercel Analytics, 02/01).",
+      "recente": [
+        "06/10 20:04 – links internos para páginas de cidade (#16)",
+        "06/10 11:45 – ajustes na home",
+        "05/10 23:26 – página 'Como funciona' e WhatsApp com mensagem pronta (#14)",
+        "01/10 – campos de Instagram e webhook do LinkedIn"
+      ],
+      "proximos": [
+        "Decidir sobre o PR #1 (Vercel Analytics) aberto desde janeiro",
+        "Seguir roadmap.md",
+        "Arquivo .env está versionado – verificar se contém segredos"
+      ],
+      "atualizado": "06/10/2026 20:04",
+      "url": "https://github.com/ratbragaia/ligiadaher.com.br",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Carteira de Locação",
+      "repo": "carteiradelocacao",
+      "objetivo": "SaaS multi-tenant de gestão de aluguéis (imóveis, inquilinos, contratos, documentos, financeiro) em Lovable + Supabase.",
+      "status": "App funcional com muitos módulos; últimas mudanças em 29–30/09 (recuperação de senha, logo). Parado há ~2 semanas.",
+      "recente": [
+        "30/09 20:07 – regra de navegador no CLAUDE.md",
+        "29/09 23:01 – logo trocado pelo SVG",
+        "29/09 22:40 – corrigido login de recuperação"
+      ],
+      "proximos": [
+        "Definir próxima funcionalidade (não há roadmap/issues)",
+        "Arquivo .env versionado – verificar segredos"
+      ],
+      "atualizado": "30/09/2026 20:07",
+      "url": "https://github.com/ratbragaia/carteiradelocacao",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Agente de Saúde",
+      "repo": "agente-saude",
+      "objetivo": "Sistema pessoal longitudinal de saúde: wearables, CPAP, exames em banco próprio, com IA interpretando e agente no WhatsApp.",
+      "status": "Em produção: coletor Android, n8n, agente WhatsApp, relatórios e painel Grafana funcionando; balança Withings adiada para dez/2026.",
+      "recente": [
+        "30/09 20:07 – regra de navegador",
+        "27/09 21:56 – README e doc de retomada; recaptura dos vídeos encerrada",
+        "26/09 – CPAP em blocos de 30 min, painel no Grafana Cloud",
+        "26/09 – correção do coletor e respostas repetidas no WhatsApp"
+      ],
+      "proximos": [
+        "Decidir sobre a balança Withings (dezembro)",
+        "Extração de exames em PDF (ingest/labs vazio)"
+      ],
+      "atualizado": "30/09/2026 20:07",
+      "url": "https://github.com/ratbragaia/agente-saude",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "InfluNet",
+      "repo": "influnet",
+      "objetivo": "Marketplace mobile-first (PWA) conectando marcas locais a micro-influenciadores do interior.",
+      "status": "Protótipo em Lovable com dados demo e deck de pitch; sem desenvolvimento desde julho (só README em 29/09).",
+      "recente": [
+        "29/09 22:17 – README adicionado",
+        "18/07 – buscas de perfil separadas",
+        "16/07 – dados demo populados",
+        "12/07 – deck de pitch V7"
+      ],
+      "proximos": [
+        "Decidir se o projeto continua (parado desde julho)",
+        "Validar com marcas/influenciadores reais",
+        "Arquivo .env versionado – verificar segredos"
+      ],
+      "atualizado": "29/09/2026 22:17",
+      "url": "https://github.com/ratbragaia/influnet",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Base de Conhecimento",
+      "repo": "BaseDeConhecimento",
+      "objetivo": "'Segundo cérebro': links jogados num grupo do Telegram viram notas markdown classificadas (Obsidian), com busca e chat.",
+      "status": "Branch master parada em 28/09, mas 8 PRs abertos (01/10 a 14/10) com o trabalho recente. README diz Fase 1 pronta e 'aguardando instalação' – pode estar desatualizado.",
+      "recente": [
+        "14/10 00:43 – PR #8: GIF vira vídeo (Reel) para Instagram/TikTok",
+        "13/10 – PR #7: caixinhas de redes no resumo",
+        "12/10 – PRs #4–#6: vigia no Telegram, Whisper offline, botão apagar",
+        "28/09 14:16 – renomeado de Segundo Cérebro para BaseDeConhecimento"
+      ],
+      "proximos": [
+        "Revisar e integrar os 8 PRs abertos",
+        "Atualizar o README com o estado real"
+      ],
+      "atualizado": "14/10/2026 00:43",
+      "url": "https://github.com/ratbragaia/BaseDeConhecimento",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Assistente Pessoal",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Hub Rockfort",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Milhas e Cartões",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Curso de IA",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Juventude Empreendedora",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Redes Sociais",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "ytkit",
+      "categoria": "Fora do GitHub – aguardando análise",
+      "status": "Fora do GitHub – aguardando análise"
+    },
+    {
+      "nome": "Finbook",
+      "categoria": "Assistente Grok Bot",
+      "objetivo": "Assistente Grok Bot (sem repositório).",
+      "status": "Detalhes em breve"
+    }
+  ]
+}
