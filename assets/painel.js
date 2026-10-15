@@ -42,9 +42,9 @@ function geral(){
     if(r.arquivo){
       mini='<div class="mini">'+[
         r.ultimo_commit?`Último commit: ${r.ultimo_commit}`:null,
-        `${r.commits_7d} commits em 7 dias`,
-        r.pendencias!=null?`${r.pendencias} pendências`:null,
-        r.prs_abertos?`${r.prs_abertos} PRs abertos`:null,
+        `${r.commits_7d} commit${r.commits_7d==1?'':'s'} em 7 dias`,
+        r.pendencias!=null?`${r.pendencias} pendência${r.pendencias==1?'':'s'}`:null,
+        r.prs_abertos?`${r.prs_abertos} PR${r.prs_abertos==1?' aberto':'s abertos'}`:null,
         r.tem_kpis?'Tem indicadores':null].filter(Boolean).map(s=>'<span>'+esc(s)+'</span>').join('')+'</div>';
     }
     return `<article class="card"><h2>${esc(p.nome)}</h2><span class="tag">${esc(p.categoria||'')}</span>`+
