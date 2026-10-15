@@ -1,0 +1,211 @@
+{
+ "repo": "vagassjdr",
+ "slug": "vagassjdr",
+ "estatisticas": {
+  "linguagem": "JavaScript",
+  "linguagens": [
+   {
+    "nome": "JavaScript",
+    "pct": 84.5
+   },
+   {
+    "nome": "HTML",
+    "pct": 11.7
+   },
+   {
+    "nome": "Python",
+    "pct": 3.8
+   }
+  ],
+  "ultimo_commit": "14/10/2026 21:36",
+  "commits_7d": 6,
+  "commits_30d": 6,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 317,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "14/10 21:36",
+   "msg": "Espelhamento automatico 2026-10-14 21:36",
+   "sha": "a270b0c"
+  },
+  {
+   "quando": "14/10 19:27",
+   "msg": "Adiciona CLAUDE.md",
+   "sha": "1250ac0"
+  },
+  {
+   "quando": "14/10 18:36",
+   "msg": "Espelhamento automatico 2026-10-14 18:36",
+   "sha": "e89e3e5"
+  },
+  {
+   "quando": "14/10 17:37",
+   "msg": "Espelhamento automatico 2026-10-14 17:37",
+   "sha": "7a5334d"
+  },
+  {
+   "quando": "12/10 11:02",
+   "msg": "Fim do dia 12/10: PLANO com GitHub oficial",
+   "sha": "f3836bf"
+  },
+  {
+   "quando": "12/10 11:01",
+   "msg": "Vagas SJDR: primeiro commit (PLANO, rotinas, scripts e fluxos n8n)",
+   "sha": "c0ba065"
+  }
+ ],
+ "pendencias": null,
+ "kpis": {
+  "titulo": "Indicadores das Vagas SJDR",
+  "fontes": [
+   "registro-publicadas.csv",
+   "n8n/pendentes/"
+  ],
+  "numeros": [
+   {
+    "rotulo": "Vagas publicadas",
+    "valor": "67",
+    "detalhe": "de 02/10/2026 a 14/10/2026"
+   },
+   {
+    "rotulo": "Publicadas nos últimos 7 dias",
+    "valor": "22",
+    "detalhe": ""
+   },
+   {
+    "rotulo": "Vagas na fila (n8n/pendentes)",
+    "valor": "61",
+    "detalhe": "aguardando aprovação"
+   }
+  ],
+  "tabelas": [],
+  "listas": []
+ },
+ "gerado_em": "15/10/2026 12:22"
+}

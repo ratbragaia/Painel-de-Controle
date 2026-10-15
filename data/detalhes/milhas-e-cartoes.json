@@ -1,0 +1,203 @@
+{
+ "repo": "milhas-e-cartoes",
+ "slug": "milhas-e-cartoes",
+ "estatisticas": {
+  "linguagem": "PowerShell",
+  "linguagens": [
+   {
+    "nome": "PowerShell",
+    "pct": 100.0
+   }
+  ],
+  "ultimo_commit": "14/10/2026 21:36",
+  "commits_7d": 3,
+  "commits_30d": 3,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 3
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 42,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "14/10 21:36",
+   "msg": "Espelhamento automatico 2026-10-14 21:36",
+   "sha": "d67c0f7"
+  },
+  {
+   "quando": "14/10 18:36",
+   "msg": "Espelhamento automatico 2026-10-14 18:36",
+   "sha": "de2c125"
+  },
+  {
+   "quando": "14/10 17:20",
+   "msg": "Commit inicial (migracao para [caminho]",
+   "sha": "fd4e3d9"
+  }
+ ],
+ "pendencias": {
+  "fonte": "PENDENCIAS.md",
+  "itens": [
+   {
+    "titulo": "Lembrete mensal (01/10/2026): atualizar os saldos na planilha.",
+    "prazo": null
+   },
+   {
+    "titulo": "Conferir em outubro o 1º crédito dos 2.000 pontos extras da Livelo.",
+    "prazo": null
+   },
+   {
+    "titulo": "Cartão XP Legacy aprovado (15/09), ainda não chegou.",
+    "prazo": null
+   },
+   {
+    "titulo": "Alertas de comunicação — status em 06/09",
+    "prazo": null
+   },
+   {
+    "titulo": "Saldos na planilha.",
+    "prazo": null
+   },
+   {
+    "titulo": "Preencher o arquivo da Evolution API",
+    "prazo": null
+   },
+   {
+    "titulo": "Esfera Clube: NÃO assinar.",
+    "prazo": null
+   },
+   {
+    "titulo": "Usar os 4 acessos DragonPass quando voltar a voar.",
+    "prazo": null
+   },
+   {
+    "titulo": "Não mexer no gasto do XP enquanto o lote de acessos atual não for usado (sem pressa, mas vale manter).",
+    "prazo": null
+   }
+  ]
+ },
+ "kpis": null,
+ "gerado_em": "15/10/2026 12:22"
+}

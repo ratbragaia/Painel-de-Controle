@@ -1,0 +1,210 @@
+{
+ "repo": "agente-saude",
+ "slug": "agente-saude",
+ "estatisticas": {
+  "linguagem": "PLpgSQL",
+  "linguagens": [
+   {
+    "nome": "PLpgSQL",
+    "pct": 71.4
+   },
+   {
+    "nome": "Kotlin",
+    "pct": 13.6
+   },
+   {
+    "nome": "Python",
+    "pct": 13.5
+   },
+   {
+    "nome": "PowerShell",
+    "pct": 1.5
+   }
+  ],
+  "ultimo_commit": "30/09/2026 20:07",
+  "commits_7d": 0,
+  "commits_30d": 18,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 2
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 13
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 2
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 335,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "30/09 20:07",
+   "msg": "Regra de navegador: embutido primeiro, Chrome real como fallback",
+   "sha": "3dfeccb"
+  },
+  {
+   "quando": "27/09 21:56",
+   "msg": "Atualiza README e doc de retomada; encerra recaptura dos videos",
+   "sha": "29371b0"
+  },
+  {
+   "quando": "27/09 20:22",
+   "msg": "Registra pendencia real: recaptura dos 47/49 videos parou no meio",
+   "sha": "587c8d0"
+  },
+  {
+   "quando": "26/09 21:50",
+   "msg": "P28: 24 aulas lidas por inteiro e cruzadas com docs/03",
+   "sha": "c26fd05"
+  },
+  {
+   "quando": "26/09 21:40",
+   "msg": "Registra cobertura do sono no doc de retomada",
+   "sha": "bf3dba5"
+  },
+  {
+   "quando": "26/09 21:33",
+   "msg": "Relatorio semanal: linha de cobertura do sono (0042)",
+   "sha": "597ed6b"
+  },
+  {
+   "quando": "26/09 21:24",
+   "msg": "Painel: ronco e limitacao de fluxo em painel proprio",
+   "sha": "6c07ef5"
+  },
+  {
+   "quando": "26/09 21:22",
+   "msg": "Painel: blocos do CPAP em barras (0041 rodada, 597 blocos)",
+   "sha": "91b1666"
+  },
+  {
+   "quando": "26/09 21:11",
+   "msg": "CPAP: resumo do PLD em blocos de 30 min (0041) e decisao sobre o BRP",
+   "sha": "503dce5"
+  },
+  {
+   "quando": "26/09 20:56",
+   "msg": "Painel: grafico de eventos do CPAP por hora da noite",
+   "sha": "225b3d5"
+  }
+ ],
+ "pendencias": null,
+ "kpis": null,
+ "gerado_em": "15/10/2026 12:22"
+}

@@ -1,0 +1,210 @@
+{
+ "repo": "influnet",
+ "slug": "influnet",
+ "estatisticas": {
+  "linguagem": "TypeScript",
+  "linguagens": [
+   {
+    "nome": "TypeScript",
+    "pct": 95.1
+   },
+   {
+    "nome": "PLpgSQL",
+    "pct": 3.6
+   },
+   {
+    "nome": "CSS",
+    "pct": 0.8
+   },
+   {
+    "nome": "HTML",
+    "pct": 0.4
+   }
+  ],
+  "ultimo_commit": "14/10/2026 21:35",
+  "commits_7d": 3,
+  "commits_30d": 4,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 1
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 3
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 230,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "14/10 21:35",
+   "msg": "Espelhamento automatico 2026-10-14 21:35",
+   "sha": "3b6d432"
+  },
+  {
+   "quando": "14/10 19:26",
+   "msg": "Adiciona CLAUDE.md",
+   "sha": "06721fa"
+  },
+  {
+   "quando": "14/10 17:35",
+   "msg": "Documentos do projeto (migracao do Drive)",
+   "sha": "1aa4fc1"
+  },
+  {
+   "quando": "29/09 22:17",
+   "msg": "Add project README",
+   "sha": "9dfb4ab"
+  },
+  {
+   "quando": "18/07 11:21",
+   "msg": "Separou buscas de perfil",
+   "sha": "54f2374"
+  },
+  {
+   "quando": "18/07 11:21",
+   "msg": "Changes",
+   "sha": "4920438"
+  },
+  {
+   "quando": "18/07 11:21",
+   "msg": "Changes",
+   "sha": "37e6c6f"
+  },
+  {
+   "quando": "16/07 14:12",
+   "msg": "Populou dados demo do InfluNet",
+   "sha": "f78d345"
+  },
+  {
+   "quando": "16/07 14:12",
+   "msg": "Changes",
+   "sha": "e1a20f1"
+  },
+  {
+   "quando": "16/07 14:12",
+   "msg": "Changes",
+   "sha": "52cda30"
+  }
+ ],
+ "pendencias": null,
+ "kpis": null,
+ "gerado_em": "15/10/2026 12:22"
+}

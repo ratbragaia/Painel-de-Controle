@@ -1,0 +1,190 @@
+{
+ "repo": "ytkit",
+ "slug": "ytkit",
+ "estatisticas": {
+  "linguagem": "Python",
+  "linguagens": [
+   {
+    "nome": "Python",
+    "pct": 99.9
+   },
+   {
+    "nome": "Batchfile",
+    "pct": 0.1
+   }
+  ],
+  "ultimo_commit": "14/10/2026 18:37",
+  "commits_7d": 2,
+  "commits_30d": 2,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 41,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "14/10 18:37",
+   "msg": "Espelhamento automatico 2026-10-14 18:37",
+   "sha": "8ffff57"
+  },
+  {
+   "quando": "14/10 17:22",
+   "msg": "Commit inicial (migracao para [caminho]",
+   "sha": "2ec2e4e"
+  }
+ ],
+ "pendencias": {
+  "fonte": "CLAUDE.md (seção de pendências)",
+  "itens": [
+   {
+    "titulo": "BLOQUEADO PELO ANTI-BOT em 14/09.",
+    "prazo": null
+   },
+   {
+    "titulo": "A estimativa de tempo ignora o paralelismo.",
+    "prazo": null
+   },
+   {
+    "titulo": "Três CURSO-INFO.md com contagem antiga",
+    "prazo": null
+   },
+   {
+    "titulo": "Um .bruto.md do Cole Medin está em português traduzido",
+    "prazo": null
+   },
+   {
+    "titulo": "Campo Navegador ainda preenchido",
+    "prazo": null
+   },
+   {
+    "titulo": "Nunca testado",
+    "prazo": null
+   }
+  ]
+ },
+ "kpis": null,
+ "gerado_em": "15/10/2026 12:22"
+}

@@ -1,0 +1,243 @@
+{
+ "repo": "finbook",
+ "slug": "finbook",
+ "estatisticas": {
+  "linguagem": "Python",
+  "linguagens": [
+   {
+    "nome": "Python",
+    "pct": 52.9
+   },
+   {
+    "nome": "HTML",
+    "pct": 41.7
+   },
+   {
+    "nome": "JavaScript",
+    "pct": 4.0
+   },
+   {
+    "nome": "CSS",
+    "pct": 1.0
+   }
+  ],
+  "ultimo_commit": "15/10/2026 11:01",
+  "commits_7d": 8,
+  "commits_30d": 8,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 4
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 221,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "15/10 11:01",
+   "msg": "Continuar 15/10: rascunho FB post-07 + pauta Short 06 novo limite R$110 mil; pendências/diário",
+   "sha": "aebf722"
+  },
+  {
+   "quando": "15/10 10:59",
+   "msg": "SEO semanal 15/10: títulos/descrições no tamanho, novo artigo do limite R$ 110 mil (Câmara 14/10), FAQ calc limite, links internos por…",
+   "sha": "9ff2bb0"
+  },
+  {
+   "quando": "15/10 10:59",
+   "msg": "Calculadora do limite: bloco Próximo passo (CTA kit + checklist) — CEO 15/10",
+   "sha": "8a163d8"
+  },
+  {
+   "quando": "15/10 10:59",
+   "msg": "Medição: calc_limite_uso e calc_das_interacao (CEO 15/10)",
+   "sha": "287bd65"
+  },
+  {
+   "quando": "14/10 21:35",
+   "msg": "Espelhamento automatico 2026-10-14 21:35",
+   "sha": "faf6d50"
+  },
+  {
+   "quando": "14/10 19:26",
+   "msg": "Adiciona CLAUDE.md",
+   "sha": "b9b9f07"
+  },
+  {
+   "quando": "14/10 17:31",
+   "msg": "Import Kit MEI em Dia project (source, scripts, docs; no secrets/media/paid deliverables)",
+   "sha": "de60fd9"
+  },
+  {
+   "quando": "14/10 17:19",
+   "msg": "Commit inicial (migracao para [caminho]",
+   "sha": "7b22f6c"
+  }
+ ],
+ "pendencias": {
+  "fonte": "ceo/pendencias.md",
+  "itens": [
+   {
+    "titulo": "Pinterest pin4: continua BLOQUEADO NO RODRIGO (não retentado)",
+    "prazo": null
+   },
+   {
+    "titulo": "Reddit: continua PAUSADO até 17/10",
+    "prazo": "17/10"
+   }
+  ]
+ },
+ "kpis": {
+  "titulo": "Indicadores do Finbook",
+  "fontes": [
+   "ceo/financeiro.csv",
+   "site/blog/",
+   "social/shorts/"
+  ],
+  "numeros": [
+   {
+    "rotulo": "Receita bruta registrada",
+    "valor": "R$ 0,00",
+    "detalhe": "até 12/10/2026"
+   },
+   {
+    "rotulo": "Resultado líquido registrado",
+    "valor": "R$ 0,00",
+    "detalhe": "até 12/10/2026"
+   },
+   {
+    "rotulo": "Artigos no blog",
+    "valor": "13",
+    "detalhe": "páginas em site/blog"
+   },
+   {
+    "rotulo": "Roteiros de Shorts",
+    "valor": "4",
+    "detalhe": "arquivos roteiro-*.md"
+   }
+  ],
+  "tabelas": [],
+  "listas": []
+ },
+ "gerado_em": "15/10/2026 12:22"
+}

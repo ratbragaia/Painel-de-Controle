@@ -1,0 +1,249 @@
+{
+ "repo": "BaseDeConhecimento",
+ "slug": "basedeconhecimento",
+ "estatisticas": {
+  "linguagem": "Python",
+  "linguagens": [
+   {
+    "nome": "Python",
+    "pct": 84.9
+   },
+   {
+    "nome": "HTML",
+    "pct": 11.5
+   },
+   {
+    "nome": "PLpgSQL",
+    "pct": 2.5
+   },
+   {
+    "nome": "JavaScript",
+    "pct": 0.8
+   }
+  ],
+  "ultimo_commit": "28/09/2026 14:16",
+  "commits_7d": 0,
+  "commits_30d": 43,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 5
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 1
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 12
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 23
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 1
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 1
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 0
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 7,
+  "arquivos": 2323,
+  "branch": "master"
+ },
+ "commits": [
+  {
+   "quando": "28/09 14:16",
+   "msg": "Renomeia o projeto de Segundo Cerebro para BaseDeConhecimento",
+   "sha": "d7fa2f2"
+  },
+  {
+   "quando": "27/09 23:56",
+   "msg": "Le o .env criptografado com dotenvx",
+   "sha": "ba99aa4"
+  },
+  {
+   "quando": "21/09 21:48",
+   "msg": "Roteador de grupos no n8n: tabela grupo (0004), workflows roteador, perguntar ao vault e captura (sub-fluxo), gerador e testes dos nos",
+   "sha": "abbde2e"
+  },
+  {
+   "quando": "21/09 20:42",
+   "msg": "Sincronizar: hash so local (trecho nao tem), erro real do Supabase, lotes por tamanho e reenvio; teste valida colunas contra o SQL; SQL…",
+   "sha": "b3bda17"
+  },
+  {
+   "quando": "21/09 20:14",
+   "msg": "Consulta pelo Telegram, passo 1: SQL 0002_consulta, cerebro sincronizar (vault -> Supabase, so o que mudou), puxar ignora o grupo de…",
+   "sha": "e709c08"
+  },
+  {
+   "quando": "21/09 17:05",
+   "msg": "Mapa: ytkit grava no acervo, rotina das 20h, vault e regime normal de 10-15 itens/dia",
+   "sha": "78015f6"
+  },
+  {
+   "quando": "21/09 16:59",
+   "msg": "Docs: volume real (10-15 itens/dia) e limite temporario de 40 rodadas na rotina",
+   "sha": "62a8579"
+  },
+  {
+   "quando": "21/09 16:41",
+   "msg": "Vault: 22 mensagens do export recuperadas, fontes das 22, leituras retentadas; resultado parcial da rotina do Claude (em andamento)",
+   "sha": "0da4ef7"
+  },
+  {
+   "quando": "21/09 16:40",
+   "msg": "Painel: cache renova em segundo plano (resposta imediata); docs da recuperacao das 22 mensagens e do cabecalho",
+   "sha": "9c7a809"
+  },
+  {
+   "quando": "21/09 16:10",
+   "msg": "Assuntos: Ai tools vira apelido de Ferramentas de IA; novos Financeiro, Gestao OKR e KPI e Scraping em suas areas; area A organizar…",
+   "sha": "873a198"
+  }
+ ],
+ "pendencias": null,
+ "kpis": {
+  "titulo": "Tamanho do cérebro",
+  "fontes": [
+   "cerebro/ (contagem de notas .md)"
+  ],
+  "numeros": [
+   {
+    "rotulo": "Fontes",
+    "valor": "392",
+    "detalhe": "cerebro/10-fontes"
+   },
+   {
+    "rotulo": "Notas de conhecimento",
+    "valor": "871",
+    "detalhe": "cerebro/20-conhecimento"
+   },
+   {
+    "rotulo": "Conceitos",
+    "valor": "575",
+    "detalhe": "cerebro/30-conceitos"
+   },
+   {
+    "rotulo": "Ferramentas",
+    "valor": "206",
+    "detalhe": "cerebro/50-ferramentas"
+   },
+   {
+    "rotulo": "Tópicos",
+    "valor": "66",
+    "detalhe": "cerebro/70-topicos"
+   },
+   {
+    "rotulo": "Mensagens",
+    "valor": "116",
+    "detalhe": "cerebro/05-mensagens"
+   }
+  ],
+  "tabelas": [],
+  "listas": []
+ },
+ "gerado_em": "15/10/2026 12:22"
+}

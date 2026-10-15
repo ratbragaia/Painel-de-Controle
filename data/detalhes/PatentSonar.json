@@ -1,0 +1,232 @@
+{
+ "repo": "PatentSonar",
+ "slug": "patentsonar",
+ "estatisticas": {
+  "linguagem": "TypeScript",
+  "linguagens": [
+   {
+    "nome": "TypeScript",
+    "pct": 68.8
+   },
+   {
+    "nome": "HTML",
+    "pct": 15.1
+   },
+   {
+    "nome": "PLpgSQL",
+    "pct": 12.0
+   },
+   {
+    "nome": "Shell",
+    "pct": 2.9
+   }
+  ],
+  "ultimo_commit": "15/10/2026 05:17",
+  "commits_7d": 58,
+  "commits_30d": 339,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-16",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-19",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-20",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-21",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-22",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-23",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-09-25",
+    "n": 48
+   },
+   {
+    "dia": "2026-09-26",
+    "n": 69
+   },
+   {
+    "dia": "2026-09-27",
+    "n": 10
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 40
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 14
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 11
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 47
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 8
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 17
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 10
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 16
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 15
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 11
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 2
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 338,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "15/10 05:17",
+   "msg": "Research 14: 4 FR named buyers from their own 2026 HAL papers (Ampere x2, Safran Tech x2), imported; Lemesle first touch critic 11/12,…",
+   "sha": "bb1c3c7"
+  },
+  {
+   "quando": "15/10 05:06",
+   "msg": "Inbound: suppress hard-bounce recipients on arrival (Ludois 550 sat as ignored); trademark task closed by founder decision",
+   "sha": "02ac888"
+  },
+  {
+   "quando": "14/10 21:36",
+   "msg": "Espelhamento automatico 2026-10-14 21:36",
+   "sha": "ca6f9b6"
+  },
+  {
+   "quando": "14/10 17:37",
+   "msg": "Espelhamento automatico 2026-10-14 17:37",
+   "sha": "26a0a64"
+  },
+  {
+   "quando": "14/10 06:11",
+   "msg": "First touches v2 for three paper authors (C-Motive, Safran Tech, Stellantis FR): critic 11/10/10, queued",
+   "sha": "ee542c8"
+  },
+  {
+   "quando": "14/10 06:06",
+   "msg": "Research 13: 10 named buyers (6 with self-published addresses), imported; Art. 14 line for paper-sourced FR/GB addresses",
+   "sha": "dfa8c28"
+  },
+  {
+   "quando": "14/10 05:11",
+   "msg": "First touches v2 for Husted, Bushi, Villalon, Gonzalez: critic 11/11/9/11, queued",
+   "sha": "aa1c001"
+  },
+  {
+   "quando": "14/10 05:08",
+   "msg": "Contact lookup: confirm Hunter-cited pages ourselves before 'public_source' (3 of 4 stale, 2026-10-14)",
+   "sha": "e862ab7"
+  },
+  {
+   "quando": "13/10 13:10",
+   "msg": "Issue template: flag non-English abstracts, show CN names as filed (task aa9d7a10)",
+   "sha": "9df201d"
+  },
+  {
+   "quando": "13/10 08:09",
+   "msg": "Founder: Hunter stays on Free; cap 36 lookups from Hunter's measured credits (ADR 0028 amendment)",
+   "sha": "7c6d09f"
+  }
+ ],
+ "pendencias": {
+  "fonte": "docs/handoff-checklist.md (itens do fundador)",
+  "itens": [
+   {
+    "titulo": "USD receiving account",
+    "prazo": null
+   }
+  ]
+ },
+ "kpis": {
+  "titulo": "Checklist do fundador",
+  "fontes": [
+   "docs/handoff-checklist.md"
+  ],
+  "tabelas": [],
+  "listas": [],
+  "numeros": [
+   {
+    "rotulo": "Itens concluídos",
+    "valor": "14/17",
+    "detalhe": "1 em aberto"
+   }
+  ]
+ },
+ "gerado_em": "15/10/2026 12:22"
+}
