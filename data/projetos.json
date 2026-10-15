@@ -1,25 +1,25 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "14/10/2026 16:51 (horário de Brasília)",
+  "gerado_em": "15/10/2026 08:20 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: pipeline mensal, prospecção por e-mail e amostras por cidade rodando (muitos commits hoje).",
+      "status": "Em operação ativa: pipeline mensal e prospecção por e-mail rodando; a onda 1 terminou com 0 pedidos de amostra em 40 convidados, e a onda 2 vai com o assunto B.",
       "recente": [
+        "15/10 00:05 – marco do plano: 0 pedidos de amostra em 40 convidados, onda 2 segue com o assunto B (regra de decisão ajustada)",
+        "14/10 19:26 – CLAUDE.md adicionado",
         "14/10 15:22 – amostra de Lavras entregue com a base nova",
         "14/10 15:11 – prospecção: limpeza grátis da fila; validador pago (NeverBounce) desligado",
-        "14/10 14:23 – espelho lê o Parquet remoto em duas passadas (limite de 244 MB)",
-        "14/10 14:09 – carga da base falhou por memória; PAUSA recriada",
-        "14/10 11:43 – D+3/D+7 passam a contar por dia de Brasília"
+        "14/10 14:23 – espelho lê o Parquet remoto em duas passadas (limite de 244 MB)"
       ],
       "proximos": [
+        "Disparar a onda 2 com o assunto B e medir pedidos de amostra",
         "Confirmar estabilidade da carga da base após a correção de memória",
-        "Acompanhar retomada dos envios e descadastros da prospecção",
-        "Sem issues/PRs abertos; próximos passos formais não estão documentados no README"
+        "Seguir o checklist de 15/10 do plano"
       ],
-      "atualizado": "14/10/2026 15:22",
+      "atualizado": "15/10/2026 00:05",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -27,75 +27,226 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: fase de prospecção de compradores nomeados com e-mails revisados por um agente crítico (ADRs até 0028).",
+      "status": "Em operação: prospecção de compradores nomeados com e-mails revisados por um agente crítico; planos novos de checkout (Paddle) e segurança da VPS.",
       "recente": [
+        "15/10 05:17 – pesquisa 14: 4 compradores nomeados na França importados a partir de artigos de 2026; primeiro contato aprovado pelo crítico (11/12) e enfileirado",
+        "15/10 05:06 – e-mails que voltam com erro permanente passam a ser suprimidos na chegada; tarefa de marca registrada encerrada por decisão do fundador",
+        "14/10 – PLANO-checkout-paddle.md e PLANO-seguranca-vps.md adicionados",
         "14/10 06:11 – primeiros contatos v2 para 3 autores de artigos, aprovados pelo crítico e enfileirados",
-        "14/10 06:06 – pesquisa 13: 10 compradores nomeados importados",
-        "14/10 05:08 – busca de contato: páginas citadas pelo Hunter conferidas (3 de 4 desatualizadas)",
-        "13/10 08:32 – Hunter fica no plano grátis, teto de 36 buscas",
-        "13/10 – template da edição sinaliza resumos não-ingleses"
+        "14/10 06:06 – pesquisa 13: 10 compradores nomeados importados"
       ],
       "proximos": [
         "Medir respostas dos primeiros contatos v2",
-        "Seguir o docs/handoff-checklist.md (pendências do fundador)",
+        "Executar os planos de checkout (Paddle) e de segurança da VPS",
         "Converter primeiros assinantes pagos (não há dado de receita no repo)"
       ],
-      "atualizado": "14/10/2026 06:11",
+      "atualizado": "15/10/2026 05:17",
       "url": "https://github.com/ratbragaia/PatentSonar",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Finbook",
+      "categoria": "GitHub + Assistente Grok Bot",
+      "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
+      "status": "finbook.com.br no ar (calculadoras DAS/limite, ~12 artigos); 0 vendas até 15/10 de manhã; 5 Shorts no YouTube/TikTok; posts diários na página do Facebook.",
+      "recente": [
+        "15/10 06:58 – Short 05 \"Pix no CPF\" publicado no YouTube e TikTok",
+        "15/10 – post 05 (limite do MEI) na página do Facebook",
+        "14/10 17:30 – projeto versionado no GitHub privado (sem segredos nem entregáveis pagos)",
+        "14/10 – revisão técnica do site + IndexNow"
+      ],
+      "proximos": [
+        "1 Short/dia e posts diários",
+        "Pin 4 do Pinterest depende do Rodrigo",
+        "Reddit em 17/10",
+        "Convites a parceiros em 19/10"
+      ],
+      "atualizado": "15/10/2026 06:58",
+      "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
+      "repo": "finbook",
+      "url": "https://github.com/ratbragaia/finbook"
+    },
+    {
+      "nome": "Vagas SJDR",
+      "repo": "vagassjdr",
+      "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
+      "status": "Coleta ativa: fila com 61 vagas pendentes de aprovação (02/10 a 14/10); marca do Facebook criada. Sem README.",
+      "recente": [
+        "14/10 – 28 vagas novas na fila (12 a 14/10)",
+        "14/10 – capa e foto de perfil do Facebook",
+        "14/10 – scripts n8n para gravar empresa e ajustar retry do container",
+        "14/10 19:27 – CLAUDE.md adicionado",
+        "12/10 11:01 – primeiro commit (PLANO, rotinas, scripts e fluxos n8n)"
+      ],
+      "proximos": [
+        "Aprovar ou descartar as 61 vagas pendentes",
+        "Publicar a página do Facebook com a marca nova",
+        "Ativar o fluxo de post pago/cobrança (status real não está claro)",
+        "Criar README"
+      ],
+      "atualizado": "14/10/2026 21:36",
+      "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
     {
       "nome": "BlueBed",
       "repo": "BlueBed",
       "objetivo": "Site institucional da marca BlueBed (páginas de Agentes, Capacitação, Dados, manual de marca) e página no Facebook. Objetivo de negócio não está descrito em README.",
-      "status": "Site no ar em bluebed.com.br segundo o único commit; repositório sem README.",
+      "status": "Site no ar em bluebed.com.br; em 14/10 entraram rascunhos de proposta comercial e uma página \"em construção\". Repositório ainda sem README.",
       "recente": [
-        "12/10 11:26 – 'Fim do dia 12/10: site no ar em bluebed.com.br' (commit único)"
+        "14/10 – propostas comerciais em HTML (rascunho e versão com efeitos)",
+        "14/10 – página \"Em construção\" e ajuste no script publicar.py",
+        "14/10 19:26 – CLAUDE.md adicionado",
+        "12/10 11:26 – site no ar em bluebed.com.br"
       ],
       "proximos": [
+        "Fechar a proposta comercial",
         "Criar README com objetivo e estado",
-        "Executar o PASSO-A-PASSO da página do Facebook",
-        "Revisar PLANO-site.md para próximas páginas"
+        "Executar o PASSO-A-PASSO da página do Facebook"
       ],
-      "atualizado": "12/10/2026 11:26",
+      "atualizado": "14/10/2026 21:35",
       "url": "https://github.com/ratbragaia/BlueBed",
       "categoria": "GitHub"
     },
     {
-      "nome": "Vagas SJDR",
-      "repo": "vagassjdr",
-      "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Primeiro commit em 12/10 com planos, rotinas e fluxos; vagas pendentes de 02/10 a 07/10 na fila. Sem README.",
+      "nome": "Base de Conhecimento",
+      "repo": "BaseDeConhecimento",
+      "objetivo": "'Segundo cérebro': links jogados num grupo do Telegram viram notas markdown classificadas (Obsidian), com busca e chat.",
+      "status": "PR #4 (vigia no Telegram, teto de tempo no ytkit e Whisper offline) integrado em 14/10; 7 PRs ainda abertos. README pode estar desatualizado.",
       "recente": [
-        "12/10 11:02 – PLANO com GitHub oficial",
-        "12/10 11:01 – primeiro commit (PLANO, rotinas, scripts e fluxos n8n)"
+        "14/10 17:35 – merge do PR #4: vigia no Telegram, teto de tempo no ytkit e Whisper offline",
+        "14/10 00:43 – PR #8: GIF vira vídeo (Reel) para Instagram/TikTok",
+        "13/10 – PR #7: caixinhas de redes no resumo",
+        "12/10 – PRs #4–#6: vigia no Telegram, Whisper offline, botão apagar"
       ],
       "proximos": [
-        "Criar README",
-        "Processar a fila de vagas pendentes",
-        "Ativar o fluxo de post pago/cobrança (status real não está claro)"
+        "Revisar e integrar os 7 PRs abertos",
+        "Atualizar o README com o estado real"
       ],
-      "atualizado": "12/10/2026 11:02",
-      "url": "https://github.com/ratbragaia/vagassjdr",
+      "atualizado": "14/10/2026 17:35",
+      "url": "https://github.com/ratbragaia/BaseDeConhecimento",
       "categoria": "GitHub"
     },
     {
       "nome": "Editallido",
       "repo": "editallido",
       "objetivo": "Radar de licitações (boletim de editais) para construtoras pequenas, com amostra grátis, e-mail frio e cobrança; plano de 90 dias.",
-      "status": "Em construção/teste com dados reais; PRs #14 e #15 integrados em 10/10. Sem README.",
+      "status": "Em construção/teste com dados reais; preparando o e-mail frio com revisores. Sem README.",
       "recente": [
+        "14/10 – prompts dos revisores do e-mail frio",
+        "14/10 – ajuste no script de contatos do PNCP",
+        "14/10 19:26 – CLAUDE.md adicionado",
         "10/10 12:08 – merge do PR #15 (amostra com dados reais)",
-        "10/10 – regras conservadoras de garantia/atestado/valor (rodada 8)",
-        "10/10 – seguimento: link de pagamento (R$ 590 para quem testou)"
+        "10/10 – regras conservadoras de garantia/atestado/valor (rodada 8)"
       ],
       "proximos": [
         "Disparar o lote 1 de e-mail frio (script armar-lote1.sh existe; não sei se rodou)",
         "Concluir revisão jurídica (legal/REVIEW_STATUS.md)",
         "Criar README"
       ],
-      "atualizado": "10/10/2026 12:08",
+      "atualizado": "14/10/2026 21:35",
       "url": "https://github.com/ratbragaia/editallido",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Milhas e Cartões",
+      "repo": "milhas-e-cartoes",
+      "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
+      "status": "Em operação: radar diário atualizou as pendências em 14/10.",
+      "recente": [
+        "14/10 – radar diário: pendências, histórico de decisões e skills atualizados",
+        "14/10 17:20 – commit inicial (migração para D:\\IA)"
+      ],
+      "proximos": [
+        "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
+        "Revisão mensal em 01/11"
+      ],
+      "atualizado": "14/10/2026 21:36",
+      "url": "https://github.com/ratbragaia/milhas-e-cartoes",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Assistente Pessoal",
+      "repo": "assistente-pessoal",
+      "objetivo": "Assistente pessoal do Rodrigo no Claude: mapa dos negócios e do Drive, roteiro do assistente, funções C-level e plano de memória e skills.",
+      "status": "Migrado do Drive para D:\\IA e versionado no GitHub em 14/10; espelhado de hora em hora.",
+      "recente": [
+        "14/10 – arquivos da pasta .ASSISTENTE migrados do Drive",
+        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+      ],
+      "proximos": [
+        "Seguir o ROTEIRO-ASSISTENTE-PESSOAL.md",
+        "Executar o PLANO-memoria-e-skills.md"
+      ],
+      "atualizado": "14/10/2026 22:35",
+      "url": "https://github.com/ratbragaia/assistente-pessoal",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "ytkit",
+      "repo": "ytkit",
+      "objetivo": "Programa local (janela em Python) para catalogar canais do YouTube, transcrever vídeos e consolidar cursos, rodando na própria máquina.",
+      "status": "Funcionando como programa próprio desde 30/09; usado pelo vigia da Base de Conhecimento. Migrado para o GitHub em 14/10.",
+      "recente": [
+        "14/10 – ajustes em config, testes sem janela e prompt de consolidação de materiais",
+        "14/10 17:22 – commit inicial (migração para D:\\IA)"
+      ],
+      "proximos": [
+        "Resolver a seção de pendências própria do projeto"
+      ],
+      "atualizado": "14/10/2026 18:37",
+      "url": "https://github.com/ratbragaia/ytkit",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Redes Sociais",
+      "repo": "redes-sociais",
+      "objetivo": "Redes sociais pessoais: recomeçar do zero o fluxo de posts do LinkedIn (ideia no Telegram, imagem, aprovação e publicação).",
+      "status": "Fluxo antigo apagado em 30/09; os três fluxos do n8n que ficaram estão desligados. Migrado para o GitHub em 14/10.",
+      "recente": [
+        "14/10 – arquivos migrados do Drive e CLAUDE.md",
+        "14/10 17:20 – commit inicial (migração para D:\\IA)",
+        "30/09 – decisão de refazer o fluxo do LinkedIn do zero"
+      ],
+      "proximos": [
+        "Mover os arquivos antigos para _lixo-2026-09-30",
+        "Montar o novo fluxo passo a passo: ideia no Telegram, imagem, aprovação, publicação"
+      ],
+      "atualizado": "14/10/2026 21:36",
+      "url": "https://github.com/ratbragaia/redes-sociais",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Curso de IA",
+      "repo": "curso-de-ia",
+      "objetivo": "Material do curso de IA que o Rodrigo dá (slides). Objetivo ainda não descrito no CLAUDE.md.",
+      "status": "Migrado para o GitHub em 14/10 com os slides; sem atividade nova.",
+      "recente": [
+        "14/10 – slides do curso migrados do Drive",
+        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+      ],
+      "proximos": [
+        "Preencher objetivo e próximos passos no CLAUDE.md"
+      ],
+      "atualizado": "14/10/2026 21:35",
+      "url": "https://github.com/ratbragaia/curso-de-ia",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "Juventude Empreendedora",
+      "repo": "juventude-empreendedora",
+      "objetivo": "Iniciativa de desenvolvimento juvenil com apresentação institucional (V1.6). Objetivo ainda não descrito no CLAUDE.md.",
+      "status": "Migrado para o GitHub em 14/10; sem atividade nova.",
+      "recente": [
+        "14/10 – apresentação institucional e lista de melhorias versionadas",
+        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+      ],
+      "proximos": [
+        "Preencher objetivo e próximos passos no CLAUDE.md",
+        "Aplicar as melhorias listadas na apresentação"
+      ],
+      "atualizado": "14/10/2026 21:35",
+      "url": "https://github.com/ratbragaia/juventude-empreendedora",
       "categoria": "GitHub"
     },
     {
@@ -104,17 +255,17 @@
       "objetivo": "Site institucional da psicóloga Lígia Daher (Resende Costa–MG), com blog/SEO e agendamento via WhatsApp, feito no Lovable.",
       "status": "Site publicado (homepage novoligiadaher.vercel.app); melhorias de SEO local em andamento. 1 PR aberto antigo (Vercel Analytics, 02/01).",
       "recente": [
+        "14/10 – documentos do projeto migrados do Drive e CLAUDE.md",
         "06/10 20:04 – links internos para páginas de cidade (#16)",
         "06/10 11:45 – ajustes na home",
-        "05/10 23:26 – página 'Como funciona' e WhatsApp com mensagem pronta (#14)",
-        "01/10 – campos de Instagram e webhook do LinkedIn"
+        "05/10 23:26 – página 'Como funciona' e WhatsApp com mensagem pronta (#14)"
       ],
       "proximos": [
         "Decidir sobre o PR #1 (Vercel Analytics) aberto desde janeiro",
         "Seguir roadmap.md",
         "Arquivo .env está versionado – verificar se contém segredos"
       ],
-      "atualizado": "06/10/2026 20:04",
+      "atualizado": "14/10/2026 19:26",
       "url": "https://github.com/ratbragaia/ligiadaher.com.br",
       "categoria": "GitHub"
     },
@@ -122,8 +273,9 @@
       "nome": "Carteira de Locação",
       "repo": "carteiradelocacao",
       "objetivo": "SaaS multi-tenant de gestão de aluguéis (imóveis, inquilinos, contratos, documentos, financeiro) em Lovable + Supabase.",
-      "status": "App funcional com muitos módulos; últimas mudanças em 29–30/09 (recuperação de senha, logo). Parado há ~2 semanas.",
+      "status": "App funcional com muitos módulos; sem código novo desde 30/09 (em 14/10 só entraram logo e favicon novos).",
       "recente": [
+        "14/10 – logo e favicon laranja adicionados",
         "30/09 20:07 – regra de navegador no CLAUDE.md",
         "29/09 23:01 – logo trocado pelo SVG",
         "29/09 22:40 – corrigido login de recuperação"
@@ -132,8 +284,28 @@
         "Definir próxima funcionalidade (não há roadmap/issues)",
         "Arquivo .env versionado – verificar segredos"
       ],
-      "atualizado": "30/09/2026 20:07",
+      "atualizado": "14/10/2026 17:35",
       "url": "https://github.com/ratbragaia/carteiradelocacao",
+      "categoria": "GitHub"
+    },
+    {
+      "nome": "InfluNet",
+      "repo": "influnet",
+      "objetivo": "Marketplace mobile-first (PWA) conectando marcas locais a micro-influenciadores do interior.",
+      "status": "Protótipo em Lovable com dados demo e deck de pitch; sem desenvolvimento desde julho (só README em 29/09).",
+      "recente": [
+        "14/10 – documentos do projeto migrados do Drive e CLAUDE.md",
+        "29/09 22:17 – README adicionado",
+        "18/07 – buscas de perfil separadas",
+        "16/07 – dados demo populados"
+      ],
+      "proximos": [
+        "Decidir se o projeto continua (parado desde julho)",
+        "Validar com marcas/influenciadores reais",
+        "Arquivo .env versionado – verificar segredos"
+      ],
+      "atualizado": "14/10/2026 19:26",
+      "url": "https://github.com/ratbragaia/influnet",
       "categoria": "GitHub"
     },
     {
@@ -156,98 +328,9 @@
       "categoria": "GitHub"
     },
     {
-      "nome": "InfluNet",
-      "repo": "influnet",
-      "objetivo": "Marketplace mobile-first (PWA) conectando marcas locais a micro-influenciadores do interior.",
-      "status": "Protótipo em Lovable com dados demo e deck de pitch; sem desenvolvimento desde julho (só README em 29/09).",
-      "recente": [
-        "29/09 22:17 – README adicionado",
-        "18/07 – buscas de perfil separadas",
-        "16/07 – dados demo populados",
-        "12/07 – deck de pitch V7"
-      ],
-      "proximos": [
-        "Decidir se o projeto continua (parado desde julho)",
-        "Validar com marcas/influenciadores reais",
-        "Arquivo .env versionado – verificar segredos"
-      ],
-      "atualizado": "29/09/2026 22:17",
-      "url": "https://github.com/ratbragaia/influnet",
-      "categoria": "GitHub"
-    },
-    {
-      "nome": "Base de Conhecimento",
-      "repo": "BaseDeConhecimento",
-      "objetivo": "'Segundo cérebro': links jogados num grupo do Telegram viram notas markdown classificadas (Obsidian), com busca e chat.",
-      "status": "Branch master parada em 28/09, mas 8 PRs abertos (01/10 a 14/10) com o trabalho recente. README diz Fase 1 pronta e 'aguardando instalação' – pode estar desatualizado.",
-      "recente": [
-        "14/10 00:43 – PR #8: GIF vira vídeo (Reel) para Instagram/TikTok",
-        "13/10 – PR #7: caixinhas de redes no resumo",
-        "12/10 – PRs #4–#6: vigia no Telegram, Whisper offline, botão apagar",
-        "28/09 14:16 – renomeado de Segundo Cérebro para BaseDeConhecimento"
-      ],
-      "proximos": [
-        "Revisar e integrar os 8 PRs abertos",
-        "Atualizar o README com o estado real"
-      ],
-      "atualizado": "14/10/2026 00:43",
-      "url": "https://github.com/ratbragaia/BaseDeConhecimento",
-      "categoria": "GitHub"
-    },
-    {
-      "nome": "Assistente Pessoal",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
       "nome": "Hub Rockfort",
       "categoria": "Fora do GitHub – aguardando análise",
       "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "Milhas e Cartões",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "Curso de IA",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "Juventude Empreendedora",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "Redes Sociais",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "ytkit",
-      "categoria": "Fora do GitHub – aguardando análise",
-      "status": "Fora do GitHub – aguardando análise"
-    },
-    {
-      "nome": "Finbook",
-      "categoria": "Assistente Grok Bot",
-      "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (21 páginas, calculadoras DAS/limite, ~12 artigos); 0 vendas; 43 visitas em 7 dias; 4 Shorts no YouTube/TikTok; redes ativas; 39 convites a contadores sem resposta.",
-      "recente": [
-        "10–11/10 – Kiwify configurado + afiliados 40%",
-        "12/10 – cupom, combo, logo nova, canais sociais",
-        "13/10 – 4º lote de convites",
-        "14/10 – revisão técnica do site + IndexNow"
-      ],
-      "proximos": [
-        "1 Short/dia e posts diários",
-        "Indexação Google/Bing",
-        "Reddit em 17/10",
-        "Convites a parceiros em 19/10"
-      ],
-      "atualizado": "14/10/2026",
-      "origem": "Assistente Finbook (Grok Bot), arquivos em /workspace/kit-mei-em-dia"
     }
   ]
 }
