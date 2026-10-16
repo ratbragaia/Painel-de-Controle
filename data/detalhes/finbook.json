@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 52.9
+    "pct": 59.5
    },
    {
     "nome": "HTML",
-    "pct": 41.7
+    "pct": 36.0
    },
    {
     "nome": "JavaScript",
-    "pct": 4.0
+    "pct": 3.4
    },
    {
     "nome": "CSS",
-    "pct": 1.0
+    "pct": 0.8
    }
   ],
-  "ultimo_commit": "15/10/2026 11:01",
-  "commits_7d": 8,
-  "commits_30d": 8,
+  "ultimo_commit": "15/10/2026 23:35",
+  "commits_7d": 13,
+  "commits_30d": 13,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-16",
-    "n": 0
-   },
    {
     "dia": "2026-09-17",
     "n": 0
@@ -144,15 +140,44 @@
    },
    {
     "dia": "2026-10-15",
-    "n": 4
+    "n": 9
+   },
+   {
+    "dia": "2026-10-16",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 221,
+  "arquivos": 300,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "15/10 23:35",
+   "msg": "ceo: abordagem ao cliente passa ao CMO (dor primeiro)",
+   "sha": "0002195"
+  },
+  {
+   "quando": "15/10 23:26",
+   "msg": "ceo: decisoes delegadas D-001..D-005",
+   "sha": "46156cf"
+  },
+  {
+   "quando": "15/10 23:21",
+   "msg": "Modelo C-level: organograma, metas (nov=10 vendas), erros, fila-coo; Pacote Profissões R$17 (financeiro, copy, páginas de kit + deploy…",
+   "sha": "21377bd"
+  },
+  {
+   "quando": "15/10 23:12",
+   "msg": "Short 06 v5: narração inteira em voz nativa pt-BR (edge-tts AntonioNeural), MEI dito como [mej]; timing por WordBoundary; v4 em…",
+   "sha": "5372b13"
+  },
+  {
+   "quando": "15/10 21:03",
+   "msg": "Senado aprovou PLP 186/2026 (78 a 0, 15/10): site atualizado p/ 'falta a sanção' (artigo novo limite + calc limite, home, llms, das…",
+   "sha": "e6d0691"
+  },
   {
    "quando": "15/10 11:01",
    "msg": "Continuar 15/10: rascunho FB post-07 + pauta Short 06 novo limite R$110 mil; pendências/diário",
@@ -177,33 +202,90 @@
    "quando": "14/10 21:35",
    "msg": "Espelhamento automatico 2026-10-14 21:35",
    "sha": "faf6d50"
-  },
-  {
-   "quando": "14/10 19:26",
-   "msg": "Adiciona CLAUDE.md",
-   "sha": "b9b9f07"
-  },
-  {
-   "quando": "14/10 17:31",
-   "msg": "Import Kit MEI em Dia project (source, scripts, docs; no secrets/media/paid deliverables)",
-   "sha": "de60fd9"
-  },
-  {
-   "quando": "14/10 17:19",
-   "msg": "Commit inicial (migracao para [caminho]",
-   "sha": "7b22f6c"
   }
  ],
  "pendencias": {
   "fonte": "ceo/pendencias.md",
   "itens": [
    {
-    "titulo": "Pinterest pin4: continua BLOQUEADO NO RODRIGO (não retentado)",
+    "titulo": "Organização nova em ceo/organograma.md: CEO (8:33 e 20:17) → diretoria (9:13: seg CSO, ter CMO+SEO, qua CTO,…",
+    "prazo": null
+   },
+   {
+    "titulo": "Metas em ceo/metas.md (nov = 10 vendas acumuladas).",
+    "prazo": null
+   },
+   {
+    "titulo": "Regra 11",
+    "prazo": null
+   },
+   {
+    "titulo": "Sequência de e-mails (enviar_sequencia.py/enviar_pos_compra.py): PAUSADA",
+    "prazo": null
+   },
+   {
+    "titulo": "Só o ceo-resumo (20:17) fala com o Rodrigo.",
+    "prazo": null
+   },
+   {
+    "titulo": "Preço do Pacote Profissões = R$ … (corrigido em financeiro.md, copy, CLAUDE.md e nas 3 páginas de kit",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 06 v4: 1º revisor REPROVOU (média 5,8",
+    "prazo": null
+   },
+   {
+    "titulo": "FB post-07 (Câmara+Senado, falta sanção): publicar AS THE PAGE 1º Continuar diurno 16/10",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 07: 17/10 | Pinterest pin4: BLOQUEADO NO RODRIGO | Reddit: PAUSADO até 17/10",
+    "prazo": "17/10"
+   },
+   {
+    "titulo": "Short 06 v3 renderizado (30,3 s, ASR MEI PASS",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 06: publicar YT+TikTok no 1º Continuar diurno de 16/10",
+    "prazo": null
+   },
+   {
+    "titulo": "FB post-07 novo limite: publicar AS THE PAGE 16/10 diurno (mesmo recheck Senado)",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 07: publicar 17/10 (aprovado",
+    "prazo": null
+   },
+   {
+    "titulo": "Pinterest pin4: continua BLOQUEADO NO RODRIGO",
     "prazo": null
    },
    {
     "titulo": "Reddit: continua PAUSADO até 17/10",
     "prazo": "17/10"
+   },
+   {
+    "titulo": "Short 06: publicar YT+TikTok no 1º Continuar diurno de 16/10, depois de rechecar o Senado (se votou/mudou,…",
+    "prazo": null
+   },
+   {
+    "titulo": "FB post-07 novo limite: publicar AS THE PAGE 16/10 (rechecar Senado antes)",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 07: publicar 17/10 (aprovado)",
+    "prazo": null
+   },
+   {
+    "titulo": "Short 07: publicar YT+TikTok no 1º Continuar diurno de 17/10 (16/10 = Short 06).",
+    "prazo": null
+   },
+   {
+    "titulo": "Pinterest pin4: continua BLOQUEADO NO RODRIGO (não retentado)",
+    "prazo": null
    }
   ]
  },
@@ -232,12 +314,12 @@
    },
    {
     "rotulo": "Roteiros de Shorts",
-    "valor": "4",
+    "valor": "5",
     "detalhe": "arquivos roteiro-*.md"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "15/10/2026 12:22"
+ "gerado_em": "16/10/2026 08:07"
 }

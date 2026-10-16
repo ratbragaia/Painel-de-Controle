@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "14/10/2026 21:35",
-  "commits_7d": 60,
-  "commits_30d": 145,
+  "ultimo_commit": "15/10/2026 23:35",
+  "commits_7d": 33,
+  "commits_30d": 146,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-16",
-    "n": 0
-   },
    {
     "dia": "2026-09-17",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-15",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-16",
     "n": 0
    }
   ],
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "15/10 23:35",
+   "msg": "Espelhamento automatico 2026-10-15 23:35",
+   "sha": "80dc2c7"
+  },
   {
    "quando": "14/10 21:35",
    "msg": "Espelhamento automatico 2026-10-14 21:35",
@@ -197,14 +202,9 @@
    "quando": "10/10 11:47",
    "msg": "Amostra: valor por partes usa a palavra do edital (lotes ou itens)",
    "sha": "c31f267"
-  },
-  {
-   "quando": "10/10 11:46",
-   "msg": "Amostra: corrige os 10 defeitos vistos com dados reais (10/10/2026)",
-   "sha": "1ac8f59"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "15/10/2026 12:22"
+ "gerado_em": "16/10/2026 08:07"
 }

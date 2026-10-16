@@ -6,26 +6,22 @@
   "linguagens": [
    {
     "nome": "JavaScript",
-    "pct": 84.5
+    "pct": 84.4
    },
    {
     "nome": "HTML",
-    "pct": 11.7
+    "pct": 11.8
    },
    {
     "nome": "Python",
     "pct": 3.8
    }
   ],
-  "ultimo_commit": "14/10/2026 21:36",
-  "commits_7d": 6,
-  "commits_30d": 6,
+  "ultimo_commit": "15/10/2026 23:40",
+  "commits_7d": 19,
+  "commits_30d": 19,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-16",
-    "n": 0
-   },
    {
     "dia": "2026-09-17",
     "n": 0
@@ -140,47 +136,83 @@
    },
    {
     "dia": "2026-10-15",
+    "n": 13
+   },
+   {
+    "dia": "2026-10-16",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 317,
+  "arquivos": 334,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "14/10 21:36",
-   "msg": "Espelhamento automatico 2026-10-14 21:36",
-   "sha": "a270b0c"
+   "quando": "15/10 23:40",
+   "msg": "Limpeza aprovada pelo Rodrigo e PENDENCIAS atualizado",
+   "sha": "7f57cf0"
   },
   {
-   "quando": "14/10 19:27",
-   "msg": "Adiciona CLAUDE.md",
-   "sha": "1250ac0"
+   "quando": "15/10 23:35",
+   "msg": "PENDENCIAS: rotina das 17h mantida, backups da troca de chave apagados",
+   "sha": "55d0cb2"
   },
   {
-   "quando": "14/10 18:36",
-   "msg": "Espelhamento automatico 2026-10-14 18:36",
-   "sha": "e89e3e5"
+   "quando": "15/10 23:29",
+   "msg": "PENDENCIAS: chave OpenAI e de outro projeto",
+   "sha": "0c3fca0"
   },
   {
-   "quando": "14/10 17:37",
-   "msg": "Espelhamento automatico 2026-10-14 17:37",
-   "sha": "7a5334d"
+   "quando": "15/10 23:25",
+   "msg": "PENDENCIAS: 5 STORIES de 13/10 ja publicados",
+   "sha": "1b23714"
   },
   {
-   "quando": "12/10 11:02",
-   "msg": "Fim do dia 12/10: PLANO com GitHub oficial",
-   "sha": "f3836bf"
+   "quando": "15/10 23:21",
+   "msg": "PENDENCIAS: Afya aprovada e publicada em 15/10",
+   "sha": "01022bc"
   },
   {
-   "quando": "12/10 11:01",
-   "msg": "Vagas SJDR: primeiro commit (PLANO, rotinas, scripts e fluxos n8n)",
-   "sha": "c0ba065"
+   "quando": "15/10 23:17",
+   "msg": "PENDENCIAS: espelhamento ja ajustado em 15/10",
+   "sha": "357ea7a"
+  },
+  {
+   "quando": "15/10 23:10",
+   "msg": "Fim do dia 16/10: pendencias e segredos",
+   "sha": "f1facea"
+  },
+  {
+   "quando": "15/10 23:03",
+   "msg": "Chave da fila do Chrome e do POST pago trocada e fora do git",
+   "sha": "8426583"
+  },
+  {
+   "quando": "15/10 22:52",
+   "msg": "PENDENCIAS: Ester ja respondida em 15/10",
+   "sha": "ad4a24e"
+  },
+  {
+   "quando": "15/10 22:51",
+   "msg": "PENDENCIAS: reenviar mensagem da Ester (prazo Meta 16/10 13h40)",
+   "sha": "e38426b"
   }
  ],
- "pendencias": null,
+ "pendencias": {
+  "fonte": "PENDENCIAS.md",
+  "itens": [
+   {
+    "titulo": "16/10, depois das 9h",
+    "prazo": null
+   },
+   {
+    "titulo": "Arquivar os 2 fluxos temporários de 14/10 no n8n",
+    "prazo": null
+   }
+  ]
+ },
  "kpis": {
   "titulo": "Indicadores das Vagas SJDR",
   "fontes": [
@@ -190,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "67",
-    "detalhe": "de 02/10/2026 a 14/10/2026"
+    "valor": "72",
+    "detalhe": "de 02/10/2026 a 15/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "22",
+    "valor": "25",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "61",
+    "valor": "66",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "15/10/2026 12:22"
+ "gerado_em": "16/10/2026 08:07"
 }

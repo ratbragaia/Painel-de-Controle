@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 62.1
+    "pct": 62.5
    },
    {
     "nome": "HTML",
-    "pct": 37.0
+    "pct": 36.6
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "15/10/2026 12:15",
-  "commits_7d": 127,
-  "commits_30d": 136,
+  "ultimo_commit": "16/10/2026 06:10",
+  "commits_7d": 140,
+  "commits_30d": 149,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-16",
-    "n": 0
-   },
    {
     "dia": "2026-09-17",
     "n": 0
@@ -144,67 +140,74 @@
    },
    {
     "dia": "2026-10-15",
-    "n": 12
+    "n": 23
+   },
+   {
+    "dia": "2026-10-16",
+    "n": 2
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 242,
+  "arquivos": 248,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "15/10 12:15",
-   "msg": "VPS 17/10: kernel pendente e servidor compartilhado; aviso sobre o branch local do servidor",
-   "sha": "81e5b44"
+   "quando": "16/10 06:10",
+   "msg": "Prospecção e /para-contadores pela dor, produto depois (20261015-cmo-3/4/5/6/7/9)",
+   "sha": "aa88534"
   },
   {
-   "quando": "15/10 12:13",
-   "msg": "Checklist: servidor instalado e conferido em 15/10 (entregas, setembro, webhook)",
-   "sha": "56454ff"
+   "quando": "16/10 00:00",
+   "msg": "metricas: assinatura de teste interno (@resend.dev) fora da conta (20261015-cfo-2)",
+   "sha": "cd6223c"
   },
   {
-   "quando": "15/10 12:12",
-   "msg": "Portão 1: ~170 convites até 30/10, só o 1º e-mail (20261015-ceo-4); linha no metricas.md",
-   "sha": "60f6e03"
+   "quando": "15/10 18:27",
+   "msg": "Checklist: ordem de 15/10 21:10 registrada; encarregado (Rodrigo), RPI mensal e instalação no servidor",
+   "sha": "146c87e"
   },
   {
-   "quando": "15/10 12:11",
-   "msg": "Respostas aprovadas corrigidas (rascunho, sem NF, teto 20, 3 e-mails, fundador até 31/12); planilha de gastos",
-   "sha": "efbdd66"
+   "quando": "15/10 18:26",
+   "msg": "docs/cs/passagem-e-onboarding.md: passagem da venda ao CS, onboarding de 30 dias e lacunas; plano alinhado ao rascunho no Gmail…",
+   "sha": "62cd10e"
   },
   {
-   "quando": "15/10 12:10",
-   "msg": "Passo a passo da atualização e reinício da VPS em 17/10 de madrugada (20261015-ciso-1)",
-   "sha": "cfad3b8"
+   "quando": "15/10 18:25",
+   "msg": "Busca INPI \"Abriu Agora\": nada em 10 anos de RPI (classes 35/42 inclusive); ADR 0004 datada (20261015-clo-4)",
+   "sha": "da7149b"
   },
   {
-   "quando": "15/10 11:26",
-   "msg": "Troca de oferta de 31/10 pronta e desligada; meta de março corrigida; assunto e etapa no link do e-mail",
-   "sha": "3632069"
+   "quando": "15/10 18:24",
+   "msg": "Permissions-Policy, um só Server (o do Caddy) e /.well-known/security.txt; vigia avisa 30 dias antes do Expires (20261015-ciso-3)",
+   "sha": "f5476f9"
   },
   {
-   "quando": "15/10 11:21",
-   "msg": "LIA v1.2 com a prospecção por e-mail; guia da conta bancária no Asaas; webhook do Asaas renova o token direto no .env",
-   "sha": "b1fb28f"
+   "quando": "15/10 18:22",
+   "msg": "Permissões fechadas: UMask=0077 nas units, instalar.sh deixa [caminho] 700 e banco/cópias/.env 600, vigia acusa permissão aberta…",
+   "sha": "d73d939"
   },
   {
-   "quando": "15/10 11:18",
-   "msg": "Seguimento só para convite entregue; importar sai do envio das 09:30 (20261015-ceo-1, cto-1)",
-   "sha": "a1a4dad"
+   "quando": "15/10 18:21",
+   "msg": "Docs sem rampa 20→50 nem teto 30: teto fixo de 20/dia em ondas, DEPLOY, 0009, prospeccao.py/json (20261015-cmo-2)",
+   "sha": "30635a3"
   },
   {
-   "quando": "15/10 10:48",
-   "msg": "testar.sh: lista units com falha numa sintaxe que o systemd da VPS aceita; checklist da rotina de 15/10",
-   "sha": "fb7fbfb"
+   "quando": "15/10 18:20",
+   "msg": "metricas.md: pedidos de amostra por resposta (convite, D+3, D+7) com taxa por etapa; regra em analise-onda-1.md (20261015-cso-2)",
+   "sha": "66ed3f9"
   },
   {
-   "quando": "15/10 10:22",
-   "msg": "Checklist: 1º backup cifrado chegou em [e-mail] em 15/10",
-   "sha": "0b37330"
+   "quando": "15/10 18:18",
+   "msg": "E-mails de parceria assinados com ROCKFORT, CNPJ, endereço e link da Política (20261015-clo-5)",
+   "sha": "a31276f"
   }
  ],
- "pendencias": null,
+ "pendencias": {
+  "fonte": "PENDENCIAS.md",
+  "itens": []
+ },
  "kpis": {
   "titulo": "Indicadores da Abriu Agora",
   "fontes": [
@@ -266,13 +269,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "18",
-    "detalhe": "de 24 registrados · 14 aberto, 6 concluído, 4 em andamento"
+    "valor": "14",
+    "detalhe": "de 37 registrados · 7 aberto, 23 concluído, 7 em andamento"
    },
    {
     "rotulo": "Resumos de C-levels",
-    "valor": "9",
-    "detalhe": "em 15/10/2026: CEO, CFO, CISO, CLO, CMO, COO, CS, CSO, CTO"
+    "valor": "1",
+    "detalhe": "em 16/10/2026: COO"
    }
   ],
   "tabelas": [
@@ -357,135 +360,107 @@
     "tipo": "ajustes",
     "itens": [
      {
-      "id": "20261015-ceo-1",
-      "cargo": "CEO",
-      "prioridade": "URGENTE",
-      "status": "Em andamento",
-      "titulo": "Falha acumulada de 20% (8 de 40 convites em 13–14/10)"
-     },
-     {
-      "id": "20261015-ceo-2",
-      "cargo": "CEO",
+      "id": "20261015-cmo-3",
+      "cargo": "CMO",
       "prioridade": "alta",
       "status": "Em andamento",
-      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+      "titulo": "Corpo do convite (prospeccao.py texto_primeiro, l. 583–595) começa pelo DADO e pelo PRODUTO: \"Em {mes},…"
      },
      {
-      "id": "20261015-ceo-4",
-      "cargo": "CEO",
-      "prioridade": "alta",
-      "status": "Aberto",
-      "titulo": "O critério do Portão 1 \"≥ 200 convites até 31/10\" não fecha com as regras em vigor: teto fixo 20/dia e…"
-     },
-     {
-      "id": "20261015-cto-1",
-      "cargo": "CTO",
+      "id": "20261015-cmo-4",
+      "cargo": "CMO",
       "prioridade": "alta",
       "status": "Em andamento",
-      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+      "titulo": "Assunto A do convite: \"{abertas} empresas abertas em {cidade} em {mes}\" (l. 582) é só DADO/PRODUTO, sem a dor"
      },
      {
-      "id": "20261015-cto-2",
-      "cargo": "CTO",
+      "id": "20261015-cmo-5",
+      "cargo": "CMO",
       "prioridade": "alta",
       "status": "Em andamento",
-      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+      "titulo": "Assunto B (onda 2, gravado para 20/10): \"{abertas} empresas novas em {cidade}: quem vai cuidar da…"
      },
      {
-      "id": "20261015-clo-2",
-      "cargo": "CLO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "A Política de Privacidade v1.0 descreve duas práticas que não existem: \"planilhas enviadas por link que…"
+      "id": "20261015-cmo-6",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Em andamento",
+      "titulo": "D+3 (texto_seguimento etapa 1, l. 617–624): assunto \"{cidade}: {nao_mei} empresas novas que vão precisar de…"
      },
      {
-      "id": "20261015-clo-3",
-      "cargo": "CLO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "A Política diz que a Rockfort é agente de pequeno porte e por isso não nomeia encarregado, mas o…"
+      "id": "20261015-cmo-7",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Em andamento",
+      "titulo": "D+7 (texto_seguimento etapa 2, l. 627–639): \"Último e-mail: empresas novas de {cidade}\" e \"Se a lista…"
      },
      {
-      "id": "20261015-clo-4",
-      "cargo": "CLO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "A marca \"Abriu Agora\" nunca foi buscada no INPI (ADR 0004: \"a consulta não pôde ser feita deste ambiente\")"
-     },
-     {
-      "id": "20261015-cso-2",
-      "cargo": "CSO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "O KPI de pedidos só conta amostra pedida pelo formulário (pedidos × leads por e-mail, ou origem=prospeccao)"
+      "id": "20261015-cmo-9",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Em andamento",
+      "titulo": "/para-contadores (destino de 100% dos cliques do e-mail): o H1 \"Para escritórios de contabilidade: as…"
      },
      {
       "id": "20261015-ciso-1",
       "cargo": "CISO",
       "prioridade": "média",
-      "status": "Aberto",
+      "status": "Em andamento",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
-      "id": "20261015-cfo-1",
-      "cargo": "CFO",
+      "id": "20261015-cmo-8",
+      "cargo": "CMO",
       "prioridade": "média",
       "status": "Aberto",
-      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+      "titulo": "Home (app/site/index.html, no ar): o H1 \"As empresas abertas no mês passado na sua região, na sua caixa de…"
      },
      {
-      "id": "20261015-cs-1",
-      "cargo": "CS",
+      "id": "20261015-cmo-13",
+      "cargo": "CMO",
       "prioridade": "média",
       "status": "Aberto",
-      "titulo": "O material de resposta a contadores (site-textos/respostas-prospeccao.md) diz \"Quem responde é o Claude\" e o…"
+      "titulo": "Kit de redes, identidade (docs/social/kit-redes.md §1): slogan do LinkedIn, \"Sobre\" e bio do Instagram…"
      },
      {
-      "id": "20261015-clo-5",
-      "cargo": "CLO",
-      "prioridade": "baixa",
+      "id": "20261015-cmo-14",
+      "cargo": "CMO",
+      "prioridade": "média",
       "status": "Aberto",
-      "titulo": "Os 13 e-mails de parceria (docs/abordagem-parceiros.md, envio até 23/10) assinam só \"Equipe Abriu Agora\",…"
+      "titulo": "Kit de redes, 5 posts (kit-redes.md §3, 17–23/10): os 5 abrem por DADO ou BASTIDOR (\"Em agosto, 1.865…"
      },
      {
-      "id": "20261015-cmo-2",
+      "id": "20261015-cmo-10",
       "cargo": "CMO",
       "prioridade": "baixa",
       "status": "Aberto",
-      "titulo": "Textos de referência ainda falam em rampa 20 → 50 e em subir o teto para 30 com o 1º pedido (DEPLOY.md,…"
-     },
-     {
-      "id": "20261015-ciso-2",
-      "cargo": "CISO",
-      "prioridade": "baixa",
-      "status": "Aberto",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
-      "id": "20261015-ciso-3",
-      "cargo": "CISO",
+      "id": "20261015-cmo-11",
+      "cargo": "CMO",
       "prioridade": "baixa",
       "status": "Aberto",
-      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+      "titulo": "/conteudo (índice das 38 peças, app/site/conteudo.html): \"Conteúdo: os números do mês, explicados\" + \"Até…"
      },
      {
-      "id": "20261015-cfo-2",
-      "cargo": "CFO",
+      "id": "20261015-cmo-12",
+      "cargo": "CMO",
       "prioridade": "baixa",
       "status": "Aberto",
-      "titulo": "O banco tem 1 assinatura \"fundador\" com status pendente desde 12/10 (assinatura-1, sem pagamento) que…"
+      "titulo": "/obrigado (depois do pedido de amostra): texto só de PRODUTO e transação"
      },
      {
-      "id": "20261015-cs-2",
-      "cargo": "CS",
+      "id": "20261015-cmo-15",
+      "cargo": "CMO",
       "prioridade": "baixa",
       "status": "Aberto",
-      "titulo": "Não há roteiro de passagem venda → onboarding para o 1º pagante (o que foi prometido: até 5 cidades, até 3…"
+      "titulo": "Posts de reserva (docs/social/semana-13-10.md, L1–L3 e I1–I3, para depois de 23/10): todos abrem por DADO da…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "15/10/2026 12:22"
+ "gerado_em": "16/10/2026 08:07"
 }

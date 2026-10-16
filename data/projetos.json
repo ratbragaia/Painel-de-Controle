@@ -1,25 +1,25 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "15/10/2026 08:20 (horário de Brasília)",
+  "gerado_em": "16/10/2026 08:10 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: pipeline mensal e prospecção por e-mail rodando; a onda 1 terminou com 0 pedidos de amostra em 40 convidados, e a onda 2 vai com o assunto B.",
+      "status": "Em operação ativa: prospecção por e-mail e /para-contadores passam a falar pela dor (produto depois); teto fixo de 20 convites/dia; Portão 1 ~170 convites até 30/10; pendência da importação Receita 2026-09 resolvida (PENDENCIAS vazia).",
       "recente": [
+        "16/10 06:10 – prospecção e /para-contadores pela dor (produto depois); assuntos A/B e D+3/D+7 alinhados",
+        "15/10 18:12 – importação Receita 2026-09 resolvida; PENDENCIAS.md sem itens abertos",
+        "15/10 – CISO (permissões, security.txt), política de privacidade, docs de CS/onboarding; Portão 1 (~170 convites até 30/10)",
         "15/10 00:05 – marco do plano: 0 pedidos de amostra em 40 convidados, onda 2 segue com o assunto B (regra de decisão ajustada)",
-        "14/10 19:26 – CLAUDE.md adicionado",
-        "14/10 15:22 – amostra de Lavras entregue com a base nova",
-        "14/10 15:11 – prospecção: limpeza grátis da fila; validador pago (NeverBounce) desligado",
-        "14/10 14:23 – espelho lê o Parquet remoto em duas passadas (limite de 244 MB)"
+        "14/10 19:26 – CLAUDE.md adicionado"
       ],
       "proximos": [
         "Disparar a onda 2 com o assunto B e medir pedidos de amostra",
-        "Confirmar estabilidade da carga da base após a correção de memória",
-        "Seguir o checklist de 15/10 do plano"
+        "Atualização/reinício da VPS planejado para 17/10 de madrugada",
+        "Seguir o checklist e a RPI mensal"
       ],
-      "atualizado": "15/10/2026 00:05",
+      "atualizado": "16/10/2026 06:10",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -27,20 +27,20 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: prospecção de compradores nomeados com e-mails revisados por um agente crítico; planos novos de checkout (Paddle) e segurança da VPS.",
+      "status": "Em operação: C-levels no Grok com prospecção contínua; fila COO→Claude (docs/coo/fila.md) ativa após o merge do PR #5; crítico de e-mail com barra 10/12; checkout Paddle e segurança VPS ainda em plano.",
       "recente": [
+        "16/10 05:09 – pesquisa 15: 7 contatos FR preparados para a semana 43 (importação só em 19/10; semana 42 em 50/50)",
+        "16/10 04:11 – crítico: caixas genéricas reprovam antes da nota; barra sobe para 10/12 (0 respostas humanas em 36 envios 01–08/10)",
+        "15/10 23:23 – PR #5 mergeado: fila docs/coo/fila.md (pedidos do COO chegam ao Claude sem repasse do Rodrigo)",
         "15/10 05:17 – pesquisa 14: 4 compradores nomeados na França importados a partir de artigos de 2026; primeiro contato aprovado pelo crítico (11/12) e enfileirado",
-        "15/10 05:06 – e-mails que voltam com erro permanente passam a ser suprimidos na chegada; tarefa de marca registrada encerrada por decisão do fundador",
-        "14/10 – PLANO-checkout-paddle.md e PLANO-seguranca-vps.md adicionados",
-        "14/10 06:11 – primeiros contatos v2 para 3 autores de artigos, aprovados pelo crítico e enfileirados",
-        "14/10 06:06 – pesquisa 13: 10 compradores nomeados importados"
+        "15/10 05:06 – e-mails que voltam com erro permanente passam a ser suprimidos na chegada; tarefa de marca registrada encerrada por decisão do fundador"
       ],
       "proximos": [
-        "Medir respostas dos primeiros contatos v2",
-        "Executar os planos de checkout (Paddle) e de segurança da VPS",
-        "Converter primeiros assinantes pagos (não há dado de receita no repo)"
+        "Medir respostas dos contatos já enviados",
+        "Importar a pesquisa 15 em 19/10 (semana 43)",
+        "Executar os planos de checkout (Paddle) e de segurança da VPS"
       ],
-      "atualizado": "15/10/2026 05:17",
+      "atualizado": "16/10/2026 05:09",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -48,20 +48,20 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (calculadoras DAS/limite, ~12 artigos); 0 vendas até 15/10 de manhã; 5 Shorts no YouTube/TikTok; posts diários na página do Facebook.",
+      "status": "finbook.com.br no ar; 0 vendas até 16/10 de manhã; modelo C-level desde 15/10 à noite (meta: 1ª venda até 31/10, 10 até 30/11); Kit R$37 / Pacote Profissões R$17 / Combo R$47 na Kiwify; site atualizado após aprovação do PLP 186 no Senado (falta sanção).",
       "recente": [
+        "15/10 ~23:30 – modelo C-level (organograma, metas, fila-coo); Pacote Profissões confirmado a R$17 na Kiwify",
+        "15/10 ~20:45 – Senado aprovou PLP 186 (78 a 0); site, FB post-07 e Short 06 passam a 'falta a sanção'",
+        "15/10 – Short 06 v5 (voz nativa pt-BR) pronto para publicar; artigo do limite R$110 mil no ar; 1ª resposta de parceiro (recusa)",
         "15/10 06:58 – Short 05 \"Pix no CPF\" publicado no YouTube e TikTok",
-        "15/10 – post 05 (limite do MEI) na página do Facebook",
-        "14/10 17:30 – projeto versionado no GitHub privado (sem segredos nem entregáveis pagos)",
-        "14/10 – revisão técnica do site + IndexNow"
+        "15/10 – post 05 (limite do MEI) na página do Facebook"
       ],
       "proximos": [
-        "1 Short/dia e posts diários",
-        "Pin 4 do Pinterest depende do Rodrigo",
-        "Reddit em 17/10",
-        "Convites a parceiros em 19/10"
+        "Publicar Short 06 e FB post-07 em 16/10 (diurno)",
+        "Short 07 em 17/10; Reddit em 17/10",
+        "Pin 4 do Pinterest depende do Rodrigo; convites a parceiros só como rascunho"
       ],
-      "atualizado": "15/10/2026 06:58",
+      "atualizado": "16/10/2026 08:10",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -70,21 +70,19 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Coleta ativa: fila com 61 vagas pendentes de aprovação (02/10 a 14/10); marca do Facebook criada. Sem README.",
+      "status": "Coleta ativa; PENDENCIAS revisadas em 16/10 (Afya publicada em 15/10; 5 stories de 13/10 publicados; chave da fila do Chrome/POST pago fora do git). Sem README.",
       "recente": [
+        "16/10 – limpeza aprovada pelo Rodrigo; PENDENCIAS atualizado (Afya 15/10, stories 13/10, chave da fila fora do git)",
+        "16/10 – conferir mensagem a contatos antigos (número do dia); arquivar 2 fluxos TEMP no n8n (aguardando ok escrito)",
         "14/10 – 28 vagas novas na fila (12 a 14/10)",
-        "14/10 – capa e foto de perfil do Facebook",
-        "14/10 – scripts n8n para gravar empresa e ajustar retry do container",
-        "14/10 19:27 – CLAUDE.md adicionado",
-        "12/10 11:01 – primeiro commit (PLANO, rotinas, scripts e fluxos n8n)"
+        "14/10 – capa e foto de perfil do Facebook"
       ],
       "proximos": [
-        "Aprovar ou descartar as 61 vagas pendentes",
-        "Publicar a página do Facebook com a marca nova",
-        "Ativar o fluxo de post pago/cobrança (status real não está claro)",
+        "Conferir envio a contatos antigos (frase do número do dia)",
+        "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "14/10/2026 21:36",
+      "atualizado": "16/10/2026 02:40",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },

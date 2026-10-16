@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 68.8
+    "pct": 68.1
    },
    {
     "nome": "HTML",
-    "pct": 15.1
+    "pct": 14.9
    },
    {
     "nome": "PLpgSQL",
-    "pct": 12.0
+    "pct": 13.0
    },
    {
     "nome": "Shell",
-    "pct": 2.9
+    "pct": 2.8
    }
   ],
-  "ultimo_commit": "15/10/2026 05:17",
-  "commits_7d": 58,
-  "commits_30d": 339,
+  "ultimo_commit": "16/10/2026 05:09",
+  "commits_7d": 60,
+  "commits_30d": 343,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-16",
-    "n": 0
-   },
    {
     "dia": "2026-09-17",
     "n": 0
@@ -144,15 +140,39 @@
    },
    {
     "dia": "2026-10-15",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-16",
     "n": 2
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 338,
+  "arquivos": 341,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "16/10 05:09",
+   "msg": "Research 15: 7 FR contacts staged for week 43 (Safran E&D, IFPEN, CEA Liten) from their own HAL papers; import guarded until 2026-10-19…",
+   "sha": "ad2d0d8"
+  },
+  {
+   "quando": "16/10 04:11",
+   "msg": "Email critic: general mailboxes fail before scoring, bar to 10/12 (0 human replies from 36 sends of 01-08/10)",
+   "sha": "04007cc"
+  },
+  {
+   "quando": "15/10 23:23",
+   "msg": "COO queue docs/coo/fila.md: Grok COO prompts reach Claude without Rodrigo forwarding (founder's decision, 15/10) (#5)",
+   "sha": "156bbc2"
+  },
+  {
+   "quando": "15/10 22:43",
+   "msg": "CLAUDE.md §5b: Grok roda os C-levels e continua prospectando (decisão do Rodrigo, 15/10) (#4)",
+   "sha": "1690148"
+  },
   {
    "quando": "15/10 05:17",
    "msg": "Research 14: 4 FR named buyers from their own 2026 HAL papers (Ampere x2, Safran Tech x2), imported; Lemesle first touch critic 11/12,…",
@@ -182,26 +202,6 @@
    "quando": "14/10 06:06",
    "msg": "Research 13: 10 named buyers (6 with self-published addresses), imported; Art. 14 line for paper-sourced FR/GB addresses",
    "sha": "dfa8c28"
-  },
-  {
-   "quando": "14/10 05:11",
-   "msg": "First touches v2 for Husted, Bushi, Villalon, Gonzalez: critic 11/11/9/11, queued",
-   "sha": "aa1c001"
-  },
-  {
-   "quando": "14/10 05:08",
-   "msg": "Contact lookup: confirm Hunter-cited pages ourselves before 'public_source' (3 of 4 stale, 2026-10-14)",
-   "sha": "e862ab7"
-  },
-  {
-   "quando": "13/10 13:10",
-   "msg": "Issue template: flag non-English abstracts, show CN names as filed (task aa9d7a10)",
-   "sha": "9df201d"
-  },
-  {
-   "quando": "13/10 08:09",
-   "msg": "Founder: Hunter stays on Free; cap 36 lookups from Hunter's measured credits (ADR 0028 amendment)",
-   "sha": "7c6d09f"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "15/10/2026 12:22"
+ "gerado_em": "16/10/2026 08:07"
 }
