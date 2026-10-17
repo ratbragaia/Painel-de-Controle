@@ -1,25 +1,26 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "16/10/2026 08:10 (horário de Brasília)",
+  "gerado_em": "17/10/2026 08:15 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: prospecção por e-mail e /para-contadores passam a falar pela dor (produto depois); teto fixo de 20 convites/dia; Portão 1 ~170 convites até 30/10; pendência da importação Receita 2026-09 resolvida (PENDENCIAS vazia).",
+      "status": "Em operação ativa: prospecção pausada em 16/10 por devolução alta (13 de 60 convites) e investigada; fila da onda 2 limpa (1510 → 1445, provedores antigos fora); a partir de 17/10 a pausa conta só devolução definitiva (decisão do Rodrigo). Teto de 20 convites/dia mantido; kit das redes reescrito pela dor do cliente.",
       "recente": [
-        "16/10 06:10 – prospecção e /para-contadores pela dor (produto depois); assuntos A/B e D+3/D+7 alinhados",
-        "15/10 18:12 – importação Receita 2026-09 resolvida; PENDENCIAS.md sem itens abertos",
-        "15/10 – CISO (permissões, security.txt), política de privacidade, docs de CS/onboarding; Portão 1 (~170 convites até 30/10)",
-        "15/10 00:05 – marco do plano: 0 pedidos de amostra em 40 convidados, onda 2 segue com o assunto B (regra de decisão ajustada)",
-        "14/10 19:26 – CLAUDE.md adicionado"
+        "17/10 07:50 – pausa da prospecção passa a contar só devolução definitiva (decisão do Rodrigo); limite 3/semana e 3%, teto 20/dia",
+        "17/10 06:59 – checklist do lote de 17/10; fila da onda 2 limpa (65 fora: provedores antigos e 1 domínio errado)",
+        "17/10 06:01 – kit das redes: slogan do LinkedIn, bio do Instagram e 'Sobre' começam pela dor do cliente",
+        "17/10 00:08 – filtro grátis contra devolução (provedores antigos fora; domínio precisa ter servidor de e-mail ativo)",
+        "16/10 – envio parado pela pausa de devolução (18%); investigação por provedor, idade do CNPJ e cidade",
+        "16/10 06:10 – prospecção e /para-contadores pela dor (produto depois); assuntos A/B e D+3/D+7 alinhados"
       ],
       "proximos": [
-        "Disparar a onda 2 com o assunto B e medir pedidos de amostra",
-        "Atualização/reinício da VPS planejado para 17/10 de madrugada",
+        "Retomar a onda 2 com a fila limpa e medir devolução e pedidos de amostra",
+        "Portão 1: ~170 convites até 30/10",
         "Seguir o checklist e a RPI mensal"
       ],
-      "atualizado": "16/10/2026 06:10",
+      "atualizado": "17/10/2026 07:50",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -27,20 +28,20 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: C-levels no Grok com prospecção contínua; fila COO→Claude (docs/coo/fila.md) ativa após o merge do PR #5; crítico de e-mail com barra 10/12; checkout Paddle e segurança VPS ainda em plano.",
+      "status": "Em operação: fila COO→Claude rodando (12 pedidos novos em 16/10, 3 já feitos); relatório semanal de 16/10: MRR US$ 0, 52 e-mails frios desde 01/10 com 0 respostas humanas, 1 clique de busca em 28 dias; Telegram agora só para alertas urgentes.",
       "recente": [
+        "16/10 16:10 – relatório semanal + placar dos revisores: notas altas, 0 respostas; problema parece ser falta de visitas (tarefa nova)",
+        "16/10 13:15 – Telegram só para alertas urgentes (ADR 0029, decisão do fundador); registro de gastos de outubro; checklist da NFS-e da 1ª venda",
+        "16/10 11:19 – COO adiciona 12 pedidos à fila (dor no repo, críticos, templates v2, roteiros, home, páginas…); 3 marcados feitos às 13:15",
         "16/10 05:09 – pesquisa 15: 7 contatos FR preparados para a semana 43 (importação só em 19/10; semana 42 em 50/50)",
-        "16/10 04:11 – crítico: caixas genéricas reprovam antes da nota; barra sobe para 10/12 (0 respostas humanas em 36 envios 01–08/10)",
-        "15/10 23:23 – PR #5 mergeado: fila docs/coo/fila.md (pedidos do COO chegam ao Claude sem repasse do Rodrigo)",
-        "15/10 05:17 – pesquisa 14: 4 compradores nomeados na França importados a partir de artigos de 2026; primeiro contato aprovado pelo crítico (11/12) e enfileirado",
-        "15/10 05:06 – e-mails que voltam com erro permanente passam a ser suprimidos na chegada; tarefa de marca registrada encerrada por decisão do fundador"
+        "16/10 04:11 – crítico: caixas genéricas reprovam antes da nota; barra sobe para 10/12 (0 respostas humanas em 36 envios 01–08/10)"
       ],
       "proximos": [
-        "Medir respostas dos contatos já enviados",
-        "Importar a pesquisa 15 em 19/10 (semana 43)",
-        "Executar os planos de checkout (Paddle) e de segurança da VPS"
+        "Medir o lote de e-mails v2 em 22/10 e apertar o crítico se continuar 0 de 18",
+        "Separar falta de visitas de problema do site (tarefa 4063a3b4)",
+        "Importar a pesquisa 15 em 19/10 (semana 43); seguir com os pedidos abertos da fila do COO"
       ],
-      "atualizado": "16/10/2026 05:09",
+      "atualizado": "16/10/2026 16:10",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -48,20 +49,20 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar; 0 vendas até 16/10 de manhã; modelo C-level desde 15/10 à noite (meta: 1ª venda até 31/10, 10 até 30/11); Kit R$37 / Pacote Profissões R$17 / Combo R$47 na Kiwify; site atualizado após aprovação do PLP 186 no Senado (falta sanção).",
+      "status": "finbook.com.br no ar (site 200 nas checagens do COO); 0 vendas até 16/10 à noite, 77 visitas em 7 dias; Short 06 publicado no YouTube e TikTok e FB post-07 no ar; sanção do PLP 186 ainda pendente; preço do Pacote Profissões diverge entre site e Kiwify, aguardando decisão do Rodrigo.",
       "recente": [
-        "15/10 ~23:30 – modelo C-level (organograma, metas, fila-coo); Pacote Profissões confirmado a R$17 na Kiwify",
-        "15/10 ~20:45 – Senado aprovou PLP 186 (78 a 0); site, FB post-07 e Short 06 passam a 'falta a sanção'",
-        "15/10 – Short 06 v5 (voz nativa pt-BR) pronto para publicar; artigo do limite R$110 mil no ar; 1ª resposta de parceiro (recusa)",
-        "15/10 06:58 – Short 05 \"Pix no CPF\" publicado no YouTube e TikTok",
-        "15/10 – post 05 (limite do MEI) na página do Facebook"
+        "16/10 20:21 – CEO resumo semanal: 0 vendas, 77 visitas 7d, 6 Shorts e 5 posts FB na semana; decisões pedidas (preço do Pacote e sequência)",
+        "16/10 11:25 – Short 06 v6 publicado (YouTube + TikTok) e FB post-07; home sem a promessa de economia no combo",
+        "16/10 09:19 – CFO: financeiro da semana (receita R$ 0, gasto R$ 0); divergência de preço do Pacote entre site e Kiwify",
+        "16/10 – CISO: varredura ok (0 achados); COO ao longo do dia: site 200, sanção pendente",
+        "15/10 ~20:45 – Senado aprovou PLP 186 (78 a 0); site, FB post-07 e Short 06 passam a 'falta a sanção'"
       ],
       "proximos": [
-        "Publicar Short 06 e FB post-07 em 16/10 (diurno)",
-        "Short 07 em 17/10; Reddit em 17/10",
-        "Pin 4 do Pinterest depende do Rodrigo; convites a parceiros só como rascunho"
+        "Rodrigo decidir o preço do Pacote Profissões (T-011)",
+        "Short 07 e Reddit em 17/10",
+        "Acompanhar a sanção do PLP 186 (prazo 06/11)"
       ],
-      "atualizado": "16/10/2026 08:10",
+      "atualizado": "16/10/2026 22:55",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -70,19 +71,18 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Coleta ativa; PENDENCIAS revisadas em 16/10 (Afya publicada em 15/10; 5 stories de 13/10 publicados; chave da fila do Chrome/POST pago fora do git). Sem README.",
+      "status": "Coleta ativa; mensagem a contatos antigos de 16/10 conferida (7 envios com o número do dia, sem erro); limpeza de arquivos de teste feita. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
+        "16/10 14:27 – fim do dia: 7 mensagens a contatos antigos conferidas (número do dia correto); stories de 13/10 e Afya confirmados",
+        "16/10 – limpeza aprovada pelo Rodrigo: backups e testes antigos apagados",
         "16/10 – limpeza aprovada pelo Rodrigo; PENDENCIAS atualizado (Afya 15/10, stories 13/10, chave da fila fora do git)",
-        "16/10 – conferir mensagem a contatos antigos (número do dia); arquivar 2 fluxos TEMP no n8n (aguardando ok escrito)",
-        "14/10 – 28 vagas novas na fila (12 a 14/10)",
-        "14/10 – capa e foto de perfil do Facebook"
+        "16/10 – conferir mensagem a contatos antigos (número do dia); arquivar 2 fluxos TEMP no n8n (aguardando ok escrito)"
       ],
       "proximos": [
-        "Conferir envio a contatos antigos (frase do número do dia)",
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "16/10/2026 02:40",
+      "atualizado": "16/10/2026 17:35",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
