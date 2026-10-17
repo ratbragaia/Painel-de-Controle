@@ -17,15 +17,11 @@
     "pct": 3.8
    }
   ],
-  "ultimo_commit": "15/10/2026 23:40",
-  "commits_7d": 19,
-  "commits_30d": 19,
+  "ultimo_commit": "16/10/2026 17:35",
+  "commits_7d": 21,
+  "commits_30d": 21,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-17",
-    "n": 0
-   },
    {
     "dia": "2026-09-18",
     "n": 0
@@ -140,15 +136,29 @@
    },
    {
     "dia": "2026-10-16",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-17",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 334,
+  "arquivos": 358,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "16/10 17:35",
+   "msg": "Espelhamento automatico 2026-10-16 17:35",
+   "sha": "0211b2f"
+  },
+  {
+   "quando": "16/10 14:27",
+   "msg": "Fim do dia 16/10: mensagens conferidas e pendencias",
+   "sha": "0c51063"
+  },
   {
    "quando": "15/10 23:40",
    "msg": "Limpeza aprovada pelo Rodrigo e PENDENCIAS atualizado",
@@ -188,25 +198,11 @@
    "quando": "15/10 23:03",
    "msg": "Chave da fila do Chrome e do POST pago trocada e fora do git",
    "sha": "8426583"
-  },
-  {
-   "quando": "15/10 22:52",
-   "msg": "PENDENCIAS: Ester ja respondida em 15/10",
-   "sha": "ad4a24e"
-  },
-  {
-   "quando": "15/10 22:51",
-   "msg": "PENDENCIAS: reenviar mensagem da Ester (prazo Meta 16/10 13h40)",
-   "sha": "e38426b"
   }
  ],
  "pendencias": {
   "fonte": "PENDENCIAS.md",
   "itens": [
-   {
-    "titulo": "16/10, depois das 9h",
-    "prazo": null
-   },
    {
     "titulo": "Arquivar os 2 fluxos temporários de 14/10 no n8n",
     "prazo": null
@@ -222,22 +218,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "72",
-    "detalhe": "de 02/10/2026 a 15/10/2026"
+    "valor": "78",
+    "detalhe": "de 02/10/2026 a 16/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "25",
+    "valor": "31",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "66",
+    "valor": "72",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "16/10/2026 08:07"
+ "gerado_em": "17/10/2026 09:03"
 }

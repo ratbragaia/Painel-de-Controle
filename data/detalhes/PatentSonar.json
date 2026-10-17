@@ -6,7 +6,7 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 68.1
+    "pct": 68.2
    },
    {
     "nome": "HTML",
@@ -21,15 +21,11 @@
     "pct": 2.8
    }
   ],
-  "ultimo_commit": "16/10/2026 05:09",
-  "commits_7d": 60,
-  "commits_30d": 343,
+  "ultimo_commit": "16/10/2026 16:10",
+  "commits_7d": 48,
+  "commits_30d": 347,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-17",
-    "n": 0
-   },
    {
     "dia": "2026-09-18",
     "n": 0
@@ -144,15 +140,39 @@
    },
    {
     "dia": "2026-10-16",
-    "n": 2
+    "n": 6
+   },
+   {
+    "dia": "2026-10-17",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 341,
+  "arquivos": 346,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "16/10 16:10",
+   "msg": "Weekly report 2026-10-16 + reviewer scorecard (0 replies of 52 cold sends; site 12/12 vs 1 search click in 28 days, task 4063a3b4)",
+   "sha": "3e124fb"
+  },
+  {
+   "quando": "16/10 13:15",
+   "msg": "COO fila: -06, -09, -12 feitos (evidência)",
+   "sha": "d3237da"
+  },
+  {
+   "quando": "16/10 13:15",
+   "msg": "Telegram only for urgent alerts (ADR 0029, founder's decision 16/10); October spend ledger; first-sale NFS-e checklist",
+   "sha": "d09482b"
+  },
+  {
+   "quando": "16/10 11:19",
+   "msg": "COO fila: +COO-2026-10-16-01..12 (dor no repo, críticos, templates v2, roteiros, rascunhos, Telegram só urgente, amostra/teste, home,…",
+   "sha": "a3f6f24"
+  },
   {
    "quando": "16/10 05:09",
    "msg": "Research 15: 7 FR contacts staged for week 43 (Safran E&D, IFPEN, CEA Liten) from their own HAL papers; import guarded until 2026-10-19…",
@@ -182,26 +202,6 @@
    "quando": "15/10 05:06",
    "msg": "Inbound: suppress hard-bounce recipients on arrival (Ludois 550 sat as ignored); trademark task closed by founder decision",
    "sha": "02ac888"
-  },
-  {
-   "quando": "14/10 21:36",
-   "msg": "Espelhamento automatico 2026-10-14 21:36",
-   "sha": "ca6f9b6"
-  },
-  {
-   "quando": "14/10 17:37",
-   "msg": "Espelhamento automatico 2026-10-14 17:37",
-   "sha": "26a0a64"
-  },
-  {
-   "quando": "14/10 06:11",
-   "msg": "First touches v2 for three paper authors (C-Motive, Safran Tech, Stellantis FR): critic 11/10/10, queued",
-   "sha": "ee542c8"
-  },
-  {
-   "quando": "14/10 06:06",
-   "msg": "Research 13: 10 named buyers (6 with self-published addresses), imported; Art. 14 line for paper-sourced FR/GB addresses",
-   "sha": "dfa8c28"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "16/10/2026 08:07"
+ "gerado_em": "17/10/2026 09:03"
 }

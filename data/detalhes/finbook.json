@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 59.5
+    "pct": 60.3
    },
    {
     "nome": "HTML",
-    "pct": 36.0
+    "pct": 35.2
    },
    {
     "nome": "JavaScript",
-    "pct": 3.4
+    "pct": 3.3
    },
    {
     "nome": "CSS",
     "pct": 0.8
    }
   ],
-  "ultimo_commit": "15/10/2026 23:35",
-  "commits_7d": 13,
-  "commits_30d": 13,
+  "ultimo_commit": "16/10/2026 22:54",
+  "commits_7d": 27,
+  "commits_30d": 27,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-17",
-    "n": 0
-   },
    {
     "dia": "2026-09-18",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-16",
+    "n": 14
+   },
+   {
+    "dia": "2026-10-17",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 300,
+  "arquivos": 322,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "15/10 23:35",
-   "msg": "ceo: abordagem ao cliente passa ao CMO (dor primeiro)",
-   "sha": "0002195"
+   "quando": "16/10 22:54",
+   "msg": "coo 16/10 22:55: site 200, fila sem itens executáveis",
+   "sha": "62aaa3e"
   },
   {
-   "quando": "15/10 23:26",
-   "msg": "ceo: decisoes delegadas D-001..D-005",
-   "sha": "46156cf"
+   "quando": "16/10 20:50",
+   "msg": "coo 16/10 20:50: site 200, sanção pendente",
+   "sha": "9e4ce43"
   },
   {
-   "quando": "15/10 23:21",
-   "msg": "Modelo C-level: organograma, metas (nov=10 vendas), erros, fila-coo; Pacote Profissões R$17 (financeiro, copy, páginas de kit + deploy…",
-   "sha": "21377bd"
+   "quando": "16/10 20:21",
+   "msg": "CEO resumo 16/10 (semanal)",
+   "sha": "3559dd2"
   },
   {
-   "quando": "15/10 23:12",
-   "msg": "Short 06 v5: narração inteira em voz nativa pt-BR (edge-tts AntonioNeural), MEI dito como [mej]; timing por WordBoundary; v4 em…",
-   "sha": "5372b13"
+   "quando": "16/10 18:56",
+   "msg": "coo 16/10 18:55: site 200, sanção pendente",
+   "sha": "88375b2"
   },
   {
-   "quando": "15/10 21:03",
-   "msg": "Senado aprovou PLP 186/2026 (78 a 0, 15/10): site atualizado p/ 'falta a sanção' (artigo novo limite + calc limite, home, llms, das…",
-   "sha": "e6d0691"
+   "quando": "16/10 16:58",
+   "msg": "coo 16/10 17:00: site 200, sanção pendente",
+   "sha": "db79317"
   },
   {
-   "quando": "15/10 11:01",
-   "msg": "Continuar 15/10: rascunho FB post-07 + pauta Short 06 novo limite R$110 mil; pendências/diário",
-   "sha": "aebf722"
+   "quando": "16/10 15:48",
+   "msg": "CCO 15:47: 0 venda/cliente/parceiro",
+   "sha": "aff2741"
   },
   {
-   "quando": "15/10 10:59",
-   "msg": "SEO semanal 15/10: títulos/descrições no tamanho, novo artigo do limite R$ 110 mil (Câmara 14/10), FAQ calc limite, links internos por…",
-   "sha": "9ff2bb0"
+   "quando": "16/10 14:58",
+   "msg": "coo 16/10 15:00: site 200, sanção pendente (prazo 06/11)",
+   "sha": "d52bca3"
   },
   {
-   "quando": "15/10 10:59",
-   "msg": "Calculadora do limite: bloco Próximo passo (CTA kit + checklist) — CEO 15/10",
-   "sha": "8a163d8"
+   "quando": "16/10 12:56",
+   "msg": "coo 16/10 12:55: TikTok S06 público, sanção ainda pendente, T-006 0 eventos",
+   "sha": "60e411f"
   },
   {
-   "quando": "15/10 10:59",
-   "msg": "Medição: calc_limite_uso e calc_das_interacao (CEO 15/10)",
-   "sha": "287bd65"
+   "quando": "16/10 11:25",
+   "msg": "coo 16/10 11:30: Short 06 v6 publicado (YT+TikTok), FB post-07, T-012; wrangler fixado em 4.20.0",
+   "sha": "e68ea57"
   },
   {
-   "quando": "14/10 21:35",
-   "msg": "Espelhamento automatico 2026-10-14 21:35",
-   "sha": "faf6d50"
+   "quando": "16/10 10:53",
+   "msg": "coo 16/10: tira 'economize R$ 7' do combo na home (T-012), deploy fa3d2abb",
+   "sha": "81f0469"
   }
  ],
  "pendencias": {
@@ -300,12 +300,12 @@
    {
     "rotulo": "Receita bruta registrada",
     "valor": "R$ 0,00",
-    "detalhe": "até 12/10/2026"
+    "detalhe": "até 16/10/2026"
    },
    {
     "rotulo": "Resultado líquido registrado",
     "valor": "R$ 0,00",
-    "detalhe": "até 12/10/2026"
+    "detalhe": "até 16/10/2026"
    },
    {
     "rotulo": "Artigos no blog",
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "16/10/2026 08:07"
+ "gerado_em": "17/10/2026 09:03"
 }

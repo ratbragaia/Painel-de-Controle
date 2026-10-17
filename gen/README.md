@@ -1,0 +1,60 @@
+# gen/ — gerador dos painéis por projeto
+
+`build_detalhes.py` lê `data/projetos.json`, consulta a API do GitHub (só leitura) para
+cada projeto com repositório e grava:
+
+- `data/detalhes/<repo>.json` — painel do projeto (`repo`, `slug`, `estatisticas`, `commits`,
+  `pendencias`, `kpis`, `gerado_em`);
+- `data/detalhes/index.json` — resumo leve para a Visão geral;
+- `index.html` — regravado a partir de `gen/index_template.html` (use `--sem-index` para não mexer).
+
+## Como rodar
+
+De dentro do repositório (a pasta do site é, por padrão, a pasta-mãe de `gen/`):
+
+```bash
+cd /workspace/painel/site
+python3 gen/build_detalhes.py
+```
+
+Rotina diária completa (uma linha):
+
+```bash
+cd /workspace/painel/site && git pull && python3 gen/build_detalhes.py && git add -A && git commit -m "Atualização diária DD/MM/AAAA" && git push origin main
+```
+
+`data/projetos.json` continua sendo editado pela rotina diária (à mão ou com um
+`gen/update_AAAA-MM-DD.py`) **antes** de rodar o gerador. Os `update_2026-10-1x.py` são
+históricos e usam caminhos absolutos de `/workspace/painel/site`.
+
+## Opções
+
+| Opção / variável | Padrão | Para quê |
+|---|---|---|
+| `--site PASTA` | pasta-mãe de `gen/` | onde estão `data/` e `index.html` |
+| `--abriu PASTA` ou `ABRIU_LOCAL=PASTA` | `/workspace/abriuagora` | arquivos locais da Abriu Agora (`objetivos.md`, `meta-mensal.md`, `registro-ajustes.md`, `resumos-clevels/`) — não estão no repositório do GitHub |
+| `--sem-index` | — | não regravar `index.html` |
+| `GH_TOKEN` / `GITHUB_TOKEN` | `gh auth token` | autenticação no GitHub |
+
+## Rede de segurança (nada some do painel)
+
+Antes de gravar cada `data/detalhes/<repo>.json`, o script lê o arquivo anterior e mantém:
+
+- o bloco `kpis` inteiro, se a coleta nova vier nula/vazia (ex.: pasta da Abriu Agora ausente);
+- cada número (`numeros[].rotulo`), tabela ou lista de KPI que sumiu ou veio vazio
+  (ex.: "Ajustes dos C-levels em aberto", "Resumos de C-levels", "Ajustes em aberto");
+  "Meta de Out/2026" e "Meta de Nov/2026" contam como o mesmo indicador;
+- `pendencias`, se a fonte não for encontrada (`null`), e `commits`, se a lista vier vazia.
+
+Tudo o que for mantido aparece no terminal como `mantido em <repo>: …`. Se um projeto falhar,
+o `.json` anterior fica no lugar e a entrada antiga do `index.json` é reaproveitada (o script sai com código 1).
+
+Atenção: uma lista que fica vazia de verdade (ex.: zero ajustes em aberto) também volta do
+arquivo anterior. Nesse caso, apague o item do JSON anterior antes de rodar.
+
+## Segurança (site público)
+
+`limpar()` remove e-mails, links, caminhos, IPs, CNPJ/CPF, telefones e tokens; pendências
+viram só títulos curtos; itens técnicos/de segurança da Abriu Agora aparecem genéricos.
+Não publique corpos de e-mail, senhas, dados de cartão nem detalhes da VPS.
+Veja também `COMO-ATUALIZAR.md`.

@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 62.5
+    "pct": 63.1
    },
    {
     "nome": "HTML",
-    "pct": 36.6
+    "pct": 36.0
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "16/10/2026 06:10",
-  "commits_7d": 140,
-  "commits_30d": 149,
+  "ultimo_commit": "17/10/2026 07:50",
+  "commits_7d": 143,
+  "commits_30d": 156,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-17",
-    "n": 0
-   },
    {
     "dia": "2026-09-18",
     "n": 0
@@ -144,7 +140,11 @@
    },
    {
     "dia": "2026-10-16",
-    "n": 2
+    "n": 5
+   },
+   {
+    "dia": "2026-10-17",
+    "n": 4
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,41 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "17/10 07:50",
+   "msg": "Pausa da prospecção conta só devolução definitiva (decisão do Rodrigo, 17/10)",
+   "sha": "da79a8c"
+  },
+  {
+   "quando": "17/10 06:59",
+   "msg": "Checklist do lote de 17/10 e checagem da porta 25 desligada",
+   "sha": "26ecc2f"
+  },
+  {
+   "quando": "17/10 06:01",
+   "msg": "Kit das redes: identidade começa pela dor do cliente (20261015-cmo-13)",
+   "sha": "29e9568"
+  },
+  {
+   "quando": "17/10 00:08",
+   "msg": "Prospecção: filtro grátis contra devolução (provedor antigo e servidor de e-mail fora do ar)",
+   "sha": "3a71829"
+  },
+  {
+   "quando": "16/10 18:06",
+   "msg": "prospeccao.py devolucoes: investigação das devoluções por provedor, idade do CNPJ e cidade",
+   "sha": "5a44dbd"
+  },
+  {
+   "quando": "16/10 12:10",
+   "msg": "Checklist: aa88534 instalado; envio de 16/10 parado pela PAUSA de devolução",
+   "sha": "db0f806"
+  },
+  {
+   "quando": "16/10 10:20",
+   "msg": "Checklist: rotina de 16/10 (servidor sem sessão; aa88534 não instalado antes do envio)",
+   "sha": "3266217"
+  },
   {
    "quando": "16/10 06:10",
    "msg": "Prospecção e /para-contadores pela dor, produto depois (20261015-cmo-3/4/5/6/7/9)",
@@ -167,41 +202,6 @@
    "quando": "15/10 18:27",
    "msg": "Checklist: ordem de 15/10 21:10 registrada; encarregado (Rodrigo), RPI mensal e instalação no servidor",
    "sha": "146c87e"
-  },
-  {
-   "quando": "15/10 18:26",
-   "msg": "docs/cs/passagem-e-onboarding.md: passagem da venda ao CS, onboarding de 30 dias e lacunas; plano alinhado ao rascunho no Gmail…",
-   "sha": "62cd10e"
-  },
-  {
-   "quando": "15/10 18:25",
-   "msg": "Busca INPI \"Abriu Agora\": nada em 10 anos de RPI (classes 35/42 inclusive); ADR 0004 datada (20261015-clo-4)",
-   "sha": "da7149b"
-  },
-  {
-   "quando": "15/10 18:24",
-   "msg": "Permissions-Policy, um só Server (o do Caddy) e /.well-known/security.txt; vigia avisa 30 dias antes do Expires (20261015-ciso-3)",
-   "sha": "f5476f9"
-  },
-  {
-   "quando": "15/10 18:22",
-   "msg": "Permissões fechadas: UMask=0077 nas units, instalar.sh deixa [caminho] 700 e banco/cópias/.env 600, vigia acusa permissão aberta…",
-   "sha": "d73d939"
-  },
-  {
-   "quando": "15/10 18:21",
-   "msg": "Docs sem rampa 20→50 nem teto 30: teto fixo de 20/dia em ondas, DEPLOY, 0009, prospeccao.py/json (20261015-cmo-2)",
-   "sha": "30635a3"
-  },
-  {
-   "quando": "15/10 18:20",
-   "msg": "metricas.md: pedidos de amostra por resposta (convite, D+3, D+7) com taxa por etapa; regra em analise-onda-1.md (20261015-cso-2)",
-   "sha": "66ed3f9"
-  },
-  {
-   "quando": "15/10 18:18",
-   "msg": "E-mails de parceria assinados com ROCKFORT, CNPJ, endereço e link da Política (20261015-clo-5)",
-   "sha": "a31276f"
   }
  ],
  "pendencias": {
@@ -225,42 +225,42 @@
    {
     "rotulo": "Convites enviados",
     "valor": "60",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Entregues",
     "valor": "47",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Falhas",
     "valor": "10",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Spam",
     "valor": "0",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Descadastros",
     "valor": "1",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Pedidos de amostra",
     "valor": "0",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Pagantes",
     "valor": "0",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Receita",
     "valor": "R$ 0",
-    "detalhe": "em 15/10"
+    "detalhe": "em 16/10 08:40"
    },
    {
     "rotulo": "Taxa de entrega",
@@ -269,13 +269,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "14",
-    "detalhe": "de 37 registrados · 7 aberto, 23 concluído, 7 em andamento"
+    "valor": "13",
+    "detalhe": "de 43 registrados · 8 aberto, 30 concluído, 2 em andamento, 3 em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 16/10/2026: COO"
+    "detalhe": "em 17/10/2026: COO"
    }
   ],
   "tabelas": [
@@ -345,7 +345,7 @@
    {
     "titulo": "Meta do Portão 1 (até 31/10)",
     "itens": [
-     "≥ 3 pedidos de amostra de contador, ≥ 200 convites, 0 spam. Tudo que não move isto espera."
+     "≥ 3 pedidos de amostra de contador e 0 spam. Régua de convites (decisão do Rodrigo, 15/10): ~170 convites novos até 30/10, só o 1º e-mail; D+3/D+7 não contam; teto 20/dia sem mudança. Tudo que não…"
     ]
    },
    {
@@ -360,46 +360,25 @@
     "tipo": "ajustes",
     "itens": [
      {
-      "id": "20261015-cmo-3",
+      "id": "20261015-cmo-13",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento",
-      "titulo": "Corpo do convite (prospeccao.py texto_primeiro, l. 583–595) começa pelo DADO e pelo PRODUTO: \"Em {mes},…"
+      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "titulo": "Kit de redes, identidade (docs/social/kit-redes.md §1): slogan do LinkedIn, \"Sobre\" e bio do Instagram…"
      },
      {
-      "id": "20261015-cmo-4",
-      "cargo": "CMO",
+      "id": "20261016-ceo-2",
+      "cargo": "CEO",
       "prioridade": "alta",
       "status": "Em andamento",
-      "titulo": "Assunto A do convite: \"{abertas} empresas abertas em {cidade} em {mes}\" (l. 582) é só DADO/PRODUTO, sem a dor"
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
-      "id": "20261015-cmo-5",
-      "cargo": "CMO",
+      "id": "20261016-cfo-2",
+      "cargo": "CFO",
       "prioridade": "alta",
-      "status": "Em andamento",
-      "titulo": "Assunto B (onda 2, gravado para 20/10): \"{abertas} empresas novas em {cidade}: quem vai cuidar da…"
-     },
-     {
-      "id": "20261015-cmo-6",
-      "cargo": "CMO",
-      "prioridade": "alta",
-      "status": "Em andamento",
-      "titulo": "D+3 (texto_seguimento etapa 1, l. 617–624): assunto \"{cidade}: {nao_mei} empresas novas que vão precisar de…"
-     },
-     {
-      "id": "20261015-cmo-7",
-      "cargo": "CMO",
-      "prioridade": "alta",
-      "status": "Em andamento",
-      "titulo": "D+7 (texto_seguimento etapa 2, l. 627–639): \"Último e-mail: empresas novas de {cidade}\" e \"Se a lista…"
-     },
-     {
-      "id": "20261015-cmo-9",
-      "cargo": "CMO",
-      "prioridade": "alta",
-      "status": "Em andamento",
-      "titulo": "/para-contadores (destino de 100% dos cliques do e-mail): o H1 \"Para escritórios de contabilidade: as…"
+      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261015-ciso-1",
@@ -416,18 +395,25 @@
       "titulo": "Home (app/site/index.html, no ar): o H1 \"As empresas abertas no mês passado na sua região, na sua caixa de…"
      },
      {
-      "id": "20261015-cmo-13",
-      "cargo": "CMO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "Kit de redes, identidade (docs/social/kit-redes.md §1): slogan do LinkedIn, \"Sobre\" e bio do Instagram…"
-     },
-     {
       "id": "20261015-cmo-14",
       "cargo": "CMO",
       "prioridade": "média",
       "status": "Aberto",
       "titulo": "Kit de redes, 5 posts (kit-redes.md §3, 17–23/10): os 5 abrem por DADO ou BASTIDOR (\"Em agosto, 1.865…"
+     },
+     {
+      "id": "20261016-cs-1",
+      "cargo": "CS",
+      "prioridade": "média",
+      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261016-cfo-1",
+      "cargo": "CFO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261015-cmo-10",
@@ -456,11 +442,18 @@
       "prioridade": "baixa",
       "status": "Aberto",
       "titulo": "Posts de reserva (docs/social/semana-13-10.md, L1–L3 e I1–I3, para depois de 23/10): todos abrem por DADO da…"
+     },
+     {
+      "id": "20261016-cs-2",
+      "cargo": "CS",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "Lacunas documentadas em docs/cs/passagem-e-onboarding.md (62cd10e, cs-2 de 15/10 CONCLUÍDO): (a) troca de…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "16/10/2026 08:07"
+ "gerado_em": "17/10/2026 09:03"
 }
