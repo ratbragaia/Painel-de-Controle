@@ -155,7 +155,7 @@
       "recente": [
         "17/10 08:17 – radar diário: nada aplicável; Smiles 315% só para assinante do clube; cartões de adesão reprovados pela anuidade",
         "14/10 – radar diário: pendências, histórico de decisões e skills atualizados",
-        "14/10 17:20 – commit inicial (migração para D:\\IA)"
+        "14/10 17:20 – commit inicial (migração para a pasta local de projetos)"
       ],
       "proximos": [
         "Conferir campanha do aniversário da Smiles (18/10) e bônus Nubank Ultravioleta → Azul/Smiles",
@@ -170,10 +170,10 @@
       "nome": "Assistente Pessoal",
       "repo": "assistente-pessoal",
       "objetivo": "Assistente pessoal do Rodrigo no Claude: mapa dos negócios e do Drive, roteiro do assistente, funções C-level e plano de memória e skills.",
-      "status": "Migrado do Drive para D:\\IA e versionado no GitHub em 14/10; espelhado de hora em hora.",
+      "status": "Migrado do Drive para a pasta local de projetos e versionado no GitHub em 14/10; espelhado de hora em hora.",
       "recente": [
         "14/10 – arquivos da pasta .ASSISTENTE migrados do Drive",
-        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+        "14/10 17:19 – commit inicial (migração para a pasta local de projetos)"
       ],
       "proximos": [
         "Seguir o ROTEIRO-ASSISTENTE-PESSOAL.md",
@@ -190,7 +190,7 @@
       "status": "Funcionando como programa próprio desde 30/09; usado pelo vigia da Base de Conhecimento. Migrado para o GitHub em 14/10.",
       "recente": [
         "14/10 – ajustes em config, testes sem janela e prompt de consolidação de materiais",
-        "14/10 17:22 – commit inicial (migração para D:\\IA)"
+        "14/10 17:22 – commit inicial (migração para a pasta local de projetos)"
       ],
       "proximos": [
         "Resolver a seção de pendências própria do projeto"
@@ -206,7 +206,7 @@
       "status": "Fluxo antigo apagado em 30/09; os três fluxos do n8n que ficaram estão desligados. Migrado para o GitHub em 14/10.",
       "recente": [
         "14/10 – arquivos migrados do Drive e CLAUDE.md",
-        "14/10 17:20 – commit inicial (migração para D:\\IA)",
+        "14/10 17:20 – commit inicial (migração para a pasta local de projetos)",
         "30/09 – decisão de refazer o fluxo do LinkedIn do zero"
       ],
       "proximos": [
@@ -224,7 +224,7 @@
       "status": "Migrado para o GitHub em 14/10 com os slides; sem atividade nova.",
       "recente": [
         "14/10 – slides do curso migrados do Drive",
-        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+        "14/10 17:19 – commit inicial (migração para a pasta local de projetos)"
       ],
       "proximos": [
         "Preencher objetivo e próximos passos no CLAUDE.md"
@@ -240,7 +240,7 @@
       "status": "Migrado para o GitHub em 14/10; sem atividade nova.",
       "recente": [
         "14/10 – apresentação institucional e lista de melhorias versionadas",
-        "14/10 17:19 – commit inicial (migração para D:\\IA)"
+        "14/10 17:19 – commit inicial (migração para a pasta local de projetos)"
       ],
       "proximos": [
         "Preencher objetivo e próximos passos no CLAUDE.md",
