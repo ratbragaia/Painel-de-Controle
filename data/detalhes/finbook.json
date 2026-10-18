@@ -21,15 +21,11 @@
     "pct": 0.8
    }
   ],
-  "ultimo_commit": "16/10/2026 22:54",
-  "commits_7d": 27,
-  "commits_30d": 27,
+  "ultimo_commit": "17/10/2026 22:56",
+  "commits_7d": 32,
+  "commits_30d": 32,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-18",
-    "n": 0
-   },
    {
     "dia": "2026-09-19",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-17",
+    "n": 5
+   },
+   {
+    "dia": "2026-10-18",
     "n": 0
    }
   ],
@@ -153,6 +153,31 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "17/10 22:56",
+   "msg": "COO 17/10 22:55: site 200, 0 venda, T-003/T-004 atrasou -> 18/10",
+   "sha": "4bcaeed"
+  },
+  {
+   "quando": "17/10 20:23",
+   "msg": "CEO resumo 17/10",
+   "sha": "ba82e2a"
+  },
+  {
+   "quando": "17/10 15:48",
+   "msg": "CCO 17/10 tarde: 0 venda/cliente/parceiro",
+   "sha": "b3137b9"
+  },
+  {
+   "quando": "17/10 09:39",
+   "msg": "cco 17/10 09:40: 0 venda/cliente/parceiro",
+   "sha": "9d532ec"
+  },
+  {
+   "quando": "17/10 09:04",
+   "msg": "ciso: varredura 17/10 (1 fragilidade: deps do wrangler, T-013)",
+   "sha": "b2b51bb"
+  },
   {
    "quando": "16/10 22:54",
    "msg": "coo 16/10 22:55: site 200, fila sem itens executáveis",
@@ -177,31 +202,6 @@
    "quando": "16/10 16:58",
    "msg": "coo 16/10 17:00: site 200, sanção pendente",
    "sha": "db79317"
-  },
-  {
-   "quando": "16/10 15:48",
-   "msg": "CCO 15:47: 0 venda/cliente/parceiro",
-   "sha": "aff2741"
-  },
-  {
-   "quando": "16/10 14:58",
-   "msg": "coo 16/10 15:00: site 200, sanção pendente (prazo 06/11)",
-   "sha": "d52bca3"
-  },
-  {
-   "quando": "16/10 12:56",
-   "msg": "coo 16/10 12:55: TikTok S06 público, sanção ainda pendente, T-006 0 eventos",
-   "sha": "60e411f"
-  },
-  {
-   "quando": "16/10 11:25",
-   "msg": "coo 16/10 11:30: Short 06 v6 publicado (YT+TikTok), FB post-07, T-012; wrangler fixado em 4.20.0",
-   "sha": "e68ea57"
-  },
-  {
-   "quando": "16/10 10:53",
-   "msg": "coo 16/10: tira 'economize R$ 7' do combo na home (T-012), deploy fa3d2abb",
-   "sha": "81f0469"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "17/10/2026 09:03"
+ "gerado_em": "18/10/2026 08:03"
 }

@@ -17,15 +17,11 @@
     "pct": 3.8
    }
   ],
-  "ultimo_commit": "16/10/2026 17:35",
-  "commits_7d": 21,
-  "commits_30d": 21,
+  "ultimo_commit": "17/10/2026 17:35",
+  "commits_7d": 22,
+  "commits_30d": 22,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-18",
-    "n": 0
-   },
    {
     "dia": "2026-09-19",
     "n": 0
@@ -140,15 +136,24 @@
    },
    {
     "dia": "2026-10-17",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-18",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 358,
+  "arquivos": 370,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "17/10 17:35",
+   "msg": "Espelhamento automatico 2026-10-17 17:35",
+   "sha": "7beee05"
+  },
   {
    "quando": "16/10 17:35",
    "msg": "Espelhamento automatico 2026-10-16 17:35",
@@ -193,11 +198,6 @@
    "quando": "15/10 23:10",
    "msg": "Fim do dia 16/10: pendencias e segredos",
    "sha": "f1facea"
-  },
-  {
-   "quando": "15/10 23:03",
-   "msg": "Chave da fila do Chrome e do POST pago trocada e fora do git",
-   "sha": "8426583"
   }
  ],
  "pendencias": {
@@ -218,22 +218,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "78",
-    "detalhe": "de 02/10/2026 a 16/10/2026"
+    "valor": "81",
+    "detalhe": "de 02/10/2026 a 17/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "31",
+    "valor": "34",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "72",
+    "valor": "75",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "17/10/2026 09:03"
+ "gerado_em": "18/10/2026 08:03"
 }

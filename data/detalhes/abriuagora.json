@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "17/10/2026 07:50",
-  "commits_7d": 143,
-  "commits_30d": 156,
+  "ultimo_commit": "18/10/2026 06:05",
+  "commits_7d": 150,
+  "commits_30d": 164,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-18",
-    "n": 0
-   },
    {
     "dia": "2026-09-19",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-17",
+    "n": 8
+   },
+   {
+    "dia": "2026-10-18",
     "n": 4
    }
   ],
@@ -154,6 +154,46 @@
  },
  "commits": [
   {
+   "quando": "18/10 06:05",
+   "msg": "Checklist: status do Asaas de 18/10 e Chrome do Rodrigo na tela de login (20261016-cfo-2)",
+   "sha": "8e918ca"
+  },
+  {
+   "quando": "18/10 06:04",
+   "msg": "Página de obrigado: parágrafo antes do botão de assinar abre pela dor (20261015-cmo-12)",
+   "sha": "c55db10"
+  },
+  {
+   "quando": "18/10 06:04",
+   "msg": "Kit das redes: Sobre do LinkedIn abre com a frase da dor de 18/10 (20261015-cmo-13)",
+   "sha": "f04a0cc"
+  },
+  {
+   "quando": "18/10 00:02",
+   "msg": "Gastos com Resend e Asaas lidos pela API; lucro negativo como −R$ (20261016-cfo-1)",
+   "sha": "74d812f"
+  },
+  {
+   "quando": "17/10 18:03",
+   "msg": "Gastos por serviço e seção Lucro do mês no metricas.md (20261016-cfo-1)",
+   "sha": "eabac70"
+  },
+  {
+   "quando": "17/10 18:01",
+   "msg": "Home abre pela dor: H1, title e Para quem é (20261015-cmo-8)",
+   "sha": "069547f"
+  },
+  {
+   "quando": "17/10 18:00",
+   "msg": "Kit das redes §3: ganchos de dor e legendas do Instagram dos 5 posts (20261015-cmo-14)",
+   "sha": "90f7eb2"
+  },
+  {
+   "quando": "17/10 12:05",
+   "msg": "Checklist: regra da pausa instalada e ciso-1 sem sudo (17/10)",
+   "sha": "2954cfd"
+  },
+  {
    "quando": "17/10 07:50",
    "msg": "Pausa da prospecção conta só devolução definitiva (decisão do Rodrigo, 17/10)",
    "sha": "da79a8c"
@@ -162,46 +202,6 @@
    "quando": "17/10 06:59",
    "msg": "Checklist do lote de 17/10 e checagem da porta 25 desligada",
    "sha": "26ecc2f"
-  },
-  {
-   "quando": "17/10 06:01",
-   "msg": "Kit das redes: identidade começa pela dor do cliente (20261015-cmo-13)",
-   "sha": "29e9568"
-  },
-  {
-   "quando": "17/10 00:08",
-   "msg": "Prospecção: filtro grátis contra devolução (provedor antigo e servidor de e-mail fora do ar)",
-   "sha": "3a71829"
-  },
-  {
-   "quando": "16/10 18:06",
-   "msg": "prospeccao.py devolucoes: investigação das devoluções por provedor, idade do CNPJ e cidade",
-   "sha": "5a44dbd"
-  },
-  {
-   "quando": "16/10 12:10",
-   "msg": "Checklist: aa88534 instalado; envio de 16/10 parado pela PAUSA de devolução",
-   "sha": "db0f806"
-  },
-  {
-   "quando": "16/10 10:20",
-   "msg": "Checklist: rotina de 16/10 (servidor sem sessão; aa88534 não instalado antes do envio)",
-   "sha": "3266217"
-  },
-  {
-   "quando": "16/10 06:10",
-   "msg": "Prospecção e /para-contadores pela dor, produto depois (20261015-cmo-3/4/5/6/7/9)",
-   "sha": "aa88534"
-  },
-  {
-   "quando": "16/10 00:00",
-   "msg": "metricas: assinatura de teste interno (@resend.dev) fora da conta (20261015-cfo-2)",
-   "sha": "cd6223c"
-  },
-  {
-   "quando": "15/10 18:27",
-   "msg": "Checklist: ordem de 15/10 21:10 registrada; encarregado (Rodrigo), RPI mensal e instalação no servidor",
-   "sha": "146c87e"
   }
  ],
  "pendencias": {
@@ -270,12 +270,12 @@
    {
     "rotulo": "Ajustes dos C-levels em aberto",
     "valor": "13",
-    "detalhe": "de 43 registrados · 8 aberto, 30 concluído, 2 em andamento, 3 em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)"
+    "detalhe": "de 43 registrados · 4 aberto, 30 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 2 em andamento, 3 em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude), 1 em andamento 2026-10-18 06:00 brt (coo, enviado ao claude)"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 17/10/2026: COO"
+    "detalhe": "em 18/10/2026: COO"
    }
   ],
   "tabelas": [
@@ -391,14 +391,14 @@
       "id": "20261015-cmo-8",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-18 06:00 brt (coo)",
       "titulo": "Home (app/site/index.html, no ar): o H1 \"As empresas abertas no mês passado na sua região, na sua caixa de…"
      },
      {
       "id": "20261015-cmo-14",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-18 00:00 brt",
       "titulo": "Kit de redes, 5 posts (kit-redes.md §3, 17–23/10): os 5 abrem por DADO ou BASTIDOR (\"Em agosto, 1.865…"
      },
      {
@@ -412,7 +412,7 @@
       "id": "20261016-cfo-1",
       "cargo": "CFO",
       "prioridade": "média",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-18 06:00 brt (coo)",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -433,7 +433,7 @@
       "id": "20261015-cmo-12",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Em andamento 2026-10-18 06:00 brt (coo, enviado ao claude)",
       "titulo": "/obrigado (depois do pedido de amostra): texto só de PRODUTO e transação"
      },
      {
@@ -455,5 +455,5 @@
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "17/10/2026 09:03"
+ "gerado_em": "18/10/2026 08:03"
 }
