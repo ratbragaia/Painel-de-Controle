@@ -1,26 +1,26 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "18/10/2026 08:10 (horário de Brasília)",
+  "gerado_em": "19/10/2026 08:10 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: regra nova da pausa instalada (conta só devolução definitiva) e pausa retirada em 17/10; envio volta seg 19/10 09:30 com 20/dia (10 convites + 10 seguimentos). Home, página de obrigado e kit das redes abrem pela dor do cliente; métricas ganharam gastos por serviço e lucro do mês. Conta bancária no Asaas ainda pendente (cadastro pelo Rodrigo).",
+      "status": "Em operação ativa: envio volta hoje (seg 19/10) às 09:30 com 20/dia (10 convites + 10 seguimentos), com a regra nova da pausa (conta só devolução definitiva). Em 18/10 páginas por cidade, índice de conteúdo e posts da semana passaram a abrir pela dor do cliente; cobrança ganhou troca de data (recorte até o dia 5) e alerta de assinatura pendente há mais de 7 dias. Conta bancária no Asaas ainda pendente (cadastro pelo Rodrigo).",
       "recente": [
+        "19/10 00:06 – cobrança: troca de data (recorte até o dia 5) e alerta de assinatura pendente há mais de 7 dias",
+        "18/10 18:07 – páginas por cidade, índice de /conteudo e posts da semana abrem pela dor; preço de fundador até 31/12",
         "18/10 06:05 – página de obrigado e 'Sobre' do LinkedIn abrem pela dor; status do Asaas: tudo aprovado menos a conta bancária",
         "18/10 00:02 – gastos de Resend e Asaas lidos pela API; lucro negativo aparece como −R$",
         "17/10 18:03 – home abre pela dor (título e 'Para quem é'); gastos por serviço e seção Lucro do mês; ganchos e legendas dos 5 posts do Instagram",
-        "17/10 12:05 – regra da pausa instalada e pausa retirada; atualização do servidor depende de acesso root",
-        "17/10 07:50 – pausa da prospecção passa a contar só devolução definitiva (decisão do Rodrigo); limite 3/semana e 3%, teto 20/dia",
-        "17/10 06:59 – checklist do lote de 17/10; fila da onda 2 limpa (65 fora: provedores antigos e 1 domínio errado)"
+        "17/10 12:05 – regra da pausa instalada e pausa retirada; atualização do servidor depende de acesso root"
       ],
       "proximos": [
-        "Retomar o envio seg 19/10 09:30 (20/dia) e medir devolução e pedidos de amostra",
+        "Retomar o envio hoje 19/10 09:30 (20/dia) e medir devolução e pedidos de amostra",
         "Rodrigo cadastrar a conta bancária no Asaas",
         "Atualizar pacotes do servidor (precisa de root); Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "18/10/2026 06:05",
+      "atualizado": "19/10/2026 00:06",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -28,20 +28,21 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: fila COO→Claude rodando (12 pedidos novos em 16/10, 3 já feitos); relatório semanal de 16/10: MRR US$ 0, 52 e-mails frios desde 01/10 com 0 respostas humanas, 1 clique de busca em 28 dias; Telegram agora só para alertas urgentes.",
+      "status": "Em operação: em 19/10 a abordagem pela dor do cliente entrou em todo o funil (e-mails, home, 6 páginas de tecnologia, relatório de agosto) e a maior parte da fila do COO de 16/10 foi marcada feita; site com nota 12/12 no crítico, 300 impressões e 1 clique na busca (problema é tráfego, não conversão); 7 contatos FR importados para a semana 43 e 3 primeiros contatos novos na fila; resumos de uma página preparados para um 'sim' recebido em 19/10.",
       "recente": [
-        "16/10 16:10 – relatório semanal + placar dos revisores: notas altas, 0 respostas; problema parece ser falta de visitas (tarefa nova)",
-        "16/10 13:15 – Telegram só para alertas urgentes (ADR 0029, decisão do fundador); registro de gastos de outubro; checklist da NFS-e da 1ª venda",
-        "16/10 11:19 – COO adiciona 12 pedidos à fila (dor no repo, críticos, templates v2, roteiros, home, páginas…); 3 marcados feitos às 13:15",
-        "16/10 05:09 – pesquisa 15: 7 contatos FR preparados para a semana 43 (importação só em 19/10; semana 42 em 50/50)",
-        "16/10 04:11 – crítico: caixas genéricas reprovam antes da nota; barra sobe para 10/12 (0 respostas humanas em 36 envios 01–08/10)"
+        "19/10 07:15 – resumos de uma página para o 'sim' do primeiro contato v2 (19, 49 e 31 famílias de patentes; gancho corrigido antes do envio)",
+        "19/10 05:25 – crescimento: site 12/12, e-mails pela dor (templates 8→11), semana 43 com 7 contatos FR e 3 primeiros contatos na fila; pedidos do COO -01 a -05, -07, -08, -10, -11 feitos",
+        "19/10 05:09 – e-mails de amostra/teste, home e 6 páginas de tecnologia abrem pela dor; modelos v1 aposentados com trava no envio",
+        "19/10 05:06 – documentos de dor e voz do cliente (citações checadas na fonte), críticos pontuam a dor, first_touch_v2/follow_up_v2",
+        "19/10 04:12 – ingestão do BigQuery passa a seguir a atualização real da base pública",
+        "16/10 16:10 – relatório semanal: MRR US$ 0, 52 e-mails frios desde 01/10 com 0 respostas humanas"
       ],
       "proximos": [
-        "Medir o lote de e-mails v2 em 22/10 e apertar o crítico se continuar 0 de 18",
-        "Separar falta de visitas de problema do site (tarefa 4063a3b4)",
-        "Importar a pesquisa 15 em 19/10 (semana 43); seguir com os pedidos abertos da fila do COO"
+        "Enviar os 3 primeiros contatos novos da semana 43 e responder o 'sim' com os resumos",
+        "Medir o lote de e-mails v2 em 22/10",
+        "Atacar a falta de tráfego (300 impressões, 1 clique); pedidos restantes da fila do COO"
       ],
-      "atualizado": "16/10/2026 16:10",
+      "atualizado": "19/10/2026 07:15",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -49,21 +50,21 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200 nas checagens do COO); 0 vendas até 17/10 à noite, 81 visitas em 7 dias; Short 07 e Reddit não rodaram em 17/10 e passaram para 18/10; CISO achou 1 fragilidade sem vazamento (dependências da ferramenta de deploy); preço do Pacote Profissões (site R$ 17, Kiwify R$ 10) segue aguardando o Rodrigo; sanção do PLP 186 pendente.",
+      "status": "finbook.com.br no ar (site 200 em todas as checagens do COO de 18/10); 0 vendas, 75 visitas em 7 dias (CEO 18/10). Short 07 público no YouTube e no TikTok em 18/10; Reddit travou (sem pergunta adequada em 7 dias e 2 comentários antigos removidos pelo filtro) e aguarda decisão do CMO; PLP 186 ainda sem sanção (prazo 06/11); decisões pendentes do Rodrigo: preço do Pacote Profissões (T-011) e T-009.",
       "recente": [
-        "17/10 22:55 – COO: site 200, 0 venda; Short 07 (T-003) e Reddit (T-004) atrasaram, novo prazo na 1ª rodada de 18/10",
-        "17/10 20:23 – CEO resumo: 0 vendas, 81 visitas/7d, 0 inscritos, nada aguardando aprovação",
-        "17/10 – CCO (09:40 e 15:48): 0 venda, cliente ou parceiro novo",
-        "17/10 09:04 – CISO: varredura sem segredos expostos; 6 avisos altos nas dependências do deploy local (tarefa T-013)",
-        "16/10 20:21 – CEO resumo semanal: 0 vendas, 77 visitas 7d, 6 Shorts e 5 posts FB na semana; decisões pedidas (preço do Pacote e sequência)",
-        "16/10 11:25 – Short 06 v6 publicado (YouTube + TikTok) e FB post-07; home sem a promessa de economia no combo"
+        "18/10 22:52 – COO: site 200, rodada noturna, fila sem itens executáveis",
+        "18/10 20:24 – CEO resumo: 0 vendas, 75 visitas/7d, 0 inscritos; feito Short 07; travou Reddit",
+        "18/10 12:57 – Short 07 público no TikTok (YouTube já estava desde 17/10)",
+        "18/10 10:50 – COO: Reddit travou (sem post adequado e 2 comentários removidos); CMO decide se segue ou pausa",
+        "18/10 – CISO: varredura sem achados novos; CCO: 0 venda, cliente ou parceiro",
+        "17/10 22:55 – COO: site 200, 0 venda; Short 07 (T-003) e Reddit (T-004) atrasaram, novo prazo na 1ª rodada de 18/10"
       ],
       "proximos": [
-        "Publicar Short 07 e retomar o Reddit (1 por dia, sem links) em 18/10",
-        "Rodrigo decidir o preço do Pacote Profissões (T-011)",
+        "CMO decidir se o Reddit segue ou pausa (T-004)",
+        "Rodrigo decidir o preço do Pacote Profissões (T-011) e a T-009",
         "CTO atualizar as dependências do deploy (T-013); acompanhar a sanção do PLP 186 (prazo 06/11)"
       ],
-      "atualizado": "17/10/2026 22:55",
+      "atualizado": "18/10/2026 22:52",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -72,18 +73,19 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Coleta ativa: em 17/10 três vagas novas por stories (2 publicadas sozinhas, 1 enviada para aprovação). Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "Coleta ativa: em 18/10 quatro vagas novas por stories (SJDR e Tiradentes), todas publicadas sozinhas; a rotina ganhou um passo para religar o Chrome depois de uma falha às 17h. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
+        "18/10 18:36 – 4 vagas de 18/10 (SJDR e Tiradentes) publicadas automaticamente",
+        "18/10 – rotina diária: passo novo para religar o Chrome e esperar até 5 min antes de avisar",
         "17/10 17:35 – 3 vagas de 17/10 (SJDR e Tiradentes): 2 publicadas automaticamente, 1 aguardando aprovação",
         "16/10 14:27 – fim do dia: 7 mensagens a contatos antigos conferidas (número do dia correto); stories de 13/10 e Afya confirmados",
-        "16/10 – limpeza aprovada pelo Rodrigo: backups e testes antigos apagados",
-        "16/10 – limpeza aprovada pelo Rodrigo; PENDENCIAS atualizado (Afya 15/10, stories 13/10, chave da fila fora do git)"
+        "16/10 – limpeza aprovada pelo Rodrigo: backups e testes antigos apagados"
       ],
       "proximos": [
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "17/10/2026 17:35",
+      "atualizado": "18/10/2026 18:36",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
@@ -151,18 +153,19 @@
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
-      "status": "Em operação: radar diário de 17/10 sem promoção aplicável (nenhuma transferência bonificada Livelo para Azul, Smiles ou Latam); vigiando o aniversário da Smiles em 18/10 e o bônus Nubank Ultravioleta.",
+      "status": "Em operação: radar de 18/10 sem promoção aplicável (aniversário da Smiles sem campanha de transferência); auditoria mensal dos cartões feita em 18/10 (fim do seguro grátis do Ultravioleta, versão paga não recomendada; rendimento do OKX corrigido para ~3,5% a.a.). Vigiando bônus Nubank → Azul/Smiles de 20 a 24/10.",
       "recente": [
+        "18/10 – auditoria mensal dos cartões: fim do seguro grátis do Ultravioleta, teto de cashback do OKX confirmado, prévia do XP Legacy",
+        "18/10 – radar diário: nada aplicável; aniversário da Smiles sem campanha de transferência",
         "17/10 08:17 – radar diário: nada aplicável; Smiles 315% só para assinante do clube; cartões de adesão reprovados pela anuidade",
-        "14/10 – radar diário: pendências, histórico de decisões e skills atualizados",
-        "14/10 17:20 – commit inicial (migração para a pasta local de projetos)"
+        "14/10 – radar diário: pendências, histórico de decisões e skills atualizados"
       ],
       "proximos": [
-        "Conferir campanha do aniversário da Smiles (18/10) e bônus Nubank Ultravioleta → Azul/Smiles",
+        "Vigiar bônus Nubank Ultravioleta → Azul/Smiles de 20 a 24/10",
         "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
         "Revisão mensal em 01/11"
       ],
-      "atualizado": "17/10/2026 08:17",
+      "atualizado": "18/10/2026 10:35",
       "url": "https://github.com/ratbragaia/milhas-e-cartoes",
       "categoria": "GitHub"
     },

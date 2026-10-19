@@ -6,7 +6,7 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 68.2
+    "pct": 68.4
    },
    {
     "nome": "HTML",
@@ -14,22 +14,18 @@
    },
    {
     "nome": "PLpgSQL",
-    "pct": 13.0
+    "pct": 12.8
    },
    {
     "nome": "Shell",
     "pct": 2.8
    }
   ],
-  "ultimo_commit": "16/10/2026 16:10",
-  "commits_7d": 42,
-  "commits_30d": 347,
+  "ultimo_commit": "19/10/2026 07:15",
+  "commits_7d": 32,
+  "commits_30d": 352,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-19",
-    "n": 0
-   },
    {
     "dia": "2026-09-20",
     "n": 0
@@ -145,14 +141,43 @@
    {
     "dia": "2026-10-18",
     "n": 0
+   },
+   {
+    "dia": "2026-10-19",
+    "n": 5
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 346,
+  "arquivos": 355,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "19/10 07:15",
+   "msg": "One-page summaries for the 19/10 first_touch_v2 'yes' (task 22086678): HRE-free magnets 19 families, magnet-free reluctance motors 49,…",
+   "sha": "bb082d7"
+  },
+  {
+   "quando": "19/10 05:25",
+   "msg": "Growth 19/10: site critic 12/12 + 12/12 (delay wording fixed, GSC 300 impressions / 1 click: traffic, not conversion); email critic on…",
+   "sha": "14299f8"
+  },
+  {
+   "quando": "19/10 05:09",
+   "msg": "Pain first on the sample/trial emails, home, 6 technology pages and the August landscape; v1 first_touch/follow_up/press_routing retired…",
+   "sha": "30f8766"
+  },
+  {
+   "quando": "19/10 05:06",
+   "msg": "Pain first (founder's decision 15/10): customer-pain/voice docs (quotes checked at source, 2 attributions corrected), critics score pain,…",
+   "sha": "458d77c"
+  },
+  {
+   "quando": "19/10 04:12",
+   "msg": "BigQuery ingest window follows the dataset's real freshness (public table stuck at CN 09-08 / US 09-17 on 2026-10-19; fixed 45 days would…",
+   "sha": "3c92446"
+  },
   {
    "quando": "16/10 16:10",
    "msg": "Weekly report 2026-10-16 + reviewer scorecard (0 replies of 52 cold sends; site 12/12 vs 1 search click in 28 days, task 4063a3b4)",
@@ -177,31 +202,6 @@
    "quando": "16/10 05:09",
    "msg": "Research 15: 7 FR contacts staged for week 43 (Safran E&D, IFPEN, CEA Liten) from their own HAL papers; import guarded until 2026-10-19…",
    "sha": "ad2d0d8"
-  },
-  {
-   "quando": "16/10 04:11",
-   "msg": "Email critic: general mailboxes fail before scoring, bar to 10/12 (0 human replies from 36 sends of 01-08/10)",
-   "sha": "04007cc"
-  },
-  {
-   "quando": "15/10 23:23",
-   "msg": "COO queue docs/coo/fila.md: Grok COO prompts reach Claude without Rodrigo forwarding (founder's decision, 15/10) (#5)",
-   "sha": "156bbc2"
-  },
-  {
-   "quando": "15/10 22:43",
-   "msg": "CLAUDE.md §5b: Grok roda os C-levels e continua prospectando (decisão do Rodrigo, 15/10) (#4)",
-   "sha": "1690148"
-  },
-  {
-   "quando": "15/10 05:17",
-   "msg": "Research 14: 4 FR named buyers from their own 2026 HAL papers (Ampere x2, Safran Tech x2), imported; Lemesle first touch critic 11/12,…",
-   "sha": "bb1c3c7"
-  },
-  {
-   "quando": "15/10 05:06",
-   "msg": "Inbound: suppress hard-bounce recipients on arrival (Ludois 550 sat as ignored); trademark task closed by founder decision",
-   "sha": "02ac888"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "18/10/2026 08:03"
+ "gerado_em": "19/10/2026 08:06"
 }

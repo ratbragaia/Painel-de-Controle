@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 63.1
+    "pct": 63.4
    },
    {
     "nome": "HTML",
-    "pct": 36.0
+    "pct": 35.7
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "18/10/2026 06:05",
-  "commits_7d": 150,
-  "commits_30d": 164,
+  "ultimo_commit": "19/10/2026 00:06",
+  "commits_7d": 113,
+  "commits_30d": 168,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-19",
-    "n": 0
-   },
    {
     "dia": "2026-09-20",
     "n": 0
@@ -144,7 +140,11 @@
    },
    {
     "dia": "2026-10-18",
-    "n": 4
+    "n": 7
+   },
+   {
+    "dia": "2026-10-19",
+    "n": 1
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,26 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "19/10 00:06",
+   "msg": "cobranca.py --trocar (recorte até o dia 5) e alerta de assinatura pendente há mais de 7 dias (20261016-cs-2)",
+   "sha": "96c254f"
+  },
+  {
+   "quando": "18/10 18:07",
+   "msg": "Posts da semana de 13/10: gancho de dor na 1ª linha e nas legendas (20261015-cmo-15)",
+   "sha": "0f3fb7a"
+  },
+  {
+   "quando": "18/10 18:07",
+   "msg": "Índice de /conteudo abre para quem vive de cliente novo (20261015-cmo-11)",
+   "sha": "2716b4c"
+  },
+  {
+   "quando": "18/10 18:07",
+   "msg": "Páginas por cidade: Por que isso importa abre pela dor, preço de fundador até 31/12 (20261015-cmo-10)",
+   "sha": "e9f5491"
+  },
   {
    "quando": "18/10 06:05",
    "msg": "Checklist: status do Asaas de 18/10 e Chrome do Rodrigo na tela de login (20261016-cfo-2)",
@@ -182,26 +202,6 @@
    "quando": "17/10 18:01",
    "msg": "Home abre pela dor: H1, title e Para quem é (20261015-cmo-8)",
    "sha": "069547f"
-  },
-  {
-   "quando": "17/10 18:00",
-   "msg": "Kit das redes §3: ganchos de dor e legendas do Instagram dos 5 posts (20261015-cmo-14)",
-   "sha": "90f7eb2"
-  },
-  {
-   "quando": "17/10 12:05",
-   "msg": "Checklist: regra da pausa instalada e ciso-1 sem sudo (17/10)",
-   "sha": "2954cfd"
-  },
-  {
-   "quando": "17/10 07:50",
-   "msg": "Pausa da prospecção conta só devolução definitiva (decisão do Rodrigo, 17/10)",
-   "sha": "da79a8c"
-  },
-  {
-   "quando": "17/10 06:59",
-   "msg": "Checklist do lote de 17/10 e checagem da porta 25 desligada",
-   "sha": "26ecc2f"
   }
  ],
  "pendencias": {
@@ -270,12 +270,12 @@
    {
     "rotulo": "Ajustes dos C-levels em aberto",
     "valor": "13",
-    "detalhe": "de 43 registrados · 4 aberto, 30 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 2 em andamento, 3 em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude), 1 em andamento 2026-10-18 06:00 brt (coo, enviado ao claude)"
+    "detalhe": "de 43 registrados · 30 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 em andamento"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 18/10/2026: COO"
+    "detalhe": "em 19/10/2026: COO"
    }
   ],
   "tabelas": [
@@ -363,21 +363,21 @@
       "id": "20261015-cmo-13",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "status": "Concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc)",
       "titulo": "Kit de redes, identidade (docs/social/kit-redes.md §1): slogan do LinkedIn, \"Sobre\" e bio do Instagram…"
      },
      {
       "id": "20261016-ceo-2",
       "cargo": "CEO",
       "prioridade": "alta",
-      "status": "Em andamento",
+      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829)",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261016-cfo-2",
       "cargo": "CFO",
       "prioridade": "alta",
-      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca)",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -405,7 +405,7 @@
       "id": "20261016-cs-1",
       "cargo": "CS",
       "prioridade": "média",
-      "status": "Em andamento 2026-10-17 06:00 brt (coo, lote enviado ao claude)",
+      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f)",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -419,35 +419,35 @@
       "id": "20261015-cmo-10",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github)",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261015-cmo-11",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas)",
       "titulo": "/conteudo (índice das 38 peças, app/site/conteudo.html): \"Conteúdo: os números do mês, explicados\" + \"Até…"
      },
      {
       "id": "20261015-cmo-12",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Em andamento 2026-10-18 06:00 brt (coo, enviado ao claude)",
+      "status": "Concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok)",
       "titulo": "/obrigado (depois do pedido de amostra): texto só de PRODUTO e transação"
      },
      {
       "id": "20261015-cmo-15",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3)",
       "titulo": "Posts de reserva (docs/social/semana-13-10.md, L1–L3 e I1–I3, para depois de 23/10): todos abrem por DADO da…"
      },
      {
       "id": "20261016-cs-2",
       "cargo": "CS",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok)",
       "titulo": "Lacunas documentadas em docs/cs/passagem-e-onboarding.md (62cd10e, cs-2 de 15/10 CONCLUÍDO): (a) troca de…"
      }
     ]
@@ -455,5 +455,5 @@
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "18/10/2026 08:03"
+ "gerado_em": "19/10/2026 08:06"
 }

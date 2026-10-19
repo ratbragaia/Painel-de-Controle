@@ -21,15 +21,11 @@
     "pct": 0.8
    }
   ],
-  "ultimo_commit": "17/10/2026 22:56",
-  "commits_7d": 32,
-  "commits_30d": 32,
+  "ultimo_commit": "18/10/2026 22:51",
+  "commits_7d": 43,
+  "commits_30d": 43,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-19",
-    "n": 0
-   },
    {
     "dia": "2026-09-20",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-18",
+    "n": 11
+   },
+   {
+    "dia": "2026-10-19",
     "n": 0
    }
   ],
@@ -154,54 +154,54 @@
  },
  "commits": [
   {
-   "quando": "17/10 22:56",
-   "msg": "COO 17/10 22:55: site 200, 0 venda, T-003/T-004 atrasou -> 18/10",
-   "sha": "4bcaeed"
+   "quando": "18/10 22:51",
+   "msg": "COO 18/10 22:52: site 200, rodada noturna, fila sem executáveis",
+   "sha": "ba8bea2"
   },
   {
-   "quando": "17/10 20:23",
-   "msg": "CEO resumo 17/10",
-   "sha": "ba82e2a"
+   "quando": "18/10 20:50",
+   "msg": "COO 18/10 20:50: site 200, PLP 186 sem sanção, fila sem executáveis",
+   "sha": "1e39272"
   },
   {
-   "quando": "17/10 15:48",
-   "msg": "CCO 17/10 tarde: 0 venda/cliente/parceiro",
-   "sha": "b3137b9"
+   "quando": "18/10 20:24",
+   "msg": "CEO resumo 18/10",
+   "sha": "7927ce5"
   },
   {
-   "quando": "17/10 09:39",
-   "msg": "cco 17/10 09:40: 0 venda/cliente/parceiro",
-   "sha": "9d532ec"
+   "quando": "18/10 18:52",
+   "msg": "COO 18/10 18:52: site 200, PLP 186 sem sanção, fila sem executáveis",
+   "sha": "9c3308a"
   },
   {
-   "quando": "17/10 09:04",
-   "msg": "ciso: varredura 17/10 (1 fragilidade: deps do wrangler, T-013)",
-   "sha": "b2b51bb"
+   "quando": "18/10 16:57",
+   "msg": "COO 18/10 16:57: site 200, PLP 186 sem sanção, fila sem executáveis",
+   "sha": "55112cd"
   },
   {
-   "quando": "16/10 22:54",
-   "msg": "coo 16/10 22:55: site 200, fila sem itens executáveis",
-   "sha": "62aaa3e"
+   "quando": "18/10 15:49",
+   "msg": "CCO 18/10 15:50: 0 venda/cliente/parceiro",
+   "sha": "540a5d9"
   },
   {
-   "quando": "16/10 20:50",
-   "msg": "coo 16/10 20:50: site 200, sanção pendente",
-   "sha": "9e4ce43"
+   "quando": "18/10 14:59",
+   "msg": "COO 18/10 15:00: site 200, PLP 186 sem sanção, fila sem executáveis",
+   "sha": "84f6c15"
   },
   {
-   "quando": "16/10 20:21",
-   "msg": "CEO resumo 16/10 (semanal)",
-   "sha": "3559dd2"
+   "quando": "18/10 12:58",
+   "msg": "COO 18/10 12:57: TikTok Short 07 público, PLP 186 sem sanção, site 200",
+   "sha": "3789b43"
   },
   {
-   "quando": "16/10 18:56",
-   "msg": "coo 16/10 18:55: site 200, sanção pendente",
-   "sha": "88375b2"
+   "quando": "18/10 10:53",
+   "msg": "COO 18/10 10:50: Short 07 TikTok postado (YT já público), Reddit travou, site 200",
+   "sha": "87cd2fe"
   },
   {
-   "quando": "16/10 16:58",
-   "msg": "coo 16/10 17:00: site 200, sanção pendente",
-   "sha": "db79317"
+   "quando": "18/10 09:30",
+   "msg": "CCO 18/10 manhã: 0 venda/cliente/parceiro",
+   "sha": "02adf87"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "18/10/2026 08:03"
+ "gerado_em": "19/10/2026 08:06"
 }
