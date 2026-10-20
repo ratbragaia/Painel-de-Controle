@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 68.4
-   },
-   {
-    "nome": "HTML",
-    "pct": 14.9
+    "pct": 67.0
    },
    {
     "nome": "PLpgSQL",
-    "pct": 12.8
+    "pct": 15.2
+   },
+   {
+    "nome": "HTML",
+    "pct": 14.1
    },
    {
     "nome": "Shell",
-    "pct": 2.8
+    "pct": 2.6
    }
   ],
-  "ultimo_commit": "19/10/2026 07:15",
-  "commits_7d": 32,
-  "commits_30d": 352,
+  "ultimo_commit": "20/10/2026 07:08",
+  "commits_7d": 34,
+  "commits_30d": 365,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-20",
-    "n": 0
-   },
    {
     "dia": "2026-09-21",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-19",
-    "n": 5
+    "n": 14
+   },
+   {
+    "dia": "2026-10-20",
+    "n": 4
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 355,
+  "arquivos": 375,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "19/10 07:15",
-   "msg": "One-page summaries for the 19/10 first_touch_v2 'yes' (task 22086678): HRE-free magnets 19 families, magnet-free reluctance motors 49,…",
-   "sha": "bb082d7"
+   "quando": "20/10 07:08",
+   "msg": "Deliverability §6: Google DMARC report of 19/10 decoded, 1/1 aligned (100 %); 21/10 cold sends not held; COO-2026-10-19-06 feito",
+   "sha": "2b39179"
   },
   {
-   "quando": "19/10 05:25",
-   "msg": "Growth 19/10: site critic 12/12 + 12/12 (delay wording fixed, GSC 300 impressions / 1 click: traffic, not conversion); email critic on…",
-   "sha": "14299f8"
+   "quando": "20/10 06:28",
+   "msg": "Growth 2026-10-20: research 17 named contacts (3 new + Iyer address, week 43 at 21/50), import applied; Mohammadi country CA",
+   "sha": "c8ea61c"
   },
   {
-   "quando": "19/10 05:09",
-   "msg": "Pain first on the sample/trial emails, home, 6 technology pages and the August landscape; v1 first_touch/follow_up/press_routing retired…",
-   "sha": "30f8766"
+   "quando": "20/10 05:20",
+   "msg": "Growth 2026-10-20: follow_up_v2 pain-first + follow-up drafter (COO-03, held: no filing after 10-08); Janati/Abdelli redrafted and queued,…",
+   "sha": "77139bb"
   },
   {
-   "quando": "19/10 05:06",
-   "msg": "Pain first (founder's decision 15/10): customer-pain/voice docs (quotes checked at source, 2 attributions corrected), critics score pain,…",
-   "sha": "458d77c"
+   "quando": "20/10 04:13",
+   "msg": "Issue #4 held (0 families, sources stalled); build alert names the real cause; deliverability review §5: Gmail seed + DMARC state…",
+   "sha": "d51733f"
   },
   {
-   "quando": "19/10 04:12",
-   "msg": "BigQuery ingest window follows the dataset's real freshness (public table stuck at CN 09-08 / US 09-17 on 2026-10-19; fixed 45 days would…",
-   "sha": "3c92446"
+   "quando": "19/10 19:03",
+   "msg": "Grok prospects 2026-10-19: Claude review (consultancy/software people named_other, run command, verification status)",
+   "sha": "b084d19"
   },
   {
-   "quando": "16/10 16:10",
-   "msg": "Weekly report 2026-10-16 + reviewer scorecard (0 replies of 52 cold sends; site 12/12 vs 1 search click in 28 days, task 4063a3b4)",
-   "sha": "3e124fb"
+   "quando": "19/10 19:02",
+   "msg": "Merge Grok prospects 2026-10-19 (PR #6) for review fixes",
+   "sha": "2a74a84"
   },
   {
-   "quando": "16/10 13:15",
-   "msg": "COO fila: -06, -09, -12 feitos (evidência)",
-   "sha": "d3237da"
+   "quando": "19/10 18:58",
+   "msg": "Monday ingest records Google Patents BigQuery freshness in audit_log; read-only cli source freshness (no scan) for the daily check's…",
+   "sha": "c74c2ee"
   },
   {
-   "quando": "16/10 13:15",
-   "msg": "Telegram only for urgent alerts (ADR 0029, founder's decision 16/10); October spend ledger; first-sale NFS-e checklist",
-   "sha": "d09482b"
+   "quando": "19/10 18:49",
+   "msg": "Migration 0016 re-runnable after 0030's generated column: post-pull deploys had stopped at 0016 since 2026-10-13",
+   "sha": "8a01fa2"
   },
   {
-   "quando": "16/10 11:19",
-   "msg": "COO fila: +COO-2026-10-16-01..12 (dor no repo, críticos, templates v2, roteiros, rascunhos, Telegram só urgente, amostra/teste, home,…",
-   "sha": "a3f6f24"
+   "quando": "19/10 17:15",
+   "msg": "COO fila: +COO-2026-10-19-06 (seed Gmail medido, fechar Outlook/corporativo + DMARC antes de 21/10)",
+   "sha": "172e733"
   },
   {
-   "quando": "16/10 05:09",
-   "msg": "Research 15: 7 FR contacts staged for week 43 (Safran E&D, IFPEN, CEA Liten) from their own HAL papers; import guarded until 2026-10-19…",
-   "sha": "ad2d0d8"
+   "quando": "19/10 16:11",
+   "msg": "COO fila: commit hash on COO-2026-10-19-05",
+   "sha": "e204706"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "19/10/2026 08:06"
+ "gerado_em": "20/10/2026 08:05"
 }

@@ -23,13 +23,9 @@
   ],
   "ultimo_commit": "28/09/2026 14:16",
   "commits_7d": 0,
-  "commits_30d": 37,
+  "commits_30d": 25,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-20",
-    "n": 12
-   },
    {
     "dia": "2026-09-21",
     "n": 23
@@ -145,6 +141,10 @@
    {
     "dia": "2026-10-19",
     "n": 0
+   },
+   {
+    "dia": "2026-10-20",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
@@ -245,5 +245,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "19/10/2026 08:06"
+ "gerado_em": "20/10/2026 08:05"
 }

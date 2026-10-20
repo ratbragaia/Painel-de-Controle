@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 60.3
+    "pct": 60.5
    },
    {
     "nome": "HTML",
-    "pct": 35.2
+    "pct": 34.8
    },
    {
     "nome": "JavaScript",
@@ -18,18 +18,14 @@
    },
    {
     "nome": "CSS",
-    "pct": 0.8
+    "pct": 1.0
    }
   ],
-  "ultimo_commit": "18/10/2026 22:51",
-  "commits_7d": 43,
-  "commits_30d": 43,
+  "ultimo_commit": "19/10/2026 22:55",
+  "commits_7d": 58,
+  "commits_30d": 58,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-20",
-    "n": 0
-   },
    {
     "dia": "2026-09-21",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-19",
+    "n": 15
+   },
+   {
+    "dia": "2026-10-20",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 322,
+  "arquivos": 351,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "18/10 22:51",
-   "msg": "COO 18/10 22:52: site 200, rodada noturna, fila sem executáveis",
-   "sha": "ba8bea2"
+   "quando": "19/10 22:55",
+   "msg": "COO 19/10 22:55: site 200, fila sem itens executáveis",
+   "sha": "aa3bff9"
   },
   {
-   "quando": "18/10 20:50",
-   "msg": "COO 18/10 20:50: site 200, PLP 186 sem sanção, fila sem executáveis",
-   "sha": "1e39272"
+   "quando": "19/10 20:58",
+   "msg": "COO 19/10 20:57: site 200, T-007 sem sanção, fila sem itens executáveis",
+   "sha": "2287593"
   },
   {
-   "quando": "18/10 20:24",
-   "msg": "CEO resumo 18/10",
-   "sha": "7927ce5"
+   "quando": "19/10 20:21",
+   "msg": "CEO resumo 19/10 enviado",
+   "sha": "72a1f24"
   },
   {
-   "quando": "18/10 18:52",
-   "msg": "COO 18/10 18:52: site 200, PLP 186 sem sanção, fila sem executáveis",
-   "sha": "9c3308a"
+   "quando": "19/10 19:21",
+   "msg": "CMO/COO 19/10: redesign da home (D-006/T-020): dor no topo + calculadora como herói, botões → calculadora, oferta do Kit só após o…",
+   "sha": "57ec4bb"
   },
   {
-   "quando": "18/10 16:57",
-   "msg": "COO 18/10 16:57: site 200, PLP 186 sem sanção, fila sem executáveis",
-   "sha": "55112cd"
+   "quando": "19/10 18:58",
+   "msg": "COO 19/10 18:58: site 200, T-007 sem sanção, fila sem itens executáveis",
+   "sha": "cef9306"
   },
   {
-   "quando": "18/10 15:49",
-   "msg": "CCO 18/10 15:50: 0 venda/cliente/parceiro",
-   "sha": "540a5d9"
+   "quando": "19/10 16:55",
+   "msg": "COO 19/10 16:55: T-013 wrangler (sem versão Node 20 que corrija, mantida 4.20.0), T-007 sem sanção",
+   "sha": "da4ac12"
   },
   {
-   "quando": "18/10 14:59",
-   "msg": "COO 18/10 15:00: site 200, PLP 186 sem sanção, fila sem executáveis",
-   "sha": "84f6c15"
+   "quando": "19/10 15:49",
+   "msg": "CCO 19/10 15:49: 0 venda/cliente/parceiro",
+   "sha": "a769c5c"
   },
   {
-   "quando": "18/10 12:58",
-   "msg": "COO 18/10 12:57: TikTok Short 07 público, PLP 186 sem sanção, site 200",
-   "sha": "3789b43"
+   "quando": "19/10 15:01",
+   "msg": "COO 19/10 14:58: T-019 página GEO estourou o limite (deploy d5eafa3c), T-018 bio TikTok conferida",
+   "sha": "1a2fbe5"
   },
   {
-   "quando": "18/10 10:53",
-   "msg": "COO 18/10 10:50: Short 07 TikTok postado (YT já público), Reddit travou, site 200",
-   "sha": "87cd2fe"
+   "quando": "19/10 13:19",
+   "msg": "COO 19/10 13:19: T-017 visitas UTM (track+worker), deploy e T-018 YT bio",
+   "sha": "ab82b25"
   },
   {
-   "quando": "18/10 09:30",
-   "msg": "CCO 18/10 manhã: 0 venda/cliente/parceiro",
-   "sha": "02adf87"
+   "quando": "19/10 11:36",
+   "msg": "COO 19/10 11:35: T-016 rastreio ok ponta a ponta, T-014 FB post-08 publicado, T-015 Short 08 aprovado (publica 21/10)",
+   "sha": "3d1f857"
   }
  ],
  "pendencias": {
@@ -309,17 +309,17 @@
    },
    {
     "rotulo": "Artigos no blog",
-    "valor": "13",
+    "valor": "14",
     "detalhe": "páginas em site/blog"
    },
    {
     "rotulo": "Roteiros de Shorts",
-    "valor": "5",
+    "valor": "6",
     "detalhe": "arquivos roteiro-*.md"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "19/10/2026 08:06"
+ "gerado_em": "20/10/2026 08:05"
 }

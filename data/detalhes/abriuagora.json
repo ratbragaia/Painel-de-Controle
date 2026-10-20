@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 63.4
+    "pct": 63.8
    },
    {
     "nome": "HTML",
-    "pct": 35.7
+    "pct": 35.0
    },
    {
     "nome": "CSS",
-    "pct": 0.7
+    "pct": 1.0
    },
    {
     "nome": "Shell",
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "19/10/2026 00:06",
-  "commits_7d": 113,
-  "commits_30d": 168,
+  "ultimo_commit": "20/10/2026 00:08",
+  "commits_7d": 74,
+  "commits_30d": 174,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-20",
-    "n": 0
-   },
    {
     "dia": "2026-09-21",
     "n": 0
@@ -144,15 +140,49 @@
    },
    {
     "dia": "2026-10-19",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-20",
     "n": 1
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 248,
+  "arquivos": 249,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "20/10 00:08",
+   "msg": "Redesenho da home e de /para-contadores: formulário no topo, faixa com o número do mês, print da planilha, menu no celular",
+   "sha": "18b5547"
+  },
+  {
+   "quando": "19/10 18:15",
+   "msg": "Checklist: espelho já publica a pasta 2026-10 (setembro)",
+   "sha": "3d03172"
+  },
+  {
+   "quando": "19/10 18:14",
+   "msg": "Teste do espelho sem rede de verdade (a API já lista 2026-10 e quebrava o CI)",
+   "sha": "45219d8"
+  },
+  {
+   "quando": "19/10 18:12",
+   "msg": "Visitas por origem no metricas (log do site, testes fora do relatório) e notas de 19/10 (cso-2, cso-3, cs-2)",
+   "sha": "0486b49"
+  },
+  {
+   "quando": "19/10 12:17",
+   "msg": "Checklist 19/10: servidor em e698175, teste de amostra, CS do dia e onda 2 pronta (ceo-1/2/3, cs-1, cso-1)",
+   "sha": "1039c37"
+  },
+  {
+   "quando": "19/10 09:36",
+   "msg": "Checklist: relatório semanal de 19/10 feito e números do envio de 19/10",
+   "sha": "e698175"
+  },
   {
    "quando": "19/10 00:06",
    "msg": "cobranca.py --trocar (recorte até o dia 5) e alerta de assinatura pendente há mais de 7 dias (20261016-cs-2)",
@@ -172,36 +202,6 @@
    "quando": "18/10 18:07",
    "msg": "Páginas por cidade: Por que isso importa abre pela dor, preço de fundador até 31/12 (20261015-cmo-10)",
    "sha": "e9f5491"
-  },
-  {
-   "quando": "18/10 06:05",
-   "msg": "Checklist: status do Asaas de 18/10 e Chrome do Rodrigo na tela de login (20261016-cfo-2)",
-   "sha": "8e918ca"
-  },
-  {
-   "quando": "18/10 06:04",
-   "msg": "Página de obrigado: parágrafo antes do botão de assinar abre pela dor (20261015-cmo-12)",
-   "sha": "c55db10"
-  },
-  {
-   "quando": "18/10 06:04",
-   "msg": "Kit das redes: Sobre do LinkedIn abre com a frase da dor de 18/10 (20261015-cmo-13)",
-   "sha": "f04a0cc"
-  },
-  {
-   "quando": "18/10 00:02",
-   "msg": "Gastos com Resend e Asaas lidos pela API; lucro negativo como −R$ (20261016-cfo-1)",
-   "sha": "74d812f"
-  },
-  {
-   "quando": "17/10 18:03",
-   "msg": "Gastos por serviço e seção Lucro do mês no metricas.md (20261016-cfo-1)",
-   "sha": "eabac70"
-  },
-  {
-   "quando": "17/10 18:01",
-   "msg": "Home abre pela dor: H1, title e Para quem é (20261015-cmo-8)",
-   "sha": "069547f"
   }
  ],
  "pendencias": {
@@ -225,57 +225,57 @@
    {
     "rotulo": "Convites enviados",
     "valor": "60",
-    "detalhe": "em 16/10 08:40"
+    "detalhe": "em 19/10 ~08:40"
    },
    {
     "rotulo": "Entregues",
-    "valor": "47",
-    "detalhe": "em 16/10 08:40"
+    "valor": "46",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Spam",
+    "valor": "0",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Descadastros",
+    "valor": "1",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Pedidos de amostra",
+    "valor": "0",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Pagantes",
+    "valor": "0",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Receita",
+    "valor": "R$ 0",
+    "detalhe": "em 19/10 ~08:40"
+   },
+   {
+    "rotulo": "Taxa de entrega",
+    "valor": "77%",
+    "detalhe": "46 de 60"
+   },
+   {
+    "rotulo": "Ajustes dos C-levels em aberto",
+    "valor": "14",
+    "detalhe": "de 52 registrados · 1 aberto, 38 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 em andamento"
+   },
+   {
+    "rotulo": "Resumos de C-levels",
+    "valor": "1",
+    "detalhe": "em 20/10/2026: COO"
    },
    {
     "rotulo": "Falhas",
     "valor": "10",
     "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Spam",
-    "valor": "0",
-    "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Descadastros",
-    "valor": "1",
-    "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Pedidos de amostra",
-    "valor": "0",
-    "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Pagantes",
-    "valor": "0",
-    "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Receita",
-    "valor": "R$ 0",
-    "detalhe": "em 16/10 08:40"
-   },
-   {
-    "rotulo": "Taxa de entrega",
-    "valor": "78%",
-    "detalhe": "47 de 60"
-   },
-   {
-    "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "13",
-    "detalhe": "de 43 registrados · 30 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 em andamento"
-   },
-   {
-    "rotulo": "Resumos de C-levels",
-    "valor": "1",
-    "detalhe": "em 19/10/2026: COO"
    }
   ],
   "tabelas": [
@@ -345,7 +345,7 @@
    {
     "titulo": "Meta do Portão 1 (até 31/10)",
     "itens": [
-     "≥ 3 pedidos de amostra de contador e 0 spam. Régua de convites (decisão do Rodrigo, 15/10): ~170 convites novos até 30/10, só o 1º e-mail; D+3/D+7 não contam; teto 20/dia sem mudança. Tudo que não…"
+     "≥ 3 pedidos de amostra de contador e 0 spam. Régua de convites (decisão do Rodrigo, 15/10): ~170 convites novos até 30/10, só o 1º e-mail; D+3/D+7 não contam; teto 20/dia sem mudança. Hoje: 0 ÷ 3…"
     ]
    },
    {
@@ -449,11 +449,18 @@
       "prioridade": "baixa",
       "status": "Concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok)",
       "titulo": "Lacunas documentadas em docs/cs/passagem-e-onboarding.md (62cd10e, cs-2 de 15/10 CONCLUÍDO): (a) troca de…"
+     },
+     {
+      "id": "20261019-cso-4",
+      "cargo": "CSO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "A oferta_troca (plano anual) foi preparada em 15/10 12:05, antes dos textos novos pela dor (cmo-3 a cmo-7).…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "19/10/2026 08:06"
+ "gerado_em": "20/10/2026 08:05"
 }
