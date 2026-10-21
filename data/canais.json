@@ -1,0 +1,2310 @@
+{
+ "titulo": "Canais de venda e aquisição",
+ "gerado_em": "21/10/2026 09:21 (horário de Brasília)",
+ "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
+ "empresas": [
+  {
+   "nome": "Abriu Agora",
+   "repo": "abriuagora",
+   "slug": "abriuagora",
+   "registros_do_projeto": [
+    "canais.md (pasta local)"
+   ],
+   "canais": [
+    {
+     "id": "email-onda-1",
+     "canal": "E-mail frio a escritórios contábeis — onda 1 (assunto A)",
+     "grupo": "E-mail frio",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "",
+     "inicio": "13/10/2026",
+     "hipotese": "Contador sem cliente novo por indicação pede a amostra grátis da lista de empresas recém-abertas.",
+     "metrica": "pedidos de amostra ÷ e-mails entregues",
+     "decisao": "Manter até o Portão 1 (31/10); antes de mexer no texto, testar onde o e-mail cai (Principal, Promoções ou spam).",
+     "periodo": "13/10 a 20/10/2026",
+     "fonte": "resumos-clevels/2026-10-20-cmo.md (CMO)",
+     "numeros": {
+      "alcance": {
+       "valor": "70",
+       "nota": "convites enviados (1º e-mail)",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "visitas com origem de prospecção",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "pedidos de amostra",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "pagantes",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "56",
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Convites entregues",
+       "mantido": true
+      },
+      {
+       "valor": "10",
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Seguimentos D+3 enviados",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "20/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "email-onda-2",
+     "canal": "E-mail frio a escritórios contábeis — onda 2 (assunto B)",
+     "grupo": "E-mail frio",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "20/10/2026",
+     "hipotese": "Assunto pela dor (sem disputar cliente de colega) gera mais cliques que o assunto A.",
+     "metrica": "pedidos de amostra ÷ entregues, A × B a partir de 27/10",
+     "decisao": "Comparar A × B por pedidos ÷ entregues a partir de 27/10.",
+     "periodo": "envio de 20/10/2026",
+     "fonte": "objetivos.md (CEO, 21/10)",
+     "numeros": {
+      "alcance": {
+       "valor": "10",
+       "nota": "convites enviados",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "cliques",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "pedidos de amostra",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "pagantes",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "10 de 10",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Entregues",
+       "mantido": true
+      },
+      {
+       "valor": "0",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Devoluções",
+       "mantido": true
+      },
+      {
+       "valor": "0",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Descadastros",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "email-acumulado",
+     "canal": "E-mail frio — acumulado (convites + seguimentos)",
+     "grupo": "E-mail frio",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "único canal. Antes de decidir, falta saber onde o e-mail cai (20261020-cmo-1/cmo-22)",
+     "inicio": "13/10/2026",
+     "hipotese": "Contador da cidade que recebe o convite pela dor pede a amostra grátis de 10 empresas",
+     "metrica": "Pedidos de amostra ÷ entregues; visitas com origem; respostas; descadastros/spam",
+     "decisao": "",
+     "periodo": "13/10 a 21/10/2026",
+     "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": "86",
+       "nota": "e-mails entregues",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "cliques e visitas de prospecção",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "pedidos de amostra (meta 3)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "pagantes",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "rotulo": "Convites (1º e-mail)",
+       "valor": "80 de 160 esperados",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      {
+       "valor": "1",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Descadastros",
+       "mantido": true
+      },
+      {
+       "valor": "0",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Spam",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "31/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "site-organico",
+     "canal": "Site e busca orgânica (home, /para-contadores, páginas de cidade)",
+     "grupo": "Site e busca orgânica (home, /para-contadores, páginas de cidade)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "Candidato da semana de 26/10: logo depois que as páginas virarem \"setembro\" (20261020-cmo-5, 24–25/10), pedir a…",
+     "inicio": "05/10/2026",
+     "hipotese": "Contador que busca a cidade chega à página e pede a amostra pelo formulário do topo.",
+     "metrica": "pedidos de amostra pelo formulário ÷ visitas",
+     "decisao": "Home redesenhada no ar desde 20/10; medir formulário ÷ visitas a partir de 27/10.",
+     "periodo": "semana 12–18/10/2026",
+     "fonte": "resumos-clevels/2026-10-20-cmo.md (CMO)",
+     "numeros": {
+      "alcance": {
+       "valor": "64 + 8 + 7",
+       "nota": "visitas em /, /para-contadores e /cidade (inclui testes)",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "pedidos de amostra",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "20/10/2026",
+     "prazo": "",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "redes-empresa",
+     "canal": "Redes da empresa (LinkedIn e Instagram)",
+     "grupo": "Redes da empresa (LinkedIn e Instagram)",
+     "tipo": "aquisição",
+     "status": "parado",
+     "motivo": "ADIADO pelo Rodrigo até 01/11/2026 (CHK-2026-10-15-02)",
+     "inicio": "",
+     "hipotese": "5 posts pela dor levam contadores ao site.",
+     "metrica": "visitas com origem social",
+     "decisao": "",
+     "periodo": "",
+     "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "asaas",
+     "canal": "Assinatura pelo Asaas (Pix, R$ 49 fundador)",
+     "grupo": "Assinatura pelo Asaas (Pix, R$ 49 fundador)",
+     "tipo": "venda",
+     "status": "parado",
+     "motivo": "conta bancária no Asaas ainda não cadastrada",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "pagantes e receita recebida",
+     "decisao": "",
+     "periodo": "outubro/2026",
+     "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "pagantes",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "receita": {
+       "valor": "R$ 0",
+       "nota": "receita recebida",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "parceria-com-entidades-contabeis-de-mg-informativo-associado",
+     "canal": "Parceria com entidades contábeis de MG — canal da semana 1",
+     "grupo": "Parceria com entidades contábeis de MG — canal da semana 1",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "PRONTO PARA EXECUTAR → vira EM TESTE no 1º envio",
+     "inicio": "22/10/2026",
+     "hipotese": "Sindicatos e entidades de contabilistas repassam aos associados uma oferta útil e grátis (amostra de 10 empresas novas da cidade + um texto pronto para o informativo). Basta 1 entidade publicar para a oferta chegar a…",
+     "metrica": "(1) pedidos de amostra com origem=canal:parceria:; (2) entidades que respondem \"sim\" ou publicam; (3) visitas com essa origem. Leitura no…",
+     "decisao": "",
+     "prazo": "04/11/2026",
+     "resultado": "0 enviados (21/10 09:00)",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "indicacao-entre-contadores-de-cidades-diferentes-indique-um-",
+     "canal": "Indicação entre contadores de cidades diferentes",
+     "grupo": "Indicação entre contadores de cidades diferentes",
+     "tipo": "venda",
+     "status": "planejado",
+     "motivo": "Pendências: CFO conferir o efeito do mês grátis na receita; CLO conferir o texto. Alternativa B para o CSO: código de…",
+     "inicio": "",
+     "hipotese": "Contador que recebeu a amostra ou assinou conhece colegas em outras cidades, que não são concorrentes dele; indicar não fere a ética e o indicado chega com confiança. Recompensa sem dinheiro: 1 mês grátis para quem…",
+     "metrica": "Pedidos de amostra com origem canal:indicacao:; assinaturas indicadas; meses grátis concedidos",
+     "decisao": "",
+     "prazo": "26/10/2026",
+     "resultado": "Sem dado (0 amostras e 0 pagantes até 21/10: o canal só gira depois das primeiras amostras)",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "forum-contabeis-responder-duvidas-reais-sobre-captar-cliente",
+     "canal": "Fórum Contábeis",
+     "grupo": "Fórum Contábeis",
+     "tipo": "aquisição",
+     "status": "encerrado",
+     "motivo": "VETADO pelas regras do fórum. Regra 10 ([link] lida em 21/10): \"Não serão permitidos nomes de cadastro que contenham…",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "associacoes-comerciais-e-cdls-11-rascunhos-em-docs-abordagem",
+     "canal": "Associações comerciais e CDLs (11 rascunhos em docs/abordagem-parceiros.md)",
+     "grupo": "Associações comerciais e CDLs (11 rascunhos em docs/abordagem-parceiros.md)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "diretorios-gratis-de-ferramentas-servicos-para-contadores",
+     "canal": "Diretórios grátis de ferramentas/serviços para contadores",
+     "grupo": "Diretórios grátis de ferramentas/serviços para contadores",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "perfil-da-empresa-no-google",
+     "canal": "Perfil da Empresa no Google",
+     "grupo": "Perfil da Empresa no Google",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    }
+   ],
+   "contagem": {
+    "ativo": 1,
+    "em teste": 1,
+    "planejado": 6,
+    "parado": 2,
+    "encerrado": 1
+   },
+   "aquisicao_ativos": 1,
+   "venda_ativos": 0,
+   "canais_aquisicao_ativos": [
+    "E-mail frio"
+   ],
+   "alerta": "Só 1 canal de aquisição ativo (E-mail frio): toda a aquisição depende dele."
+  },
+  {
+   "nome": "PatentSonar",
+   "repo": "PatentSonar",
+   "slug": "patentsonar",
+   "registros_do_projeto": [
+    "canais-aquisicao.md (pasta local)"
+   ],
+   "canais": [
+    {
+     "id": "email-frio",
+     "canal": "E-mail frio a P&D e PI (contatos nomeados)",
+     "grupo": "E-mail frio",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "lote pela dor lido a partir de 27–28/10",
+     "inicio": "01/10/2026",
+     "hipotese": "Quem publica sobre ímãs sem terras raras responde quando o 1º e-mail abre pela dor do próprio trabalho.",
+     "metrica": "respostas humanas ÷ 1º contatos (meta ≥ 5%)",
+     "decisao": "Assunto pela dor a partir de 21/10; medir o lote v2 em 22/10 e comparar respostas em 27–28/10.",
+     "periodo": "01/10 a 21/10/2026",
+     "fonte": "meta-mensal.md (CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": "53",
+       "nota": "1º contatos enviados (meta 150 em 31/10)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "respostas humanas",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "clientes",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "2 (+ 8 seguimentos na fila)",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Liberados pelo crítico em 21/10",
+       "mantido": true
+      },
+      {
+       "valor": "1",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Segurados pelo crítico em 21/10",
+       "mantido": true
+      },
+      {
+       "rotulo": "Entregabilidade (mail-tester)",
+       "valor": "9,4/10",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      {
+       "valor": "2",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Devoluções",
+       "mantido": true
+      },
+      {
+       "valor": "1",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Descadastros",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "busca-organica",
+     "canal": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
+     "grupo": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
+     "tipo": "aquisição",
+     "status": "parado",
+     "motivo": "passivo: existe, mas não é canal com teste nem dono; vira o C1 abaixo",
+     "inicio": "01/10/2026",
+     "hipotese": "Times de P&D acham as páginas de tecnologia pela busca e pedem a edição grátis.",
+     "metrica": "pedidos de amostra ÷ cliques da busca",
+     "decisao": "Formulário logo após a frase de dor nas páginas de tecnologia (onde caem 296 das 300 impressões).",
+     "periodo": "28 dias até 20/10/2026",
+     "fonte": "clevels/resumos/cmo-2026-10-20.md (CMO)",
+     "numeros": {
+      "alcance": {
+       "valor": "300",
+       "nota": "impressões no Google (28 dias)",
+       "medido_em": "20/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "1",
+       "nota": "clique(s) da busca (28 dias)",
+       "medido_em": "20/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "pedidos de amostra desde 01/10",
+       "medido_em": "20/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "20/10/2026",
+     "prazo": "",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "imprensa",
+     "canal": "E-mail para imprensa (press routing)",
+     "grupo": "E-mail para imprensa",
+     "tipo": "aquisição",
+     "status": "encerrado",
+     "motivo": "modelos v1 aposentados em 15/10 (começavam pelo produto, não pela dor)",
+     "inicio": "01/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "periodo": "",
+     "fonte": "docs/reviews/email/2026-10-21.md",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "0",
+       "nota": "respostas humanas",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "assinatura",
+     "canal": "Assinatura semanal (cobrança pelo Paddle)",
+     "grupo": "Assinatura semanal (cobrança pelo Paddle)",
+     "tipo": "venda",
+     "status": "parado",
+     "motivo": "cobrança pelo Paddle ainda não ativada",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "clientes pagantes e MRR",
+     "decisao": "",
+     "periodo": "outubro/2026",
+     "fonte": "meta-mensal.md (CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "testes grátis ativos (meta 4)",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "clientes pagantes",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "receita": {
+       "valor": "US$ 0",
+       "nota": "MRR",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "c1",
+     "canal": "C1 Tracker público",
+     "grupo": "C1 Tracker público",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "22/10/2026",
+     "hipotese": "Página com os 12 meses de dados atrai busca de comprador e converte em pedido de amostra",
+     "metrica": "≥ 50 impressões e ≥ 1 clique no GSC; manter se ≥ 1 pedido source=tracker- ou impressões subindo semana a semana",
+     "decisao": "",
+     "prazo": "05/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c2",
+     "canal": "C2 Dados para mídia",
+     "grupo": "C2 Dados para mídia",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "23/10/2026",
+     "hipotese": "Uma nota de dados vira menção/matéria e traz compradores ao tracker",
+     "metrica": "≥ 1 resposta de editor; ampliar se ≥ 1 matéria com link",
+     "decisao": "",
+     "prazo": "06/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c4",
+     "canal": "C4 Parceiros",
+     "grupo": "C4 Parceiros",
+     "tipo": "venda",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "24/10/2026",
+     "hipotese": "Parceiro que atende o comprador apresenta o PatentSonar aos clientes",
+     "metrica": "≥ 1 conversa com parceiro; ampliar se ≥ 1 apresentação a comprador",
+     "decisao": "",
+     "prazo": "07/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    }
+   ],
+   "contagem": {
+    "ativo": 1,
+    "em teste": 0,
+    "planejado": 3,
+    "parado": 2,
+    "encerrado": 1
+   },
+   "aquisicao_ativos": 1,
+   "venda_ativos": 0,
+   "canais_aquisicao_ativos": [
+    "E-mail frio"
+   ],
+   "alerta": "Só 1 canal de aquisição ativo (E-mail frio): toda a aquisição depende dele."
+  },
+  {
+   "nome": "Finbook",
+   "repo": "finbook",
+   "slug": "finbook",
+   "registros_do_projeto": [
+    "ceo/canais.md (pasta local)"
+   ],
+   "canais": [
+    {
+     "id": "site",
+     "canal": "Site finbook.com.br e calculadoras",
+     "grupo": "Site finbook.com.br e calculadoras",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "",
+     "inicio": "05/10/2026",
+     "hipotese": "O MEI usa a calculadora grátis (DAS, limite) e segue para o Kit.",
+     "metrica": "usos de calculadora e cliques em comprar ÷ visitas",
+     "decisao": "",
+     "periodo": "7 dias até 21/10/2026",
+     "fonte": "ceo/diario.md (placar do CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": "68",
+       "nota": "pageviews em 7 dias (64 visitas)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "cliques em comprar",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "1",
+       "nota": "inscrito(s) na newsletter",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "rotulo": "Origem das visitas (7 dias)",
+       "valor": "60 diretas, 4 Facebook, 0 buscador",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      {
+       "rotulo": "Usos de calculadora",
+       "valor": "2",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "tiktok",
+     "canal": "TikTok @finbookbr",
+     "grupo": "TikTok @finbookbr",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "distribuição travada; CMO revê em 27/10 (T-037)",
+     "inicio": "13/10/2026",
+     "hipotese": "Shorts pela dor do MEI levam ao site.",
+     "metrica": "views e visitas com UTM",
+     "decisao": "Distribuição travada: sinal para o CMO.",
+     "periodo": "até 20/10/2026",
+     "fonte": "ceo/diario.md (COO)",
+     "numeros": {
+      "alcance": {
+       "valor": "118",
+       "nota": "views (só o Short 07; os outros 7 com 0)",
+       "medido_em": "20/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "0",
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Comentários",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "20/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "youtube",
+     "canal": "YouTube Shorts",
+     "grupo": "YouTube Shorts",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "1 Short/dia, gate de vídeo",
+     "inicio": "13/10/2026",
+     "hipotese": "Shorts pela dor do MEI levam ao site.",
+     "metrica": "views e visitas com UTM",
+     "decisao": "",
+     "periodo": "acumulado até 21/10/2026",
+     "fonte": "ceo/diario.md (placar do CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": "159",
+       "nota": "views em 7 Shorts públicos",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "2",
+       "nota": "visitas com UTM do YouTube (20/10)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "rotulo": "Inscritos no canal",
+       "valor": "1",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      {
+       "valor": "0",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Comentários",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "facebook",
+     "canal": "Página do Facebook",
+     "grupo": "Página do Facebook",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "1 post/dia no máx",
+     "inicio": "13/10/2026",
+     "hipotese": "Posts pela dor levam MEIs às calculadoras.",
+     "metrica": "visitas com UTM do Facebook",
+     "decisao": "",
+     "periodo": "20/10/2026",
+     "fonte": "ceo/diario.md (placar do CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "3",
+       "nota": "visitas com UTM do Facebook (20/10)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "3 (meta ≥ 3)",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Posts na semana 16–22/10",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "pinterest",
+     "canal": "Pinterest",
+     "grupo": "Pinterest",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "13/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "periodo": "",
+     "fonte": "ceo/diario.md e ceo/pendencias.md",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "reddit",
+     "canal": "Reddit u/finbookbr",
+     "grupo": "Reddit u/finbookbr",
+     "tipo": "aquisição",
+     "status": "encerrado",
+     "motivo": "banida, recurso enviado 21/10. Fica só leitura a não ser que o recurso seja aceito; mesmo assim, voltaria só com a…",
+     "inicio": "12/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "periodo": "",
+     "fonte": "ceo/diario.md (auditoria do CMO, T-041)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "20/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "20/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "busca-google-bing",
+     "canal": "Busca do Google e do Bing (Search Console e Bing Webmaster)",
+     "grupo": "Busca do Google e do Bing (Search Console e Bing Webmaster)",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "prazo natural de 3–8 semanas",
+     "inicio": "12/10/2026",
+     "hipotese": "Artigos e calculadoras indexados trazem MEIs pela busca.",
+     "metrica": "páginas indexadas e visitas de buscador",
+     "decisao": "",
+     "periodo": "21/10/2026",
+     "fonte": "ceo/diario.md (placar do CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": "0",
+       "nota": "páginas no índice do Google (site:)",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "visitas de buscador em 7 dias",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "verificado em 20/10, sitemap em processamento",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Bing Webmaster",
+       "mantido": true
+      },
+      {
+       "valor": "sem dado (painel sem acesso do CEO)",
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Search Console",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "parceiros",
+     "canal": "Parceiros e contadores (convites por e-mail)",
+     "grupo": "Parceiros e contadores (convites por e-mail)",
+     "tipo": "aquisição",
+     "status": "parado",
+     "motivo": "lote 5 aguardando o \"sim\" do Rodrigo (D-003)",
+     "inicio": "13/10/2026",
+     "hipotese": "Contadores indicam o Kit aos clientes MEI.",
+     "metrica": "respostas \"sim\" ÷ convites (meta ≥ 10%)",
+     "decisao": "Lote 5 aguarda aprovação do Rodrigo (T-008).",
+     "periodo": "",
+     "fonte": "ceo/envios/convite_parceiros.jsonl (contagem)",
+     "numeros": {
+      "alcance": {
+       "valor": "39",
+       "nota": "convites enviados",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "1",
+       "nota": "resposta (recusa)",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "kiwify",
+     "canal": "Kiwify (Kit R$ 37, Pacote R$ 10, Combo R$ 47)",
+     "grupo": "Kiwify (Kit R$ 37, Pacote R$ 10, Combo R$ 47)",
+     "tipo": "venda",
+     "status": "ativo",
+     "motivo": "",
+     "inicio": "05/10/2026",
+     "hipotese": "",
+     "metrica": "vendas (meta: 1ª até 31/10, 10 até 30/11)",
+     "decisao": "",
+     "periodo": "acumulado até 21/10/2026",
+     "fonte": "ceo/diario.md (placar do CEO)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": "0",
+       "nota": "cliques em comprar",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": "0",
+       "nota": "vendas",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "receita": {
+       "valor": "R$ 0,00",
+       "nota": "receita bruta registrada",
+       "medido_em": "21/10/2026",
+       "origem": "registro do painel",
+       "mantido": true
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "c001",
+     "canal": "C001 · YouTube: vídeo longo de busca (16:9, 6–8 min), no canal @finbookbr que já existe",
+     "grupo": "C001 · YouTube: vídeo longo de busca (16:9, 6–8 min), no canal @finbookbr que já existe",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "21/10: roteiro e descrição em rascunho; produção T-043",
+     "inicio": "21/10/2026",
+     "hipotese": "Quem tem DAS atrasado procura \"como pagar/parcelar DAS MEI atrasado\" e, nesta semana, \"perdão das dívidas do MEI\" (LC 238) na busca do YouTube. Um tutorial longo pela dor D3/D4 aparece na busca, coisa que Short não…",
+     "metrica": "Views do vídeo em D+3, D+7, D+14; visitas stat:visita_campanha_teste-c001 + calc_das_uso; link: [link] Manter: ≥100 views e ≥5 visitas…",
+     "decisao": "",
+     "prazo": "04/11/2026",
+     "resultado": "em teste (21/10: roteiro e descrição em rascunho; produção T-043)",
+     "periodo": "",
+     "fonte": "ceo/canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c002",
+     "canal": "C002 · Hotmart: Mercado de Afiliados (2ª vitrine do Kit para afiliados que já vendem infoproduto)",
+     "grupo": "C002 · Hotmart: Mercado de Afiliados (2ª vitrine do Kit para afiliados que já vendem infoproduto)",
+     "tipo": "venda",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "26/10/2026",
+     "hipotese": "Afiliados que garimpam o Mercado da Hotmart procuram produto barato e com nicho claro. Com o Kit pela dor e comissão de afiliado, o produto passa da nota mínima (Blueprint ≥60%, [link] e atrai afiliados sem e-mail…",
+     "metrica": "Blueprint ≥60%; pedidos de afiliação; vendas por afiliado. Página de vendas externa: [link] Manter: ≥3 pedidos de afiliação. Expandir: ≥1…",
+     "decisao": "",
+     "prazo": "09/11/2026",
+     "resultado": "planejado",
+     "periodo": "",
+     "fonte": "ceo/canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "quora-perfil-finbook",
+     "canal": "Quora",
+     "grupo": "Quora",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "só como ajuda, sem link e sem marca",
+     "inicio": "14/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "0 visitas medidas",
+     "periodo": "",
+     "fonte": "ceo/canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "newsletter-checklist-gratis",
+     "canal": "Newsletter",
+     "grupo": "Newsletter",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "sequência pausada até D-001/D-002",
+     "inicio": "12/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "1 inscrito (20/10, origem calc do DAS)",
+     "periodo": "",
+     "fonte": "ceo/canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "21/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "21/10/2026",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    }
+   ],
+   "contagem": {
+    "ativo": 8,
+    "em teste": 2,
+    "planejado": 1,
+    "parado": 1,
+    "encerrado": 1
+   },
+   "aquisicao_ativos": 9,
+   "venda_ativos": 1,
+   "canais_aquisicao_ativos": [
+    "Busca do Google e do Bing (Search Console e Bing Webmaster)",
+    "C001 · YouTube: vídeo longo de busca (16:9, 6–8 min), no canal @finbookbr que já existe",
+    "Newsletter",
+    "Pinterest",
+    "Página do Facebook",
+    "Quora",
+    "Site finbook.com.br e calculadoras",
+    "TikTok @finbookbr",
+    "YouTube Shorts"
+   ],
+   "alerta": null
+  },
+  {
+   "nome": "Vagas SJDR",
+   "repo": "vagassjdr",
+   "slug": "vagassjdr",
+   "registros_do_projeto": [],
+   "canais": [
+    {
+     "id": "instagram",
+     "canal": "Instagram @vagas.sjdr (stories grátis de vagas)",
+     "grupo": "Instagram @vagas.sjdr (stories grátis de vagas)",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "",
+     "inicio": "01/10/2026",
+     "hipotese": "Story grátis atrai empresas ao Direct; feed e fixado são o upgrade pago.",
+     "metrica": "visualizações e vagas publicadas",
+     "decisao": "",
+     "periodo": "30 dias até 09/10/2026",
+     "fonte": "PLANO-VagasSJDR.md",
+     "numeros": {
+      "alcance": {
+       "valor": "99.715",
+       "nota": "visualizações em 30 dias (4.389 contas)",
+       "medido_em": "09/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "09/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": "99",
+       "nota": "vagas publicadas desde 02/10/2026",
+       "medido_em": "21/10/2026",
+       "origem": "extraído",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "09/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "09/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [
+      {
+       "valor": "9.420 (30/09)",
+       "nota": "",
+       "medido_em": "09/10/2026",
+       "origem": "registro do painel",
+       "rotulo": "Seguidores",
+       "mantido": true
+      }
+     ],
+     "origem": "registro do painel",
+     "medido_em": "21/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "facebook",
+     "canal": "Página do Facebook Vagas SJDR (espelho do Instagram)",
+     "grupo": "Página do Facebook Vagas SJDR (espelho do Instagram)",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "",
+     "inicio": "09/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "periodo": "",
+     "fonte": "PLANO-VagasSJDR.md",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "16/10/2026",
+     "prazo": "",
+     "registros": []
+    },
+    {
+     "id": "post-pago",
+     "canal": "POST pago no feed (R$ 20) e fixado (R$ 75)",
+     "grupo": "POST pago no feed (R$ 20) e fixado (R$ 75)",
+     "tipo": "venda",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "08/10/2026",
+     "hipotese": "",
+     "metrica": "posts pagos por mês (decisão em novembro se < 15)",
+     "decisao": "Rever em 30/10 com os números de outubro.",
+     "periodo": "",
+     "fonte": "PLANO-VagasSJDR.md e CLAUDE.md",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "16/10/2026",
+       "origem": "registro do painel",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do painel",
+     "medido_em": "16/10/2026",
+     "prazo": "",
+     "registros": []
+    }
+   ],
+   "contagem": {
+    "ativo": 2,
+    "em teste": 1,
+    "planejado": 0,
+    "parado": 0,
+    "encerrado": 0
+   },
+   "aquisicao_ativos": 2,
+   "venda_ativos": 1,
+   "canais_aquisicao_ativos": [
+    "Instagram @vagas.sjdr (stories grátis de vagas)",
+    "Página do Facebook Vagas SJDR (espelho do Instagram)"
+   ],
+   "alerta": null
+  }
+ ]
+}

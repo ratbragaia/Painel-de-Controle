@@ -21,9 +21,9 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "21/10/2026 00:05",
-  "commits_7d": 55,
-  "commits_30d": 179,
+  "ultimo_commit": "21/10/2026 08:55",
+  "commits_7d": 56,
+  "commits_30d": 180,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,7 +144,7 @@
    },
    {
     "dia": "2026-10-21",
-    "n": 2
+    "n": 3
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "21/10 08:55",
+   "msg": "Checklist: ciso-1 feito (pacotes atualizados sem reinício, sem reboot pendente, sites 200)",
+   "sha": "d892c5e"
+  },
   {
    "quando": "21/10 00:05",
    "msg": "Link curto da amostra: GET /a// faz 302 para a home com cidade e origem; e-mails usam o link curto (20261020-cmo-8)",
@@ -197,11 +202,6 @@
    "quando": "19/10 18:12",
    "msg": "Visitas por origem no metricas (log do site, testes fora do relatório) e notas de 19/10 (cso-2, cso-3, cs-2)",
    "sha": "0486b49"
-  },
-  {
-   "quando": "19/10 12:17",
-   "msg": "Checklist 19/10: servidor em e698175, teste de amostra, CS do dia e onda 2 pronta (ceo-1/2/3, cs-1, cso-1)",
-   "sha": "1039c37"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "23",
-    "detalhe": "de 61 registrados · 7 aberto, 38 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 concluído 2026-10-21 00:00 brt (regra no checklist/claude.md, hash 92d9d30), 1 concluído 2026-10-21 00:00 brt (seção \"envio de 20/10/2026\" no metricas-notas.md: onda 2 10 enviados/10 entregues, 0 devoluções, 0 descadastros, 0 cliques, 0 amostras; d+3 onda 1 10/10 entregues; cs: bloco não confirmado separadamente), 1 em andamento, 1 em andamento 2026-10-21 00:00 brt (coo)"
+    "valor": "42",
+    "detalhe": "de 80 registrados · 25 aberto, 38 concluído, 1 concluído   brt, 2 concluído   brt coo, 9 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 em andamento, 2 em andamento   brt c"
    },
    {
     "rotulo": "Resumos de C-levels",
-    "valor": "1",
-    "detalhe": "em 21/10/2026: COO"
+    "valor": "2",
+    "detalhe": "em 21/10/2026: CEO, COO"
    },
    {
     "rotulo": "Entregues",
@@ -368,28 +368,28 @@
       "id": "20261015-cmo-13",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc)",
+      "status": "Concluído   brt coo ",
       "titulo": "Kit de redes, identidade (docs/social/kit-redes.md §1): slogan do LinkedIn, \"Sobre\" e bio do Instagram…"
      },
      {
       "id": "20261016-ceo-2",
       "cargo": "CEO",
       "prioridade": "alta",
-      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829)",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261016-cfo-2",
       "cargo": "CFO",
       "prioridade": "alta",
-      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca)",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261020-ceo-1",
       "cargo": "CEO",
       "prioridade": "alta",
-      "status": "Concluído 2026-10-21 00:00 brt (seção \"envio de 20/10/2026\" no metricas-notas.md: onda 2 10 enviados/10 entregues, 0 devoluções, 0 descadastros, 0 cliques, 0 amostras; d+3 onda 1 10/10 entregues; cs: bloco não confirmado separadamente)",
+      "status": "Concluído   brt seçã",
       "titulo": "Onda 2 sai hoje 09:30 (assunto B, textos pela dor) e é o 1º envio com a página nova no ar"
      },
      {
@@ -403,8 +403,50 @@
       "id": "20261020-cmo-2",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento 2026-10-21 00:00 brt (coo)",
+      "status": "Em andamento   brt c",
       "titulo": "Todo clique dos e-mails (convite, D+3, D+7) cai em /para-contadores (link_amostra), a página mais longa do…"
+     },
+     {
+      "id": "20261020-cmo-8",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Em andamento   brt c",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-cmo-9",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "D+7 no mesmo padrão do cmo-7 (~58 palavras, 1 link curto, assunto \"Último e-mail: cliente novo em {cidade}…"
+     },
+     {
+      "id": "20261020-cmo-22",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Rodrigo pediu em 20/10 para comparar 2 versões do CONVITE com as mesmas palavras (texto novo da auditoria,…"
+     },
+     {
+      "id": "20261021-ceo-1",
+      "cargo": "CEO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Envio de hoje 21/10 09:30 é o 1º com o link curto e a home como destino"
+     },
+     {
+      "id": "20261021-cmo-1",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Conferir contatos e links do canal de parceria. Barato: dá para fazer AGORA, antes do reset. Passos: (1)…"
+     },
+     {
+      "id": "20261021-cmo-2",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Enviar os 4 e-mails às entidades. Barato: 4 e-mails um a um, sem código. Antes do reset só se o CEO puser na…"
      },
      {
       "id": "20261015-ciso-1",
@@ -417,35 +459,35 @@
       "id": "20261015-cmo-8",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Concluído 2026-10-18 06:00 brt (coo)",
+      "status": "Concluído   brt coo",
       "titulo": "Home (app/site/index.html, no ar): o H1 \"As empresas abertas no mês passado na sua região, na sua caixa de…"
      },
      {
       "id": "20261015-cmo-14",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Concluído 2026-10-18 00:00 brt",
+      "status": "Concluído   brt",
       "titulo": "Kit de redes, 5 posts (kit-redes.md §3, 17–23/10): os 5 abrem por DADO ou BASTIDOR (\"Em agosto, 1.865…"
      },
      {
       "id": "20261016-cs-1",
       "cargo": "CS",
       "prioridade": "média",
-      "status": "Concluído 2026-10-18 12:05 brt (coo; 26ecc2f)",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261016-cfo-1",
       "cargo": "CFO",
       "prioridade": "média",
-      "status": "Concluído 2026-10-18 06:00 brt (coo)",
+      "status": "Concluído   brt coo",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261020-ceo-2",
       "cargo": "CEO",
       "prioridade": "média",
-      "status": "Concluído 2026-10-21 00:00 brt (regra no checklist/claude.md, hash 92d9d30)",
+      "status": "Concluído   brt regr",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -477,38 +519,101 @@
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
+      "id": "20261020-cmo-10",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Formulário da amostra: \"Setor\" → \"Ramo\""
+     },
+     {
+      "id": "20261020-cmo-11",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Home com um só botão principal: nos preços, 1 botão secundário (hoje são 3 botões de assinar) e bloco final…"
+     },
+     {
+      "id": "20261020-cmo-12",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "/obrigado: trocar \"no mês passado\" pelo mês real (/mes.json"
+     },
+     {
+      "id": "20261020-cmo-13",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Nenhuma página tem og:image: criar /og.png 1200×630 (título de dor + print real da planilha + fonte da…"
+     },
+     {
+      "id": "20261020-cmo-14",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-cmo-15",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Planilha xlsx: Bairro, Data e \"E-mail de contador\" ficam fora da 1ª tela. Nova ordem (Data · Nome fantasia ·…"
+     },
+     {
+      "id": "20261020-cmo-16",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "/assinar: logo e favicon, formulário mais acima (hoje o botão está a 2.752 px no celular), cidades em ordem…"
+     },
+     {
+      "id": "20261020-cmo-17",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "A meta description da home diz \"sem nome de pessoa física\", mas a aba MEI traz o nome do MEI. O CLO confere"
+     },
+     {
+      "id": "20261021-cmo-3",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Medir o canal. É leitura"
+     },
+     {
       "id": "20261015-cmo-10",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github)",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261015-cmo-11",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas)",
+      "status": "Concluído   brt coo ",
       "titulo": "/conteudo (índice das 38 peças, app/site/conteudo.html): \"Conteúdo: os números do mês, explicados\" + \"Até…"
      },
      {
       "id": "20261015-cmo-12",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok)",
+      "status": "Concluído   brt coo ",
       "titulo": "/obrigado (depois do pedido de amostra): texto só de PRODUTO e transação"
      },
      {
       "id": "20261015-cmo-15",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3)",
+      "status": "Concluído   brt coo ",
       "titulo": "Posts de reserva (docs/social/semana-13-10.md, L1–L3 e I1–I3, para depois de 23/10): todos abrem por DADO da…"
      },
      {
       "id": "20261016-cs-2",
       "cargo": "CS",
       "prioridade": "baixa",
-      "status": "Concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok)",
+      "status": "Concluído   brt coo ",
       "titulo": "Lacunas documentadas em docs/cs/passagem-e-onboarding.md (62cd10e, cs-2 de 15/10 CONCLUÍDO): (a) troca de…"
      },
      {
@@ -524,11 +629,39 @@
       "prioridade": "baixa",
       "status": "Aberto",
       "titulo": "Páginas de cidade (19): sem menu, sem formulário, H1 só de número (\"768 empresas abriram CNPJ em Divinópolis…"
+     },
+     {
+      "id": "20261020-cmo-18",
+      "cargo": "CMO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-cmo-19",
+      "cargo": "CMO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "/conteudo (índice sem nenhum botão"
+     },
+     {
+      "id": "20261020-cmo-20",
+      "cargo": "CMO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "Kit das redes e posts do Rodrigo: a tela 1 dos carrosséis abre pelo número"
+     },
+     {
+      "id": "20261020-cmo-21",
+      "cargo": "CMO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "E-mails de cliente: Termos/Privacidade repetidos no corpo e no rodapé"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "21/10/2026 08:09"
+ "gerado_em": "21/10/2026 09:21"
 }

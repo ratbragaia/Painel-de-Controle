@@ -1,0 +1,656 @@
+{
+ "_leia": "Registro de canais mantido pelo painel (reserva). Vale só quando o projeto ainda não tem canais.json/CANAIS.md próprio. Números copiados das fontes indicadas, com a data da medição; nada é estimado. Formato igual ao canais.json descrito em gen/COMO-ATUALIZAR.md. null = sem dado.",
+ "abriuagora": {
+  "empresa": "Abriu Agora",
+  "atualizado_em": "2026-10-21",
+  "canais": [
+   {
+    "id": "email-onda-1",
+    "canal": "E-mail frio a escritórios contábeis — onda 1 (assunto A)",
+    "grupo": "E-mail frio",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-13",
+    "hipotese": "Contador sem cliente novo por indicação pede a amostra grátis da lista de empresas recém-abertas.",
+    "metrica": "pedidos de amostra ÷ e-mails entregues",
+    "numeros": {
+     "alcance": {
+      "valor": "70",
+      "nota": "convites enviados (1º e-mail)"
+     },
+     "cliques": {
+      "valor": "0",
+      "nota": "visitas com origem de prospecção"
+     },
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "pagantes"
+     },
+     "receita": null,
+     "outros": {
+      "Convites entregues": "56",
+      "Seguimentos D+3 enviados": "10"
+     }
+    },
+    "periodo": "13/10 a 20/10/2026",
+    "medido_em": "2026-10-20",
+    "fonte": "resumos-clevels/2026-10-20-cmo.md (CMO)",
+    "decisao": "Manter até o Portão 1 (31/10); antes de mexer no texto, testar onde o e-mail cai (Principal, Promoções ou spam)."
+   },
+   {
+    "id": "email-onda-2",
+    "canal": "E-mail frio a escritórios contábeis — onda 2 (assunto B)",
+    "grupo": "E-mail frio",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-20",
+    "hipotese": "Assunto pela dor (sem disputar cliente de colega) gera mais cliques que o assunto A.",
+    "metrica": "pedidos de amostra ÷ entregues, A × B a partir de 27/10",
+    "numeros": {
+     "alcance": {
+      "valor": "10",
+      "nota": "convites enviados"
+     },
+     "cliques": {
+      "valor": "0",
+      "nota": "cliques"
+     },
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "pagantes"
+     },
+     "receita": null,
+     "outros": {
+      "Entregues": "10 de 10",
+      "Devoluções": "0",
+      "Descadastros": "0"
+     }
+    },
+    "periodo": "envio de 20/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "objetivos.md (CEO, 21/10)",
+    "decisao": "Comparar A × B por pedidos ÷ entregues a partir de 27/10."
+   },
+   {
+    "id": "email-acumulado",
+    "canal": "E-mail frio — acumulado (convites + seguimentos)",
+    "grupo": "E-mail frio",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-13",
+    "metrica": "pedidos de amostra ÷ entregues (Portão 1: ≥ 3 até 31/10)",
+    "numeros": {
+     "alcance": {
+      "valor": "86",
+      "nota": "e-mails entregues"
+     },
+     "cliques": {
+      "valor": "0",
+      "nota": "cliques e visitas de prospecção"
+     },
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra (meta 3)"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "pagantes"
+     },
+     "receita": null,
+     "outros": {
+      "Convites (1º e-mail)": "80 de 160 esperados",
+      "Descadastros": "1",
+      "Spam": "0"
+     }
+    },
+    "periodo": "13/10 a 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+    "palavras": [
+     "e-mail frio"
+    ]
+   },
+   {
+    "id": "site-organico",
+    "canal": "Site e busca orgânica (home, /para-contadores, páginas de cidade)",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-05",
+    "hipotese": "Contador que busca a cidade chega à página e pede a amostra pelo formulário do topo.",
+    "metrica": "pedidos de amostra pelo formulário ÷ visitas",
+    "numeros": {
+     "alcance": {
+      "valor": "64 + 8 + 7",
+      "nota": "visitas em /, /para-contadores e /cidade (inclui testes)"
+     },
+     "cliques": null,
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "periodo": "semana 12–18/10/2026",
+    "medido_em": "2026-10-20",
+    "fonte": "resumos-clevels/2026-10-20-cmo.md (CMO)",
+    "decisao": "Home redesenhada no ar desde 20/10; medir formulário ÷ visitas a partir de 27/10.",
+    "palavras": [
+     "seo",
+     "busca organica",
+     "paginas de cidade"
+    ]
+   },
+   {
+    "id": "redes-empresa",
+    "canal": "Redes da empresa (LinkedIn e Instagram)",
+    "tipo": "aquisição",
+    "status": "parado",
+    "motivo": "aguardando os links das contas da empresa (CHK-02, venceu 17/10)",
+    "hipotese": "5 posts pela dor levam contadores ao site.",
+    "metrica": "visitas com origem social",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-21",
+    "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+    "palavras": [
+     "linkedin e instagram",
+     "redes da empresa",
+     "redes sociais"
+    ]
+   },
+   {
+    "id": "asaas",
+    "canal": "Assinatura pelo Asaas (Pix, R$ 49 fundador)",
+    "tipo": "venda",
+    "status": "parado",
+    "motivo": "conta bancária no Asaas ainda não cadastrada",
+    "metrica": "pagantes e receita recebida",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": {
+      "valor": "0",
+      "nota": "pagantes"
+     },
+     "receita": {
+      "valor": "R$ 0",
+      "nota": "receita recebida"
+     }
+    },
+    "periodo": "outubro/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)"
+   }
+  ]
+ },
+ "PatentSonar": {
+  "empresa": "PatentSonar",
+  "atualizado_em": "2026-10-21",
+  "canais": [
+   {
+    "id": "email-frio",
+    "canal": "E-mail frio a P&D e PI (contatos nomeados)",
+    "grupo": "E-mail frio",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-01",
+    "hipotese": "Quem publica sobre ímãs sem terras raras responde quando o 1º e-mail abre pela dor do próprio trabalho.",
+    "metrica": "respostas humanas ÷ 1º contatos (meta ≥ 5%)",
+    "numeros": {
+     "alcance": {
+      "valor": "53",
+      "nota": "1º contatos enviados (meta 150 em 31/10)"
+     },
+     "cliques": null,
+     "leads": {
+      "valor": "0",
+      "nota": "respostas humanas"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "clientes"
+     },
+     "receita": null,
+     "outros": {
+      "Liberados pelo crítico em 21/10": "2 (+ 8 seguimentos na fila)",
+      "Segurados pelo crítico em 21/10": "1",
+      "Entregabilidade (mail-tester)": "9,4/10",
+      "Devoluções": "2",
+      "Descadastros": "1"
+     }
+    },
+    "periodo": "01/10 a 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "meta-mensal.md (CEO) e docs/reviews/email/2026-10-21.md",
+    "decisao": "Assunto pela dor a partir de 21/10; medir o lote v2 em 22/10 e comparar respostas em 27–28/10.",
+    "palavras": [
+     "e-mail frio",
+     "email frio"
+    ]
+   },
+   {
+    "id": "busca-organica",
+    "canal": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-01",
+    "hipotese": "Times de P&D acham as páginas de tecnologia pela busca e pedem a edição grátis.",
+    "metrica": "pedidos de amostra ÷ cliques da busca",
+    "numeros": {
+     "alcance": {
+      "valor": "300",
+      "nota": "impressões no Google (28 dias)"
+     },
+     "cliques": {
+      "valor": "1",
+      "nota": "clique da busca (28 dias)"
+     },
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra desde 01/10"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "periodo": "últimos 28 dias até 20/10/2026",
+    "medido_em": "2026-10-20",
+    "fonte": "clevels/resumos/cmo-2026-10-20.md (CMO)",
+    "decisao": "Formulário logo após a frase de dor nas páginas de tecnologia (onde caem 296 das 300 impressões).",
+    "palavras": [
+     "busca organica"
+    ]
+   },
+   {
+    "id": "imprensa",
+    "canal": "E-mail para imprensa (press routing)",
+    "grupo": "E-mail para imprensa",
+    "tipo": "aquisição",
+    "status": "encerrado",
+    "motivo": "modelos v1 aposentados em 15/10 (começavam pelo produto, não pela dor)",
+    "inicio": "2026-10-01",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": {
+      "valor": "0",
+      "nota": "respostas humanas"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-21",
+    "fonte": "docs/reviews/email/2026-10-21.md"
+   },
+   {
+    "id": "assinatura",
+    "canal": "Assinatura semanal (cobrança pelo Paddle)",
+    "tipo": "venda",
+    "status": "parado",
+    "motivo": "cobrança pelo Paddle ainda não ativada",
+    "metrica": "clientes pagantes e MRR",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": {
+      "valor": null,
+      "nota": "testes grátis ativos (meta 4)"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "clientes pagantes"
+     },
+     "receita": {
+      "valor": "US$ 0",
+      "nota": "MRR"
+     }
+    },
+    "periodo": "outubro/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "meta-mensal.md (CEO)"
+   }
+  ]
+ },
+ "finbook": {
+  "empresa": "Finbook",
+  "atualizado_em": "2026-10-21",
+  "canais": [
+   {
+    "id": "site",
+    "canal": "Site finbook.com.br e calculadoras",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-05",
+    "hipotese": "O MEI usa a calculadora grátis (DAS, limite) e segue para o Kit.",
+    "metrica": "usos de calculadora e cliques em comprar ÷ visitas",
+    "numeros": {
+     "alcance": {
+      "valor": "68",
+      "nota": "pageviews em 7 dias (64 visitas)"
+     },
+     "cliques": {
+      "valor": "0",
+      "nota": "cliques em comprar"
+     },
+     "leads": {
+      "valor": "1",
+      "nota": "inscrito na newsletter"
+     },
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Origem das visitas (7 dias)": "60 diretas, 4 Facebook, 0 buscador",
+      "Usos de calculadora": "2"
+     }
+    },
+    "periodo": "7 dias até 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md (placar do CEO)"
+   },
+   {
+    "id": "tiktok",
+    "canal": "TikTok @finbookbr",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-10",
+    "hipotese": "Shorts pela dor do MEI levam ao site.",
+    "metrica": "views e visitas com UTM",
+    "numeros": {
+     "alcance": {
+      "valor": "118",
+      "nota": "views (só o Short 07; os outros 7 com 0)"
+     },
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Comentários": "0"
+     }
+    },
+    "periodo": "até 20/10/2026",
+    "medido_em": "2026-10-20",
+    "fonte": "ceo/diario.md (COO)",
+    "decisao": "Distribuição travada: sinal para o CMO.",
+    "palavras": [
+     "tiktok"
+    ]
+   },
+   {
+    "id": "youtube",
+    "canal": "YouTube Shorts",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-10",
+    "hipotese": "Shorts pela dor do MEI levam ao site.",
+    "metrica": "views e visitas com UTM",
+    "numeros": {
+     "alcance": {
+      "valor": "159",
+      "nota": "views em 7 Shorts públicos"
+     },
+     "cliques": {
+      "valor": "2",
+      "nota": "visitas com UTM do YouTube (20/10)"
+     },
+     "leads": null,
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Inscritos no canal": "1",
+      "Comentários": "0"
+     }
+    },
+    "periodo": "acumulado até 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md (placar do CEO)",
+    "palavras": [
+     "youtube shorts",
+     "shorts"
+    ]
+   },
+   {
+    "id": "facebook",
+    "canal": "Página do Facebook",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-12",
+    "hipotese": "Posts pela dor levam MEIs às calculadoras.",
+    "metrica": "visitas com UTM do Facebook",
+    "numeros": {
+     "alcance": null,
+     "cliques": {
+      "valor": "3",
+      "nota": "visitas com UTM do Facebook (20/10)"
+     },
+     "leads": null,
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Posts na semana 16–22/10": "3 (meta ≥ 3)"
+     }
+    },
+    "periodo": "20/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md e ceo/metas.md (CEO)",
+    "palavras": [
+     "facebook"
+    ]
+   },
+   {
+    "id": "pinterest",
+    "canal": "Pinterest",
+    "tipo": "aquisição",
+    "status": "parado",
+    "motivo": "pin 4 bloqueado, aguardando o Rodrigo (T-005)",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md e ceo/pendencias.md",
+    "palavras": [
+     "pinterest"
+    ]
+   },
+   {
+    "id": "reddit",
+    "canal": "Reddit u/finbookbr",
+    "tipo": "aquisição",
+    "status": "encerrado",
+    "motivo": "conta banida (20/10); fica só como fonte de dor",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-20",
+    "fonte": "ceo/diario.md (auditoria do CMO, T-041)",
+    "palavras": [
+     "reddit"
+    ]
+   },
+   {
+    "id": "busca-google-bing",
+    "canal": "Busca do Google e do Bing (Search Console e Bing Webmaster)",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-13",
+    "hipotese": "Artigos e calculadoras indexados trazem MEIs pela busca.",
+    "metrica": "páginas indexadas e visitas de buscador",
+    "numeros": {
+     "alcance": {
+      "valor": "0",
+      "nota": "páginas no índice do Google (site:)"
+     },
+     "cliques": {
+      "valor": "0",
+      "nota": "visitas de buscador em 7 dias"
+     },
+     "leads": null,
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Bing Webmaster": "verificado em 20/10, sitemap em processamento",
+      "Search Console": "sem dado (painel sem acesso do CEO)"
+     }
+    },
+    "periodo": "21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md (placar do CEO)",
+    "palavras": [
+     "busca organica",
+     "search console"
+    ]
+   },
+   {
+    "id": "parceiros",
+    "canal": "Parceiros e contadores (convites por e-mail)",
+    "tipo": "aquisição",
+    "status": "em teste",
+    "inicio": "2026-10-12",
+    "hipotese": "Contadores indicam o Kit aos clientes MEI.",
+    "metrica": "respostas \"sim\" ÷ convites (meta ≥ 10%)",
+    "numeros": {
+     "alcance": {
+      "valor": "39",
+      "nota": "convites enviados"
+     },
+     "cliques": null,
+     "leads": {
+      "valor": "1",
+      "nota": "resposta (recusa)"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/envios/convite_parceiros.jsonl e ceo/diario.md",
+    "decisao": "Lote 5 aguarda aprovação do Rodrigo (T-008).",
+    "palavras": [
+     "parceiros por e-mail",
+     "parceiros por e mail",
+     "contadores parceiros"
+    ]
+   },
+   {
+    "id": "kiwify",
+    "canal": "Kiwify (Kit R$ 37, Pacote R$ 10, Combo R$ 47)",
+    "tipo": "venda",
+    "status": "ativo",
+    "inicio": "2026-10-05",
+    "metrica": "vendas (meta: 1ª até 31/10, 10 até 30/11)",
+    "numeros": {
+     "alcance": null,
+     "cliques": {
+      "valor": "0",
+      "nota": "cliques em comprar"
+     },
+     "leads": null,
+     "vendas": {
+      "valor": "0",
+      "nota": "vendas"
+     },
+     "receita": {
+      "valor": "R$ 0,00",
+      "nota": "receita bruta registrada"
+     }
+    },
+    "periodo": "acumulado até 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "ceo/diario.md e ceo/financeiro.csv",
+    "palavras": [
+     "kiwify (kit",
+     "checkout"
+    ]
+   }
+  ]
+ },
+ "vagassjdr": {
+  "empresa": "Vagas SJDR",
+  "atualizado_em": "2026-10-21",
+  "canais": [
+   {
+    "id": "instagram",
+    "canal": "Instagram @vagas.sjdr (stories grátis de vagas)",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-01",
+    "hipotese": "Story grátis atrai empresas ao Direct; feed e fixado são o upgrade pago.",
+    "metrica": "visualizações e vagas publicadas",
+    "numeros": {
+     "alcance": {
+      "valor": "99.715",
+      "nota": "visualizações em 30 dias (4.389 contas)"
+     },
+     "cliques": null,
+     "leads": {
+      "valor": "99",
+      "nota": "vagas publicadas (registro)"
+     },
+     "vendas": null,
+     "receita": null,
+     "outros": {
+      "Seguidores": "9.420 (30/09)"
+     }
+    },
+    "periodo": "30 dias até 09/10/2026",
+    "medido_em": "2026-10-09",
+    "fonte": "PLANO-VagasSJDR.md e registro-publicadas.csv"
+   },
+   {
+    "id": "facebook",
+    "canal": "Página do Facebook Vagas SJDR (espelho do Instagram)",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-09",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-16",
+    "fonte": "PLANO-VagasSJDR.md"
+   },
+   {
+    "id": "post-pago",
+    "canal": "POST pago no feed (R$ 20) e fixado (R$ 75)",
+    "tipo": "venda",
+    "status": "em teste",
+    "inicio": "2026-10-08",
+    "metrica": "posts pagos por mês (decisão em novembro se < 15)",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": null,
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-16",
+    "fonte": "PLANO-VagasSJDR.md e CLAUDE.md",
+    "decisao": "Rever em 30/10 com os números de outubro."
+   }
+  ]
+ }
+}

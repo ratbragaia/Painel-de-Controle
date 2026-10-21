@@ -20,6 +20,8 @@ anterior e mantém KPIs (bloco inteiro ou números/listas/tabelas individuais),
 pendências e commits que vierem vazios/nulos nesta coleta (ver mesclar_anterior()).
 """
 import argparse, datetime as dt, json, os, re, subprocess, sys, urllib.request, urllib.error, urllib.parse, csv, io
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import canais as CANAIS   # gen/canais.py: dashboard de canais de venda
 
 OWNER = 'ratbragaia'
 BRT = dt.timezone(dt.timedelta(hours=-3))
@@ -257,8 +259,18 @@ def kpis_abriuagora(repo, caminhos):
         for l in open(reg, encoding='utf-8'):
             if not re.match(r'^- \*\*\d{8}-', l): continue
             f = [x.strip() for x in l.split(' | ')]
-            if len(f) < 8: continue
-            idt = f[0].strip('-* '); cargo = f[1]; erro = f[2]; prio = f[5]; st = f[7].upper()
+            PRIOS = {'urgente': 'URGENTE', 'alta': 'alta', 'média': 'média', 'media': 'média', 'baixa': 'baixa'}
+            if len(f) >= 6 and f[1].lower() in PRIOS:
+                # formato novo (C-levels, 21/10): id | PRIORIDADE | STATUS | data | cargo | texto
+                idt = f[0].strip('-* '); prio = f[1]; st = f[2].upper(); cargo = f[4]; erro = ' | '.join(f[5:])
+            elif len(f) >= 8:
+                # formato antigo: id | cargo | erro | … | … | prioridade | … | status
+                idt = f[0].strip('-* '); cargo = f[1]; erro = f[2]; prio = f[5]; st = f[7].upper()
+            else:
+                continue
+            prio = PRIOS.get(prio.strip('* ').lower(), '—')       # nunca publica texto livre no campo de prioridade
+            st = re.sub(r'[^A-ZÁÉÍÓÚÂÊÔÃÕÇ ]', '', st).strip()[:20] or 'ABERTO'
+            idt = limpar(idt, 40)
             cont[st] = cont.get(st, 0) + 1
             if st != 'CONCLUÍDO':
                 tit = 'Item técnico/segurança (detalhe só no registro interno)' if SENSIVEL.search(cargo + ' ' + erro) else sem_valores(limpar(re.split(r';|\s—\s', erro)[0], 110))
@@ -379,7 +391,14 @@ def detalhar(p):
     pend = buscar_pendencias(repo, caminhos)
     kp = KPIS.get(repo)
     kpis = kp(repo, caminhos) if kp else None
+    try:
+        canais = CANAIS.montar(repo, p['nome'], slug(p), caminhos, lambda c: arquivo(repo, c), limpar,
+                               CANAIS_ANT.get(repo), AGORA.date().isoformat(), CANAIS_BASE)
+    except Exception as ex:
+        canais = (None, [f'canais: erro na coleta ({ex}); bloco anterior mantido']) if CANAIS_ANT.get(repo) else (None, [])
+        if CANAIS_ANT.get(repo): canais = (CANAIS_ANT[repo], canais[1])
     return {
+        '_canais': canais,
         'repo': repo, 'slug': slug(p),
         'estatisticas': {
             'linguagem': info.get('language'),
@@ -452,6 +471,8 @@ def mesclar_anterior(det, caminho):
         det['commits'] = antigo['commits']; log.append('commits (lista vazia → anterior)')
     return log
 
+CANAIS_ANT, CANAIS_BASE = {}, {}
+
 INDEX_HTML = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index_template.html'), encoding='utf-8').read() \
     if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index_template.html')) else None
 
@@ -464,6 +485,7 @@ def main():
     a = ap.parse_args()
     global ABRIU_LOCAL
     if a.abriu: ABRIU_LOCAL = a.abriu
+    CANAIS.LOCAIS_PADRAO['abriuagora'] = [ABRIU_LOCAL]
     if not os.path.isdir(ABRIU_LOCAL):
         print(f'aviso: pasta da Abriu Agora não encontrada ({ABRIU_LOCAL}); KPIs dela virão do arquivo anterior', file=sys.stderr)
     TOKEN = token()
@@ -474,11 +496,27 @@ def main():
         idx_antigo = {x.get('repo'): x for x in json.load(open(os.path.join(pasta, 'index.json'), encoding='utf-8')).get('projetos', []) if x.get('repo')}
     except Exception:
         idx_antigo = {}
+    global CANAIS_ANT, CANAIS_BASE
+    arq_canais = os.path.join(a.site, 'data/canais.json')
+    try:
+        CANAIS_ANT = {e['repo']: e for e in json.load(open(arq_canais, encoding='utf-8')).get('empresas', []) if e.get('repo')}
+    except Exception:
+        CANAIS_ANT = {}
+    try:
+        CANAIS_BASE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'canais_base.json'), encoding='utf-8'))
+    except Exception as ex:
+        print(f'aviso: gen/canais_base.json ilegível ({ex}); canais só dos registros dos projetos', file=sys.stderr); CANAIS_BASE = {}
+    empresas = []
     for p in d['projetos']:
         item = {'nome': p['nome'], 'slug': slug(p), 'repo': p.get('repo'), 'arquivo': None}
         if p.get('repo'):
             try:
                 det = detalhar(p)
+                emp, logc = det.pop('_canais', (None, []))
+                for m in logc: print(f"    mantido em {p['repo']}: {m}")
+                if emp:
+                    empresas.append(emp)
+                    item.update(canais_aquisicao_ativos=emp['aquisicao_ativos'], canais_total=len(emp['canais']), canais_alerta=emp['alerta'])
                 det['gerado_em'] = AGORA.strftime('%d/%m/%Y %H:%M')
                 destino = os.path.join(pasta, p['repo'] + '.json')
                 for m in mesclar_anterior(det, destino):
@@ -492,11 +530,18 @@ def main():
                 print(f"ok  {p['repo']:<26} 7d={e['commits_7d']:<4} 30d={e['commits_30d']:<5} pend={item['pendencias']} kpis={item['tem_kpis']}")
             except Exception as ex:
                 falhas.append(p['repo']); print(f"ERRO {p['repo']}: {ex}", file=sys.stderr)
+                if p['repo'] in CANAIS_ANT:
+                    empresas.append(CANAIS_ANT[p['repo']]); print(f"    mantido em {p['repo']}: canais (projeto falhou → anterior)")
                 if p['repo'] in idx_antigo:   # mantém a entrada anterior (o .json antigo continua no lugar)
                     item = dict(idx_antigo[p['repo']], nome=p['nome'], slug=slug(p))
         resumo.append(item)
     json.dump({'gerado_em': AGORA.strftime('%d/%m/%Y %H:%M') + ' (horário de Brasília)', 'projetos': resumo},
               open(os.path.join(pasta, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    with open(arq_canais, 'w', encoding='utf-8') as fh:
+        json.dump({'titulo': 'Canais de venda e aquisição', 'gerado_em': AGORA.strftime('%d/%m/%Y %H:%M') + ' (horário de Brasília)',
+                   'nota': 'Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. "sem dado" = não medido.',
+                   'empresas': empresas}, fh, ensure_ascii=False, indent=1)
+    print(f"canais: {len(empresas)} empresa(s) em data/canais.json: " + ', '.join(f"{e['nome']}={e['aquisicao_ativos']} ativo(s)" + (' ⚠' if e['alerta'] else '') for e in empresas))
     if INDEX_HTML and not a.sem_index:
         open(os.path.join(a.site, 'index.html'), 'w', encoding='utf-8').write(INDEX_HTML)
     if falhas: print('Falharam:', ', '.join(falhas), file=sys.stderr); sys.exit(1)

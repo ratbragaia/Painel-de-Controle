@@ -3,15 +3,16 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slug=p=>(p.repo||p.nome).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'projeto';
-let DADOS=null, RESUMO={}, CACHE={};
+let DADOS=null, RESUMO={}, CACHE={}, CANAIS=null;
 const ul=(arr)=>arr&&arr.length?'<ul>'+arr.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'<p class="vazio">Nada registrado.</p>';
 
 async function carregar(){
   const r=await fetch('data/projetos.json',{cache:'no-store'}); DADOS=await r.json();
   try{const i=await (await fetch('data/detalhes/index.json',{cache:'no-store'})).json();
     (i.projetos||[]).forEach(p=>RESUMO[p.slug]=p); DADOS._det_em=i.gerado_em;}catch(e){}
+  try{CANAIS=await (await fetch('data/canais.json',{cache:'no-store'})).json();}catch(e){CANAIS=null;}
   const sel=$('#seletor');
-  sel.innerHTML='<option value="">Visão geral (todos os projetos)</option>'+DADOS.projetos.map(p=>`<option value="${esc(slug(p))}">${esc(p.nome)}</option>`).join('');
+  sel.innerHTML='<option value="">Visão geral (todos os projetos)</option>'+(CANAIS&&CANAIS.empresas&&CANAIS.empresas.length?'<option value="canais">Canais de venda (todas as empresas)</option>':'')+DADOS.projetos.map(p=>`<option value="${esc(slug(p))}">${esc(p.nome)}</option>`).join('');
   sel.addEventListener('change',()=>{location.hash=sel.value?sel.value:''; if(!sel.value) rota();});
   window.addEventListener('hashchange',rota);
   $('#gerado').textContent='gerado em '+DADOS.gerado_em;
@@ -20,8 +21,9 @@ async function carregar(){
 function rota(){
   const h=decodeURIComponent(location.hash.replace(/^#\/?/,'')).toLowerCase();
   const p=DADOS.projetos.find(x=>slug(x)===h);
-  $('#seletor').value=p?slug(p):'';
   window.scrollTo(0,0);
+  if(h==='canais'&&CANAIS){$('#seletor').value='canais'; document.title='Canais de venda · Painel de Controle'; canaisGeral(); return;}
+  $('#seletor').value=p?slug(p):'';
   if(p){document.title=p.nome+' · Painel de Controle'; projeto(p);} else {document.title='Painel de Controle'; geral();}
 }
 function resumoTopo(){
@@ -36,7 +38,7 @@ function resumoTopo(){
 }
 function geral(){
   resumoTopo();
-  $('#main').innerHTML=DADOS.projetos.map(p=>{
+  $('#main').innerHTML=cardResumoCanais()+DADOS.projetos.map(p=>{
     const r=RESUMO[slug(p)]||{};
     let mini='';
     if(r.arquivo){
@@ -45,7 +47,8 @@ function geral(){
         `${r.commits_7d} commit${r.commits_7d==1?'':'s'} em 7 dias`,
         r.pendencias!=null?`${r.pendencias} pendência${r.pendencias==1?'':'s'}`:null,
         r.prs_abertos?`${r.prs_abertos} PR${r.prs_abertos==1?' aberto':'s abertos'}`:null,
-        r.tem_kpis?'Tem indicadores':null].filter(Boolean).map(s=>'<span>'+esc(s)+'</span>').join('')+'</div>';
+        r.tem_kpis?'Tem indicadores':null,
+        r.canais_total?`${r.canais_aquisicao_ativos} canal${r.canais_aquisicao_ativos==1?'':'is'} de aquisição ativo${r.canais_aquisicao_ativos==1?'':'s'}`+(r.canais_alerta?' ⚠':''):null].filter(Boolean).map(s=>'<span>'+esc(s)+'</span>').join('')+'</div>';
     }
     return `<article class="card"><h2>${esc(p.nome)}</h2><span class="tag">${esc(p.categoria||'')}</span>`+
       (p.url?` <a href="${esc(p.url)}">repo</a> <small>(privado)</small>`:'')+mini+
@@ -106,12 +109,85 @@ async function projeto(p){
     h+=`<p class="dt">Fontes: ${esc((k.fontes||[]).join(', '))}${k.nota?' · '+esc(k.nota):''}</p></article>`;
     c.push(h);
   }
+  const emp=empresaCanais(p);
+  if(emp) c.push(cardCanaisProjeto(emp));
   let at=`<article class="card largo"><h3>Atividade recente</h3>`;
   if(p.recente&&p.recente.length) at+='<p><b>Resumo do dia:</b></p>'+ul(p.recente);
   if(d&&d.commits&&d.commits.length) at+='<p><b>Últimos commits</b> (horário de Brasília):</p><ul class="commits">'+d.commits.map(m=>`<li><span class="q">${esc(m.quando)}</span>${esc(m.msg)} <code>${esc(m.sha)}</code></li>`).join('')+'</ul>';
   if(d) at+=`<p class="dt">Dados do repositório gerados em ${esc(d.gerado_em)} (horário de Brasília).</p>`;
   c.push(at+'</article>');
   if(!p.repo) c.push('<article class="card"><h3>Sem repositório</h3><p class="vazio">Este projeto não está no GitHub; só há os dados do resumo diário.</p></article>');
+  $('#main').innerHTML=c.join('');
+}
+
+// ---------------------------------------------------------------- canais de venda
+const ORDEM_ST={'ativo':0,'em teste':1,'parado':2,'planejado':3,'encerrado':4};
+const COLS=[['alcance','Alcance / visitas'],['cliques','Cliques'],['leads','Leads'],['vendas','Vendas'],['receita','Receita']];
+const empresaCanais=p=>CANAIS&&p.repo?(CANAIS.empresas||[]).find(e=>e.repo===p.repo):null;
+const stBadge=c=>`<span class="st st-${esc(c.status.replace(' ','-'))}">${esc(c.status)}</span>`;
+function valor(m,dc){
+  if(!m||m.valor==null||m.valor==='') return `<span class="sd">sem dado</span>${m&&m.nota?'<small>'+esc(m.nota)+'</small>':''}`;
+  const quando=m.mantido?`<small class="mant">mantido · medido em ${esc(m.medido_em||'?')}</small>`:(m.medido_em&&m.medido_em!==dc?`<small>medido em ${esc(m.medido_em)}</small>`:'');
+  return `<b>${esc(m.valor)}</b>${m.nota?'<small>'+esc(m.nota)+'</small>':''}${quando}`;
+}
+function ordenar(l){return l.slice().sort((a,b)=>(ORDEM_ST[a.status]??9)-(ORDEM_ST[b.status]??9)||(a.tipo===b.tipo?0:a.tipo==='aquisição'?-1:1));}
+function linhaCanal(c,emp){
+  const det=[];
+  if(c.motivo) det.push(`<b>Motivo:</b> ${esc(c.motivo)}`);
+  if(c.hipotese) det.push(`<b>Hipótese:</b> ${esc(c.hipotese)}`);
+  if(c.metrica) det.push(`<b>Métrica:</b> ${esc(c.metrica)}`);
+  if(c.inicio||c.prazo) det.push(`<b>Início:</b> ${esc(c.inicio||'—')}${c.prazo?' · <b>Prazo:</b> '+esc(c.prazo):''}`);
+  if(c.resultado) det.push(`<b>Resultado (registro do CMO):</b> ${esc(c.resultado)}`);
+  (c.outros||[]).forEach(o=>det.push(`<b>${esc(o.rotulo)}:</b> ${o.valor==null?'sem dado':esc(o.valor)}${o.mantido?` <small class="mant">mantido · ${esc(o.medido_em||'')}</small>`:''}`));
+  if(c.decisao) det.push(`<b>Decisão:</b> ${esc(c.decisao)}`);
+  const motivoCurto=(c.status==='encerrado'||c.status==='parado')&&c.motivo?`<small class="mot">${esc(c.motivo)}</small>`:'';
+  return `<tr class="${c.status==='encerrado'?'enc':''}">`+(emp?`<td data-r="Empresa"><a href="#${esc(emp.slug)}">${esc(emp.nome)}</a></td>`:'')+
+    `<td data-r="Canal" class="cn"><b>${esc(c.canal)}</b>${c.canal_mantido?'<small class="mant">mantido do registro anterior</small>':''}${det.length?`<details><summary>detalhes</summary><ul>${det.map(x=>'<li>'+x+'</li>').join('')}</ul></details>`:''}</td>`+
+    `<td data-r="Tipo">${esc(c.tipo)}</td><td data-r="Status">${stBadge(c)}${motivoCurto}</td>`+
+    COLS.map(([k,r])=>`<td data-r="${r}" class="v">${valor((c.numeros||{})[k],c.medido_em)}</td>`).join('')+
+    `<td data-r="Período / medição">${esc(c.periodo||'—')}${c.medido_em?'<small>'+(COLS.some(([k])=>c.numeros&&c.numeros[k]&&c.numeros[k].valor!=null)?'medido em ':'registro de ')+esc(c.medido_em)+'</small>':''}</td>`+
+    `<td data-r="Fonte" class="fo">${esc(c.fonte||'—')}</td></tr>`;
+}
+function tabelaCanais(linhas,comEmpresa){
+  return `<div class="tab tabc"><table class="canais"><thead><tr>${comEmpresa?'<th>Empresa</th>':''}<th>Canal</th><th>Tipo</th><th>Status</th>${COLS.map(c=>'<th>'+c[1]+'</th>').join('')}<th>Período / medição</th><th>Fonte</th></tr></thead><tbody>${linhas.join('')}</tbody></table></div>`;
+}
+function contagem(emp){
+  const ct=emp.contagem||{};
+  return [
+    {rotulo:'Canais de aquisição ativos',valor:emp.aquisicao_ativos,detalhe:(emp.canais_aquisicao_ativos||[]).length>3?'ver tabela':((emp.canais_aquisicao_ativos||[]).join(' · ')||'nenhum')},
+    {rotulo:'Canais de venda ativos',valor:emp.venda_ativos,detalhe:'checkout / cobrança'},
+    {rotulo:'Em teste',valor:ct['em teste']||0,detalhe:'contam como ativos'},
+    {rotulo:'Parados',valor:ct['parado']||0},{rotulo:'Planejados',valor:ct['planejado']||0},{rotulo:'Encerrados',valor:ct['encerrado']||0}];
+}
+const alertaHtml=emp=>emp.alerta?`<p class="alerta">⚠ ${esc(emp.alerta)}</p>`:'';
+const legenda='<p class="dt">"sem dado" = métrica não medida na fonte. "mantido" = valor da última medição conhecida (não veio na coleta de hoje). Ativos = status ativo ou em teste; canais do mesmo grupo (ex.: ondas de e-mail) contam uma vez.</p>';
+function cardCanaisProjeto(emp){
+  const regs=(emp.registros_do_projeto||[]).length?'Registro de canais do projeto: '+emp.registros_do_projeto.join(', '):'O projeto ainda não tem registro de canais (canais.json ou CANAIS.md); usando o registro do painel e a extração automática.';
+  return `<article class="card largo"><h3>Canais de venda<span class="cont">${emp.canais.length}</span></h3>${alertaHtml(emp)}<div class="nums">${contagem(emp).map(num).join('')}</div>`+
+    tabelaCanais(ordenar(emp.canais).map(c=>linhaCanal(c,null)),false)+`<p class="dt">${esc(regs)}</p>${legenda}<p class="dt"><a href="#canais">Comparar com as outras empresas →</a></p></article>`;
+}
+function cardResumoCanais(){
+  if(!CANAIS||!(CANAIS.empresas||[]).length) return '';
+  const es=CANAIS.empresas;
+  return `<article class="card largo"><h2>Canais de venda</h2><div class="mini">${es.map(e=>`<span>${esc(e.nome)}: ${e.aquisicao_ativos} canal${e.aquisicao_ativos==1?'':'is'} de aquisição ativo${e.aquisicao_ativos==1?'':'s'}${e.alerta?' ⚠':''}</span>`).join('')}</div>`+
+    (es.some(e=>e.alerta)?`<p class="alerta">⚠ Só 1 canal de aquisição ativo: ${esc(es.filter(e=>e.alerta).map(e=>e.nome).join(', '))}.</p>`:'')+
+    `<a class="btn" href="#canais">Ver todos os canais →</a></article>`;
+}
+function canaisGeral(){
+  const es=CANAIS.empresas||[];
+  const tot=es.reduce((a,e)=>a+e.canais.length,0), at=es.reduce((a,e)=>a+e.aquisicao_ativos,0);
+  $('#sum').innerHTML=[`${es.length} empresas com canais`,`${tot} canais registrados`,`${at} canais de aquisição ativos`,`${es.filter(e=>e.alerta).length} com só 1 canal ativo`].map(s=>'<div>'+esc(s)+'</div>').join('');
+  $('#sum').hidden=false;
+  const c=[];
+  c.push(`<article class="card largo"><h2>Canais de venda e aquisição</h2><p>Cada canal de cada empresa, com status e números principais. ${esc(CANAIS.nota||'')}</p>`+
+    `<div class="tab tabc"><table class="comp"><thead><tr><th>Empresa</th><th>Aquisição ativos</th><th>Venda ativos</th><th>Em teste</th><th>Parados</th><th>Planejados</th><th>Encerrados</th><th>Alerta</th></tr></thead><tbody>`+
+    es.map(e=>{const ct=e.contagem||{};return `<tr><td data-r="Empresa"><a href="#${esc(e.slug)}">${esc(e.nome)}</a></td><td data-r="Aquisição ativos"><b>${e.aquisicao_ativos}</b></td><td data-r="Venda ativos">${e.venda_ativos}</td><td data-r="Em teste">${ct['em teste']||0}</td><td data-r="Parados">${ct['parado']||0}</td><td data-r="Planejados">${ct['planejado']||0}</td><td data-r="Encerrados">${ct['encerrado']||0}</td><td data-r="Alerta">${e.alerta?'<span class="alerta-i">⚠ '+esc(e.alerta)+'</span>':'—'}</td></tr>`;}).join('')+
+    `</tbody></table></div><p class="dt">Gerado em ${esc(CANAIS.gerado_em||'')}.</p>${legenda}</article>`);
+  es.forEach(e=>{
+    c.push(`<article class="card largo"><h3><a href="#${esc(e.slug)}">${esc(e.nome)}</a><span class="cont">${e.canais.length}</span></h3>${alertaHtml(e)}`+
+      tabelaCanais(ordenar(e.canais).map(x=>linhaCanal(x,null)),false)+
+      ((e.registros_do_projeto||[]).length?`<p class="dt">Registro de canais do projeto: ${esc(e.registros_do_projeto.join(', '))}</p>`:'<p class="dt">Sem registro de canais próprio do projeto: registro do painel + extração automática.</p>')+`</article>`);
+  });
   $('#main').innerHTML=c.join('');
 }
 carregar().catch(e=>{$('#main').innerHTML='<article class="card"><h2>Erro ao carregar os dados</h2><p>'+esc(e.message)+'</p></article>';});

@@ -30,3 +30,24 @@ table{border-collapse:collapse;width:100%;font-size:.85em}th,td{text-align:left;
 .tab{overflow-x:auto}.vazio{color:#555;font-style:italic}
 .cont{display:inline-block;background:#107de9;color:#fff;border-radius:12px;padding:0 9px;font-size:.85em;margin-left:6px}
 @media (max-width:600px){header{padding:16px}main{padding:12px;gap:12px;grid-template-columns:1fr}select{min-width:0;width:100%}.barra label{width:100%}.sum div{padding:8px 12px;font-size:.9em}}
+/* canais de venda */
+.alerta{background:#ffe0b3;border-left:5px solid #e8590c;padding:8px 12px;border-radius:6px;font-weight:600;margin:8px 0}
+.alerta-i{color:#b34700;font-weight:600}
+.st{display:inline-block;border-radius:10px;padding:1px 8px;font-size:.8em;font-weight:600;white-space:nowrap}
+.st-ativo{background:#c9efc4;color:#1d5c14}.st-em-teste{background:#cfe6ff;color:#0b4a8f}.st-planejado{background:#e2e6ec;color:#3d4756}
+.st-parado{background:#ffe2b8;color:#8a4b00}.st-encerrado{background:#f6c9c9;color:#8a1c1c}
+table.canais td{vertical-align:top}table.canais td small,table.comp td small{display:block;color:#555;font-size:.78em;line-height:1.25}
+table.canais td.v b{font-size:1.1em;color:#107de9}.sd{color:#8a8f98;font-style:italic}.mant{color:#8a4b00!important}
+table.canais .cn{min-width:180px}table.canais .fo{font-size:.8em;color:#444;min-width:120px}
+table.canais tr.enc{opacity:.75}small.mot{max-width:220px}
+table.canais details{margin-top:3px;font-size:.85em}table.canais summary{cursor:pointer;color:#107de9}
+table.canais details ul{margin:4px 0;padding-left:16px}
+@media (max-width:760px){
+ table.canais thead,table.comp thead{display:none}
+ table.canais,table.canais tbody,table.canais tr,table.canais td,table.comp,table.comp tbody,table.comp tr,table.comp td{display:block;width:auto}
+ table.canais tr,table.comp tr{background:#fff;border-radius:8px;margin:0 0 10px;padding:6px 8px;border-left:4px solid #107de9}
+ table.canais td,table.comp td{border:0;padding:3px 0;display:grid;grid-template-columns:112px 1fr;gap:8px}
+ table.canais td::before,table.comp td::before{content:attr(data-r);font-weight:600;color:#3d4756;font-size:.85em}
+ table.canais td.cn{display:block;font-size:1.02em}table.canais td.cn::before{display:none}
+ .tabc{overflow-x:visible}
+}
