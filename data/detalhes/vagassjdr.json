@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "19/10/2026 17:35",
-  "commits_7d": 22,
-  "commits_30d": 24,
+  "ultimo_commit": "20/10/2026 17:36",
+  "commits_7d": 19,
+  "commits_30d": 25,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-21",
-    "n": 0
-   },
    {
     "dia": "2026-09-22",
     "n": 0
@@ -144,15 +140,24 @@
    },
    {
     "dia": "2026-10-20",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-21",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 419,
+  "arquivos": 443,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "20/10 17:36",
+   "msg": "Espelhamento automatico 2026-10-20 17:36",
+   "sha": "e177a58"
+  },
   {
    "quando": "19/10 17:35",
    "msg": "Espelhamento automatico 2026-10-19 17:35",
@@ -197,11 +202,6 @@
    "quando": "15/10 23:25",
    "msg": "PENDENCIAS: 5 STORIES de 13/10 ja publicados",
    "sha": "1b23714"
-  },
-  {
-   "quando": "15/10 23:21",
-   "msg": "PENDENCIAS: Afya aprovada e publicada em 15/10",
-   "sha": "01022bc"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "93",
-    "detalhe": "de 02/10/2026 a 19/10/2026"
+    "valor": "99",
+    "detalhe": "de 02/10/2026 a 20/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "36",
+    "valor": "32",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "87",
+    "valor": "93",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "20/10/2026 08:05"
+ "gerado_em": "21/10/2026 08:09"
 }

@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 63.8
+    "pct": 64.0
    },
    {
     "nome": "HTML",
-    "pct": 35.0
+    "pct": 34.8
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "20/10/2026 00:08",
-  "commits_7d": 74,
-  "commits_30d": 174,
+  "ultimo_commit": "21/10/2026 00:05",
+  "commits_7d": 55,
+  "commits_30d": 179,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-21",
-    "n": 0
-   },
    {
     "dia": "2026-09-22",
     "n": 0
@@ -144,7 +140,11 @@
    },
    {
     "dia": "2026-10-20",
-    "n": 1
+    "n": 4
+   },
+   {
+    "dia": "2026-10-21",
+    "n": 2
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,31 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "21/10 00:05",
+   "msg": "Link curto da amostra: GET /a// faz 302 para a home com cidade e origem; e-mails usam o link curto (20261020-cmo-8)",
+   "sha": "a25d7c2"
+  },
+  {
+   "quando": "21/10 00:02",
+   "msg": "Prospecção: link da amostra vai para a página inicial (/?cidade=…&origem=…#amostra), mesmo texto e teto (20261020-cmo-2)",
+   "sha": "f960ba0"
+  },
+  {
+   "quando": "20/10 18:08",
+   "msg": "Pedido de amostra recusado: log com o campo (sem e-mail), validação do navegador e voltar para a página do lead",
+   "sha": "e2455d1"
+  },
+  {
+   "quando": "20/10 18:04",
+   "msg": "Regra 20261020-ceo-2: a sessão do servidor só instala o que está no GitHub",
+   "sha": "92d9d30"
+  },
+  {
+   "quando": "20/10 18:03",
+   "msg": "Pendência: lista do mês 2026-09 atrasada (alerta do vigia, e-mail 20/10)",
+   "sha": "8823e67"
+  },
   {
    "quando": "20/10 00:08",
    "msg": "Redesenho da home e de /para-contadores: formulário no topo, faixa com o número do mês, print da planilha, menu no celular",
@@ -177,36 +202,16 @@
    "quando": "19/10 12:17",
    "msg": "Checklist 19/10: servidor em e698175, teste de amostra, CS do dia e onda 2 pronta (ceo-1/2/3, cs-1, cso-1)",
    "sha": "1039c37"
-  },
-  {
-   "quando": "19/10 09:36",
-   "msg": "Checklist: relatório semanal de 19/10 feito e números do envio de 19/10",
-   "sha": "e698175"
-  },
-  {
-   "quando": "19/10 00:06",
-   "msg": "cobranca.py --trocar (recorte até o dia 5) e alerta de assinatura pendente há mais de 7 dias (20261016-cs-2)",
-   "sha": "96c254f"
-  },
-  {
-   "quando": "18/10 18:07",
-   "msg": "Posts da semana de 13/10: gancho de dor na 1ª linha e nas legendas (20261015-cmo-15)",
-   "sha": "0f3fb7a"
-  },
-  {
-   "quando": "18/10 18:07",
-   "msg": "Índice de /conteudo abre para quem vive de cliente novo (20261015-cmo-11)",
-   "sha": "2716b4c"
-  },
-  {
-   "quando": "18/10 18:07",
-   "msg": "Páginas por cidade: Por que isso importa abre pela dor, preço de fundador até 31/12 (20261015-cmo-10)",
-   "sha": "e9f5491"
   }
  ],
  "pendencias": {
   "fonte": "PENDENCIAS.md",
-  "itens": []
+  "itens": [
+   {
+    "titulo": "Lista do mês atrasada no servidor (alerta do vigia)",
+    "prazo": null
+   }
+  ]
  },
  "kpis": {
   "titulo": "Indicadores da Abriu Agora",
@@ -224,8 +229,43 @@
    },
    {
     "rotulo": "Convites enviados",
-    "valor": "60",
-    "detalhe": "em 19/10 ~08:40"
+    "valor": "70",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Spam",
+    "valor": "0",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Descadastros",
+    "valor": "1",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Pedidos de amostra",
+    "valor": "0",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Pagantes",
+    "valor": "0",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Receita",
+    "valor": "R$ 0",
+    "detalhe": "em 20/10 ~08:40"
+   },
+   {
+    "rotulo": "Ajustes dos C-levels em aberto",
+    "valor": "23",
+    "detalhe": "de 61 registrados · 7 aberto, 38 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 concluído 2026-10-21 00:00 brt (regra no checklist/claude.md, hash 92d9d30), 1 concluído 2026-10-21 00:00 brt (seção \"envio de 20/10/2026\" no metricas-notas.md: onda 2 10 enviados/10 entregues, 0 devoluções, 0 descadastros, 0 cliques, 0 amostras; d+3 onda 1 10/10 entregues; cs: bloco não confirmado separadamente), 1 em andamento, 1 em andamento 2026-10-21 00:00 brt (coo)"
+   },
+   {
+    "rotulo": "Resumos de C-levels",
+    "valor": "1",
+    "detalhe": "em 21/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -233,44 +273,9 @@
     "detalhe": "em 19/10 ~08:40"
    },
    {
-    "rotulo": "Spam",
-    "valor": "0",
-    "detalhe": "em 19/10 ~08:40"
-   },
-   {
-    "rotulo": "Descadastros",
-    "valor": "1",
-    "detalhe": "em 19/10 ~08:40"
-   },
-   {
-    "rotulo": "Pedidos de amostra",
-    "valor": "0",
-    "detalhe": "em 19/10 ~08:40"
-   },
-   {
-    "rotulo": "Pagantes",
-    "valor": "0",
-    "detalhe": "em 19/10 ~08:40"
-   },
-   {
-    "rotulo": "Receita",
-    "valor": "R$ 0",
-    "detalhe": "em 19/10 ~08:40"
-   },
-   {
     "rotulo": "Taxa de entrega",
     "valor": "77%",
     "detalhe": "46 de 60"
-   },
-   {
-    "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "14",
-    "detalhe": "de 52 registrados · 1 aberto, 38 concluído, 1 concluído 2026-10-18 00:00 brt, 2 concluído 2026-10-18 06:00 brt (coo), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 3a71829), 1 concluído 2026-10-18 12:05 brt (coo; 26ecc2f, 8e918ca), 1 concluído 2026-10-18 12:05 brt (coo; 29e9568, f04a0cc), 1 concluído 2026-10-18 18:04 brt (coo; c55db10, /obrigado.html no ar com o parágrafo novo, 237 testes ok), 1 concluído 2026-10-19 00:01 brt (coo; 0f3fb7a; ganchos l1–l3 e i1–i3), 1 concluído 2026-10-19 00:01 brt (coo; 2716b4c; parágrafo novo no ar, 38 peças intactas), 1 concluído 2026-10-19 00:01 brt (coo; e9f5491; 19 páginas regeradas, no ar igual ao github), 1 concluído 2026-10-19 06:10 brt (coo; 96c254f, ci verde, 243 testes ok), 1 em andamento"
-   },
-   {
-    "rotulo": "Resumos de C-levels",
-    "valor": "1",
-    "detalhe": "em 20/10/2026: COO"
    },
    {
     "rotulo": "Falhas",
@@ -345,7 +350,7 @@
    {
     "titulo": "Meta do Portão 1 (até 31/10)",
     "itens": [
-     "≥ 3 pedidos de amostra de contador e 0 spam. Régua de convites (decisão do Rodrigo, 15/10): ~170 convites novos até 30/10, só o 1º e-mail; D+3/D+7 não contam; teto 20/dia sem mudança. Hoje: 0 ÷ 3…"
+     "≥ 3 pedidos de amostra de contador e 0 spam. Régua de convites: decisão do Rodrigo (15/10) era ~170; com a PAUSA de 16/10 o número esperado em 30/10 é 160 (70 + 9 dias úteis × 10; projeção cso-2,…"
     ]
    },
    {
@@ -381,6 +386,27 @@
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
+      "id": "20261020-ceo-1",
+      "cargo": "CEO",
+      "prioridade": "alta",
+      "status": "Concluído 2026-10-21 00:00 brt (seção \"envio de 20/10/2026\" no metricas-notas.md: onda 2 10 enviados/10 entregues, 0 devoluções, 0 descadastros, 0 cliques, 0 amostras; d+3 onda 1 10/10 entregues; cs: bloco não confirmado separadamente)",
+      "titulo": "Onda 2 sai hoje 09:30 (assunto B, textos pela dor) e é o 1º envio com a página nova no ar"
+     },
+     {
+      "id": "20261020-cmo-1",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-cmo-2",
+      "cargo": "CMO",
+      "prioridade": "alta",
+      "status": "Em andamento 2026-10-21 00:00 brt (coo)",
+      "titulo": "Todo clique dos e-mails (convite, D+3, D+7) cai em /para-contadores (link_amostra), a página mais longa do…"
+     },
+     {
       "id": "20261015-ciso-1",
       "cargo": "CISO",
       "prioridade": "média",
@@ -413,6 +439,41 @@
       "cargo": "CFO",
       "prioridade": "média",
       "status": "Concluído 2026-10-18 06:00 brt (coo)",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-ceo-2",
+      "cargo": "CEO",
+      "prioridade": "média",
+      "status": "Concluído 2026-10-21 00:00 brt (regra no checklist/claude.md, hash 92d9d30)",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261020-cmo-3",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "/para-contadores continua com texto demais também na versão do GitHub (18b5547: ~1.700 palavras no HTML)"
+     },
+     {
+      "id": "20261020-cmo-4",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Os dois assuntos do convite começam pelo número, não pela dor: A = \"{cidade}: 768 empresas novas em agosto,…"
+     },
+     {
+      "id": "20261020-cmo-5",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Em 20/10 a amostra, os e-mails, a home e a faixa ainda usam empresas abertas em agosto (50 a 80 dias atrás),…"
+     },
+     {
+      "id": "20261020-cs-1",
+      "cargo": "CS",
+      "prioridade": "média",
+      "status": "Aberto",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -456,11 +517,18 @@
       "prioridade": "baixa",
       "status": "Aberto",
       "titulo": "A oferta_troca (plano anual) foi preparada em 15/10 12:05, antes dos textos novos pela dor (cmo-3 a cmo-7).…"
+     },
+     {
+      "id": "20261020-cmo-6",
+      "cargo": "CMO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "Páginas de cidade (19): sem menu, sem formulário, H1 só de número (\"768 empresas abriram CNPJ em Divinópolis…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "20/10/2026 08:05"
+ "gerado_em": "21/10/2026 08:09"
 }

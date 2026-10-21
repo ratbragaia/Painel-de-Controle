@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 60.5
+    "pct": 60.8
    },
    {
     "nome": "HTML",
-    "pct": 34.8
+    "pct": 34.5
    },
    {
     "nome": "JavaScript",
@@ -21,15 +21,11 @@
     "pct": 1.0
    }
   ],
-  "ultimo_commit": "19/10/2026 22:55",
-  "commits_7d": 58,
-  "commits_30d": 58,
+  "ultimo_commit": "20/10/2026 22:53",
+  "commits_7d": 73,
+  "commits_30d": 77,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-21",
-    "n": 0
-   },
    {
     "dia": "2026-09-22",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-20",
+    "n": 19
+   },
+   {
+    "dia": "2026-10-21",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 351,
+  "arquivos": 358,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "19/10 22:55",
-   "msg": "COO 19/10 22:55: site 200, fila sem itens executáveis",
-   "sha": "aa3bff9"
+   "quando": "20/10 22:53",
+   "msg": "COO 20/10 22:53: site 200, rodada noturna sem itens novos",
+   "sha": "ce11c88"
   },
   {
-   "quando": "19/10 20:58",
-   "msg": "COO 19/10 20:57: site 200, T-007 sem sanção, fila sem itens executáveis",
-   "sha": "2287593"
+   "quando": "20/10 22:38",
+   "msg": "T-026: verificação do Bing Webmaster (BingSiteAuth.xml + msvalidate.01 na home)",
+   "sha": "0f7de09"
   },
   {
-   "quando": "19/10 20:21",
-   "msg": "CEO resumo 19/10 enviado",
-   "sha": "72a1f24"
+   "quando": "20/10 22:32",
+   "msg": "COO 20/10 22:40: T-011 feita (D-009, Pacote R$ 10), combo sem economia, deploy 67769fb0; T-036 descrição do canal YT pela dor",
+   "sha": "4063f9c"
   },
   {
-   "quando": "19/10 19:21",
-   "msg": "CMO/COO 19/10: redesign da home (D-006/T-020): dor no topo + calculadora como herói, botões → calculadora, oferta do Kit só após o…",
-   "sha": "57ec4bb"
+   "quando": "20/10 20:54",
+   "msg": "COO 20/10 20:55: site 200, LC 238 sancionada (DOU a conferir), T-004 encerrada",
+   "sha": "2a622a2"
   },
   {
-   "quando": "19/10 18:58",
-   "msg": "COO 19/10 18:58: site 200, T-007 sem sanção, fila sem itens executáveis",
-   "sha": "cef9306"
+   "quando": "20/10 20:19",
+   "msg": "CEO resumo 20/10",
+   "sha": "2798d3f"
   },
   {
-   "quando": "19/10 16:55",
-   "msg": "COO 19/10 16:55: T-013 wrangler (sem versão Node 20 que corrija, mantida 4.20.0), T-007 sem sanção",
-   "sha": "da4ac12"
+   "quando": "20/10 19:11",
+   "msg": "CMO 20/10 19:40: auditoria de design e conversão (47 itens: 11 P1, 21 P2, 15 P3), T-031..T-041, D-008",
+   "sha": "1ad5eb0"
   },
   {
-   "quando": "19/10 15:49",
-   "msg": "CCO 19/10 15:49: 0 venda/cliente/parceiro",
-   "sha": "a769c5c"
+   "quando": "20/10 18:55",
+   "msg": "COO 20/10 18:53: site 200, T-007 recheck (sem sanção)",
+   "sha": "48c3ebd"
   },
   {
-   "quando": "19/10 15:01",
-   "msg": "COO 19/10 14:58: T-019 página GEO estourou o limite (deploy d5eafa3c), T-018 bio TikTok conferida",
-   "sha": "1a2fbe5"
+   "quando": "20/10 16:56",
+   "msg": "COO 20/10 16:55: site 200, 0 venda, T-007 recheck (LC 238 indexada na PGFN, ainda sem DOU)",
+   "sha": "d443432"
   },
   {
-   "quando": "19/10 13:19",
-   "msg": "COO 19/10 13:19: T-017 visitas UTM (track+worker), deploy e T-018 YT bio",
-   "sha": "ab82b25"
+   "quando": "20/10 15:48",
+   "msg": "CCO 20/10 15:47: 0 venda/cliente/parceiro",
+   "sha": "612a9c5"
   },
   {
-   "quando": "19/10 11:36",
-   "msg": "COO 19/10 11:35: T-016 rastreio ok ponta a ponta, T-014 FB post-08 publicado, T-015 Short 08 aprovado (publica 21/10)",
-   "sha": "3d1f857"
+   "quando": "20/10 15:01",
+   "msg": "COO 20/10 14:50: T-025 preview (páginas de kit pela dor D6, flag FINBOOK_T025), T-029 rascunho FAQ nota/limite (flag FINBOOK_T029,…",
+   "sha": "73544ca"
   }
  ],
  "pendencias": {
@@ -228,7 +228,7 @@
     "prazo": null
    },
    {
-    "titulo": "Preço do Pacote Profissões = R$ … (corrigido em financeiro.md, copy, CLAUDE.md e nas 3 páginas de kit",
+    "titulo": "Preço do Pacote Profissões = R$ … (decisão do Rodrigo em 20/10, T-011/D-009",
     "prazo": null
    },
    {
@@ -314,12 +314,12 @@
    },
    {
     "rotulo": "Roteiros de Shorts",
-    "valor": "6",
+    "valor": "7",
     "detalhe": "arquivos roteiro-*.md"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "20/10/2026 08:05"
+ "gerado_em": "21/10/2026 08:09"
 }
