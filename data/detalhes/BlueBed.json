@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "HTML",
-    "pct": 76.3
+    "pct": 78.9
    },
    {
     "nome": "JavaScript",
-    "pct": 10.4
+    "pct": 9.3
    },
    {
     "nome": "CSS",
-    "pct": 9.5
+    "pct": 8.5
    },
    {
     "nome": "Python",
-    "pct": 3.7
+    "pct": 3.3
    }
   ],
-  "ultimo_commit": "20/10/2026 10:35",
-  "commits_7d": 1,
-  "commits_30d": 6,
+  "ultimo_commit": "21/10/2026 16:35",
+  "commits_7d": 3,
+  "commits_30d": 8,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-22",
-    "n": 0
-   },
    {
     "dia": "2026-09-23",
     "n": 0
@@ -144,15 +140,29 @@
    },
    {
     "dia": "2026-10-21",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-22",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 135,
+  "arquivos": 142,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "21/10 16:35",
+   "msg": "Espelhamento automatico 2026-10-21 16:35",
+   "sha": "a59f3df"
+  },
+  {
+   "quando": "21/10 15:11",
+   "msg": "Espelhamento automatico 2026-10-21 15:11",
+   "sha": "ad8e96b"
+  },
   {
    "quando": "20/10 10:35",
    "msg": "Espelhamento automatico 2026-10-20 10:35",
@@ -186,5 +196,5 @@
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "21/10/2026 09:21"
+ "gerado_em": "22/10/2026 08:06"
 }

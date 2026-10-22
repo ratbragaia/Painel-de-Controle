@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "21/10/2026 08:55",
-  "commits_7d": 56,
-  "commits_30d": 180,
+  "ultimo_commit": "21/10/2026 10:22",
+  "commits_7d": 34,
+  "commits_30d": 181,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-22",
-    "n": 0
-   },
    {
     "dia": "2026-09-23",
     "n": 0
@@ -144,7 +140,11 @@
    },
    {
     "dia": "2026-10-21",
-    "n": 3
+    "n": 4
+   },
+   {
+    "dia": "2026-10-22",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "21/10 10:22",
+   "msg": "Checklist 21/10: onda 2 ligou (20/10, assunto B); onda 3 não liga (0 pedidos de lead)",
+   "sha": "382e64d"
+  },
   {
    "quando": "21/10 08:55",
    "msg": "Checklist: ciso-1 feito (pacotes atualizados sem reinício, sem reboot pendente, sites 200)",
@@ -197,11 +202,6 @@
    "quando": "19/10 18:14",
    "msg": "Teste do espelho sem rede de verdade (a API já lista 2026-10 e quebrava o CI)",
    "sha": "45219d8"
-  },
-  {
-   "quando": "19/10 18:12",
-   "msg": "Visitas por origem no metricas (log do site, testes fora do relatório) e notas de 19/10 (cso-2, cso-3, cs-2)",
-   "sha": "0486b49"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "42",
-    "detalhe": "de 80 registrados · 25 aberto, 38 concluído, 1 concluído   brt, 2 concluído   brt coo, 9 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 em andamento, 2 em andamento   brt c"
+    "valor": "47",
+    "detalhe": "de 84 registrados · 24 aberto, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 9 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 6 em andamento   brt c, 1 reaberto"
    },
    {
     "rotulo": "Resumos de C-levels",
-    "valor": "2",
-    "detalhe": "em 21/10/2026: CEO, COO"
+    "valor": "1",
+    "detalhe": "em 22/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -396,7 +396,7 @@
       "id": "20261020-cmo-1",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Aberto",
+      "status": "Em andamento   brt c",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -424,14 +424,14 @@
       "id": "20261020-cmo-22",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Aberto",
+      "status": "Em andamento   brt c",
       "titulo": "Rodrigo pediu em 20/10 para comparar 2 versões do CONVITE com as mesmas palavras (texto novo da auditoria,…"
      },
      {
       "id": "20261021-ceo-1",
       "cargo": "CEO",
       "prioridade": "alta",
-      "status": "Aberto",
+      "status": "Em andamento   brt c",
       "titulo": "Envio de hoje 21/10 09:30 é o 1º com o link curto e a home como destino"
      },
      {
@@ -447,6 +447,13 @@
       "prioridade": "alta",
       "status": "Aberto",
       "titulo": "Enviar os 4 e-mails às entidades. Barato: 4 e-mails um a um, sem código. Antes do reset só se o CEO puser na…"
+     },
+     {
+      "id": "20261021-cs-1",
+      "cargo": "CS",
+      "prioridade": "alta",
+      "status": "Em andamento   brt c",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261015-ciso-1",
@@ -582,6 +589,20 @@
       "titulo": "Medir o canal. É leitura"
      },
      {
+      "id": "20261021-cto-2",
+      "cargo": "CTO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261015-cto-3",
+      "cargo": "CTO",
+      "prioridade": "baixa",
+      "status": "Reaberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
       "id": "20261015-cmo-10",
       "cargo": "CMO",
       "prioridade": "baixa",
@@ -657,11 +678,25 @@
       "prioridade": "baixa",
       "status": "Aberto",
       "titulo": "E-mails de cliente: Termos/Privacidade repetidos no corpo e no rodapé"
+     },
+     {
+      "id": "20261015-cto-3 — REABERTO 2026-10-21…",
+      "cargo": "2026-10-15 11:02 BRT",
+      "prioridade": "baixa",
+      "status": "Curl i httpabriuagor",
+      "titulo": "2026-10-21 10:45 BRT | curl do CTO 21/10 ~10:40 BRT (http 000 nos 3 sites, https 200)"
+     },
+     {
+      "id": "20261021-cto-1",
+      "cargo": "CTO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "O site não comprime as respostas nem manda cache: curl -I -H 'Accept-Encoding: gzip, br' na home volta sem…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "21/10/2026 09:21"
+ "gerado_em": "22/10/2026 08:06"
 }

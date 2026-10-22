@@ -1,12 +1,12 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "21/10/2026 08:15 (horário de Brasília)",
+  "gerado_em": "22/10/2026 08:10 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: onda 2 saiu em 20/10 (10 de 10 entregues, 0 devolução, 0 descadastro, 0 clique, 0 pedido de amostra). Em 20–21/10 o link da amostra nos e-mails passou a levar à home nova (link curto com cidade e origem), em instalação no servidor antes do envio de 21/10. Pendência nova: lista do mês 2026-09 atrasada (alerta do vigia). Portão 1 segue em 0 de 3 amostras; conta bancária no Asaas ainda pendente (cadastro pelo Rodrigo).",
+      "status": "Em operação ativa: a onda 2 ligou em 20/10 (assunto B; 20 de 20 entregues, 0 devolução). Em 21/10 a regra conferiu a onda 3 e ela não liga: 0 pedidos de amostra vindos de lead (liga sozinha no 1º pedido, sem pausa). Manutenção do servidor de 21/10 feita (pacotes atualizados, sites 200). Portão 1 segue em 0 de 3 amostras; lista do mês 2026-09 atrasada e conta no Asaas ainda pendentes.",
       "recente": [
         "21/10 06:00 – COO: link curto da amostra (cidade e origem) pronto no GitHub com CI verde; instalação no servidor em andamento antes das 09:30",
         "21/10 00:00 – onda 2 de 20/10: 10 de 10 entregues, 0 devolução, 0 clique, 0 pedido de amostra",
@@ -21,7 +21,7 @@
         "Resolver a lista do mês 2026-09 atrasada",
         "Rodrigo cadastrar a conta bancária no Asaas; Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "21/10/2026 06:00",
+      "atualizado": "21/10/2026 10:22",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -29,7 +29,7 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: em 21/10 a fila do COO fechou 6 itens de 20/10 (prospecção sem Hunter com projeção de 57–62 contatos até 31/10, assuntos pela dor, 8 seguimentos v2 na fila, home redesenhada com print e página de metodologia, oferta de amostra nas páginas de tecnologia). Envios frios de 21/10: 1 na fila (crítico 12/12) e 3 segurados pelo crítico. Teste de entregabilidade 9,4/10. Relatório semanal de 16/10: MRR US$ 0, 0 respostas humanas.",
+      "status": "Em operação: em 21–22/10 a fila do COO avançou com CI mínima (testes e migrações em Postgres limpo), alerta de deploy atrasado, página pública de acompanhamento de patentes de ímãs ligada à home, modelo novo da edição, 5 parceiros (advogados) com rascunhos na fila e 3 primeiros contatos SBIR enfileirados após o crítico. Resultado de 7 dias dos 18 primeiros contatos v2: 0 respostas, e o crítico de e-mail ficou mais rígido. Um item (contatos de imprensa) travou numa regra de envio.",
       "recente": [
         "21/10 07:09 – resumo por tema inclui famílias antigas com publicação nova; página de nitreto de ferro refeita",
         "21/10 05:24 – home redesenhada (uma oferta, print, faixa de prova, 3 benefícios) e página /methodology",
@@ -43,7 +43,7 @@
         "Medir o lote de e-mails v2 em 22/10",
         "Atacar a falta de tráfego (300 impressões, 1 clique) e completar a semana 43"
       ],
-      "atualizado": "21/10/2026 07:09",
+      "atualizado": "22/10/2026 07:15",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -51,7 +51,7 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200 nas checagens do COO de 20/10); 0 vendas (meta: 1ª até 31/10), 0 clique em comprar, 0 lead, 71 pageviews em 7 dias (CEO 20/10). Em 20/10 o Rodrigo decidiu o Pacote Profissões a R$ 10 (site já trocado); auditoria de design do CMO com 47 itens (11 prioritários); 14 artigos passaram a levar à calculadora antes do Kit; verificação do Bing no site. A conta do Reddit apareceu banida e o canal foi encerrado. LC 238 (antigo PLP 186) noticiada como sancionada, DOU ainda a conferir.",
+      "status": "finbook.com.br no ar (site 200). Resumo do CEO de 21/10: 0 vendas, 65 pageviews e 59 visitas em 7 dias, 0 clique em comprar, 1 inscrito. Em 21/10: canal C-001 (YouTube longo) aberto com medição por campanha e atalho /guia-das; Short 08 público no TikTok; LC 238 publicada no DOU (texto do site aguarda o CLO). Pedidos ao Rodrigo: número de celular da empresa, sim/não para o Hotmart (C-002) e administrador da Página no LinkedIn. Em 22/10 entrou tarefa para conferir o aviso do Search Console de página com redirecionamento.",
       "recente": [
         "20/10 22:40 – Pacote Profissões a R$ 10 no site (decisão do Rodrigo); descrição do canal do YouTube pela dor",
         "20/10 22:38 – verificação do Bing Webmaster no site",
@@ -65,7 +65,7 @@
         "Executar os itens prioritários da auditoria do CMO (checkout da Kiwify na 1ª tela do celular)",
         "Rodrigo: lote 5 de parceiros (T-008), T-009, painel da Kiwify e YouTube Studio (T-034/T-036)"
       ],
-      "atualizado": "20/10/2026 22:53",
+      "atualizado": "22/10/2026 07:46",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -74,7 +74,7 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Coleta ativa: em 20/10 seis vagas novas (SJDR e Tiradentes), quatro publicadas sozinhas e duas aguardando aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "Coleta ativa: em 21/10 cinco vagas novas (SJDR e Tiradentes: garçom, promotor, assistente, recepcionista e vendedor), com artes geradas e aguardando aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
         "20/10 17:36 – 6 vagas de 20/10 (SJDR e Tiradentes): 4 publicadas automaticamente, 2 aguardando aprovação",
         "19/10 17:35 – 8 vagas de 19/10 (SJDR e Tiradentes): 7 publicadas automaticamente, 1 aguardando aprovação",
@@ -86,7 +86,7 @@
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "20/10/2026 17:36",
+      "atualizado": "21/10/2026 17:35",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
@@ -94,7 +94,7 @@
       "nome": "BlueBed",
       "repo": "BlueBed",
       "objetivo": "Site institucional da marca BlueBed (páginas de Agentes, Capacitação, Dados, manual de marca) e página no Facebook. Objetivo de negócio não está descrito em README.",
-      "status": "Site no ar em bluebed.com.br; em 14/10 entraram rascunhos de proposta comercial e uma página \"em construção\". Repositório ainda sem README.",
+      "status": "Site no ar em bluebed.com.br; em 21/10 entrou uma proposta comercial nova para um cliente, com página publicada e instruções de publicação. Repositório ainda sem README.",
       "recente": [
         "14/10 – propostas comerciais em HTML (rascunho e versão com efeitos)",
         "14/10 – página \"Em construção\" e ajuste no script publicar.py",
@@ -106,7 +106,7 @@
         "Criar README com objetivo e estado",
         "Executar o PASSO-A-PASSO da página do Facebook"
       ],
-      "atualizado": "14/10/2026 21:35",
+      "atualizado": "21/10/2026 16:35",
       "url": "https://github.com/ratbragaia/BlueBed",
       "categoria": "GitHub"
     },
@@ -154,7 +154,7 @@
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
-      "status": "Em operação: radar de 20/10 sem promoção aplicável. Bônus Nubank Ultravioleta → Azul/Smiles ainda sem anúncio em 2026 (vigiando até 24/10). Saldos na planilha seguem desatualizados.",
+      "status": "Em operação: radar de 21/10 sem promoção aplicável (Livelo → Azul daria só 40% sem Clube Azul; o Clube Livelo novo sai caro). O \"bônus Nubank → Azul de 20–22/10\" era a campanha de 2025; a de 2026 segue sem anúncio (vigiando até 24/10). Saldos na planilha seguem desatualizados.",
       "recente": [
         "20/10 – radar diário: nada aplicável; Nubank Ultravioleta sem campanha anunciada em 2026, Livelo sem transferência bonificada",
         "19/10 – radar diário: nada aplicável; Livelo sem transferência bonificada, Qatar Avios +60% acima do teto",
@@ -166,7 +166,7 @@
         "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
         "Revisão mensal em 01/11"
       ],
-      "atualizado": "20/10/2026 09:35",
+      "atualizado": "21/10/2026 08:35",
       "url": "https://github.com/ratbragaia/milhas-e-cartoes",
       "categoria": "GitHub"
     },
@@ -174,7 +174,7 @@
       "nome": "Assistente Pessoal",
       "repo": "assistente-pessoal",
       "objetivo": "Assistente pessoal do Rodrigo no Claude: mapa dos negócios e do Drive, roteiro do assistente, funções C-level e plano de memória e skills.",
-      "status": "Versionado no GitHub e espelhado de hora em hora. Em 19/10 o modelo de funções C-Level foi atualizado: o CMO passou a cuidar também do design e da conversão das páginas públicas.",
+      "status": "Versionado no GitHub e espelhado de hora em hora. Em 21/10 entrou o documento Canais de Aquisição (catálogo de canais com custo, métrica e teste de 2 semanas) e o modelo de funções C-Level passou a proibir os perfis pessoais do Rodrigo como canal de venda.",
       "recente": [
         "19/10 20:36 – Funcoes-C-Level: CMO dono do design e da conversão das páginas públicas",
         "14/10 – arquivos da pasta .ASSISTENTE migrados do Drive",
@@ -184,7 +184,7 @@
         "Seguir o ROTEIRO-ASSISTENTE-PESSOAL.md",
         "Executar o PLANO-memoria-e-skills.md"
       ],
-      "atualizado": "19/10/2026 20:36",
+      "atualizado": "21/10/2026 10:35",
       "url": "https://github.com/ratbragaia/assistente-pessoal",
       "categoria": "GitHub"
     },

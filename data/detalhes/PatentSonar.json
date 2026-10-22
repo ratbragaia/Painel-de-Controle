@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 66.1
+    "pct": 65.8
    },
    {
     "nome": "PLpgSQL",
-    "pct": 15.4
+    "pct": 15.7
    },
    {
     "nome": "HTML",
-    "pct": 14.2
+    "pct": 14.1
    },
    {
     "nome": "Shell",
-    "pct": 2.5
+    "pct": 2.6
    }
   ],
-  "ultimo_commit": "21/10/2026 07:09",
-  "commits_7d": 46,
-  "commits_30d": 383,
+  "ultimo_commit": "22/10/2026 07:15",
+  "commits_7d": 62,
+  "commits_30d": 403,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-22",
-    "n": 0
-   },
    {
     "dia": "2026-09-23",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-21",
-    "n": 14
+    "n": 23
+   },
+   {
+    "dia": "2026-10-22",
+    "n": 11
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 395,
+  "arquivos": 429,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "21/10 07:09",
-   "msg": "Topic summary lists older families with a new publication in the window (CSU WO-[telefone]-A1); triage 93398453; iron-nitride page rebuilt…",
-   "sha": "c98b75a"
+   "quando": "22/10 07:15",
+   "msg": "COO fila: -11 feito (5526fea)",
+   "sha": "52c2b6b"
   },
   {
-   "quando": "21/10 05:32",
-   "msg": "COO fila: -20-05, -20-06 feito; -20-04 live, designer 11/12 pending spec change",
-   "sha": "6dee62d"
+   "quando": "22/10 07:14",
+   "msg": "Issue template from #5 (COO-2026-10-21-11): brand bar, 30-second box, coverage note in footer, metadata tags, inline CSS; no-FTO critic…",
+   "sha": "5526fea"
   },
   {
-   "quando": "21/10 05:32",
-   "msg": "Technology pages: sample offer right after the pain sentence, source topic--top (COO-2026-10-20-06)",
-   "sha": "74e19b0"
+   "quando": "22/10 05:44",
+   "msg": "SBIR first touches: 3 queued after critic (11/12 each), Ricci held (9/12, no close proof); learning on proof vs promised summary",
+   "sha": "cd510c8"
   },
   {
-   "quando": "21/10 05:31",
-   "msg": "Site check after the redesign: live prints, 15-item checklist, critic fixes, tighter designer criteria (COO-2026-10-20-05)",
-   "sha": "058755d"
+   "quando": "22/10 05:37",
+   "msg": "SBIR named buyers (task a09a0db7): 4 named_buyer + 1 named_other with addresses printed on 2024-25 SBIR awards, import applied (week 43:…",
+   "sha": "f5feb97"
   },
   {
-   "quando": "21/10 05:30",
-   "msg": "COO fila: -20-01 feito (2 of 24 public addresses; projection 57-62)",
-   "sha": "1619d57"
+   "quando": "22/10 05:26",
+   "msg": "COO fila: -07 travado (5 named editors listed; ADR 0026 send guard drops kind press; amendment needed)",
+   "sha": "b953ed7"
   },
   {
-   "quando": "21/10 05:30",
-   "msg": "Prospecting without Hunter: research 18 (2 of 24 public addresses, SBIR.gov), import applied, pipeline projection 57-62 by 31/10…",
-   "sha": "1d13f6c"
+   "quando": "22/10 05:25",
+   "msg": "Referral partners C4 (COO-2026-10-21-08): 5 named attorneys with published addresses, partner_v1 template, critic 11/12/12/11/10, drafts…",
+   "sha": "61dbeb0"
   },
   {
-   "quando": "21/10 05:29",
-   "msg": "COO fila: -20-02, -20-03 and -19-03 feito (8 follow-ups queued, pain subjects live)",
-   "sha": "49c1fb9"
+   "quando": "22/10 05:12",
+   "msg": "COO fila: -06 feito (tracker live, 158/135/7, critic 11/12 and 10/12)",
+   "sha": "feddd52"
   },
   {
-   "quando": "21/10 05:29",
-   "msg": "Outreach 21/10: Sallot held (critic: SmCo proof Value 1), Adamski follow-up held, Lambourne held; Crecelius queued 12/12 (task 3b6c6cdf)",
-   "sha": "0b21a5c"
+   "quando": "22/10 05:12",
+   "msg": "Tracker: larger issue screenshot (site critic 11/12 buyer, 10/12 designer), review and measurements",
+   "sha": "fa3e862"
   },
   {
-   "quando": "21/10 05:28",
-   "msg": "Follow-ups: not_before gate in follow-up-v2; critic fixes for Ohodnicki, Masson, Gavric; Meroueh held; 8 follow_up_v2_unsent queued…",
-   "sha": "0d3c5b8"
+   "quando": "22/10 05:12",
+   "msg": "Public patent tracker page (COO-2026-10-21-06): 12-month magnet summary as a QA-gated generated page, linked from home, tech pages and…",
+   "sha": "5cfb989"
   },
   {
-   "quando": "21/10 05:24",
-   "msg": "Site: home redesign (hero with one offer, issue #3 screenshot, proof strip, 3 benefits) + /methodology.html (COO-2026-10-20-04)",
-   "sha": "3a6dfc7"
+   "quando": "22/10 04:11",
+   "msg": "COO fila: -17 and -18 feito, -14 run link, -19 em andamento (11 of 11 recipients of 21/10 on Microsoft 365; no Microsoft DMARC report…",
+   "sha": "08aca18"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "21/10/2026 09:21"
+ "gerado_em": "22/10/2026 08:06"
 }

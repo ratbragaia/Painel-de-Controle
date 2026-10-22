@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 60.8
+    "pct": 62.4
    },
    {
     "nome": "HTML",
-    "pct": 34.5
+    "pct": 33.1
    },
    {
     "nome": "JavaScript",
-    "pct": 3.3
+    "pct": 3.2
    },
    {
     "nome": "CSS",
     "pct": 1.0
    }
   ],
-  "ultimo_commit": "21/10/2026 09:04",
-  "commits_7d": 76,
-  "commits_30d": 80,
+  "ultimo_commit": "22/10/2026 07:46",
+  "commits_7d": 80,
+  "commits_30d": 93,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-22",
-    "n": 0
-   },
    {
     "dia": "2026-09-23",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-21",
-    "n": 3
+    "n": 15
+   },
+   {
+    "dia": "2026-10-22",
+    "n": 1
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 362,
+  "arquivos": 434,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "21/10 09:04",
-   "msg": "CEO 21/10: D-011 perfis pessoais do Rodrigo nunca são canal do Finbook",
-   "sha": "d7058d3"
+   "quando": "22/10 07:46",
+   "msg": "T-051: conferir aviso GSC Página com redirecionamento",
+   "sha": "fe2b43c"
   },
   {
-   "quando": "21/10 09:01",
-   "msg": "CEO 21/10: regra de canais (D-010), canais.md, C-001 YouTube longo, C-002 Hotmart planejado, regra dura de fóruns (sem link)",
-   "sha": "5f26262"
+   "quando": "21/10 22:50",
+   "msg": "COO 22:50 21/10: registro",
+   "sha": "f7841bb"
   },
   {
-   "quando": "21/10 08:36",
-   "msg": "CEO 21/10: ciclo da manhã (1º inscrito, LC 238, prioridades CTO)",
-   "sha": "5bed5c1"
+   "quando": "21/10 20:57",
+   "msg": "COO 20:56 21/10: registro",
+   "sha": "51acf16"
   },
   {
-   "quando": "20/10 22:53",
-   "msg": "COO 20/10 22:53: site 200, rodada noturna sem itens novos",
-   "sha": "ce11c88"
+   "quando": "21/10 20:17",
+   "msg": "CEO resumo 21/10",
+   "sha": "e603730"
   },
   {
-   "quando": "20/10 22:38",
-   "msg": "T-026: verificação do Bing Webmaster (BingSiteAuth.xml + msvalidate.01 na home)",
-   "sha": "0f7de09"
+   "quando": "21/10 18:54",
+   "msg": "COO 18:55 21/10: T-033(a) em preview (5f4b21e7), main mesclado no t031-preview",
+   "sha": "19754e7"
   },
   {
-   "quando": "20/10 22:32",
-   "msg": "COO 20/10 22:40: T-011 feita (D-009, Pacote R$ 10), combo sem economia, deploy 67769fb0; T-036 descrição do canal YT pela dor",
-   "sha": "4063f9c"
+   "quando": "21/10 16:57",
+   "msg": "COO 17:00 21/10: T-042 medição por campanha + /guia-das (deploy 909b21b9)",
+   "sha": "5921dd4"
   },
   {
-   "quando": "20/10 20:54",
-   "msg": "COO 20/10 20:55: site 200, LC 238 sancionada (DOU a conferir), T-004 encerrada",
-   "sha": "2a622a2"
+   "quando": "21/10 15:49",
+   "msg": "CCO 15:49 21/10: 0 venda/cliente/parceiro",
+   "sha": "af1b4ae"
   },
   {
-   "quando": "20/10 20:19",
-   "msg": "CEO resumo 20/10",
-   "sha": "2798d3f"
+   "quando": "21/10 14:59",
+   "msg": "COO 15:10 21/10: LC 238 publicada no DOU (T-007, rascunho p/ CLO), T-022 parado p/ CMO",
+   "sha": "94263d7"
   },
   {
-   "quando": "20/10 19:11",
-   "msg": "CMO 20/10 19:40: auditoria de design e conversão (47 itens: 11 P1, 21 P2, 15 P3), T-031..T-041, D-008",
-   "sha": "1ad5eb0"
+   "quando": "21/10 12:58",
+   "msg": "Short 09: descrição YouTube (rascunho)",
+   "sha": "a6b0afb"
   },
   {
-   "quando": "20/10 18:55",
-   "msg": "COO 20/10 18:53: site 200, T-007 recheck (sem sanção)",
-   "sha": "48c3ebd"
+   "quando": "21/10 12:58",
+   "msg": "COO 13:00 21/10: Short 08 TikTok público, T-007 sem DOU, Short 09 v2 reprovado no gate (zona segura falso alarme), registro da rodada 10:41",
+   "sha": "26aff5d"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "21/10/2026 09:21"
+ "gerado_em": "22/10/2026 08:06"
 }
