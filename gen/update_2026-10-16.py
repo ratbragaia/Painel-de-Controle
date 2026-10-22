@@ -26,23 +26,7 @@ p["proximos"] = [
 ]
 p["atualizado"] = "16/10/2026 06:10"
 
-# --- PatentSonar ---
-p = P["PatentSonar"]
-p["status"] = (
-    "Em operação: C-levels no Grok com prospecção contínua; fila COO→Claude (docs/coo/fila.md) "
-    "ativa após o merge do PR #5; crítico de e-mail com barra 10/12; checkout Paddle e segurança VPS ainda em plano."
-)
-p["recente"] = [
-    "16/10 05:09 – pesquisa 15: 7 contatos FR preparados para a semana 43 (importação só em 19/10; semana 42 em 50/50)",
-    "16/10 04:11 – crítico: caixas genéricas reprovam antes da nota; barra sobe para 10/12 (0 respostas humanas em 36 envios 01–08/10)",
-    "15/10 23:23 – PR #5 mergeado: fila docs/coo/fila.md (pedidos do COO chegam ao Claude sem repasse do Rodrigo)",
-] + p["recente"][:2]
-p["proximos"] = [
-    "Medir respostas dos contatos já enviados",
-    "Importar a pesquisa 15 em 19/10 (semana 43)",
-    "Executar os planos de checkout (Paddle) e de segurança da VPS",
-]
-p["atualizado"] = "16/10/2026 05:09"
+# PatentSonar: modo público mínimo (gen/publico_minimo.json) — bloco removido em 22/10/2026
 
 # --- Finbook ---
 p = P["Finbook"]

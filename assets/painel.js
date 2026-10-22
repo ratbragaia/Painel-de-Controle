@@ -4,6 +4,11 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slug=p=>(p.repo||p.nome).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'projeto';
 let DADOS=null, RESUMO={}, CACHE={}, CANAIS=null;
+const siteHref=u=>/^https:\/\//.test(u||'')?u:'';
+// projeto em modo público mínimo (gen/publico_minimo.json): só nome + site
+const cardMinimo=(p,largo)=>`<article class="card${largo?' largo':''}"><h2>${esc(p.nome)}</h2>`+
+  (siteHref(p.site)?`<p><a href="${esc(siteHref(p.site))}" rel="noopener">${esc(p.site.replace(/^https:\/\//,'').replace(/\/$/,''))}</a></p>`:'')+
+  (p.nota?`<p class="dt">${esc(p.nota)}</p>`:'')+'</article>';
 const ul=(arr)=>arr&&arr.length?'<ul>'+arr.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'<p class="vazio">Nada registrado.</p>';
 
 async function carregar(){
@@ -27,11 +32,11 @@ function rota(){
   if(p){document.title=p.nome+' · Painel de Controle'; projeto(p);} else {document.title='Painel de Controle'; geral();}
 }
 function resumoTopo(){
-  const ps=DADOS.projetos, gh=ps.filter(p=>(p.categoria||'').startsWith('GitHub')).length;
-  const rs=Object.values(RESUMO), c7=rs.reduce((a,r)=>a+(r.commits_7d||0),0);
+  const ps=DADOS.projetos, gh=ps.filter(p=>(p.categoria||'').startsWith('GitHub')).length, nmin=ps.filter(p=>p.publico_minimo).length;
+  const rs=Object.values(RESUMO).filter(r=>!r.publico_minimo), c7=rs.reduce((a,r)=>a+(r.commits_7d||0),0);
   const pend=rs.reduce((a,r)=>a+(r.pendencias||0),0);
   const ativos=rs.filter(r=>r.commits_7d).sort((a,b)=>b.commits_7d-a.commits_7d).slice(0,3).map(r=>r.nome);
-  const it=[`${ps.length} projetos`,`${gh} no GitHub`,`${ps.length-gh} fora do GitHub`];
+  const it=[`${ps.length} projetos`,`${gh} no GitHub`,`${ps.length-gh-nmin} fora do GitHub`];
   if(rs.length){it.push(`${c7} commits nos últimos 7 dias`); it.push(`${pend} pendências abertas`); if(ativos.length) it.push('Mais ativos na semana: '+ativos.join(', '));}
   $('#sum').innerHTML=it.map(s=>'<div>'+esc(s)+'</div>').join('');
   $('#sum').hidden=false;
@@ -39,6 +44,7 @@ function resumoTopo(){
 function geral(){
   resumoTopo();
   $('#main').innerHTML=cardResumoCanais()+DADOS.projetos.map(p=>{
+    if(p.publico_minimo) return cardMinimo(p,false);
     const r=RESUMO[slug(p)]||{};
     let mini='';
     if(r.arquivo){
@@ -69,6 +75,7 @@ function grafico(dias){
 function num(n){return `<div class="num"><b>${esc(n.valor)}</b><span>${esc(n.rotulo)}</span>${n.detalhe?'<small>'+esc(n.detalhe)+'</small>':''}</div>`;}
 async function projeto(p){
   $('#sum').hidden=true;
+  if(p.publico_minimo){$('#main').innerHTML=cardMinimo(p,true); return;}
   const s=slug(p), r=RESUMO[s];
   let d=null;
   if(r&&r.arquivo){ try{ d=CACHE[s]||(CACHE[s]=await (await fetch(r.arquivo,{cache:'no-store'})).json()); }catch(e){} }

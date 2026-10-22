@@ -63,7 +63,6 @@ O código fica em `gen/canais.py`; o registro de reserva do painel em `gen/canai
    **"mantido · medido em DD/MM/AAAA"**; canal que sumiu do registro continua como "mantido do registro anterior"
    (apague-o do `data/canais.json` se foi tirado de propósito).
 3. Extração automática (todo dia): Abriu Agora `resumos-clevels/*-ceo.md` (pasta local);
-   PatentSonar `docs/reviews/email/AAAA-MM-DD.md` (repo), `meta-mensal.md` e `resumos/cmo-*.md` (pasta local `clevels/`);
    Finbook `ceo/diario.md` (placar do CEO), `ceo/financeiro.csv`, `ceo/envios/convite_parceiros.jsonl` (só a contagem);
    Vagas SJDR `registro-publicadas.csv` e `PLANO-VagasSJDR.md`.
 4. Registro do CMO em Markdown (`CANAIS.md`, `canais.md` ou `canais-aquisicao.md`): status, motivo, hipótese, métrica e decisão.
@@ -74,7 +73,7 @@ Nada é estimado pelo painel. Textos passam por `limpar()`; parênteses sem núm
 
 Onde o gerador procura o registro de cada projeto: primeiro na pasta local (preferida, é a cópia de trabalho),
 depois no repositório (qualquer pasta). Pastas locais: Abriu Agora `$ABRIU_LOCAL` (padrão `/workspace/abriuagora`),
-PatentSonar `$PATENT_LOCAL` (padrão `/workspace/patentsonar/clevels`), Finbook `$FINBOOK_LOCAL` (padrão `/workspace/kit-mei-em-dia`).
+Finbook `$FINBOOK_LOCAL` (padrão `/workspace/kit-mei-em-dia`).
 Qualquer outro projeto com `canais.json` ou `CANAIS.md` no repositório entra sozinho na aba.
 
 ### Formato padrão do registro de canais (cada CMO mantém no repositório do projeto)
@@ -129,6 +128,10 @@ Alternativa em Markdown (`CANAIS.md`), para quem prefere tabela — o gerador l�
 No Markdown os números das 5 colunas não são lidos da coluna Resultado (texto livre): eles vêm do `canais.json`,
 da extração automática ou do registro do painel; o texto aparece como "Resultado (registro do CMO)" só nos canais
 que não têm números estruturados. Para números confiáveis no painel, use o `canais.json`.
+
+**Projetos em modo público mínimo** (`gen/publico_minimo.json`, hoje: PatentSonar) não entram na aba de canais
+nem têm painel: no site aparecem só nome + site. Não escreva status, números, prospects nem resumos deles no
+`data/projetos.json`, nos `gen/update_*.py` ou em qualquer arquivo deste repositório (veja `gen/README.md`).
 
 **Não publicar** no registro: e-mails, telefones, nomes de contatos/prospects, tokens, caminhos do Windows, CNPJ/CPF
 nem corpo de e-mail. O painel limpa o que reconhece, mas o site é público.

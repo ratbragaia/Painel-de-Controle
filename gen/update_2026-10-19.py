@@ -28,27 +28,7 @@ p["proximos"] = [
 ]
 p["atualizado"] = "19/10/2026 00:06"
 
-# --- PatentSonar ---
-p = P["PatentSonar"]
-p["status"] = (
-    "Em operação: em 19/10 a abordagem pela dor do cliente entrou em todo o funil (e-mails, home, 6 páginas de tecnologia, relatório de agosto) "
-    "e a maior parte da fila do COO de 16/10 foi marcada feita; site com nota 12/12 no crítico, 300 impressões e 1 clique na busca (problema é tráfego, "
-    "não conversão); 7 contatos FR importados para a semana 43 e 3 primeiros contatos novos na fila; resumos de uma página preparados para um 'sim' recebido em 19/10."
-)
-p["recente"] = [
-    "19/10 07:15 – resumos de uma página para o 'sim' do primeiro contato v2 (19, 49 e 31 famílias de patentes; gancho corrigido antes do envio)",
-    "19/10 05:25 – crescimento: site 12/12, e-mails pela dor (templates 8→11), semana 43 com 7 contatos FR e 3 primeiros contatos na fila; pedidos do COO -01 a -05, -07, -08, -10, -11 feitos",
-    "19/10 05:09 – e-mails de amostra/teste, home e 6 páginas de tecnologia abrem pela dor; modelos v1 aposentados com trava no envio",
-    "19/10 05:06 – documentos de dor e voz do cliente (citações checadas na fonte), críticos pontuam a dor, first_touch_v2/follow_up_v2",
-    "19/10 04:12 – ingestão do BigQuery passa a seguir a atualização real da base pública",
-    "16/10 16:10 – relatório semanal: MRR US$ 0, 52 e-mails frios desde 01/10 com 0 respostas humanas",
-]
-p["proximos"] = [
-    "Enviar os 3 primeiros contatos novos da semana 43 e responder o 'sim' com os resumos",
-    "Medir o lote de e-mails v2 em 22/10",
-    "Atacar a falta de tráfego (300 impressões, 1 clique); pedidos restantes da fila do COO",
-]
-p["atualizado"] = "19/10/2026 07:15"
+# PatentSonar: modo público mínimo (gen/publico_minimo.json) — bloco removido em 22/10/2026
 
 # --- Finbook ---
 p = P["Finbook"]

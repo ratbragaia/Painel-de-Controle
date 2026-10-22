@@ -17,9 +17,12 @@ FORCA = {'anterior': 0, 'registro do painel': 1, 'extraído': 2, 'registro do CM
 FRESCO = {'extraído', 'registro do CMO', 'canais.json do projeto'}
 STATUS = ('ativo', 'em teste', 'planejado', 'parado', 'encerrado')
 
+# Projetos em modo público mínimo (gen/publico_minimo.json; preenchido por build_detalhes.py):
+# nunca entram em data/canais.json, nem com dados do arquivo anterior ou do registro do painel.
+PUBLICO_MINIMO = set()
+
 LOCAIS_PADRAO = {
     'abriuagora': [os.environ.get('ABRIU_LOCAL') or '/workspace/abriuagora'],
-    'PatentSonar': [os.environ.get('PATENT_LOCAL') or '/workspace/patentsonar/clevels'],
     'finbook': [os.environ.get('FINBOOK_LOCAL') or '/workspace/kit-mei-em-dia'],
 }
 
@@ -213,45 +216,6 @@ def x_abriuagora(ler_repo, caminhos, locais, hoje):
             upd.append({'id': 'asaas', 'numeros': {'vendas': (pag.group(1), 'pagantes'), 'receita': (pag.group(2), 'receita recebida')}, 'medido_em': d, 'fonte': fonte})
     return upd
 
-def x_patentsonar(ler_repo, caminhos, locais, hoje):
-    upd = []
-    base = locais[0] if locais else None
-    # revisão diária do crítico de e-mail (repositório)
-    revs = sorted((p for p in caminhos if re.match(r'docs/reviews/email/\d{4}-\d{2}-\d{2}\.md$', p)), reverse=True)
-    for p in revs[:1]:
-        t = ler_repo(p) or ''; d = p[-13:-3]
-        m = re.search(r'(\d+) human replies of (\d+) cold', t)
-        if m:
-            upd.append({'id': 'email-frio', 'numeros': {'alcance': (m.group(2), '1º contatos enviados (meta 150 em 31/10)'), 'leads': (m.group(1), 'respostas humanas')},
-                        'medido_em': d, 'fonte': p, 'periodo': f'01/10 a {br(d)}'})
-    if base:
-        t = _ler(os.path.join(base, 'meta-mensal.md')) or ''
-        d = iso(_n(r'Realizado (\d{1,2}/\d{1,2})', t), int(hoje[:4]))
-        if t and d:
-            nums, outros = {}, {}
-            v = _n(r'E-mails de 1º contato[^|]*\|[^|]*\|\s*(\d+)\s*cold', t)
-            if v: nums['alcance'] = (v, '1º contatos enviados (meta 150 em 31/10)')
-            v = _n(r'(\d+) respostas humanas\s*/\s*\d+\s*cold', t)
-            if v: nums['leads'] = (v, 'respostas humanas')
-            v = _n(r'mail-tester (\d+(?:,\d+)?)/10', t)
-            if v: outros['Entregabilidade (mail-tester)'] = v + '/10'
-            if nums or outros:
-                upd.append({'id': 'email-frio', 'numeros': nums, 'outros': outros, 'medido_em': d, 'fonte': 'meta-mensal.md (CEO)', 'periodo': f'01/10 a {br(d)}'})
-            m = re.search(r'Clientes pagantes / MRR \|[^|]*\|\s*(\d+)\s*/\s*(US\$\s*[\d.,]+)', t)
-            if m:
-                upd.append({'id': 'assinatura', 'numeros': {'vendas': (m.group(1), 'clientes pagantes'), 'receita': (m.group(2).strip(), 'MRR')}, 'medido_em': d, 'fonte': 'meta-mensal.md (CEO)'})
-        for p in _ultimo(os.path.join(base, 'resumos'), r'cmo-\d{4}-\d{2}-\d{2}.*\.md$'):
-            t = _ler(p) or ''
-            m = re.search(r'Search Console 28 dias:\s*([\d.]+) impressões,\s*(\d+) clique', t)
-            if m:
-                d = re.search(r'\d{4}-\d{2}-\d{2}', os.path.basename(p)).group(0)
-                nums = {'alcance': (m.group(1), 'impressões no Google (28 dias)'), 'cliques': (m.group(2), 'clique(s) da busca (28 dias)')}
-                a = re.search(r'(\d+) pedidos de amostra desde (\d{1,2}/\d{1,2})', t)
-                if a: nums['leads'] = (a.group(1), f'pedidos de amostra desde {a.group(2)}')
-                upd.append({'id': 'busca-organica', 'numeros': nums, 'medido_em': d, 'fonte': 'clevels/resumos/' + os.path.basename(p) + ' (CMO)', 'periodo': f'28 dias até {br(d)}'})
-                break
-    return upd
-
 def x_finbook(ler_repo, caminhos, locais, hoje):
     upd, ano = [], int(hoje[:4])
     t = ler_repo('ceo/diario.md') if 'ceo/diario.md' in caminhos else None
@@ -338,7 +302,7 @@ def x_vagassjdr(ler_repo, caminhos, locais, hoje):
                         'fonte': 'PLANO-VagasSJDR.md', 'periodo': f'30 dias até {br(d)}'})
     return upd
 
-EXTRATORES = {'abriuagora': x_abriuagora, 'PatentSonar': x_patentsonar, 'finbook': x_finbook, 'vagassjdr': x_vagassjdr}
+EXTRATORES = {'abriuagora': x_abriuagora, 'finbook': x_finbook, 'vagassjdr': x_vagassjdr}
 
 # ------------------------------------------------------------------ registro do projeto (canais.json / CANAIS.md)
 NOMES_JSON = ('canais.json',)
@@ -392,6 +356,8 @@ def sobrepor(base, novo, forca_texto=True):
 def montar(repo, nome, slug_proj, caminhos, ler_repo, limpar, anterior, hoje, base_json, locais=None):
     """Monta o bloco de canais de um projeto. Devolve (empresa|None, log)."""
     log = []
+    if repo in PUBLICO_MINIMO or nome in PUBLICO_MINIMO:
+        return None, ['canais omitidos (modo público mínimo)']
     locais = locais if locais is not None else LOCAIS_PADRAO.get(repo, [])
     canais, ordem = {}, []
     def por(cid): return canais.get(cid)

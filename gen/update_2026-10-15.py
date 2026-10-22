@@ -11,11 +11,7 @@ p['recente']=['15/10 00:05 – marco do plano: 0 pedidos de amostra em 40 convid
 p['proximos']=['Disparar a onda 2 com o assunto B e medir pedidos de amostra','Confirmar estabilidade da carga da base após a correção de memória','Seguir o checklist de 15/10 do plano']
 p['atualizado']='15/10/2026 00:05'
 
-p=P['PatentSonar']
-p['status']='Em operação: prospecção de compradores nomeados com e-mails revisados por um agente crítico; planos novos de checkout (Paddle) e segurança da VPS.'
-p['recente']=['15/10 05:17 – pesquisa 14: 4 compradores nomeados na França importados a partir de artigos de 2026; primeiro contato aprovado pelo crítico (11/12) e enfileirado','15/10 05:06 – e-mails que voltam com erro permanente passam a ser suprimidos na chegada; tarefa de marca registrada encerrada por decisão do fundador','14/10 – PLANO-checkout-paddle.md e PLANO-seguranca-vps.md adicionados']+p['recente'][:2]
-p['proximos']=['Medir respostas dos primeiros contatos v2','Executar os planos de checkout (Paddle) e de segurança da VPS','Converter primeiros assinantes pagos (não há dado de receita no repo)']
-p['atualizado']='15/10/2026 05:17'
+# PatentSonar: modo público mínimo (gen/publico_minimo.json) — bloco removido em 22/10/2026
 
 p=P['BlueBed']
 p['status']='Site no ar em bluebed.com.br; em 14/10 entraram rascunhos de proposta comercial e uma página "em construção". Repositório ainda sem README.'

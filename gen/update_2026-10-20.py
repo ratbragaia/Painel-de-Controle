@@ -31,28 +31,7 @@ p["proximos"] = [
 ]
 p["atualizado"] = "20/10/2026 00:08"
 
-# --- PatentSonar ---
-p = P["PatentSonar"]
-p["status"] = (
-    "Em operação: em 19–20/10 a fila do COO avançou (portão do 'sim' com resumo de uma página, DMARC decodificado: relatório do Google de 19/10 "
-    "com 1 de 1 alinhado, envios frios de 21/10 liberados); seguimento v2 pela dor criado; semana 43 com 21 de 50 contatos após pesquisa de 17 nomes; "
-    "projeção do funil ~60 de 150. Correção de migração destravou os deploys (parados desde 13/10). Issue #4 segurada (0 famílias, fontes paradas). "
-    "Relatório semanal de 16/10: MRR US$ 0, 0 respostas humanas."
-)
-p["recente"] = [
-    "20/10 07:08 – entregabilidade: relatório DMARC do Google de 19/10 com 1/1 alinhado (100 %); envios frios de 21/10 liberados",
-    "20/10 06:28 – pesquisa de 17 contatos nomeados (3 novos); semana 43 em 21 de 50",
-    "20/10 05:20 – seguimento v2 pela dor e redator de seguimentos; 2 resumos de uma página (crítico 11/12); projeção do funil ~60 de 150",
-    "20/10 04:13 – Issue #4 segurada (0 famílias, fontes paradas); alerta do build aponta a causa real",
-    "19/10 18:49 – migração corrigida: deploys após o pull estavam parando desde 13/10",
-    "19/10 08:31 – prospects do Grok: 16 pesquisados (4 contas novas + 5 com compradores nomeados), revisados pelo Claude (PR #6)",
-]
-p["proximos"] = [
-    "Enviar os e-mails frios de 21/10 e os seguimentos v2 da fila",
-    "Medir o lote de e-mails v2 em 22/10",
-    "Completar a semana 43 (21 de 50) e atacar a falta de tráfego (300 impressões, 1 clique)",
-]
-p["atualizado"] = "20/10/2026 07:08"
+# PatentSonar: modo público mínimo (gen/publico_minimo.json) — bloco removido em 22/10/2026
 
 # --- Finbook ---
 p = P["Finbook"]

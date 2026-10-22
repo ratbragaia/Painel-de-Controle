@@ -346,15 +346,61 @@ def kpis_base(repo, caminhos):
         if n: numeros.append({'rotulo': rot, 'valor': str(n), 'detalhe': f'cerebro/{pasta}'})
     return {'titulo': 'Tamanho do cérebro', 'fontes': ['cerebro/ (contagem de notas .md)'], 'numeros': numeros, 'tabelas': [], 'listas': []} if numeros else None
 
-def kpis_patentsonar(repo, caminhos):
-    if 'docs/handoff-checklist.md' not in caminhos: return None
-    itens, tot, ok = handoff_checklist(arquivo(repo, 'docs/handoff-checklist.md') or '')
-    if not tot: return None
-    return {'titulo': 'Checklist do fundador', 'fontes': ['docs/handoff-checklist.md'], 'tabelas': [], 'listas': [],
-            'numeros': [{'rotulo': 'Itens concluídos', 'valor': f'{ok}/{tot}', 'detalhe': f'{len(itens)} em aberto'}]}
-
 KPIS = {'abriuagora': kpis_abriuagora, 'vagassjdr': kpis_vagassjdr, 'finbook': kpis_finbook,
-        'BaseDeConhecimento': kpis_base, 'PatentSonar': kpis_patentsonar}
+        'BaseDeConhecimento': kpis_base}
+
+# ---------------------------------------------------------------- modo público mínimo
+# gen/publico_minimo.json: projetos que aparecem no site público SÓ com nome + site (sem KPIs, canais,
+# números, resumos, pendências, commits, prospects nem link do repositório). Ver aplicar_publico_minimo().
+ARQ_MINIMO = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'publico_minimo.json')
+def carregar_minimo():
+    try:
+        return [x for x in json.load(open(ARQ_MINIMO, encoding='utf-8')).get('projetos', []) if x.get('nome')]
+    except FileNotFoundError:
+        return []
+    except Exception as ex:   # lista ilegível: não arrisca publicar dados → para tudo
+        sys.exit(f'ERRO: gen/publico_minimo.json ilegível ({ex}); corrija antes de gerar o site público.')
+MINIMO = carregar_minimo()
+def minimo_de(p):
+    for m in MINIMO:
+        if p.get('nome') == m['nome'] or (p.get('repo') and p.get('repo') == m.get('repo')): return m
+    return None
+def entrada_minima(m):
+    e = {'nome': m['nome'], 'publico_minimo': True}
+    if m.get('site'): e['site'] = m['site']
+    if m.get('nota'): e['nota'] = m['nota']
+    return e
+NOMES_MINIMO = [n for m in MINIMO for n in {m['nome'], m.get('repo') or m['nome']}]
+RX_MINIMO = re.compile('|'.join(re.escape(n) for n in NOMES_MINIMO), re.I) if NOMES_MINIMO else None
+def tirar_mencoes(v):
+    """Em dados de OUTROS projetos, troca qualquer texto que cite um projeto em modo público mínimo."""
+    if RX_MINIMO is None: return v
+    if isinstance(v, str): return '[omitido no painel público]' if RX_MINIMO.search(v) else v
+    if isinstance(v, list): return [tirar_mencoes(x) for x in v]
+    if isinstance(v, dict): return {k: tirar_mencoes(x) for k, x in v.items()}
+    return v
+def limpar_scripts_update(gen_dir):
+    """Remove dos gen/update_*.py (publicados no site) os blocos p = P["<projeto>"] dos projetos em modo mínimo."""
+    if not MINIMO: return
+    nomes = '|'.join(re.escape(m['nome']) for m in MINIMO)
+    ini = re.compile(r'\s*p\s*=\s*P\[\s*[\'"](' + nomes + r')[\'"]\s*\]')
+    cab = re.compile(r'\s*#\s*-+\s*(' + nomes + r')\b')
+    fim = re.compile(r'\s*(p\s*=\s*P\[|#\s*-+|ordem\s*=)')
+    for f in sorted(os.listdir(gen_dir)):
+        if not re.match(r'update_.*\.py$', f): continue
+        cam = os.path.join(gen_dir, f); L = open(cam, encoding='utf-8').read().split('\n'); out, i, n = [], 0, 0
+        while i < len(L):
+            nxt = L[i + 1] if i + 1 < len(L) else ''
+            if ini.match(L[i]) or (cab.match(L[i]) and ini.match(nxt)):
+                nome = (ini.match(L[i]) or ini.match(nxt)).group(1)
+                i += 1 if ini.match(L[i]) else 2
+                while i < len(L) and not fim.match(L[i]): i += 1
+                out += [f'# {nome}: modo público mínimo (gen/publico_minimo.json) — bloco removido pelo gerador', '']; n += 1
+                continue
+            out.append(L[i]); i += 1
+        if n:
+            open(cam, 'w', encoding='utf-8').write('\n'.join(out))
+            print(f'    público mínimo: {n} bloco(s) removido(s) de gen/{f}')
 
 # ---------------------------------------------------------------- util
 def fmt_data(iso):
@@ -489,8 +535,25 @@ def main():
     if not os.path.isdir(ABRIU_LOCAL):
         print(f'aviso: pasta da Abriu Agora não encontrada ({ABRIU_LOCAL}); KPIs dela virão do arquivo anterior', file=sys.stderr)
     TOKEN = token()
-    d = json.load(open(os.path.join(a.site, 'data/projetos.json'), encoding='utf-8'))
+    arq_proj = os.path.join(a.site, 'data/projetos.json')
+    d = json.load(open(arq_proj, encoding='utf-8'))
     pasta = os.path.join(a.site, 'data/detalhes'); os.makedirs(pasta, exist_ok=True)
+    # modo público mínimo: reescreve a entrada do projeto (só nome + site) e tira menções dele dos outros
+    CANAIS.PUBLICO_MINIMO = set(NOMES_MINIMO)
+    projs = []
+    for p in d['projetos']:
+        m = minimo_de(p)
+        if m:
+            projs.append(entrada_minima(m))
+            for arq in {p.get('repo'), m.get('repo')} - {None}:
+                cam = os.path.join(pasta, arq + '.json')
+                if os.path.exists(cam): os.remove(cam); print(f'    público mínimo: {arq} → data/detalhes/{arq}.json removido')
+        else:
+            projs.append(tirar_mencoes(p))
+    d['projetos'] = projs
+    with open(arq_proj, 'w', encoding='utf-8') as fh:
+        json.dump(d, fh, ensure_ascii=False, indent=2); fh.write('\n')
+    limpar_scripts_update(os.path.dirname(os.path.abspath(__file__)))
     resumo, falhas = [], []
     try:
         idx_antigo = {x.get('repo'): x for x in json.load(open(os.path.join(pasta, 'index.json'), encoding='utf-8')).get('projetos', []) if x.get('repo')}
@@ -499,15 +562,20 @@ def main():
     global CANAIS_ANT, CANAIS_BASE
     arq_canais = os.path.join(a.site, 'data/canais.json')
     try:
-        CANAIS_ANT = {e['repo']: e for e in json.load(open(arq_canais, encoding='utf-8')).get('empresas', []) if e.get('repo')}
+        CANAIS_ANT = {e['repo']: e for e in json.load(open(arq_canais, encoding='utf-8')).get('empresas', [])
+                      if e.get('repo') and e['repo'] not in NOMES_MINIMO and e.get('nome') not in NOMES_MINIMO}
     except Exception:
         CANAIS_ANT = {}
     try:
         CANAIS_BASE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'canais_base.json'), encoding='utf-8'))
+        for n in NOMES_MINIMO: CANAIS_BASE.pop(n, None)
     except Exception as ex:
         print(f'aviso: gen/canais_base.json ilegível ({ex}); canais só dos registros dos projetos', file=sys.stderr); CANAIS_BASE = {}
     empresas = []
     for p in d['projetos']:
+        if p.get('publico_minimo'):
+            resumo.append(dict(p, slug=slug(p), arquivo=None)); print(f"ok  {p['nome']:<26} (público mínimo: só nome + site)")
+            continue
         item = {'nome': p['nome'], 'slug': slug(p), 'repo': p.get('repo'), 'arquivo': None}
         if p.get('repo'):
             try:
@@ -517,6 +585,8 @@ def main():
                 if emp:
                     empresas.append(emp)
                     item.update(canais_aquisicao_ativos=emp['aquisicao_ativos'], canais_total=len(emp['canais']), canais_alerta=emp['alerta'])
+                det = tirar_mencoes(det)
+                if emp: empresas[-1] = emp = tirar_mencoes(emp)
                 det['gerado_em'] = AGORA.strftime('%d/%m/%Y %H:%M')
                 destino = os.path.join(pasta, p['repo'] + '.json')
                 for m in mesclar_anterior(det, destino):
@@ -535,6 +605,7 @@ def main():
                 if p['repo'] in idx_antigo:   # mantém a entrada anterior (o .json antigo continua no lugar)
                     item = dict(idx_antigo[p['repo']], nome=p['nome'], slug=slug(p))
         resumo.append(item)
+    empresas = [e for e in empresas if e.get('repo') not in NOMES_MINIMO and e.get('nome') not in NOMES_MINIMO]
     json.dump({'gerado_em': AGORA.strftime('%d/%m/%Y %H:%M') + ' (horário de Brasília)', 'projetos': resumo},
               open(os.path.join(pasta, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     with open(arq_canais, 'w', encoding='utf-8') as fh:

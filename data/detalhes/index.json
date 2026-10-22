@@ -20,20 +20,11 @@
   },
   {
    "nome": "PatentSonar",
+   "publico_minimo": true,
+   "site": "https://patentsonar.com",
+   "nota": "Detalhes internos não são exibidos no painel público.",
    "slug": "patentsonar",
-   "repo": "PatentSonar",
-   "arquivo": "data/detalhes/PatentSonar.json",
-   "canais_aquisicao_ativos": 2,
-   "canais_total": 7,
-   "canais_alerta": null,
-   "commits_7d": 62,
-   "commits_30d": 403,
-   "ultimo_commit": "22/10/2026 07:15",
-   "linguagem": "TypeScript",
-   "prs_abertos": 0,
-   "issues_abertas": 0,
-   "pendencias": 1,
-   "tem_kpis": true
+   "arquivo": null
   },
   {
    "nome": "Finbook",
