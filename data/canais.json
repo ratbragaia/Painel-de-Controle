@@ -1,6 +1,6 @@
 {
  "titulo": "Canais de venda e aquisição",
- "gerado_em": "22/10/2026 08:06 (horário de Brasília)",
+ "gerado_em": "23/10/2026 08:09 (horário de Brasília)",
  "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
  "empresas": [
   {
@@ -176,13 +176,13 @@
      "hipotese": "Contador da cidade que recebe o convite pela dor pede a amostra grátis de 10 empresas",
      "metrica": "Pedidos de amostra ÷ entregues; visitas com origem; respostas; descadastros/spam",
      "decisao": "",
-     "periodo": "13/10 a 21/10/2026",
-     "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+     "periodo": "13/10 a 22/10/2026",
+     "fonte": "resumos-clevels/2026-10-22-ceo.md (CEO)",
      "numeros": {
       "alcance": {
-       "valor": "86",
+       "valor": "105",
        "nota": "e-mails entregues",
-       "medido_em": "21/10/2026",
+       "medido_em": "22/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -190,20 +190,20 @@
        "valor": "0",
        "nota": "cliques e visitas de prospecção",
        "medido_em": "21/10/2026",
-       "origem": "extraído",
-       "mantido": false
+       "origem": "registro do painel",
+       "mantido": true
       },
       "leads": {
        "valor": "0",
        "nota": "pedidos de amostra (meta 3)",
-       "medido_em": "21/10/2026",
+       "medido_em": "22/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "21/10/2026",
+       "medido_em": "22/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -217,11 +217,12 @@
      },
      "outros": [
       {
-       "rotulo": "Convites (1º e-mail)",
        "valor": "80 de 160 esperados",
+       "nota": "",
        "medido_em": "21/10/2026",
-       "origem": "extraído",
-       "mantido": false
+       "origem": "registro do painel",
+       "rotulo": "Convites (1º e-mail)",
+       "mantido": true
       },
       {
        "valor": "1",
@@ -241,7 +242,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "21/10/2026",
+     "medido_em": "22/10/2026",
      "prazo": "31/10/2026",
      "registros": [
       "canais.md (pasta local)"
@@ -375,7 +376,7 @@
      "metrica": "pagantes e receita recebida",
      "decisao": "",
      "periodo": "outubro/2026",
-     "fonte": "resumos-clevels/2026-10-21-ceo.md (CEO)",
+     "fonte": "resumos-clevels/2026-10-22-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": null,
@@ -401,21 +402,21 @@
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "21/10/2026",
+       "medido_em": "22/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "receita": {
        "valor": "R$ 0",
        "nota": "receita recebida",
-       "medido_em": "21/10/2026",
+       "medido_em": "22/10/2026",
        "origem": "extraído",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "21/10/2026",
+     "medido_em": "22/10/2026",
      "prazo": "",
      "registros": []
     },
@@ -438,42 +439,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -497,42 +498,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -556,42 +557,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -615,42 +616,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -674,42 +675,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -733,42 +734,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -792,42 +793,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -851,42 +852,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -1401,7 +1402,7 @@
       "alcance": {
        "valor": "39",
        "nota": "convites enviados",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1436,7 +1437,7 @@
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "prazo": "",
      "registros": [
       "ceo/canais.md (pasta local)"
@@ -1517,42 +1518,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -1562,56 +1563,56 @@
      "canal": "C002 · Hotmart: Mercado de Afiliados (2ª vitrine do Kit para afiliados que já vendem infoproduto)",
      "grupo": "C002 · Hotmart: Mercado de Afiliados (2ª vitrine do Kit para afiliados que já vendem infoproduto)",
      "tipo": "venda",
-     "status": "planejado",
+     "status": "em teste",
      "motivo": "",
-     "inicio": "26/10/2026",
+     "inicio": "23/10/2026",
      "hipotese": "Afiliados que garimpam o Mercado da Hotmart procuram produto barato e com nicho claro. Com o Kit pela dor e comissão de afiliado, o produto passa da nota mínima (Blueprint ≥60%, [link] e atrai afiliados sem e-mail…",
      "metrica": "Blueprint ≥60%; pedidos de afiliação; vendas por afiliado. Página de vendas externa: [link] Manter: ≥3 pedidos de afiliação. Expandir: ≥1…",
      "decisao": "",
      "prazo": "09/11/2026",
-     "resultado": "planejado",
+     "resultado": "aprovado, a abrir (T-057)",
      "periodo": "",
      "fonte": "ceo/canais.md (pasta local)",
      "numeros": {
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -1635,42 +1636,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -1694,42 +1695,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -1737,13 +1738,13 @@
    ],
    "contagem": {
     "ativo": 8,
-    "em teste": 2,
-    "planejado": 1,
+    "em teste": 3,
+    "planejado": 0,
     "parado": 1,
     "encerrado": 1
    },
    "aquisicao_ativos": 9,
-   "venda_ativos": 1,
+   "venda_ativos": 2,
    "canais_aquisicao_ativos": [
     "Busca do Google e do Bing (Search Console e Bing Webmaster)",
     "C001 · YouTube: vídeo longo de busca (16:9, 6–8 min), no canal @finbookbr que já existe",
@@ -1792,9 +1793,9 @@
        "mantido": false
       },
       "leads": {
-       "valor": "104",
+       "valor": "107",
        "nota": "vagas publicadas desde 02/10/2026",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1824,7 +1825,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "prazo": "",
      "registros": []
     },

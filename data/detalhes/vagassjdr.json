@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "21/10/2026 17:35",
-  "commits_7d": 7,
-  "commits_30d": 26,
+  "ultimo_commit": "22/10/2026 17:36",
+  "commits_7d": 6,
+  "commits_30d": 27,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-23",
-    "n": 0
-   },
    {
     "dia": "2026-09-24",
     "n": 0
@@ -144,15 +140,24 @@
    },
    {
     "dia": "2026-10-22",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-23",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 491,
+  "arquivos": 533,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "22/10 17:36",
+   "msg": "Espelhamento automatico 2026-10-22 17:36",
+   "sha": "4ac2a26"
+  },
   {
    "quando": "21/10 17:35",
    "msg": "Espelhamento automatico 2026-10-21 17:35",
@@ -197,11 +202,6 @@
    "quando": "15/10 23:35",
    "msg": "PENDENCIAS: rotina das 17h mantida, backups da troca de chave apagados",
    "sha": "55d0cb2"
-  },
-  {
-   "quando": "15/10 23:29",
-   "msg": "PENDENCIAS: chave OpenAI e de outro projeto",
-   "sha": "0c3fca0"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "104",
-    "detalhe": "de 02/10/2026 a 21/10/2026"
+    "valor": "107",
+    "detalhe": "de 02/10/2026 a 22/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "32",
+    "valor": "29",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "98",
+    "valor": "101",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "22/10/2026 08:06"
+ "gerado_em": "23/10/2026 08:09"
 }

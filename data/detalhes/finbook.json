@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 62.4
+    "pct": 66.6
    },
    {
     "nome": "HTML",
-    "pct": 33.1
+    "pct": 29.4
    },
    {
     "nome": "JavaScript",
-    "pct": 3.2
+    "pct": 2.8
    },
    {
     "nome": "CSS",
-    "pct": 1.0
+    "pct": 0.9
    }
   ],
-  "ultimo_commit": "22/10/2026 07:46",
-  "commits_7d": 80,
-  "commits_30d": 93,
+  "ultimo_commit": "23/10/2026 08:05",
+  "commits_7d": 88,
+  "commits_30d": 115,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-23",
-    "n": 0
-   },
    {
     "dia": "2026-09-24",
     "n": 0
@@ -140,68 +136,72 @@
    },
    {
     "dia": "2026-10-21",
-    "n": 15
+    "n": 17
    },
    {
     "dia": "2026-10-22",
+    "n": 20
+   },
+   {
+    "dia": "2026-10-23",
     "n": 1
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 434,
+  "arquivos": 548,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "22/10 07:46",
-   "msg": "T-051: conferir aviso GSC Página com redirecionamento",
-   "sha": "fe2b43c"
+   "quando": "23/10 08:05",
+   "msg": "CEO 23/10 08:00: decisões do Rodrigo (D-013 Rockfort, D-012 número, C-002 Hotmart aprovado, D-001 sequência pela T-058) e alçada do CEO;…",
+   "sha": "4b82ce4"
   },
   {
-   "quando": "21/10 22:50",
-   "msg": "COO 22:50 21/10: registro",
-   "sha": "f7841bb"
+   "quando": "22/10 22:57",
+   "msg": "COO 22:58 22/10: rodada noturna, site 200",
+   "sha": "b4c940f"
   },
   {
-   "quando": "21/10 20:57",
-   "msg": "COO 20:56 21/10: registro",
-   "sha": "51acf16"
+   "quando": "22/10 20:52",
+   "msg": "COO 22/10 20:52: gate C-001 aprovado, Short 09 v7 reprovado",
+   "sha": "2728001"
   },
   {
-   "quando": "21/10 20:17",
-   "msg": "CEO resumo 21/10",
-   "sha": "e603730"
+   "quando": "22/10 20:51",
+   "msg": "COO 22/10 20:50: registro 19h, gates disparados",
+   "sha": "a067c22"
   },
   {
-   "quando": "21/10 18:54",
-   "msg": "COO 18:55 21/10: T-033(a) em preview (5f4b21e7), main mesclado no t031-preview",
-   "sha": "19754e7"
+   "quando": "22/10 20:19",
+   "msg": "CEO resumo 22/10",
+   "sha": "1fb2faf"
   },
   {
-   "quando": "21/10 16:57",
-   "msg": "COO 17:00 21/10: T-042 medição por campanha + /guia-das (deploy 909b21b9)",
-   "sha": "5921dd4"
+   "quando": "22/10 19:46",
+   "msg": "COO 22/10 19h: T-043 vídeo longo C-001 renderizado, aguarda gate",
+   "sha": "ba5389e"
   },
   {
-   "quando": "21/10 15:49",
-   "msg": "CCO 15:49 21/10: 0 venda/cliente/parceiro",
-   "sha": "af1b4ae"
+   "quando": "22/10 19:25",
+   "msg": "COO 22/10 19h: T-022 Short 09 v7 (CTA voz nova), aguarda gate",
+   "sha": "9227931"
   },
   {
-   "quando": "21/10 14:59",
-   "msg": "COO 15:10 21/10: LC 238 publicada no DOU (T-007, rascunho p/ CLO), T-022 parado p/ CMO",
-   "sha": "94263d7"
+   "quando": "22/10 17:06",
+   "msg": "COO 22/10 17:05: T-022 Short 09 v6 reprovado no gate, diário",
+   "sha": "19efa0c"
   },
   {
-   "quando": "21/10 12:58",
-   "msg": "Short 09: descrição YouTube (rascunho)",
-   "sha": "a6b0afb"
+   "quando": "22/10 15:48",
+   "msg": "CCO 15:49 22/10: 0 venda/cliente/parceiro",
+   "sha": "157cd02"
   },
   {
-   "quando": "21/10 12:58",
-   "msg": "COO 13:00 21/10: Short 08 TikTok público, T-007 sem DOU, Short 09 v2 reprovado no gate (zona segura falso alarme), registro da rodada 10:41",
-   "sha": "26aff5d"
+   "quando": "22/10 15:08",
+   "msg": "COO 22/10 15:10: T-022 v5 reprovado no gate",
+   "sha": "c9e0bac"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "22/10/2026 08:06"
+ "gerado_em": "23/10/2026 08:09"
 }

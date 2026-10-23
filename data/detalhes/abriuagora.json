@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "21/10/2026 10:22",
+  "ultimo_commit": "23/10/2026 06:01",
   "commits_7d": 34,
-  "commits_30d": 181,
+  "commits_30d": 186,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-23",
-    "n": 0
-   },
    {
     "dia": "2026-09-24",
     "n": 0
@@ -144,15 +140,44 @@
    },
    {
     "dia": "2026-10-22",
-    "n": 0
+    "n": 1
+   },
+   {
+    "dia": "2026-10-23",
+    "n": 4
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 249,
+  "arquivos": 250,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "23/10 06:01",
+   "msg": "Política de Privacidade v1.3 (vigência 23/10/2026): origem do pedido e link curto sem identificar quem clicou (20261022-clo-1)",
+   "sha": "ab4de00"
+  },
+  {
+   "quando": "23/10 06:01",
+   "msg": "Home: meta description sem \"sem nome de pessoa física\" (a aba MEI traz o nome) (20261020-cmo-17)",
+   "sha": "cfdc981"
+  },
+  {
+   "quando": "23/10 00:06",
+   "msg": "Parcerias (20261021-cmo-2): 4 e-mails enviados em 23/10 03:04–03:05 UTC; canal EM TESTE",
+   "sha": "1cf26a6"
+  },
+  {
+   "quando": "23/10 00:03",
+   "msg": "Respostas da prospecção (20261022-cs-1): 19 cidades cobertas e até 5 à escolha do assinante",
+   "sha": "36fa9fb"
+  },
+  {
+   "quando": "22/10 12:04",
+   "msg": "Parcerias (20261021-cmo-1/cmo-2): e-mails conferidos, teste da mecânica e 4 textos só com a amostra de 10, aguardando OK; canais.md",
+   "sha": "d70708b"
+  },
   {
    "quando": "21/10 10:22",
    "msg": "Checklist 21/10: onda 2 ligou (20/10, assunto B); onda 3 não liga (0 pedidos de lead)",
@@ -177,31 +202,6 @@
    "quando": "20/10 18:08",
    "msg": "Pedido de amostra recusado: log com o campo (sem e-mail), validação do navegador e voltar para a página do lead",
    "sha": "e2455d1"
-  },
-  {
-   "quando": "20/10 18:04",
-   "msg": "Regra 20261020-ceo-2: a sessão do servidor só instala o que está no GitHub",
-   "sha": "92d9d30"
-  },
-  {
-   "quando": "20/10 18:03",
-   "msg": "Pendência: lista do mês 2026-09 atrasada (alerta do vigia, e-mail 20/10)",
-   "sha": "8823e67"
-  },
-  {
-   "quando": "20/10 00:08",
-   "msg": "Redesenho da home e de /para-contadores: formulário no topo, faixa com o número do mês, print da planilha, menu no celular",
-   "sha": "18b5547"
-  },
-  {
-   "quando": "19/10 18:15",
-   "msg": "Checklist: espelho já publica a pasta 2026-10 (setembro)",
-   "sha": "3d03172"
-  },
-  {
-   "quando": "19/10 18:14",
-   "msg": "Teste do espelho sem rede de verdade (a API já lista 2026-10 e quebrava o CI)",
-   "sha": "45219d8"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "47",
-    "detalhe": "de 84 registrados · 24 aberto, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 9 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 6 em andamento   brt c, 1 reaberto"
+    "valor": "49",
+    "detalhe": "de 86 registrados · 22 aberto, 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 13 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 5 em andamento   brt c, 1 reaberto"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 22/10/2026: COO"
+    "detalhe": "em 23/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -396,7 +396,7 @@
       "id": "20261020-cmo-1",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -424,7 +424,7 @@
       "id": "20261020-cmo-22",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Rodrigo pediu em 20/10 para comparar 2 versões do CONVITE com as mesmas palavras (texto novo da auditoria,…"
      },
      {
@@ -435,25 +435,32 @@
       "titulo": "Envio de hoje 21/10 09:30 é o 1º com o link curto e a home como destino"
      },
      {
-      "id": "20261021-cmo-1",
-      "cargo": "CMO",
-      "prioridade": "alta",
-      "status": "Aberto",
-      "titulo": "Conferir contatos e links do canal de parceria. Barato: dá para fazer AGORA, antes do reset. Passos: (1)…"
-     },
-     {
-      "id": "20261021-cmo-2",
-      "cargo": "CMO",
-      "prioridade": "alta",
-      "status": "Aberto",
-      "titulo": "Enviar os 4 e-mails às entidades. Barato: 4 e-mails um a um, sem código. Antes do reset só se o CEO puser na…"
-     },
-     {
       "id": "20261021-cs-1",
       "cargo": "CS",
       "prioridade": "alta",
       "status": "Em andamento   brt c",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261022-ceo-1",
+      "cargo": "CEO",
+      "prioridade": "alta",
+      "status": "Concluído   brt coo ",
+      "titulo": "Números do envio de hoje 22/10 09:30 (2º dia com link curto)"
+     },
+     {
+      "id": "20261022-ceo-2",
+      "cargo": "CEO → CSO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "Regra do Rodrigo de 21/10: 1 canal NOVO de VENDA por mês, aberto até o dia 20. Em 22/10 o único candidato…"
+     },
+     {
+      "id": "20261022-cs-1",
+      "cargo": "CS",
+      "prioridade": "alta",
+      "status": "Concluído   brt coo ",
+      "titulo": "O modelo de resposta \"cidade fora da cobertura\" no repo (site-textos/respostas-prospeccao.md l. 63) e o…"
      },
      {
       "id": "20261015-ciso-1",
@@ -526,13 +533,6 @@
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
-      "id": "20261020-cmo-10",
-      "cargo": "CMO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "Formulário da amostra: \"Setor\" → \"Ramo\""
-     },
-     {
       "id": "20261020-cmo-11",
       "cargo": "CMO",
       "prioridade": "média",
@@ -573,13 +573,6 @@
       "prioridade": "média",
       "status": "Aberto",
       "titulo": "/assinar: logo e favicon, formulário mais acima (hoje o botão está a 2.752 px no celular), cidades em ordem…"
-     },
-     {
-      "id": "20261020-cmo-17",
-      "cargo": "CMO",
-      "prioridade": "média",
-      "status": "Aberto",
-      "titulo": "A meta description da home diz \"sem nome de pessoa física\", mas a aba MEI traz o nome do MEI. O CLO confere"
      },
      {
       "id": "20261021-cmo-3",
@@ -692,11 +685,32 @@
       "prioridade": "baixa",
       "status": "Aberto",
       "titulo": "O site não comprime as respostas nem manda cache: curl -I -H 'Accept-Encoding: gzip, br' na home volta sem…"
+     },
+     {
+      "id": "20261022-clo-1",
+      "cargo": "CLO",
+      "prioridade": "baixa",
+      "status": "Em andamento   brt c",
+      "titulo": "A Política de Privacidade (v1.2) não diz que o pedido de amostra grava de qual página ou link ele veio…"
+     },
+     {
+      "id": "20261022-ciso-1",
+      "cargo": "CISO",
+      "prioridade": "baixa",
+      "status": "Aberto",
+      "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261021-cmo-1",
+      "cargo": "URGENTE (CEO 22",
+      "prioridade": "—",
+      "status": "Canaismd docsparceri",
+      "titulo": "CONCLUÍDO 2026-10-23 06:00 BRT (COO"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "22/10/2026 08:06"
+ "gerado_em": "23/10/2026 08:09"
 }
