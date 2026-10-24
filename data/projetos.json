@@ -1,25 +1,26 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "23/10/2026 08:15 (horário de Brasília)",
+  "gerado_em": "24/10/2026 08:10 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Em 23/10 o canal de parcerias entrou EM TESTE com 4 e-mails enviados, a Política de Privacidade foi para a v1.3 (vigência 23/10) e a resposta da prospecção passou a cobrir 19 cidades, com até 5 à escolha do assinante. Portão 1 segue em 0 de 3 amostras; lista do mês 2026-09 atrasada e conta no Asaas ainda pendentes.",
+      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Envios de 22/10 (18 de 20 entregues) e 23/10 (20 de 20) sem cliques nem pedidos de amostra de lead; as 4 parcerias de 23/10 ainda sem resposta. Em 23/10 as páginas por cidade e a home passaram a mostrar setembro de 2026 (6.123 aberturas nas 19 cidades), e a prospecção ganhou assuntos novos (a partir de 26/10) e convites, D+3 e D+7 mais curtos. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
       "recente": [
-        "23/10 06:01 – Política de Privacidade v1.3 (origem do pedido e link curto sem identificar quem clicou) e ajuste na descrição da home",
-        "23/10 00:06 – canal de parcerias EM TESTE: 4 e-mails enviados",
-        "23/10 00:03 – respostas da prospecção: 19 cidades cobertas e até 5 à escolha do assinante",
-        "22/10 12:04 – parcerias: e-mails conferidos e 4 textos com a amostra de 10, aguardando OK",
-        "21/10 10:22 – checklist: onda 2 ligou (20/10, assunto B); onda 3 não liga (0 pedidos de lead)"
+        "24/10 00:04 – prospecção: convite A/B, D+3 e D+7 curtos, preço de fundador só no D+7 e rodapé curto",
+        "23/10 19:46 – setembro de 2026 nas 19 páginas por cidade e na faixa da home (6.123 aberturas)",
+        "23/10 18:04 – envios de 22 e 23/10 registrados no git: 0 clique e 0 pedido de amostra de lead",
+        "23/10 18:04 – assuntos novos da prospecção a partir de 26/10",
+        "23/10 06:01 – Política de Privacidade v1.3 e ajuste na descrição da home"
       ],
       "proximos": [
         "Acompanhar as respostas das 4 parcerias enviadas em 23/10",
+        "Medir os assuntos novos da prospecção a partir de 26/10",
         "Resolver a lista do mês 2026-09 atrasada",
         "Rodrigo cadastrar a conta bancária no Asaas; Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "23/10/2026 06:01",
+      "atualizado": "24/10/2026 00:04",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -33,21 +34,22 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200). Resumo do CEO de 22/10: 0 vendas, 53 visitas e 59 pageviews em 7 dias, 0 clique em comprar, 1 inscrito; meta de 1ª venda até 31/10. Em 22/10 entraram em produção o card de dor, a FAQ, o texto da LC 238 e o HSTS; o vídeo longo do canal C-001 foi aprovado no controle de qualidade e o Short 09 segue reprovado. Em 23/10 o Rodrigo aprovou o teste C-002 (Hotmart, afiliados a 40%, sem gasto com anúncio) e resolveu o número próprio da empresa para o Canal do WhatsApp \"MEI em dia\".",
+      "status": "finbook.com.br no ar (site 200). Resumo semanal do CEO de 23/10: 0 vendas, 61 pageviews e 52 visitas em 7 dias; meta de 1ª venda até 31/10. Em 23/10 o vídeo longo do C-001 saiu no YouTube, o banner do canal entrou no ar, os Termos de Uso foram publicados e a página do perdão das dívidas do MEI (LC 238) foi para produção. O Short 10 teve 6 reprovações seguidas no controle de qualidade e aguarda decisão do CEO; a sequência de e-mails de parceiros (T-058) está pronta só em rascunho, sem envio.",
       "recente": [
-        "23/10 08:05 – CEO: decisões do Rodrigo registradas (C-002 Hotmart aprovado, número próprio do Finbook, sequência de parceiros) e novas tarefas T-056 a T-058",
-        "22/10 20:52 – COO: vídeo longo do C-001 aprovado no controle de qualidade; Short 09 v7 reprovado",
-        "22/10 20:19 – CEO resumo: 0 vendas, 53 visitas/7d, 0 clique em comprar",
-        "22/10 12:58 – página do perdão das dívidas do MEI (LC 238) em prévia, aguardando o CLO",
-        "22/10 11:04 – em produção: card de dor, FAQ, texto da LC 238, HSTS e boas-vindas sem promessa"
+        "23/10 22:55 – COO: sequência T-058 no gerador, só rascunho e teste sem envio",
+        "23/10 21:00 – COO: Short 10 reprovado pela 6ª vez no controle de qualidade; decisão do CEO",
+        "23/10 20:27 – CEO resumo semanal: 0 vendas, 61 pageviews e 52 visitas em 7 dias",
+        "23/10 16:55 – COO: banner do canal do YouTube no ar",
+        "23/10 13:05 – COO: Termos de Uso no ar",
+        "23/10 11:05 – COO: vídeo longo do C-001 publicado no YouTube; página da LC 238 em produção"
       ],
       "proximos": [
-        "Publicar o vídeo longo do C-001 no YouTube",
+        "CEO decidir o destino do Short 10 (T-059)",
+        "Rodrigo: ok do lote 5 (T-008), passos da Kiwify (T-034) e verificação do YouTube (T-036 b)",
         "CLO conferir os termos da Hotmart e abrir a conta (T-057)",
-        "Abrir o Canal do WhatsApp \"MEI em dia\" com o número da empresa (T-056)",
-        "Publicar a página da LC 238 depois do aval do CLO"
+        "Abrir o Canal do WhatsApp \"MEI em dia\" com o número da empresa (T-056)"
       ],
-      "atualizado": "23/10/2026 08:05",
+      "atualizado": "23/10/2026 22:55",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -56,19 +58,20 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Coleta ativa: em 22/10 entraram vagas novas com artes geradas e 3 aguardando aprovação (atendente, técnico e operador de caixa). Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "Em 23/10 a coleta juntou as vagas do dia com artes, mas nada foi publicado: o servidor do n8n ficou fora do ar das 17:05 às 17:16, e as vagas ficaram prontas numa pasta para publicar quando ele voltar. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
+        "23/10 17:36 – vagas de 23/10 prontas, não publicadas (n8n fora do ar)",
         "22/10 17:36 – vagas de 22/10 coletadas, 3 aguardando aprovação",
         "21/10 17:35 – 5 vagas novas (SJDR e Tiradentes) com artes, aguardando aprovação",
         "20/10 17:36 – 6 vagas de 20/10 (SJDR e Tiradentes): 4 publicadas automaticamente, 2 aguardando aprovação",
-        "19/10 17:35 – 8 vagas de 19/10 (SJDR e Tiradentes): 7 publicadas automaticamente, 1 aguardando aprovação",
-        "19/10 – script para religar o Chrome adicionado ao repositório"
+        "19/10 17:35 – 8 vagas de 19/10 (SJDR e Tiradentes): 7 publicadas automaticamente, 1 aguardando aprovação"
       ],
       "proximos": [
+        "Publicar as vagas de 23/10 quando o n8n voltar e conferir o servidor",
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "22/10/2026 17:36",
+      "atualizado": "23/10/2026 17:36",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
@@ -136,20 +139,20 @@
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
-      "status": "Em operação: radar de 22/10 sem promoção aplicável (Smiles até 70% abaixo do gatilho de 80%; Esfera + dinheiro acima do teto). A campanha Nubank → Azul/Smiles de 2026 não apareceu (a de \"20–24/10\" era de 2025). Saldos na planilha seguem desatualizados.",
+      "status": "Em operação: radar de 23/10 sem promoção aplicável (Livelo → Latam Pass 25% e Smiles até 70% abaixo do gatilho de 80%). Nenhuma campanha Nubank → Azul/Smiles de 2026 confirmada. Saldos na planilha seguem desatualizados.",
       "recente": [
+        "23/10 – radar diário: nada aplicável; Livelo → Latam Pass 25% e pontos+dinheiro acima do teto",
         "22/10 – radar diário: nada aplicável; sala LATAM de Guarulhos passou a bloquear o Visa Airport Companion das 15h às 22h30",
         "21/10 – radar diário: nada aplicável; Livelo → Azul daria só 40% sem Clube Azul",
         "20/10 – radar diário: nada aplicável; Nubank Ultravioleta sem campanha anunciada em 2026, Livelo sem transferência bonificada",
-        "19/10 – radar diário: nada aplicável; Livelo sem transferência bonificada, Qatar Avios +60% acima do teto",
-        "18/10 – auditoria mensal dos cartões: fim do seguro grátis do Ultravioleta, teto de cashback do OKX confirmado, prévia do XP Legacy"
+        "19/10 – radar diário: nada aplicável; Livelo sem transferência bonificada, Qatar Avios +60% acima do teto"
       ],
       "proximos": [
-        "Vigiar bônus Nubank Ultravioleta → Azul/Smiles até 24/10",
+        "Vigiar Nubank Ultravioleta → Azul/Smiles/Latam com 50% ou mais",
         "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
-        "Revisão mensal em 01/11"
+        "Revisão mensal em 01/11 (inclui o crédito dos 2.000 pontos extras da Livelo)"
       ],
-      "atualizado": "22/10/2026 08:35",
+      "atualizado": "23/10/2026 11:10",
       "url": "https://github.com/ratbragaia/milhas-e-cartoes",
       "categoria": "GitHub"
     },

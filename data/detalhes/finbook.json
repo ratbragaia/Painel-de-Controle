@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 66.6
+    "pct": 65.7
    },
    {
     "nome": "HTML",
-    "pct": 29.4
+    "pct": 30.4
    },
    {
     "nome": "JavaScript",
-    "pct": 2.8
+    "pct": 2.7
    },
    {
     "nome": "CSS",
     "pct": 0.9
    }
   ],
-  "ultimo_commit": "23/10/2026 08:05",
-  "commits_7d": 88,
-  "commits_30d": 115,
+  "ultimo_commit": "23/10/2026 22:51",
+  "commits_7d": 100,
+  "commits_30d": 132,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-24",
-    "n": 0
-   },
    {
     "dia": "2026-09-25",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-23",
-    "n": 1
+    "n": 18
+   },
+   {
+    "dia": "2026-10-24",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 548,
+  "arquivos": 582,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "23/10 08:05",
-   "msg": "CEO 23/10 08:00: decisões do Rodrigo (D-013 Rockfort, D-012 número, C-002 Hotmart aprovado, D-001 sequência pela T-058) e alçada do CEO;…",
-   "sha": "4b82ce4"
+   "quando": "23/10 22:51",
+   "msg": "COO 22:55 23/10: T-058 (1)-(9) no gerador, sem envio; consentimento no envio",
+   "sha": "61f116f"
   },
   {
-   "quando": "22/10 22:57",
-   "msg": "COO 22:58 22/10: rodada noturna, site 200",
-   "sha": "b4c940f"
+   "quando": "23/10 20:53",
+   "msg": "COO 21:00 23/10: T-059 gate v6 reprovado (motivos conferidos e falsos), decisão do CEO",
+   "sha": "98910c0"
   },
   {
-   "quando": "22/10 20:52",
-   "msg": "COO 22/10 20:52: gate C-001 aprovado, Short 09 v7 reprovado",
-   "sha": "2728001"
+   "quando": "23/10 20:52",
+   "msg": "COO 20:55 23/10: T-059 v6 renderizada, gate em andamento",
+   "sha": "bce7a92"
   },
   {
-   "quando": "22/10 20:51",
-   "msg": "COO 22/10 20:50: registro 19h, gates disparados",
-   "sha": "a067c22"
+   "quando": "23/10 20:27",
+   "msg": "CEO resumo 23/10",
+   "sha": "d9050c1"
   },
   {
-   "quando": "22/10 20:19",
-   "msg": "CEO resumo 22/10",
-   "sha": "1fb2faf"
+   "quando": "23/10 18:56",
+   "msg": "COO 19:02 23/10: T-059 gate v5 reprovado (motivos conferidos), v6 na próxima rodada",
+   "sha": "51b3ca0"
   },
   {
-   "quando": "22/10 19:46",
-   "msg": "COO 22/10 19h: T-043 vídeo longo C-001 renderizado, aguarda gate",
-   "sha": "ba5389e"
+   "quando": "23/10 18:56",
+   "msg": "COO 18:58 23/10: T-059 v5 renderizada, gate em andamento",
+   "sha": "c4028a0"
   },
   {
-   "quando": "22/10 19:25",
-   "msg": "COO 22/10 19h: T-022 Short 09 v7 (CTA voz nova), aguarda gate",
-   "sha": "9227931"
+   "quando": "23/10 16:57",
+   "msg": "COO 16:55 23/10: T-036(a) banner YouTube no ar; T-059 gates v3/v4 reprovados, v5 na próxima rodada",
+   "sha": "41c4552"
   },
   {
-   "quando": "22/10 17:06",
-   "msg": "COO 22/10 17:05: T-022 Short 09 v6 reprovado no gate, diário",
-   "sha": "19efa0c"
+   "quando": "23/10 15:52",
+   "msg": "CCO 15:52: 0 venda/cliente/parceiro",
+   "sha": "74e1361"
   },
   {
-   "quando": "22/10 15:48",
-   "msg": "CCO 15:49 22/10: 0 venda/cliente/parceiro",
-   "sha": "157cd02"
+   "quando": "23/10 15:02",
+   "msg": "COO 15:05 23/10: T-034 preparo feito (aguarda Rodrigo); T-059 gate v2 reprovado, v3 com gancho",
+   "sha": "1e8be88"
   },
   {
-   "quando": "22/10 15:08",
-   "msg": "COO 22/10 15:10: T-022 v5 reprovado no gate",
-   "sha": "c9e0bac"
+   "quando": "23/10 15:01",
+   "msg": "COO T-034: banner/bump/obrigado-compra (preparo)",
+   "sha": "62e202c"
   }
  ],
  "pendencias": {
@@ -300,16 +300,16 @@
    {
     "rotulo": "Receita bruta registrada",
     "valor": "R$ 0,00",
-    "detalhe": "até 16/10/2026"
+    "detalhe": "até 23/10/2026"
    },
    {
     "rotulo": "Resultado líquido registrado",
     "valor": "R$ 0,00",
-    "detalhe": "até 16/10/2026"
+    "detalhe": "até 23/10/2026"
    },
    {
     "rotulo": "Artigos no blog",
-    "valor": "14",
+    "valor": "15",
     "detalhe": "páginas em site/blog"
    },
    {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "23/10/2026 08:09"
+ "gerado_em": "24/10/2026 08:03"
 }

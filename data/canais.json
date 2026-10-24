@@ -1,6 +1,6 @@
 {
  "titulo": "Canais de venda e aquisição",
- "gerado_em": "23/10/2026 08:09 (horário de Brasília)",
+ "gerado_em": "24/10/2026 08:03 (horário de Brasília)",
  "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
  "empresas": [
   {
@@ -176,15 +176,15 @@
      "hipotese": "Contador da cidade que recebe o convite pela dor pede a amostra grátis de 10 empresas",
      "metrica": "Pedidos de amostra ÷ entregues; visitas com origem; respostas; descadastros/spam",
      "decisao": "",
-     "periodo": "13/10 a 22/10/2026",
-     "fonte": "resumos-clevels/2026-10-22-ceo.md (CEO)",
+     "periodo": "13/10 a 23/10/2026",
+     "fonte": "resumos-clevels/2026-10-23-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": "105",
        "nota": "e-mails entregues",
        "medido_em": "22/10/2026",
-       "origem": "extraído",
-       "mantido": false
+       "origem": "anterior",
+       "mantido": true
       },
       "cliques": {
        "valor": "0",
@@ -196,14 +196,14 @@
       "leads": {
        "valor": "0",
        "nota": "pedidos de amostra (meta 3)",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -242,7 +242,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "prazo": "31/10/2026",
      "registros": [
       "canais.md (pasta local)"
@@ -376,7 +376,7 @@
      "metrica": "pagantes e receita recebida",
      "decisao": "",
      "periodo": "outubro/2026",
-     "fonte": "resumos-clevels/2026-10-22-ceo.md (CEO)",
+     "fonte": "resumos-clevels/2026-10-23-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": null,
@@ -402,21 +402,21 @@
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "receita": {
        "valor": "R$ 0",
        "nota": "receita recebida",
-       "medido_em": "22/10/2026",
+       "medido_em": "23/10/2026",
        "origem": "extraído",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "22/10/2026",
+     "medido_em": "23/10/2026",
      "prazo": "",
      "registros": []
     },
@@ -1402,7 +1402,7 @@
       "alcance": {
        "valor": "39",
        "nota": "convites enviados",
-       "medido_em": "23/10/2026",
+       "medido_em": "24/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1437,7 +1437,7 @@
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "23/10/2026",
+     "medido_em": "24/10/2026",
      "prazo": "",
      "registros": [
       "ceo/canais.md (pasta local)"
@@ -1455,7 +1455,7 @@
      "metrica": "vendas (meta: 1ª até 31/10, 10 até 30/11)",
      "decisao": "",
      "periodo": "acumulado até 21/10/2026",
-     "fonte": "ceo/diario.md (placar do CEO)",
+     "fonte": "ceo/financeiro.csv",
      "numeros": {
       "alcance": {
        "valor": null,
@@ -1488,14 +1488,14 @@
       "receita": {
        "valor": "R$ 0,00",
        "nota": "receita bruta registrada",
-       "medido_em": "21/10/2026",
-       "origem": "registro do painel",
-       "mantido": true
+       "medido_em": "23/10/2026",
+       "origem": "extraído",
+       "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "21/10/2026",
+     "medido_em": "23/10/2026",
      "prazo": "",
      "registros": []
     },
@@ -1509,7 +1509,7 @@
      "inicio": "21/10/2026",
      "hipotese": "Quem tem DAS atrasado procura \"como pagar/parcelar DAS MEI atrasado\" e, nesta semana, \"perdão das dívidas do MEI\" (LC 238) na busca do YouTube. Um tutorial longo pela dor D3/D4 aparece na busca, coisa que Short não…",
      "metrica": "Views do vídeo em D+3, D+7, D+14; visitas stat:visita_campanha_teste-c001 + calc_das_uso; link: [link] Manter: ≥100 views e ≥5 visitas…",
-     "decisao": "",
+     "decisao": "— · Publicado 23/10/2026 ~11:00 BRT (COO, T-044): [link] (público, containsSyntheticMedia=true, pt-BR, descrição com UTM teste-c001 e capítulos reais). D+3 =…",
      "prazo": "04/11/2026",
      "resultado": "em teste (21/10: roteiro e descrição em rascunho; produção T-043)",
      "periodo": "",
@@ -1795,7 +1795,7 @@
       "leads": {
        "valor": "107",
        "nota": "vagas publicadas desde 02/10/2026",
-       "medido_em": "23/10/2026",
+       "medido_em": "24/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1825,7 +1825,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "23/10/2026",
+     "medido_em": "24/10/2026",
      "prazo": "",
      "registros": []
     },

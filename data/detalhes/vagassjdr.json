@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "22/10/2026 17:36",
+  "ultimo_commit": "23/10/2026 17:36",
   "commits_7d": 6,
-  "commits_30d": 27,
+  "commits_30d": 28,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-24",
-    "n": 0
-   },
    {
     "dia": "2026-09-25",
     "n": 0
@@ -144,15 +140,24 @@
    },
    {
     "dia": "2026-10-23",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-24",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 533,
+  "arquivos": 566,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "23/10 17:36",
+   "msg": "Espelhamento automatico 2026-10-23 17:36",
+   "sha": "bceed23"
+  },
   {
    "quando": "22/10 17:36",
    "msg": "Espelhamento automatico 2026-10-22 17:36",
@@ -197,11 +202,6 @@
    "quando": "15/10 23:40",
    "msg": "Limpeza aprovada pelo Rodrigo e PENDENCIAS atualizado",
    "sha": "7f57cf0"
-  },
-  {
-   "quando": "15/10 23:35",
-   "msg": "PENDENCIAS: rotina das 17h mantida, backups da troca de chave apagados",
-   "sha": "55d0cb2"
   }
  ],
  "pendencias": {
@@ -227,7 +227,7 @@
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "29",
+    "valor": "26",
     "detalhe": ""
    },
    {
@@ -239,5 +239,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "23/10/2026 08:09"
+ "gerado_em": "24/10/2026 08:03"
 }
