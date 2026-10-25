@@ -1,18 +1,18 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "24/10/2026 08:10 (horário de Brasília)",
+  "gerado_em": "25/10/2026 08:15 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Envios de 22/10 (18 de 20 entregues) e 23/10 (20 de 20) sem cliques nem pedidos de amostra de lead; as 4 parcerias de 23/10 ainda sem resposta. Em 23/10 as páginas por cidade e a home passaram a mostrar setembro de 2026 (6.123 aberturas nas 19 cidades), e a prospecção ganhou assuntos novos (a partir de 26/10) e convites, D+3 e D+7 mais curtos. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
+      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Em 24 e 25/10 entraram ajustes de conversão: formulário da amostra com campo Ramo e linha de aceite abaixo do botão, e a página /para-contadores enxugada para até 600 palavras visíveis. As 4 parcerias de 23/10 seguem sem resposta registrada; os assuntos novos da prospecção começam em 26/10. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
       "recente": [
+        "25/10 06:05 – /para-contadores com até 600 palavras visíveis",
+        "24/10 18:07 – formulário da amostra: campo Ramo e linha de aceite abaixo do botão",
         "24/10 00:04 – prospecção: convite A/B, D+3 e D+7 curtos, preço de fundador só no D+7 e rodapé curto",
         "23/10 19:46 – setembro de 2026 nas 19 páginas por cidade e na faixa da home (6.123 aberturas)",
-        "23/10 18:04 – envios de 22 e 23/10 registrados no git: 0 clique e 0 pedido de amostra de lead",
-        "23/10 18:04 – assuntos novos da prospecção a partir de 26/10",
-        "23/10 06:01 – Política de Privacidade v1.3 e ajuste na descrição da home"
+        "23/10 18:04 – envios de 22 e 23/10 registrados no git: 0 clique e 0 pedido de amostra de lead"
       ],
       "proximos": [
         "Acompanhar as respostas das 4 parcerias enviadas em 23/10",
@@ -20,7 +20,7 @@
         "Resolver a lista do mês 2026-09 atrasada",
         "Rodrigo cadastrar a conta bancária no Asaas; Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "24/10/2026 00:04",
+      "atualizado": "25/10/2026 06:05",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -34,22 +34,22 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200). Resumo semanal do CEO de 23/10: 0 vendas, 61 pageviews e 52 visitas em 7 dias; meta de 1ª venda até 31/10. Em 23/10 o vídeo longo do C-001 saiu no YouTube, o banner do canal entrou no ar, os Termos de Uso foram publicados e a página do perdão das dívidas do MEI (LC 238) foi para produção. O Short 10 teve 6 reprovações seguidas no controle de qualidade e aguarda decisão do CEO; a sequência de e-mails de parceiros (T-058) está pronta só em rascunho, sem envio.",
+      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas (CCO em 24/10); meta de 1ª venda até 31/10. Em 24/10 o Short 10 foi aprovado na 3ª revisão e publicado no YouTube e no TikTok, o lote 5 de parceiros foi enviado (10 de 10), a página de obrigado da compra ganhou o botão da área de membros da Kiwify e o checklist em PDF e a página de obrigado da newsletter passaram a levar à calculadora do limite do MEI. A troca de capas antigas no TikTok travou (o TikTok só permite nos 7 primeiros dias do post).",
       "recente": [
-        "23/10 22:55 – COO: sequência T-058 no gerador, só rascunho e teste sem envio",
-        "23/10 21:00 – COO: Short 10 reprovado pela 6ª vez no controle de qualidade; decisão do CEO",
-        "23/10 20:27 – CEO resumo semanal: 0 vendas, 61 pageviews e 52 visitas em 7 dias",
-        "23/10 16:55 – COO: banner do canal do YouTube no ar",
-        "23/10 13:05 – COO: Termos de Uso no ar",
-        "23/10 11:05 – COO: vídeo longo do C-001 publicado no YouTube; página da LC 238 em produção"
+        "24/10 22:57 – COO: obrigado da newsletter sem formulário repetido, com chamada para a calculadora do limite",
+        "24/10 20:53 – COO: checklist em PDF com chamada para a calculadora do limite",
+        "24/10 20:30 – CEO: lote 5 de parceiros enviado (10 de 10)",
+        "24/10 20:17 – CEO: resumo diário no formato curto (0 venda)",
+        "24/10 16:59 – COO: Short 10 público no TikTok; troca de capas antigas travada pelo limite de 7 dias",
+        "24/10 15:00 – COO: Short 10 aprovado na 3ª revisão e publicado no YouTube e no TikTok"
       ],
       "proximos": [
-        "CEO decidir o destino do Short 10 (T-059)",
-        "Rodrigo: ok do lote 5 (T-008), passos da Kiwify (T-034) e verificação do YouTube (T-036 b)",
-        "CLO conferir os termos da Hotmart e abrir a conta (T-057)",
-        "Abrir o Canal do WhatsApp \"MEI em dia\" com o número da empresa (T-056)"
+        "Rodrigo: verificação por telefone do YouTube (T-036 b)",
+        "CMO decidir em 27/10 se republica posts para trocar capas no TikTok",
+        "Concluir os ajustes de conversão T-038 até 27/10",
+        "CLO conferir os termos da Hotmart e abrir a conta (T-057)"
       ],
-      "atualizado": "23/10/2026 22:55",
+      "atualizado": "24/10/2026 22:57",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -58,20 +58,19 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Em 23/10 a coleta juntou as vagas do dia com artes, mas nada foi publicado: o servidor do n8n ficou fora do ar das 17:05 às 17:16, e as vagas ficaram prontas numa pasta para publicar quando ele voltar. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "O n8n voltou e as vagas de 23/10 saíram: 8 publicadas automaticamente e 2 enviadas para aprovação. Em 24/10 a coleta trouxe 1 vaga nova, enviada para aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
-        "23/10 17:36 – vagas de 23/10 prontas, não publicadas (n8n fora do ar)",
+        "24/10 17:36 – 1 vaga nova de 24/10 enviada para aprovação",
+        "24/10 15:36 – vagas de 23/10: 8 publicadas automaticamente, 2 aguardando aprovação",
         "22/10 17:36 – vagas de 22/10 coletadas, 3 aguardando aprovação",
         "21/10 17:35 – 5 vagas novas (SJDR e Tiradentes) com artes, aguardando aprovação",
-        "20/10 17:36 – 6 vagas de 20/10 (SJDR e Tiradentes): 4 publicadas automaticamente, 2 aguardando aprovação",
-        "19/10 17:35 – 8 vagas de 19/10 (SJDR e Tiradentes): 7 publicadas automaticamente, 1 aguardando aprovação"
+        "20/10 17:36 – 6 vagas de 20/10 (SJDR e Tiradentes): 4 publicadas automaticamente, 2 aguardando aprovação"
       ],
       "proximos": [
-        "Publicar as vagas de 23/10 quando o n8n voltar e conferir o servidor",
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "23/10/2026 17:36",
+      "atualizado": "24/10/2026 17:36",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
@@ -139,20 +138,20 @@
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
-      "status": "Em operação: radar de 23/10 sem promoção aplicável (Livelo → Latam Pass 25% e Smiles até 70% abaixo do gatilho de 80%). Nenhuma campanha Nubank → Azul/Smiles de 2026 confirmada. Saldos na planilha seguem desatualizados.",
+      "status": "Em operação: radar de 24/10 sem promoção aplicável (Livelo → Latam Pass 25% e Smiles até 70% encerraram em 23/10; Livelo → Etihad até 40% fora da estratégia). Novos planos do Clube Livelo entram na revisão de 01/11. Nenhuma campanha Nubank → Azul/Smiles/Latam de 2026 vigente. Saldos na planilha seguem desatualizados.",
       "recente": [
+        "24/10 – radar diário: nada aplicável; novos planos do Clube Livelo vão para a revisão de 01/11",
         "23/10 – radar diário: nada aplicável; Livelo → Latam Pass 25% e pontos+dinheiro acima do teto",
         "22/10 – radar diário: nada aplicável; sala LATAM de Guarulhos passou a bloquear o Visa Airport Companion das 15h às 22h30",
         "21/10 – radar diário: nada aplicável; Livelo → Azul daria só 40% sem Clube Azul",
-        "20/10 – radar diário: nada aplicável; Nubank Ultravioleta sem campanha anunciada em 2026, Livelo sem transferência bonificada",
-        "19/10 – radar diário: nada aplicável; Livelo sem transferência bonificada, Qatar Avios +60% acima do teto"
+        "20/10 – radar diário: nada aplicável; Nubank Ultravioleta sem campanha anunciada em 2026, Livelo sem transferência bonificada"
       ],
       "proximos": [
         "Vigiar Nubank Ultravioleta → Azul/Smiles/Latam com 50% ou mais",
         "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
         "Revisão mensal em 01/11 (inclui o crédito dos 2.000 pontos extras da Livelo)"
       ],
-      "atualizado": "23/10/2026 11:10",
+      "atualizado": "24/10/2026 08:35",
       "url": "https://github.com/ratbragaia/milhas-e-cartoes",
       "categoria": "GitHub"
     },
@@ -160,8 +159,10 @@
       "nome": "Assistente Pessoal",
       "repo": "assistente-pessoal",
       "objetivo": "Assistente pessoal do Rodrigo no Claude: mapa dos negócios e do Drive, roteiro do assistente, funções C-level e plano de memória e skills.",
-      "status": "Versionado no GitHub e espelhado de hora em hora. Em 21/10 entrou o documento Canais de Aquisição (catálogo de canais com custo, métrica e teste de 2 semanas) e o modelo de funções C-Level passou a proibir os perfis pessoais do Rodrigo como canal de venda.",
+      "status": "Versionado no GitHub e espelhado de hora em hora. Em 24/10 o modelo de funções C-Level passou a prever o resumo curto do CEO ao Rodrigo (só \"O que precisa de você\" e \"Resultados\"), e o assistente ganhou a regra de abrir sozinho o navegador quando a extensão não estiver conectada.",
       "recente": [
+        "24/10 18:35 – Funcoes-C-Level: formato curto do resumo do CEO ao Rodrigo",
+        "24/10 14:35 – regra: abrir o navegador sozinho quando a extensão não estiver conectada",
         "19/10 20:36 – Funcoes-C-Level: CMO dono do design e da conversão das páginas públicas",
         "14/10 – arquivos da pasta .ASSISTENTE migrados do Drive",
         "14/10 17:19 – commit inicial (migração para a pasta local de projetos)"
@@ -170,7 +171,7 @@
         "Seguir o ROTEIRO-ASSISTENTE-PESSOAL.md",
         "Executar o PLANO-memoria-e-skills.md"
       ],
-      "atualizado": "21/10/2026 10:35",
+      "atualizado": "24/10/2026 18:35",
       "url": "https://github.com/ratbragaia/assistente-pessoal",
       "categoria": "GitHub"
     },

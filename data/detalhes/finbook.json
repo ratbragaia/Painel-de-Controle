@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 65.7
+    "pct": 65.9
    },
    {
     "nome": "HTML",
-    "pct": 30.4
+    "pct": 30.2
    },
    {
     "nome": "JavaScript",
@@ -21,15 +21,11 @@
     "pct": 0.9
    }
   ],
-  "ultimo_commit": "23/10/2026 22:51",
-  "commits_7d": 100,
-  "commits_30d": 132,
+  "ultimo_commit": "24/10/2026 22:57",
+  "commits_7d": 107,
+  "commits_30d": 150,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-25",
-    "n": 0
-   },
    {
     "dia": "2026-09-26",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-24",
+    "n": 18
+   },
+   {
+    "dia": "2026-10-25",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 582,
+  "arquivos": 595,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "23/10 22:51",
-   "msg": "COO 22:55 23/10: T-058 (1)-(9) no gerador, sem envio; consentimento no envio",
-   "sha": "61f116f"
+   "quando": "24/10 22:57",
+   "msg": "coo: T-038(a) obrigado da newsletter sem form repetido, CTA calc limite (deploy c15b85d0)",
+   "sha": "a06a60a"
   },
   {
-   "quando": "23/10 20:53",
-   "msg": "COO 21:00 23/10: T-059 gate v6 reprovado (motivos conferidos e falsos), decisão do CEO",
-   "sha": "98910c0"
+   "quando": "24/10 20:53",
+   "msg": "coo: T-038(b) checklist PDF com CTA para calc do limite (deploy c78b39ee)",
+   "sha": "29c1e86"
   },
   {
-   "quando": "23/10 20:52",
-   "msg": "COO 20:55 23/10: T-059 v6 renderizada, gate em andamento",
-   "sha": "bce7a92"
+   "quando": "24/10 20:30",
+   "msg": "ceo: lote 5 de parceiros enviado (10/10, Resend [e-mail], D-018); T-008 feita",
+   "sha": "68984a3"
   },
   {
-   "quando": "23/10 20:27",
-   "msg": "CEO resumo 23/10",
-   "sha": "d9050c1"
+   "quando": "24/10 20:27",
+   "msg": "ceo: D-018 fim da regra de aprovação de envios (Rodrigo 24/10 20:25); T-008 lote 5 bloqueado por canal (Gmail conectado é pessoal)",
+   "sha": "054cfbe"
   },
   {
-   "quando": "23/10 18:56",
-   "msg": "COO 19:02 23/10: T-059 gate v5 reprovado (motivos conferidos), v6 na próxima rodada",
-   "sha": "51b3ca0"
+   "quando": "24/10 20:17",
+   "msg": "CEO resumo 24/10",
+   "sha": "52fb34d"
   },
   {
-   "quando": "23/10 18:56",
-   "msg": "COO 18:58 23/10: T-059 v5 renderizada, gate em andamento",
-   "sha": "c4028a0"
+   "quando": "24/10 19:00",
+   "msg": "COO 18:58 24/10: T-038(c) llms.txt (checklist PDF + dúvidas pela dor)",
+   "sha": "b54b298"
   },
   {
-   "quando": "23/10 16:57",
-   "msg": "COO 16:55 23/10: T-036(a) banner YouTube no ar; T-059 gates v3/v4 reprovados, v5 na próxima rodada",
-   "sha": "41c4552"
+   "quando": "24/10 18:10",
+   "msg": "ceo: D-017 formato curto do resumo do CEO ao Rodrigo (24/10)",
+   "sha": "e8225f1"
   },
   {
-   "quando": "23/10 15:52",
-   "msg": "CCO 15:52: 0 venda/cliente/parceiro",
-   "sha": "74e1361"
+   "quando": "24/10 16:59",
+   "msg": "COO 16:58 24/10: Short 10 TikTok público; T-037(b) travou (limite 7 dias)",
+   "sha": "df3fa43"
   },
   {
-   "quando": "23/10 15:02",
-   "msg": "COO 15:05 23/10: T-034 preparo feito (aguarda Rodrigo); T-059 gate v2 reprovado, v3 com gancho",
-   "sha": "1e8be88"
+   "quando": "24/10 16:58",
+   "msg": "COO 16:55 24/10: diário",
+   "sha": "05c6d91"
   },
   {
-   "quando": "23/10 15:01",
-   "msg": "COO T-034: banner/bump/obrigado-compra (preparo)",
-   "sha": "62e202c"
+   "quando": "24/10 16:53",
+   "msg": "COO 16:55 24/10: T-046 preparo Hotmart (c002) no box",
+   "sha": "34ecbe0"
   }
  ],
  "pendencias": {
@@ -216,7 +216,7 @@
     "prazo": null
    },
    {
-    "titulo": "Regra 11",
+    "titulo": "Regra 11 (revogada pela D-018, 24/10/2026)",
     "prazo": null
    },
    {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "24/10/2026 08:03"
+ "gerado_em": "25/10/2026 08:11"
 }

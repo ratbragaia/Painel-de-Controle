@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "23/10/2026 17:36",
-  "commits_7d": 6,
-  "commits_30d": 28,
+  "ultimo_commit": "24/10/2026 17:36",
+  "commits_7d": 7,
+  "commits_30d": 30,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-25",
-    "n": 0
-   },
    {
     "dia": "2026-09-26",
     "n": 0
@@ -144,15 +140,29 @@
    },
    {
     "dia": "2026-10-24",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-25",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 566,
+  "arquivos": 620,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "24/10 17:36",
+   "msg": "Espelhamento automatico 2026-10-24 17:36",
+   "sha": "066a467"
+  },
+  {
+   "quando": "24/10 15:36",
+   "msg": "Espelhamento automatico 2026-10-24 15:36",
+   "sha": "a3e1a71"
+  },
   {
    "quando": "23/10 17:36",
    "msg": "Espelhamento automatico 2026-10-23 17:36",
@@ -192,16 +202,6 @@
    "quando": "16/10 17:35",
    "msg": "Espelhamento automatico 2026-10-16 17:35",
    "sha": "0211b2f"
-  },
-  {
-   "quando": "16/10 14:27",
-   "msg": "Fim do dia 16/10: mensagens conferidas e pendencias",
-   "sha": "0c51063"
-  },
-  {
-   "quando": "15/10 23:40",
-   "msg": "Limpeza aprovada pelo Rodrigo e PENDENCIAS atualizado",
-   "sha": "7f57cf0"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "107",
-    "detalhe": "de 02/10/2026 a 22/10/2026"
+    "valor": "118",
+    "detalhe": "de 02/10/2026 a 24/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "26",
+    "valor": "33",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "101",
+    "valor": "112",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "24/10/2026 08:03"
+ "gerado_em": "25/10/2026 08:11"
 }

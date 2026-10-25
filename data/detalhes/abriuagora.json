@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 64.0
+    "pct": 64.6
    },
    {
     "nome": "HTML",
-    "pct": 34.8
+    "pct": 34.2
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "24/10/2026 00:04",
-  "commits_7d": 30,
-  "commits_30d": 190,
+  "ultimo_commit": "25/10/2026 06:05",
+  "commits_7d": 25,
+  "commits_30d": 192,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-25",
-    "n": 0
-   },
    {
     "dia": "2026-09-26",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-24",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-25",
     "n": 1
    }
   ],
@@ -153,6 +153,16 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "25/10 06:05",
+   "msg": "/para-contadores com até 600 palavras visíveis (20261020-cmo-3)",
+   "sha": "3bcd27e"
+  },
+  {
+   "quando": "24/10 18:07",
+   "msg": "Formulário da amostra: campo Ramo e linha de aceite abaixo do botão (20261020-cmo-10)",
+   "sha": "504678a"
+  },
   {
    "quando": "24/10 00:04",
    "msg": "Prospecção: convite A/B, D+3 e D+7 curtos e rodapé curto (20261020-cmo-9 + cmo-7)",
@@ -192,16 +202,6 @@
    "quando": "23/10 00:03",
    "msg": "Respostas da prospecção (20261022-cs-1): 19 cidades cobertas e até 5 à escolha do assinante",
    "sha": "36fa9fb"
-  },
-  {
-   "quando": "22/10 12:04",
-   "msg": "Parcerias (20261021-cmo-1/cmo-2): e-mails conferidos, teste da mecânica e 4 textos só com a amostra de 10, aguardando OK; canais.md",
-   "sha": "d70708b"
-  },
-  {
-   "quando": "21/10 10:22",
-   "msg": "Checklist 21/10: onda 2 ligou (20/10, assunto B); onda 3 não liga (0 pedidos de lead)",
-   "sha": "382e64d"
   }
  ],
  "pendencias": {
@@ -260,12 +260,12 @@
    {
     "rotulo": "Ajustes dos C-levels em aberto",
     "valor": "51",
-    "detalhe": "de 88 registrados · 20 aberto, 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 15 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 7 em andamento   brt c, 1 reaberto"
+    "detalhe": "de 88 registrados · 19 aberto, 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 20 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 3 em andamento   brt c, 1 reaberto"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 24/10/2026: COO"
+    "detalhe": "em 25/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -403,21 +403,21 @@
       "id": "20261020-cmo-2",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Todo clique dos e-mails (convite, D+3, D+7) cai em /para-contadores (link_amostra), a página mais longa do…"
      },
      {
       "id": "20261020-cmo-8",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
       "id": "20261020-cmo-9",
       "cargo": "CMO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "D+7 no mesmo padrão do cmo-7 (~58 palavras, 1 link curto, assunto \"Último e-mail: cliente novo em {cidade}…"
      },
      {
@@ -431,14 +431,14 @@
       "id": "20261021-ceo-1",
       "cargo": "CEO",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Envio de hoje 21/10 09:30 é o 1º com o link curto e a home como destino"
      },
      {
       "id": "20261021-cs-1",
       "cargo": "CS",
       "prioridade": "alta",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
@@ -515,7 +515,7 @@
       "id": "20261020-cmo-3",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Aberto",
+      "status": "Em andamento   brt c",
       "titulo": "/para-contadores continua com texto demais também na versão do GitHub (18b5547: ~1.700 palavras no HTML)"
      },
      {
@@ -726,5 +726,5 @@
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "24/10/2026 08:03"
+ "gerado_em": "25/10/2026 08:11"
 }
