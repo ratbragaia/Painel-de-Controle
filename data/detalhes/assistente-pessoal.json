@@ -5,14 +5,10 @@
   "linguagem": null,
   "linguagens": [],
   "ultimo_commit": "24/10/2026 18:35",
-  "commits_7d": 6,
+  "commits_7d": 5,
   "commits_30d": 14,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-26",
-    "n": 0
-   },
    {
     "dia": "2026-09-27",
     "n": 0
@@ -128,6 +124,10 @@
    {
     "dia": "2026-10-25",
     "n": 0
+   },
+   {
+    "dia": "2026-10-26",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
@@ -189,5 +189,5 @@
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "25/10/2026 08:11"
+ "gerado_em": "26/10/2026 08:02"
 }

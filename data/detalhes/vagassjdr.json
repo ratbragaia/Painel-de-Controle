@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "24/10/2026 17:36",
+  "ultimo_commit": "25/10/2026 17:35",
   "commits_7d": 7,
-  "commits_30d": 30,
+  "commits_30d": 31,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-26",
-    "n": 0
-   },
    {
     "dia": "2026-09-27",
     "n": 0
@@ -144,15 +140,24 @@
    },
    {
     "dia": "2026-10-25",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-26",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 620,
+  "arquivos": 642,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "25/10 17:35",
+   "msg": "Espelhamento automatico 2026-10-25 17:35",
+   "sha": "87a27d2"
+  },
   {
    "quando": "24/10 17:36",
    "msg": "Espelhamento automatico 2026-10-24 17:36",
@@ -197,11 +202,6 @@
    "quando": "17/10 17:35",
    "msg": "Espelhamento automatico 2026-10-17 17:35",
    "sha": "7beee05"
-  },
-  {
-   "quando": "16/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-16 17:35",
-   "sha": "0211b2f"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "118",
-    "detalhe": "de 02/10/2026 a 24/10/2026"
+    "valor": "119",
+    "detalhe": "de 02/10/2026 a 25/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "33",
+    "valor": "26",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "112",
+    "valor": "113",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "25/10/2026 08:11"
+ "gerado_em": "26/10/2026 08:02"
 }

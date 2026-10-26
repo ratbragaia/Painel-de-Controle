@@ -1,18 +1,18 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "25/10/2026 08:15 (horário de Brasília)",
+  "gerado_em": "26/10/2026 08:10 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Em 24 e 25/10 entraram ajustes de conversão: formulário da amostra com campo Ramo e linha de aceite abaixo do botão, e a página /para-contadores enxugada para até 600 palavras visíveis. As 4 parcerias de 23/10 seguem sem resposta registrada; os assuntos novos da prospecção começam em 26/10. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
+      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Seguem os ajustes de conversão do CMO: em 25/10 a home passou a ter um só botão principal de assinar, e em 26/10 a página /obrigado ganhou o mês real, aviso para olhar Promoções/Spam e um só botão. As 4 parcerias de 23/10 seguem sem resposta registrada; os assuntos novos da prospecção começam em 26/10. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
       "recente": [
+        "26/10 06:06 – página /obrigado: mês real, aviso de Promoções/Spam e um só botão",
+        "25/10 18:01 – home com um só botão principal de assinar",
         "25/10 06:05 – /para-contadores com até 600 palavras visíveis",
         "24/10 18:07 – formulário da amostra: campo Ramo e linha de aceite abaixo do botão",
-        "24/10 00:04 – prospecção: convite A/B, D+3 e D+7 curtos, preço de fundador só no D+7 e rodapé curto",
-        "23/10 19:46 – setembro de 2026 nas 19 páginas por cidade e na faixa da home (6.123 aberturas)",
-        "23/10 18:04 – envios de 22 e 23/10 registrados no git: 0 clique e 0 pedido de amostra de lead"
+        "24/10 00:04 – prospecção: convite A/B, D+3 e D+7 curtos, preço de fundador só no D+7 e rodapé curto"
       ],
       "proximos": [
         "Acompanhar as respostas das 4 parcerias enviadas em 23/10",
@@ -20,7 +20,7 @@
         "Resolver a lista do mês 2026-09 atrasada",
         "Rodrigo cadastrar a conta bancária no Asaas; Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "25/10/2026 06:05",
+      "atualizado": "26/10/2026 06:06",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -34,22 +34,21 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas (CCO em 24/10); meta de 1ª venda até 31/10. Em 24/10 o Short 10 foi aprovado na 3ª revisão e publicado no YouTube e no TikTok, o lote 5 de parceiros foi enviado (10 de 10), a página de obrigado da compra ganhou o botão da área de membros da Kiwify e o checklist em PDF e a página de obrigado da newsletter passaram a levar à calculadora do limite do MEI. A troca de capas antigas no TikTok travou (o TikTok só permite nos 7 primeiros dias do post).",
+      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas (CCO em 25/10); meta de 1ª venda até 31/10. Em 25/10: 51 visitas e 63 pageviews em 7 dias; o Short 10 no TikTok chegou a 143 views e 5 curtidas; parceria da Qipu só com resposta automática. A fila do COO ficou sem itens executáveis no domingo (aguardando CLO, CMO em 27/10 e o lote de parceiros). O envio do próximo lote de parceiros passou a ser decisão do CEO.",
       "recente": [
-        "24/10 22:57 – COO: obrigado da newsletter sem formulário repetido, com chamada para a calculadora do limite",
-        "24/10 20:53 – COO: checklist em PDF com chamada para a calculadora do limite",
-        "24/10 20:30 – CEO: lote 5 de parceiros enviado (10 de 10)",
-        "24/10 20:17 – CEO: resumo diário no formato curto (0 venda)",
-        "24/10 16:59 – COO: Short 10 público no TikTok; troca de capas antigas travada pelo limite de 7 dias",
-        "24/10 15:00 – COO: Short 10 aprovado na 3ª revisão e publicado no YouTube e no TikTok"
+        "25/10 20:24 – CEO: resumo diário (0 venda; 51 visitas em 7 dias)",
+        "25/10 15:50 – CCO: 0 venda, cliente ou parceiro",
+        "25/10 10:58 – COO: capa do Short 10 no TikTok conferida (143 views, 5 curtidas)",
+        "25/10 09:05 – CISO: varredura de segurança sem achados",
+        "24/10 22:57 – COO: obrigado da newsletter sem formulário repetido, com chamada para a calculadora do limite"
       ],
       "proximos": [
         "Rodrigo: verificação por telefone do YouTube (T-036 b)",
+        "CEO decidir o envio do lote de parceiros (T-008) no ciclo de 26/10",
         "CMO decidir em 27/10 se republica posts para trocar capas no TikTok",
-        "Concluir os ajustes de conversão T-038 até 27/10",
         "CLO conferir os termos da Hotmart e abrir a conta (T-057)"
       ],
-      "atualizado": "24/10/2026 22:57",
+      "atualizado": "25/10/2026 22:55",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -58,19 +57,19 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "O n8n voltou e as vagas de 23/10 saíram: 8 publicadas automaticamente e 2 enviadas para aprovação. Em 24/10 a coleta trouxe 1 vaga nova, enviada para aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "O n8n voltou e as vagas de 23/10 saíram: 8 publicadas automaticamente e 2 enviadas para aprovação. Em 24 e 25/10 a coleta trouxe 1 vaga nova por dia, enviadas para aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
       "recente": [
+        "25/10 17:35 – 1 vaga nova de 25/10 enviada para aprovação",
         "24/10 17:36 – 1 vaga nova de 24/10 enviada para aprovação",
         "24/10 15:36 – vagas de 23/10: 8 publicadas automaticamente, 2 aguardando aprovação",
         "22/10 17:36 – vagas de 22/10 coletadas, 3 aguardando aprovação",
-        "21/10 17:35 – 5 vagas novas (SJDR e Tiradentes) com artes, aguardando aprovação",
-        "20/10 17:36 – 6 vagas de 20/10 (SJDR e Tiradentes): 4 publicadas automaticamente, 2 aguardando aprovação"
+        "21/10 17:35 – 5 vagas novas (SJDR e Tiradentes) com artes, aguardando aprovação"
       ],
       "proximos": [
         "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
         "Criar README"
       ],
-      "atualizado": "24/10/2026 17:36",
+      "atualizado": "25/10/2026 17:35",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },
@@ -138,20 +137,20 @@
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",
-      "status": "Em operação: radar de 24/10 sem promoção aplicável (Livelo → Latam Pass 25% e Smiles até 70% encerraram em 23/10; Livelo → Etihad até 40% fora da estratégia). Novos planos do Clube Livelo entram na revisão de 01/11. Nenhuma campanha Nubank → Azul/Smiles/Latam de 2026 vigente. Saldos na planilha seguem desatualizados.",
+      "status": "Em operação: radar de 25/10 sem promoção aplicável (Nomad → Azul vale só para conta nova; Livelo → Etihad fora da estratégia). Novos planos do Clube Livelo entram na revisão de 01/11. Nenhuma campanha Nubank → Azul/Smiles/Latam de 2026 vigente. Saldos na planilha seguem desatualizados.",
       "recente": [
+        "25/10 – radar diário: nada aplicável (Nomad → Azul só para conta nova)",
         "24/10 – radar diário: nada aplicável; novos planos do Clube Livelo vão para a revisão de 01/11",
         "23/10 – radar diário: nada aplicável; Livelo → Latam Pass 25% e pontos+dinheiro acima do teto",
         "22/10 – radar diário: nada aplicável; sala LATAM de Guarulhos passou a bloquear o Visa Airport Companion das 15h às 22h30",
-        "21/10 – radar diário: nada aplicável; Livelo → Azul daria só 40% sem Clube Azul",
-        "20/10 – radar diário: nada aplicável; Nubank Ultravioleta sem campanha anunciada em 2026, Livelo sem transferência bonificada"
+        "21/10 – radar diário: nada aplicável; Livelo → Azul daria só 40% sem Clube Azul"
       ],
       "proximos": [
         "Vigiar Nubank Ultravioleta → Azul/Smiles/Latam com 50% ou mais",
         "Atualizar os saldos dos programas na planilha (lembrete mensal atrasado)",
         "Revisão mensal em 01/11 (inclui o crédito dos 2.000 pontos extras da Livelo)"
       ],
-      "atualizado": "24/10/2026 08:35",
+      "atualizado": "25/10/2026 12:59",
       "url": "https://github.com/ratbragaia/milhas-e-cartoes",
       "categoria": "GitHub"
     },
