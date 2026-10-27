@@ -21,9 +21,9 @@
     "pct": 1.5
    }
   ],
-  "ultimo_commit": "30/09/2026 20:07",
-  "commits_7d": 0,
-  "commits_30d": 3,
+  "ultimo_commit": "26/10/2026 19:01",
+  "commits_7d": 1,
+  "commits_30d": 4,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,7 +144,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 1
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 19:01",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "7ebe101"
+  },
   {
    "quando": "30/09 20:07",
    "msg": "Regra de navegador: embutido primeiro, Chrome real como fallback",
@@ -197,14 +202,9 @@
    "quando": "26/09 21:11",
    "msg": "CPAP: resumo do PLD em blocos de 30 min (0041) e decisao sobre o BRP",
    "sha": "503dce5"
-  },
-  {
-   "quando": "26/09 20:56",
-   "msg": "Painel: grafico de eventos do CPAP por hora da noite",
-   "sha": "225b3d5"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

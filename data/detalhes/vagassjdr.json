@@ -21,9 +21,9 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "25/10/2026 17:35",
-  "commits_7d": 7,
-  "commits_30d": 31,
+  "ultimo_commit": "26/10/2026 19:35",
+  "commits_7d": 12,
+  "commits_30d": 36,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,15 +144,40 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 5
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 642,
+  "arquivos": 699,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 19:35",
+   "msg": "Espelhamento automatico 2026-10-26 19:35",
+   "sha": "380c01d"
+  },
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "fcd035b"
+  },
+  {
+   "quando": "26/10 17:35",
+   "msg": "Espelhamento automatico 2026-10-26 17:35",
+   "sha": "ffb6fa3"
+  },
+  {
+   "quando": "26/10 12:35",
+   "msg": "Espelhamento automatico 2026-10-26 12:35",
+   "sha": "acea151"
+  },
+  {
+   "quando": "26/10 11:36",
+   "msg": "Espelhamento automatico 2026-10-26 11:36",
+   "sha": "5298f08"
+  },
   {
    "quando": "25/10 17:35",
    "msg": "Espelhamento automatico 2026-10-25 17:35",
@@ -177,31 +202,6 @@
    "quando": "22/10 17:36",
    "msg": "Espelhamento automatico 2026-10-22 17:36",
    "sha": "4ac2a26"
-  },
-  {
-   "quando": "21/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-21 17:35",
-   "sha": "3a3b157"
-  },
-  {
-   "quando": "20/10 17:36",
-   "msg": "Espelhamento automatico 2026-10-20 17:36",
-   "sha": "e177a58"
-  },
-  {
-   "quando": "19/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-19 17:35",
-   "sha": "f341020"
-  },
-  {
-   "quando": "18/10 18:36",
-   "msg": "Espelhamento automatico 2026-10-18 18:36",
-   "sha": "b33475e"
-  },
-  {
-   "quando": "17/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-17 17:35",
-   "sha": "7beee05"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "119",
-    "detalhe": "de 02/10/2026 a 25/10/2026"
+    "valor": "124",
+    "detalhe": "de 02/10/2026 a 26/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "26",
+    "valor": "31",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "113",
+    "valor": "119",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

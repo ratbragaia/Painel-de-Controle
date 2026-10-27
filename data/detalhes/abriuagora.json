@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 64.7
+    "pct": 65.1
    },
    {
     "nome": "HTML",
-    "pct": 34.0
+    "pct": 33.7
    },
    {
     "nome": "CSS",
@@ -21,9 +21,9 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "26/10/2026 06:06",
-  "commits_7d": 21,
-  "commits_30d": 194,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 31,
+  "commits_30d": 204,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,64 +144,64 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 1
+    "n": 11
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 271,
+  "arquivos": 273,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "26/10 06:06",
-   "msg": "Página /obrigado: mês real, aviso de Promoções/Spam e um só botão (20261020-cmo-12)",
-   "sha": "7756a37"
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "d560d93"
   },
   {
-   "quando": "25/10 18:01",
-   "msg": "Home com um só botão principal: 1 botão de assinar nos preços e bloco final (20261020-cmo-11)",
-   "sha": "f1d7e8b"
+   "quando": "26/10 18:03",
+   "msg": "Checklist: Página da Abriu Agora no LinkedIn criada e preenchida; Instagram segue pendente",
+   "sha": "d398ed8"
   },
   {
-   "quando": "25/10 06:05",
-   "msg": "/para-contadores com até 600 palavras visíveis (20261020-cmo-3)",
-   "sha": "3bcd27e"
+   "quando": "26/10 16:54",
+   "msg": "Checklist: encarregado designado e publicado (Política 1.4); LinkedIn/Instagram pendentes por decisão do Rodrigo",
+   "sha": "6c88ac7"
   },
   {
-   "quando": "24/10 18:07",
-   "msg": "Formulário da amostra: campo Ramo e linha de aceite abaixo do botão (20261020-cmo-10)",
-   "sha": "504678a"
+   "quando": "26/10 16:51",
+   "msg": "Política de Privacidade 1.4: encarregado publicado (ADR 0013)",
+   "sha": "add958f"
   },
   {
-   "quando": "24/10 00:04",
-   "msg": "Prospecção: convite A/B, D+3 e D+7 curtos e rodapé curto (20261020-cmo-9 + cmo-7)",
-   "sha": "8f4670a"
+   "quando": "26/10 12:45",
+   "msg": "Tira o cso-1 da main até o OK do CLO (reverte fddecfe)",
+   "sha": "eab2077"
   },
   {
-   "quando": "23/10 19:46",
-   "msg": "Setembro de 2026 nas páginas por cidade e na faixa da home (20261020-cmo-5)",
-   "sha": "565a203"
+   "quando": "26/10 12:43",
+   "msg": "Ato do encarregado preenchido e página privada de assinatura (ADR 0013)",
+   "sha": "aa5aeff"
   },
   {
-   "quando": "23/10 18:04",
-   "msg": "Envios de 22 e 23/10 no git (cópia das seções do metricas.md do servidor) (20261023-ceo-1)",
-   "sha": "43a8528"
+   "quando": "26/10 12:11",
+   "msg": "ceo-2: seção \"Envio de 26/10/2026\" em docs/envios-diarios.md",
+   "sha": "04e4f79"
   },
   {
-   "quando": "23/10 18:04",
-   "msg": "Prospecção: assuntos novos a partir de 26/10 (A: cliente novo sem esperar indicação; B: sem disputar cliente de colega) (20261020-cmo-4)",
-   "sha": "19f8311"
+   "quando": "26/10 12:08",
+   "msg": "cso-1: linha de indicação entre contadores na amostra e em /obrigado",
+   "sha": "fddecfe"
   },
   {
-   "quando": "23/10 06:01",
-   "msg": "Política de Privacidade v1.3 (vigência 23/10/2026): origem do pedido e link curto sem identificar quem clicou (20261022-clo-1)",
-   "sha": "ab4de00"
+   "quando": "26/10 11:49",
+   "msg": "Checklist: cs-1 fechado sem mudar código; cmo-11 e cmo-12 instalados (servidor em d7a112d)",
+   "sha": "14dd1d1"
   },
   {
-   "quando": "23/10 06:01",
-   "msg": "Home: meta description sem \"sem nome de pessoa física\" (a aba MEI traz o nome) (20261020-cmo-17)",
-   "sha": "cfdc981"
+   "quando": "26/10 10:46",
+   "msg": "Checklist: relatório semanal de 26/10 adiado até o servidor voltar",
+   "sha": "d7a112d"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "51",
-    "detalhe": "de 88 registrados · 16 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 21 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 3 em andamento   brt c, 1 reaberto"
+    "valor": "52",
+    "detalhe": "de 89 registrados · 15 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 4 em andamento   brt c, 1 reaberto"
    },
    {
     "rotulo": "Resumos de C-levels",
-    "valor": "1",
-    "detalhe": "em 26/10/2026: COO"
+    "valor": "4",
+    "detalhe": "em 26/10/2026: CEO, COO, CS, CSO"
    },
    {
     "rotulo": "Entregues",
@@ -449,13 +449,6 @@
       "titulo": "Números do envio de hoje 22/10 09:30 (2º dia com link curto)"
      },
      {
-      "id": "20261022-ceo-2",
-      "cargo": "CEO → CSO",
-      "prioridade": "alta",
-      "status": "Aberto",
-      "titulo": "Regra do Rodrigo de 21/10: 1 canal NOVO de VENDA por mês, aberto até o dia 20. Em 22/10 o único candidato…"
-     },
-     {
       "id": "20261022-cs-1",
       "cargo": "CS",
       "prioridade": "alta",
@@ -468,6 +461,13 @@
       "prioridade": "alta",
       "status": "Concluído   brt coo ",
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
+     },
+     {
+      "id": "20261026-cso-1",
+      "cargo": "CSO",
+      "prioridade": "alta",
+      "status": "Em andamento   brt c",
+      "titulo": "Canal de venda de outubro (regra do Rodrigo de 21/10) decidido pelo CSO: indicação entre contadores de…"
      },
      {
       "id": "20261015-ciso-1",
@@ -550,7 +550,7 @@
       "id": "20261020-cmo-12",
       "cargo": "CMO",
       "prioridade": "média",
-      "status": "Em andamento   brt c",
+      "status": "Concluído   brt coo ",
       "titulo": "/obrigado: trocar \"no mês passado\" pelo mês real (/mes.json"
      },
      {
@@ -720,11 +720,18 @@
       "prioridade": "—",
       "status": "Canaismd docsparceri",
       "titulo": "CONCLUÍDO 2026-10-23 06:00 BRT (COO"
+     },
+     {
+      "id": "20261022-ceo-2",
+      "cargo": "CEO → CSO",
+      "prioridade": "—",
+      "status": "Em andamento   brt c",
+      "titulo": "Regra do Rodrigo de 21/10: 1 canal NOVO de VENDA por mês, aberto até o dia 20. Em 22/10 o único candidato…"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

@@ -1,11 +1,4 @@
 {
- "_leia": "Projetos em modo PÚBLICO MÍNIMO: no painel público aparecem só o nome e o site. Sem KPIs, canais, números, resumos, pendências, commits, prospects nem link do repositório. O gerador (build_detalhes.py) reescreve a entrada do projeto em data/projetos.json, não consulta o GitHub, não gera data/detalhes/<repo>.json, tira o projeto de data/canais.json e falha se achar dados dele em outro arquivo publicado. Para incluir/remover um projeto, edite esta lista. PatentSonar: pedido do próprio PatentSonar (privacidade de prospects), aprovado pelo Rodrigo em 22/10/2026.",
- "projetos": [
-  {
-   "nome": "PatentSonar",
-   "repo": "PatentSonar",
-   "site": "https://patentsonar.com",
-   "nota": "Detalhes internos não são exibidos no painel público."
-  }
- ]
+ "_leia": "Lista de projetos em modo PÚBLICO MÍNIMO (só nome + site no painel). Vazia desde 26/10/2026: Rodrigo liberou tudo, inclusive o PatentSonar. Para voltar a esconder um projeto, acrescente {\"nome\",\"repo\",\"site\",\"nota\"} em \"projetos\" (ver gen/README.md). Mesmo público, nunca publique e-mails, tokens, caminhos do Windows, CNPJ/CPF, nomes de clientes ou prospects nem corpo de e-mail.",
+ "projetos": []
 }

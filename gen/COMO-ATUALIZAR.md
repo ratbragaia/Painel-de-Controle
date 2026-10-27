@@ -13,7 +13,9 @@ publicados em JSON; o navegador **não** chama a API do GitHub.
 | `site/data/detalhes/index.json` | Índice leve para a Visão geral. |
 | `site/data/canais.json` | Canais de venda/aquisição de cada empresa (gerado; ver "Canais de venda" abaixo). |
 | `gen/canais.py` + `gen/canais_base.json` | Coleta dos canais e registro de reserva do painel. |
-| `site/index.html` + `site/assets/` | Casca do app (dropdown + cards). |
+| `site/data/resumo.json` | **Dashboard resumido do topo** (5 abas meta x resultado + histórico dos C-levels). Gerado; ver "Dashboard resumido" abaixo. |
+| `gen/resumo.py` + `gen/resumo_base.json` | Coleta/mescla do resumo e registro de metas e últimos resultados (a rotina edita o `resumo_base.json`). |
+| `site/index.html` + `site/assets/` | Casca do app: resumo no topo, histórico, e o restante (dropdown + cards) dentro de "Detalhes". |
 | `gen/update_YYYY-MM-DD.py` (históricos) | Atualiza `projetos.json` (e, no script antigo, regravava o HTML estático). |
 | `gen/build_detalhes.py` | Coleta dados do GitHub e gera `data/detalhes/`. Também regrava `index.html` a partir de `gen/index_template.html`. |
 
@@ -129,9 +131,38 @@ No Markdown os números das 5 colunas não são lidos da coluna Resultado (texto
 da extração automática ou do registro do painel; o texto aparece como "Resultado (registro do CMO)" só nos canais
 que não têm números estruturados. Para números confiáveis no painel, use o `canais.json`.
 
-**Projetos em modo público mínimo** (`gen/publico_minimo.json`, hoje: PatentSonar) não entram na aba de canais
-nem têm painel: no site aparecem só nome + site. Não escreva status, números, prospects nem resumos deles no
-`data/projetos.json`, nos `gen/update_*.py` ou em qualquer arquivo deste repositório (veja `gen/README.md`).
+**Modo público mínimo:** `gen/publico_minimo.json` está **vazio** desde 26/10/2026 (Rodrigo liberou tudo, inclusive o PatentSonar).
+O mecanismo continua no gerador: se um projeto voltar à lista, ele aparece só com nome + site (ver `gen/README.md`).
 
 **Não publicar** no registro: e-mails, telefones, nomes de contatos/prospects, tokens, caminhos do Windows, CNPJ/CPF
 nem corpo de e-mail. O painel limpa o que reconhece, mas o site é público.
+
+
+## Dashboard resumido do topo (`data/resumo.json`)
+
+No topo da página: 5 abas (Abriu Agora, Finbook, PatentSonar, Vagas SJDR, Edital Lido), cada uma só com **meta x resultado**
+e barra de progresso, e abaixo o **Histórico dos C-levels** (mais novo primeiro, data e hora de Brasília, empresa, cargo e resultado
+em uma linha). O conteúdo longo antigo (dropdown, visão geral, painéis por projeto, canais) fica em **"Detalhes"** (recolhido;
+abre sozinho quando a URL tem `#projeto`). O `gen/build_detalhes.py` gera tudo: não há passo manual extra além do comando diário.
+
+**Como o resumo é montado** (`gen/resumo.py`, chamado no fim do `build_detalhes.py`):
+1. Metas e últimos resultados conhecidos ficam em `gen/resumo_base.json` (cada indicador: `meta{texto,num,fonte}` e
+   `resultado{texto,num,medido_em,fonte}`; `null` = "meta não definida" / "sem dado"). **Nunca invente número.**
+2. Extração automática (vence o base quando a data é igual ou mais nova): Abriu Agora `resumos-clevels/*-ceo.md` (pasta local);
+   Finbook linha "CEO resumo DD/MM enviado" em `ceo/diario.md`; Vagas SJDR `registro-publicadas.csv` (semana e mês),
+   `metricas.md` (Instagram) e "receita <mês> R$ X" no `diario.md` dos C-levels (pasta `$VAGAS_CLEVELS`, padrão
+   `/workspace/clevels/vagas-sjdr`); PatentSonar `meta-mensal.md` (pasta `$PATENT_LOCAL`, padrão `/workspace/patentsonar/clevels`).
+   Edital Lido não tem extração automática (os dados ficam no VPS): atualize o `resumo_base.json`.
+3. Se uma extração falha ou volta vazia, vale o valor anterior de `data/resumo.json` (marcado "valor mantido da última medição").
+4. **Histórico (últimos 30 dias, só evidência real):** Abriu Agora `resumos-clevels/` (pasta local); Finbook commits com prefixo de
+   cargo; Vagas SJDR `diario.md` dos C-levels; PatentSonar `docs/coo/fila.md` do repositório (uma linha por rodada do COO, só contagens)
+   e `resumos/` dos C-levels (pasta local); Edital Lido commits de decisões do CEO (ADRs). Entradas antigas são preservadas do arquivo anterior.
+5. Privacidade: cada frase de resultado passa por um filtro de lista de palavras (`PERMITIDAS` em `gen/resumo.py`): trecho com palavra
+   capitalizada desconhecida (nome de pessoa/empresa/prospect), e-mail, telefone, caminho, hash, senha/token etc. é descartado.
+   Linha sem trecho publicável aparece como "execução registrada, sem resumo público". Mensagens de commit do PatentSonar
+   em `data/detalhes/` passam pelo mesmo filtro. Se quiser liberar uma palavra legítima, acrescente-a em `PERMITIDAS`.
+
+**Rotina diária — o que fazer com o resumo:** depois de ler os relatórios dos C-levels, atualize em `gen/resumo_base.json` os
+`resultado` que não têm extração automática (Edital Lido; e qualquer número novo vindo dos relatórios do CEO), sempre com
+`medido_em` (AAAA-MM-DD HH:MM, horário de Brasília) e `fonte`. **Na virada do mês** troque rótulos e metas mensais (ex.:
+"Receita bruta de out/2026" da Vagas SJDR, "1ª venda até 31/10" do Finbook) e confira as datas-limite. Depois rode o comando diário normal.

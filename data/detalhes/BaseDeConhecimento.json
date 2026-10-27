@@ -21,9 +21,9 @@
     "pct": 0.8
    }
   ],
-  "ultimo_commit": "28/09/2026 14:16",
-  "commits_7d": 0,
-  "commits_30d": 2,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 1,
+  "commits_30d": 3,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,7 +144,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 1
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "master"
  },
  "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "f9eb6e6"
+  },
   {
    "quando": "28/09 14:16",
    "msg": "Renomeia o projeto de Segundo Cerebro para BaseDeConhecimento",
@@ -197,11 +202,6 @@
    "quando": "21/09 16:40",
    "msg": "Painel: cache renova em segundo plano (resposta imediata); docs da recuperacao das 22 mensagens e do cabecalho",
    "sha": "9c7a809"
-  },
-  {
-   "quando": "21/09 16:10",
-   "msg": "Assuntos: Ai tools vira apelido de Ferramentas de IA; novos Financeiro, Gestao OKR e KPI e Scraping em suas areas; area A organizar…",
-   "sha": "873a198"
   }
  ],
  "pendencias": null,
@@ -245,5 +245,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

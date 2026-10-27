@@ -11,6 +11,57 @@ const cardMinimo=(p,largo)=>`<article class="card${largo?' largo':''}"><h2>${esc
   (p.nota?`<p class="dt">${esc(p.nota)}</p>`:'')+'</article>';
 const ul=(arr)=>arr&&arr.length?'<ul>'+arr.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'<p class="vazio">Nada registrado.</p>';
 
+
+// ---- dashboard resumido do topo (data/resumo.json, gerado por gen/resumo.py) ----
+let RES=null, ABA=0, HFIL='', HMAX=30;
+const fmtPct=p=>p==null?'':Math.round(p)+'%';
+function indicador(i){
+  const m=i.meta, r=i.resultado||{};
+  const meta=m&&m.texto?`<b>${esc(m.texto)}</b>`:'<b class="sd2">meta não definida</b>';
+  const res=r.texto!=null&&r.texto!==''?`<b>${esc(r.texto)}</b>`:'<b class="sd2">sem dado</b>';
+  const barra=i.pct!=null?`<div class="barra-p" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${esc(i.pct)}" aria-label="Progresso de ${esc(i.rotulo)}"><i style="width:${Math.max(0,Math.min(100,i.pct))}%"></i></div><div class="pc">${fmtPct(i.pct)} da meta</div>`
+    :'<div class="pc">'+(m&&m.texto?'sem dado para calcular o progresso':'sem barra: meta não definida')+'</div>';
+  const fo=[r.medido_br?'medido em '+r.medido_br+' (horário de Brasília)':'', r.fonte?'fonte: '+r.fonte:'', r.mantido?'valor mantido da última medição':''].filter(Boolean).join(' · ');
+  return `<article class="ind"><h3>${esc(i.rotulo)}</h3><div class="mr"><div><small>Meta</small>${meta}</div><div><small>Resultado</small>${res}</div></div>${barra}${fo?`<div class="fo2">${esc(fo)}</div>`:''}</article>`;
+}
+function abaCorpo(){
+  const e=RES.empresas[ABA]; if(!e){return;}
+  const c=$('#aba-corpo'); c.setAttribute('aria-labelledby','aba-'+ABA);
+  if(e.publico_minimo){c.innerHTML=`<div class="ind-min"><h3 style="margin:0 0 6px">${esc(e.nome)}</h3>`+(siteHref(e.site)?`<p style="margin:0 0 6px"><a href="${esc(siteHref(e.site))}" rel="noopener">${esc(e.site.replace(/^https:\/\//,'').replace(/\/$/,''))}</a></p>`:'')+`<p style="margin:0">${esc(e.nota||'Dados internos não publicados.')}</p></div>`; return;}
+  const ind=e.indicadores||[];
+  const lk=siteHref(e.site)?`<p class="dt" style="color:#9fb3cf;margin:0 0 8px">Site: <a href="${esc(siteHref(e.site))}" rel="noopener" style="color:#8ec3ff">${esc(e.site.replace(/^https:\/\//,'').replace(/\/$/,''))}</a></p>`:'';
+  c.innerHTML=lk+(ind.length?'<div class="ind-lista">'+ind.map(indicador).join('')+'</div>':'<p class="vazio">sem dado</p>');
+}
+function abas(){
+  const box=$('#abas');
+  box.innerHTML=RES.empresas.map((e,k)=>`<button role="tab" id="aba-${k}" aria-selected="${k===ABA}" tabindex="${k===ABA?0:-1}" data-k="${k}">${esc(e.nome)}</button>`).join('');
+  box.querySelectorAll('button').forEach(b=>{
+    b.addEventListener('click',()=>{ABA=+b.dataset.k; abas(); abaCorpo(); box.querySelector('[aria-selected=true]').focus();});
+    b.addEventListener('keydown',ev=>{const n=RES.empresas.length; let k=ABA;
+      if(ev.key==='ArrowRight')k=(ABA+1)%n; else if(ev.key==='ArrowLeft')k=(ABA+n-1)%n; else return;
+      ev.preventDefault(); ABA=k; abas(); abaCorpo(); box.querySelector('[aria-selected=true]').focus();});
+  });
+}
+function historico(){
+  const hs=(RES.historico||[]).filter(h=>!HFIL||h.empresa===HFIL);
+  const emps=[...new Set((RES.historico||[]).map(h=>h.empresa))];
+  $('#hist-filtro').innerHTML=['',...emps].map(e=>`<button aria-pressed="${HFIL===e}" data-e="${esc(e)}">${e?esc(e):'Todas'}</button>`).join('');
+  $('#hist-filtro').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{HFIL=b.dataset.e; HMAX=30; historico();}));
+  const vis=hs.slice(0,HMAX);
+  $('#hist-lista').innerHTML=vis.length?'<ul class="hl">'+vis.map(h=>`<li><span class="q2">${esc(h.quando_br)}</span><span class="e2">${esc(h.empresa)}</span><span class="c2">${esc(h.cargo)}</span><span class="r2">${h.resultado?esc(h.resultado):'<em>execução registrada, sem resumo público</em>'}</span></li>`).join('')+'</ul>'
+    +(hs.length>vis.length?`<p><button class="mais" id="mais">Mostrar mais (${hs.length-vis.length} restantes)</button></p>`:''):'<p class="vazio">sem dado</p>';
+  const mais=$('#mais'); if(mais) mais.addEventListener('click',()=>{HMAX+=60; historico();});
+}
+async function topo(){
+  try{
+    RES=await (await fetch('data/resumo.json',{cache:'no-store'})).json();
+    abas(); abaCorpo(); historico();
+    $('#hist-nota').textContent='Mais recentes primeiro, horário de Brasília. '+(RES.janela_historico_dias?'Últimos '+RES.janela_historico_dias+' dias. ':'')+'Fontes: '+(RES.fontes_historico||[]).join('; ')+'.';
+  }catch(e){
+    $('#aba-corpo').innerHTML='<p class="vazio">sem dado (não foi possível carregar data/resumo.json)</p>'; $('#hist-lista').innerHTML='<p class="vazio">sem dado</p>';
+  }
+}
+function abrirDetalhes(){const d=$('#detalhes'); if(d&&location.hash.replace('#','')) d.open=true;}
 async function carregar(){
   const r=await fetch('data/projetos.json',{cache:'no-store'}); DADOS=await r.json();
   try{const i=await (await fetch('data/detalhes/index.json',{cache:'no-store'})).json();
@@ -19,14 +70,15 @@ async function carregar(){
   const sel=$('#seletor');
   sel.innerHTML='<option value="">Visão geral (todos os projetos)</option>'+(CANAIS&&CANAIS.empresas&&CANAIS.empresas.length?'<option value="canais">Canais de venda (todas as empresas)</option>':'')+DADOS.projetos.map(p=>`<option value="${esc(slug(p))}">${esc(p.nome)}</option>`).join('');
   sel.addEventListener('change',()=>{location.hash=sel.value?sel.value:''; if(!sel.value) rota();});
-  window.addEventListener('hashchange',rota);
+  window.addEventListener('hashchange',()=>{abrirDetalhes(); rota();});
+  sel.addEventListener('change',()=>{if(sel.value)$('#detalhes').open=true;});
   $('#gerado').textContent='gerado em '+DADOS.gerado_em;
-  rota();
+  abrirDetalhes(); rota(); topo();
 }
 function rota(){
   const h=decodeURIComponent(location.hash.replace(/^#\/?/,'')).toLowerCase();
   const p=DADOS.projetos.find(x=>slug(x)===h);
-  window.scrollTo(0,0);
+  if(h) window.scrollTo(0,0);
   if(h==='canais'&&CANAIS){$('#seletor').value='canais'; document.title='Canais de venda · Painel de Controle'; canaisGeral(); return;}
   $('#seletor').value=p?slug(p):'';
   if(p){document.title=p.nome+' · Painel de Controle'; projeto(p);} else {document.title='Painel de Controle'; geral();}

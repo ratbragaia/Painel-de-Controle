@@ -22,6 +22,7 @@ pendências e commits que vierem vazios/nulos nesta coleta (ver mesclar_anterior
 import argparse, datetime as dt, json, os, re, subprocess, sys, urllib.request, urllib.error, urllib.parse, csv, io
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import canais as CANAIS   # gen/canais.py: dashboard de canais de venda
+import resumo as RESUMO   # gen/resumo.py: dashboard resumido do topo (meta x resultado + histórico dos C-levels)
 
 OWNER = 'ratbragaia'
 BRT = dt.timezone(dt.timedelta(hours=-3))
@@ -85,6 +86,8 @@ RX = [
     (re.compile(r'\b\d{3}\.\d{3}\.\d{3}-\d{2}\b'), '[CPF]'),
     (re.compile(r'\b(\d{4}[ -]?){3}\d{4}\b'), '[número]'),
     (re.compile(r'(\(?\+?55\)?\s?)?\(?\d{2}\)?\s?9?\d{4}-?\d{4}\b'), '[telefone]'),
+    (re.compile(r'\b9\d{4}-\d{4}\b'), '[telefone]'),                                 # celular sem DDD
+    (re.compile(r'\b(?!20\d\d-20\d\d\b)[2-5]\d{3}-\d{4}\b'), '[telefone]'),          # fixo sem DDD (não pega 2026-2027)
     (re.compile(r'\b(gh[pousr]_|sk-|xox[bp]-)[A-Za-z0-9_-]+'), '[segredo]'),
     (re.compile(r'\b[A-Za-z0-9_-]{32,}\b'), '[id]'),
 ]
@@ -96,6 +99,15 @@ def limpar(s, maximo=160):
     s = re.sub(r'\s+', ' ', s).strip(' -–:;,')
     if len(s) > maximo: s = s[:maximo - 1].rsplit(' ', 1)[0] + '…'
     return s
+
+# Repositórios cujas mensagens de commit costumam citar prospects/contatos por nome (ex.: "First touches for <nome>"):
+# a mensagem só é publicada se passar no filtro de palavras do gen/resumo.py (palavra com maiúscula fora da lista = omitida).
+COMMITS_FILTRADOS = {'PatentSonar'}
+def msg_commit(repo, msg):
+    t = limpar(msg, 140)
+    if repo in COMMITS_FILTRADOS and not (RESUMO._trecho_ok(t) and not re.search(r'prospect|first touch|buyer|named|contact|lawyer|partner|advogad|parceir', t, re.I)):
+        return '[mensagem omitida no painel público]'
+    return t
 
 def titulo_curto(s, maximo=110):
     """Primeiro trecho em negrito, ou a primeira frase."""
@@ -346,8 +358,15 @@ def kpis_base(repo, caminhos):
         if n: numeros.append({'rotulo': rot, 'valor': str(n), 'detalhe': f'cerebro/{pasta}'})
     return {'titulo': 'Tamanho do cérebro', 'fontes': ['cerebro/ (contagem de notas .md)'], 'numeros': numeros, 'tabelas': [], 'listas': []} if numeros else None
 
+def kpis_patentsonar(repo, caminhos):
+    if 'docs/handoff-checklist.md' not in caminhos: return None
+    itens, tot, ok = handoff_checklist(arquivo(repo, 'docs/handoff-checklist.md') or '')
+    if not tot: return None
+    return {'titulo': 'Checklist do fundador', 'fontes': ['docs/handoff-checklist.md'], 'tabelas': [], 'listas': [],
+            'numeros': [{'rotulo': 'Itens concluídos', 'valor': f'{ok}/{tot}', 'detalhe': f'{len(itens)} em aberto'}]}
+
 KPIS = {'abriuagora': kpis_abriuagora, 'vagassjdr': kpis_vagassjdr, 'finbook': kpis_finbook,
-        'BaseDeConhecimento': kpis_base}
+        'BaseDeConhecimento': kpis_base, 'PatentSonar': kpis_patentsonar}
 
 # ---------------------------------------------------------------- modo público mínimo
 # gen/publico_minimo.json: projetos que aparecem no site público SÓ com nome + site (sem KPIs, canais,
@@ -459,7 +478,7 @@ def detalhar(p):
             'branch': info.get('default_branch'),
         },
         'commits': [{'quando': brt(c['commit']['committer']['date']).strftime('%d/%m %H:%M'),
-                     'msg': limpar(c['commit']['message'].splitlines()[0], 140), 'sha': c['sha'][:7]} for c in recentes[:10]],
+                     'msg': msg_commit(repo, c['commit']['message'].splitlines()[0]), 'sha': c['sha'][:7]} for c in recentes[:10]],
         'pendencias': pend,
         'kpis': kpis,
     }
@@ -613,6 +632,23 @@ def main():
                    'nota': 'Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. "sem dado" = não medido.',
                    'empresas': empresas}, fh, ensure_ascii=False, indent=1)
     print(f"canais: {len(empresas)} empresa(s) em data/canais.json: " + ', '.join(f"{e['nome']}={e['aquisicao_ativos']} ativo(s)" + (' ⚠' if e['alerta'] else '') for e in empresas))
+    # dashboard resumido do topo (data/resumo.json): meta x resultado por empresa + histórico dos C-levels
+    arq_resumo = os.path.join(a.site, 'data/resumo.json'); logr = []
+    try:
+        res = RESUMO.montar(a.site, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resumo_base.json'),
+                            api, paged, lambda repo: (lambda c: arquivo(repo, c)), limpar, tirar_mencoes, MINIMO, AGORA,
+                            ABRIU_LOCAL, OWNER, logr)
+        txt = json.dumps({k: v for k, v in res.items()}, ensure_ascii=False)
+        for m in MINIMO:   # trava do modo público mínimo: o nome só pode aparecer na aba mínima
+            outros = [e for e in res['empresas'] if not e.get('publico_minimo')]
+            if RX_MINIMO and (RX_MINIMO.search(json.dumps(outros, ensure_ascii=False)) or RX_MINIMO.search(json.dumps(res['historico'], ensure_ascii=False))):
+                raise RuntimeError('dados de projeto em modo público mínimo no resumo')
+        with open(arq_resumo, 'w', encoding='utf-8') as fh:
+            json.dump(res, fh, ensure_ascii=False, indent=1)
+        for m in logr: print('    ' + m)
+        print(f"resumo: {len(res['empresas'])} aba(s), {len(res['historico'])} entrada(s) no histórico dos C-levels")
+    except Exception as ex:
+        print(f'ERRO resumo: {ex}; data/resumo.json anterior mantido', file=sys.stderr); falhas.append('resumo')
     if INDEX_HTML and not a.sem_index:
         open(os.path.join(a.site, 'index.html'), 'w', encoding='utf-8').write(INDEX_HTML)
     if falhas: print('Falharam:', ', '.join(falhas), file=sys.stderr); sys.exit(1)

@@ -4,9 +4,9 @@
  "estatisticas": {
   "linguagem": null,
   "linguagens": [],
-  "ultimo_commit": "14/10/2026 21:35",
-  "commits_7d": 0,
-  "commits_30d": 4,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 1,
+  "commits_30d": 5,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -127,7 +127,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 1
    }
   ],
   "issues_abertas": 0,
@@ -136,6 +136,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "37973b2"
+  },
   {
    "quando": "14/10 21:35",
    "msg": "Espelhamento automatico 2026-10-14 21:35",
@@ -159,5 +164,5 @@
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

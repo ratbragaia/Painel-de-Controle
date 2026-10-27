@@ -1,0 +1,295 @@
+{
+ "_leia": "Dashboard resumido do topo do site (data/resumo.json, gerado por gen/resumo.py). Uma aba por empresa, só META x RESULTADO. Cada número tem fonte e data de medição (medido_em AAAA-MM-DD ou AAAA-MM-DD HH:MM, horário de Brasília). O gerador também extrai números sozinho dos arquivos de cada empresa; para cada resultado vale o de medido_em mais recente (empate: o extraído). Sem número = null (o site mostra 'sem dado'); sem meta = meta null (o site mostra 'meta não definida'). Nunca estime. Projetos de gen/publico_minimo.json (PatentSonar) não podem ter indicadores aqui: a aba deles mostra só nome + site.",
+ "ordem": [
+  "Abriu Agora",
+  "Finbook",
+  "PatentSonar",
+  "Vagas SJDR",
+  "Edital Lido"
+ ],
+ "empresas": [
+  {
+   "nome": "Abriu Agora",
+   "repo": "abriuagora",
+   "indicadores": [
+    {
+     "id": "amostras",
+     "rotulo": "Pedidos de amostra (Portão 1, até 31/10/2026)",
+     "meta": {
+      "texto": "≥ 3",
+      "num": 3,
+      "fonte": "objetivos.md e meta-mensal.md (CEO)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 08:40",
+      "fonte": "resumo do CEO de 26/10 (resumos-clevels)"
+     }
+    },
+    {
+     "id": "pagantes",
+     "rotulo": "Pagantes (meta de nov/2026, Portão 2)",
+     "meta": {
+      "texto": "≥ 1",
+      "num": 1,
+      "fonte": "meta-mensal.md (CEO, 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 08:40",
+      "fonte": "resumo do CEO de 26/10 (resumos-clevels)"
+     }
+    },
+    {
+     "id": "lucro",
+     "rotulo": "Lucro mensal (objetivo até 31/03/2027)",
+     "meta": {
+      "texto": "≥ R$ 500/mês",
+      "num": 500,
+      "fonte": "objetivos.md (CEO)"
+     },
+     "resultado": {
+      "texto": "−R$ 3,34",
+      "num": -3.34,
+      "medido_em": "2026-10-23 16:40",
+      "fonte": "CFO 23/10, citado no resumo do CEO de 26/10"
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Finbook",
+   "repo": "finbook",
+   "indicadores": [
+    {
+     "id": "vendas-out",
+     "rotulo": "1ª venda (até 31/10/2026)",
+     "meta": {
+      "texto": "≥ 1 venda",
+      "num": 1,
+      "fonte": "ceo/metas.md (aprovadas em 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 20:25",
+      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)"
+     }
+    },
+    {
+     "id": "vendas-nov",
+     "rotulo": "Vendas acumuladas (até 30/11/2026)",
+     "meta": {
+      "texto": "10",
+      "num": 10,
+      "fonte": "ceo/metas.md (aprovadas em 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 20:25",
+      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)"
+     }
+    },
+    {
+     "id": "visitas-7d",
+     "rotulo": "Visitas no site (últimos 7 dias)",
+     "meta": {
+      "texto": "≥ 75 por semana",
+      "num": 75,
+      "fonte": "ceo/metas.md (metas da semana 23–29/10)"
+     },
+     "resultado": {
+      "texto": "38",
+      "num": 38,
+      "medido_em": "2026-10-26 20:22",
+      "fonte": "resumo do CEO de 26/10 (visitas.py)"
+     }
+    }
+   ]
+  },
+  {
+   "nome": "PatentSonar",
+   "repo": "PatentSonar",
+   "site": "https://patentsonar.com",
+   "indicadores": [
+    {
+     "id": "contatos",
+     "rotulo": "E-mails de 1º contato (até 31/10/2026)",
+     "meta": {
+      "texto": "150",
+      "num": 150,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar) (plano de 90 dias)"
+     },
+     "resultado": {
+      "texto": "69",
+      "num": 69,
+      "medido_em": "2026-10-23",
+      "fonte": "contagem do COO de 23/10 (meta-mensal.md)"
+     }
+    },
+    {
+     "id": "resposta",
+     "rotulo": "Taxa de resposta dos 1º contatos",
+     "meta": {
+      "texto": "≥ 5 %",
+      "num": 5,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": {
+      "texto": "0 de 69 (0 %)",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "meta-mensal.md do CEO, snapshot de 26/10"
+     }
+    },
+    {
+     "id": "amostras",
+     "rotulo": "Pedidos de amostra (até 31/10/2026)",
+     "meta": {
+      "texto": "12",
+      "num": 12,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": null
+    },
+    {
+     "id": "testes",
+     "rotulo": "Testes grátis ativos (até 31/10/2026)",
+     "meta": {
+      "texto": "4",
+      "num": 4,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": null
+    },
+    {
+     "id": "pagantes",
+     "rotulo": "Clientes pagantes (1º cliente previsto para nov/2026)",
+     "meta": {
+      "texto": "1",
+      "num": 1,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar) (degrau de nov)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "meta-mensal.md do CEO, snapshot de 26/10 (MRR US$ 0)"
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Vagas SJDR",
+   "repo": "vagassjdr",
+   "indicadores": [
+    {
+     "id": "receita-mes",
+     "rotulo": "Receita bruta de out/2026",
+     "meta": {
+      "texto": "~R$ 300",
+      "num": 300,
+      "fonte": "metas.md dos C-levels (escada mensal do PLANO-VagasSJDR.md)"
+     },
+     "resultado": {
+      "texto": "R$ 20",
+      "num": 20,
+      "medido_em": "2026-10-26 19:00",
+      "fonte": "resumo do CEO de 26/10 (diario.md)"
+     }
+    },
+    {
+     "id": "vagas-semana",
+     "rotulo": "Vagas publicadas na semana",
+     "meta": {
+      "texto": "≥ 20 por semana",
+      "num": 20,
+      "fonte": "metas.md dos C-levels (meta da semana)"
+     },
+     "resultado": {
+      "texto": null,
+      "num": null,
+      "medido_em": null,
+      "fonte": "registro-publicadas.csv"
+     }
+    },
+    {
+     "id": "vagas-mes",
+     "rotulo": "Vagas publicadas em out/2026",
+     "meta": null,
+     "resultado": {
+      "texto": "124",
+      "num": 124,
+      "medido_em": "2026-10-26 19:00",
+      "fonte": "resumo do CEO de 26/10 (registro-publicadas.csv)"
+     }
+    },
+    {
+     "id": "views-28d",
+     "rotulo": "Visualizações no Instagram (28 dias)",
+     "meta": null,
+     "resultado": {
+      "texto": "354.737",
+      "num": 354737,
+      "medido_em": "2026-10-26",
+      "fonte": "metricas.md (Meta Business Suite, 28/09–25/10)"
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Edital Lido",
+   "repo": "editallido",
+   "indicadores": [
+    {
+     "id": "testes-out",
+     "rotulo": "Testes grátis iniciados (gatilho de 31/10/2026)",
+     "meta": {
+      "texto": "≥ 3",
+      "num": 3,
+      "fonte": "decisoes/0003 (gatilho de 31/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10 e decisoes/0009"
+     }
+    },
+    {
+     "id": "primeiro-pagante",
+     "rotulo": "Primeiro cliente pagante (até 15/11/2026)",
+     "meta": {
+      "texto": "1",
+      "num": 1,
+      "fonte": "decisoes/0003 (metas de 90 dias)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10"
+     }
+    },
+    {
+     "id": "pagantes-dez",
+     "rotulo": "Clientes pagantes (até 31/12/2026)",
+     "meta": {
+      "texto": "6",
+      "num": 6,
+      "fonte": "PLANO-90-dias.md (meta ajustada de 5 para 6)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10"
+     }
+    }
+   ]
+  }
+ ]
+}

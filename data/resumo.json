@@ -1,0 +1,2731 @@
+{
+ "titulo": "Resumo das empresas",
+ "gerado_em": "26/10/2026 22:29 (horário de Brasília)",
+ "nota": "Só meta x resultado, copiados dos arquivos de cada empresa; nada é estimado. \"sem dado\" = não medido; \"meta não definida\" = sem meta escrita.",
+ "empresas": [
+  {
+   "nome": "Abriu Agora",
+   "repo": "abriuagora",
+   "slug": "abriuagora",
+   "indicadores": [
+    {
+     "id": "amostras",
+     "rotulo": "Pedidos de amostra (Portão 1, até 31/10/2026)",
+     "meta": {
+      "texto": "≥ 3",
+      "num": 3,
+      "fonte": "objetivos.md e meta-mensal.md (CEO)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 08:40",
+      "fonte": "resumo do CEO de 26/10 (resumos-clevels)",
+      "medido_br": "26/10/2026 08:40"
+     },
+     "pct": 0
+    },
+    {
+     "id": "pagantes",
+     "rotulo": "Pagantes (meta de nov/2026, Portão 2)",
+     "meta": {
+      "texto": "≥ 1",
+      "num": 1,
+      "fonte": "meta-mensal.md (CEO, 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 08:40",
+      "fonte": "resumo do CEO de 26/10 (resumos-clevels)",
+      "medido_br": "26/10/2026 08:40"
+     },
+     "pct": 0
+    },
+    {
+     "id": "lucro",
+     "rotulo": "Lucro mensal (objetivo até 31/03/2027)",
+     "meta": {
+      "texto": "≥ R$ 500/mês",
+      "num": 500,
+      "fonte": "objetivos.md (CEO)"
+     },
+     "resultado": {
+      "texto": "−R$ 3,34",
+      "num": -3.34,
+      "medido_em": "2026-10-23 16:40",
+      "fonte": "CFO 23/10, citado no resumo do CEO de 26/10",
+      "medido_br": "23/10/2026 16:40"
+     },
+     "pct": 0
+    }
+   ]
+  },
+  {
+   "nome": "Finbook",
+   "repo": "finbook",
+   "slug": "finbook",
+   "indicadores": [
+    {
+     "id": "vendas-out",
+     "rotulo": "1ª venda (até 31/10/2026)",
+     "meta": {
+      "texto": "≥ 1 venda",
+      "num": 1,
+      "fonte": "ceo/metas.md (aprovadas em 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 20:25",
+      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)",
+      "medido_br": "26/10/2026 20:25"
+     },
+     "pct": 0
+    },
+    {
+     "id": "vendas-nov",
+     "rotulo": "Vendas acumuladas (até 30/11/2026)",
+     "meta": {
+      "texto": "10",
+      "num": 10,
+      "fonte": "ceo/metas.md (aprovadas em 15/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26 20:25",
+      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)",
+      "medido_br": "26/10/2026 20:25"
+     },
+     "pct": 0
+    },
+    {
+     "id": "visitas-7d",
+     "rotulo": "Visitas no site (últimos 7 dias)",
+     "meta": {
+      "texto": "≥ 75 por semana",
+      "num": 75,
+      "fonte": "ceo/metas.md (metas da semana 23–29/10)"
+     },
+     "resultado": {
+      "texto": "38",
+      "num": 38,
+      "medido_em": "2026-10-26 20:22",
+      "fonte": "resumo do CEO de 26/10 (visitas.py)",
+      "medido_br": "26/10/2026 20:22"
+     },
+     "pct": 51
+    }
+   ]
+  },
+  {
+   "nome": "PatentSonar",
+   "repo": "PatentSonar",
+   "slug": "PatentSonar",
+   "indicadores": [
+    {
+     "id": "contatos",
+     "rotulo": "E-mails de 1º contato (até 31/10/2026)",
+     "meta": {
+      "texto": "150",
+      "num": 150,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar) (plano de 90 dias)"
+     },
+     "resultado": {
+      "texto": "69",
+      "num": 69,
+      "medido_em": "2026-10-23",
+      "fonte": "contagem do COO de 23/10 (meta-mensal.md)",
+      "medido_br": "23/10/2026"
+     },
+     "pct": 46
+    },
+    {
+     "id": "resposta",
+     "rotulo": "Taxa de resposta dos 1º contatos",
+     "meta": {
+      "texto": "≥ 5 %",
+      "num": 5,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": {
+      "texto": "0 de 69 (0 %)",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "meta-mensal.md do CEO, snapshot de 26/10",
+      "medido_br": "26/10/2026"
+     },
+     "pct": 0
+    },
+    {
+     "id": "amostras",
+     "rotulo": "Pedidos de amostra (até 31/10/2026)",
+     "meta": {
+      "texto": "12",
+      "num": 12,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": null,
+     "pct": null
+    },
+    {
+     "id": "testes",
+     "rotulo": "Testes grátis ativos (até 31/10/2026)",
+     "meta": {
+      "texto": "4",
+      "num": 4,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
+     },
+     "resultado": null,
+     "pct": null
+    },
+    {
+     "id": "pagantes",
+     "rotulo": "Clientes pagantes (1º cliente previsto para nov/2026)",
+     "meta": {
+      "texto": "1",
+      "num": 1,
+      "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar) (degrau de nov)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "meta-mensal.md do CEO, snapshot de 26/10 (MRR US$ 0)",
+      "medido_br": "26/10/2026"
+     },
+     "pct": 0
+    }
+   ],
+   "site": "https://patentsonar.com"
+  },
+  {
+   "nome": "Vagas SJDR",
+   "repo": "vagassjdr",
+   "slug": "vagassjdr",
+   "indicadores": [
+    {
+     "id": "receita-mes",
+     "rotulo": "Receita bruta de out/2026",
+     "meta": {
+      "texto": "~R$ 300",
+      "num": 300,
+      "fonte": "metas.md dos C-levels (escada mensal do PLANO-VagasSJDR.md)"
+     },
+     "resultado": {
+      "texto": "R$ 20",
+      "num": 20,
+      "medido_em": "2026-10-26 19:00",
+      "fonte": "resumo do CEO de 26/10 (diario.md)",
+      "medido_br": "26/10/2026 19:00"
+     },
+     "pct": 7
+    },
+    {
+     "id": "vagas-semana",
+     "rotulo": "Vagas publicadas na semana",
+     "meta": {
+      "texto": "≥ 20 por semana",
+      "num": 20,
+      "fonte": "metas.md dos C-levels (meta da semana)"
+     },
+     "resultado": {
+      "texto": "5",
+      "num": 5,
+      "medido_em": "2026-10-26 22:29",
+      "fonte": "registro-publicadas.csv (desde seg 26/10)",
+      "medido_br": "26/10/2026 22:29"
+     },
+     "pct": 25
+    },
+    {
+     "id": "vagas-mes",
+     "rotulo": "Vagas publicadas em out/2026",
+     "meta": null,
+     "resultado": {
+      "texto": "124",
+      "num": 124,
+      "medido_em": "2026-10-26 22:29",
+      "fonte": "registro-publicadas.csv",
+      "medido_br": "26/10/2026 22:29"
+     },
+     "pct": null
+    },
+    {
+     "id": "views-28d",
+     "rotulo": "Visualizações no Instagram (28 dias)",
+     "meta": null,
+     "resultado": {
+      "texto": "354.737",
+      "num": 354737,
+      "medido_em": "2026-10-26",
+      "fonte": "metricas.md (Meta Business Suite, 28/09–25/10)",
+      "medido_br": "26/10/2026"
+     },
+     "pct": null
+    }
+   ]
+  },
+  {
+   "nome": "Edital Lido",
+   "repo": "editallido",
+   "slug": "editallido",
+   "indicadores": [
+    {
+     "id": "testes-out",
+     "rotulo": "Testes grátis iniciados (gatilho de 31/10/2026)",
+     "meta": {
+      "texto": "≥ 3",
+      "num": 3,
+      "fonte": "decisoes/0003 (gatilho de 31/10)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10 e decisoes/0009",
+      "medido_br": "26/10/2026"
+     },
+     "pct": 0
+    },
+    {
+     "id": "primeiro-pagante",
+     "rotulo": "Primeiro cliente pagante (até 15/11/2026)",
+     "meta": {
+      "texto": "1",
+      "num": 1,
+      "fonte": "decisoes/0003 (metas de 90 dias)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10",
+      "medido_br": "26/10/2026"
+     },
+     "pct": 0
+    },
+    {
+     "id": "pagantes-dez",
+     "rotulo": "Clientes pagantes (até 31/12/2026)",
+     "meta": {
+      "texto": "6",
+      "num": 6,
+      "fonte": "PLANO-90-dias.md (meta ajustada de 5 para 6)"
+     },
+     "resultado": {
+      "texto": "0",
+      "num": 0,
+      "medido_em": "2026-10-26",
+      "fonte": "relatório do CEO de 26/10",
+      "medido_br": "26/10/2026"
+     },
+     "pct": 0
+    }
+   ]
+  }
+ ],
+ "historico": [
+  {
+   "quando": "2026-10-26 20:53",
+   "quando_br": "26/10/2026 20:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-068 corrige projecao anual do Controle do Limite no gerador",
+   "fonte": "commit 9b847a1 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 20:20",
+   "quando_br": "26/10/2026 20:20",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "resumo 26/10 enviado",
+   "fonte": "commit 1a08395 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 19:14",
+   "quando_br": "26/10/2026 19:14",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 9b8d5d6 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 19:14",
+   "quando_br": "26/10/2026 19:14",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 5356d17 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 19:06",
+   "quando_br": "26/10/2026 19:06",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "T-066 feita, T-040 teste parcial do Claude, T-068 projeção do limite",
+   "fonte": "commit 6ef784c (finbook)"
+  },
+  {
+   "quando": "2026-10-26 19:00",
+   "quando_br": "26/10/2026 19:00",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (resumo)",
+   "resultado": "CEO resumo 26/10 enviado ao Assistente Pessoal",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 18:56",
+   "quando_br": "26/10/2026 18:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit e4761d2 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 18:04",
+   "quando_br": "26/10/2026 18:04",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit ce62383 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 18:00",
+   "quando_br": "26/10/2026 18:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude ocupado com tarefa direta do Rodrigo; nenhuma ordem nova enviada",
+   "fonte": "resumos-clevels/2026-10-26-coo.md"
+  },
+  {
+   "quando": "2026-10-26 16:54",
+   "quando_br": "26/10/2026 16:54",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 5218c96 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 16:54",
+   "quando_br": "26/10/2026 16:54",
+   "empresa": "Edital Lido",
+   "cargo": "CEO",
+   "resultado": "Decisão 0010: o CEO decide tudo, menos o que gera cobrança; resultado do teste de entrega",
+   "fonte": "commit 4e3ee76 (editallido, decisoes/0010)"
+  },
+  {
+   "quando": "2026-10-26 16:50",
+   "quando_br": "26/10/2026 16:50",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "D-020 alçada ampliada",
+   "fonte": "commit 3cbf931 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 16:40",
+   "quando_br": "26/10/2026 16:40",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "1 mensagem ao Claude (16:35, só leitura), resposta completa às 16:39",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 15:47",
+   "quando_br": "26/10/2026 15:47",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit bbd50a7 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 14:57",
+   "quando_br": "26/10/2026 14:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit ad5ccab (finbook)"
+  },
+  {
+   "quando": "2026-10-26 13:11",
+   "quando_br": "26/10/2026 13:11",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-061 lista C-004 (8 aptos), T-065 em preview atrás de switch",
+   "fonte": "commit e3010fa (finbook)"
+  },
+  {
+   "quando": "2026-10-26 12:59",
+   "quando_br": "26/10/2026 12:59",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "YouTube verificado, legenda, capa e banners Kiwify",
+   "fonte": "commit 8f211a8 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 12:00",
+   "quando_br": "26/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude parado → enviada às 12:01 a ordem 20261026-cso-1 + 20261026-ceo-2 (seção \"Envio de 26/10/2026\" + Portão 1)",
+   "fonte": "resumos-clevels/2026-10-26-coo.md"
+  },
+  {
+   "quando": "2026-10-26 11:47",
+   "quando_br": "26/10/2026 11:47",
+   "empresa": "Edital Lido",
+   "cargo": "CEO",
+   "resultado": "Decisão 0009: e-mail frio a 5 por dia útil e sequência pós-teste ligada",
+   "fonte": "commit b4ed4ae (editallido, decisoes/0009)"
+  },
+  {
+   "quando": "2026-10-26 11:45",
+   "quando_br": "26/10/2026 11:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "As 4 entidades de parceria seguem sem resposta (3,5 dias)",
+   "fonte": "resumos-clevels/2026-10-26-cs.md"
+  },
+  {
+   "quando": "2026-10-26 11:35",
+   "quando_br": "26/10/2026 11:35",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "5 pedidos na fila do Claude (situação atual: 1 feito, 1 em andamento, 3 abertos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-26 11:18",
+   "quando_br": "26/10/2026 11:18",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "parcelamento do Kit fica Até 12x",
+   "fonte": "commit 537f69c (finbook)"
+  },
+  {
+   "quando": "2026-10-26 11:00",
+   "quando_br": "26/10/2026 11:00",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 8c5eb1c (finbook)"
+  },
+  {
+   "quando": "2026-10-26 10:50",
+   "quando_br": "26/10/2026 10:50",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "1 mensagem ao Claude (10:37), resposta completa até ~10:50",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 10:15",
+   "quando_br": "26/10/2026 10:15",
+   "empresa": "Vagas SJDR",
+   "cargo": "CCO",
+   "resultado": "Tarefa nova T-036",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 09:55",
+   "quando_br": "26/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "Nenhum erro nem tarefa nova",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-26 09:50",
+   "quando_br": "26/10/2026 09:50",
+   "empresa": "Abriu Agora",
+   "cargo": "CSO",
+   "resultado": "Portão 1 segue em 0 ÷ 3 amostras a 5 dias do prazo; O canal de venda de outubro foi decidido hoje: indicação entre…",
+   "fonte": "resumos-clevels/2026-10-26-cso.md"
+  },
+  {
+   "quando": "2026-10-26 09:50",
+   "quando_br": "26/10/2026 09:50",
+   "empresa": "PatentSonar",
+   "cargo": "CSO",
+   "resultado": "Os envios de 22 e 23/10 abrem pela dor (crítico 10–12/12 depois das correções; assunto pelo campo do leitor)",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-26 09:35",
+   "quando_br": "26/10/2026 09:35",
+   "empresa": "Vagas SJDR",
+   "cargo": "CSO",
+   "resultado": "outubro não bate (~7%)",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 09:34",
+   "quando_br": "26/10/2026 09:34",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit b749571 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 09:25",
+   "quando_br": "26/10/2026 09:25",
+   "empresa": "Finbook",
+   "cargo": "CSO",
+   "resultado": "T-057 passo 0, C-002 encerrado (D-019), C-004 aberto, T-061..T-064",
+   "fonte": "commit b948a85 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 08:59",
+   "quando_br": "26/10/2026 08:59",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 26/10 ok, 0 achados",
+   "fonte": "commit 5c4f275 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 08:40",
+   "quando_br": "26/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O funil segue sem resultado: 0 amostras de lead e 0 pagantes, a 5 dias do Portão 1",
+   "fonte": "resumos-clevels/2026-10-26-ceo.md"
+  },
+  {
+   "quando": "2026-10-26 08:36",
+   "quando_br": "26/10/2026 08:36",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã 26/10",
+   "fonte": "commit 480c081 (finbook)"
+  },
+  {
+   "quando": "2026-10-26 08:30",
+   "quando_br": "26/10/2026 08:30",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (manhã)",
+   "resultado": "sem leitura nova de Pix desde 21/10; Vagas desde o último ciclo (23/10): 12 (23/10: 10, 24/10: 1, 25/10: 1; espelho do…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26 06:00",
+   "quando_br": "26/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado",
+   "fonte": "resumos-clevels/2026-10-26-coo.md"
+  },
+  {
+   "quando": "2026-10-26 04:33",
+   "quando_br": "26/10/2026 04:33",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis nesta rodada",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-26",
+   "quando_br": "26/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "Placar out.: 1º contatos 69/150 (contagem de 23/10; projeção 31/10 = 69, 46 %)",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-25 23:57",
+   "quando_br": "25/10/2026 23:57",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "conferido o Claude",
+   "fonte": "resumos-clevels/2026-10-25-coo.md"
+  },
+  {
+   "quando": "2026-10-25 22:56",
+   "quando_br": "25/10/2026 22:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 4facf23 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 20:50",
+   "quando_br": "25/10/2026 20:50",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 1067fc5 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 20:24",
+   "quando_br": "25/10/2026 20:24",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit b699949 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 18:51",
+   "quando_br": "25/10/2026 18:51",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "rodada sem itens executáveis",
+   "fonte": "commit 92d6820 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 18:00",
+   "quando_br": "25/10/2026 18:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Ciclo: 20/10 09:40 → 25/10 17:58 ≈ 5,3 dias (desde o envio 05:59: 12 h)",
+   "fonte": "resumos-clevels/2026-10-25-coo.md"
+  },
+  {
+   "quando": "2026-10-25 16:53",
+   "quando_br": "25/10/2026 16:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 994ee08 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 15:50",
+   "quando_br": "25/10/2026 15:50",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit d0e744b (finbook)"
+  },
+  {
+   "quando": "2026-10-25 14:50",
+   "quando_br": "25/10/2026 14:50",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 450bc3b (finbook)"
+  },
+  {
+   "quando": "2026-10-25 12:51",
+   "quando_br": "25/10/2026 12:51",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 855278e (finbook)"
+  },
+  {
+   "quando": "2026-10-25 12:00",
+   "quando_br": "25/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Atrasado: médios cmo-11 a cmo-16, cto-2, cs-1; alta 20261022-ceo-2 (CSO, seg 26/10)",
+   "fonte": "resumos-clevels/2026-10-25-coo.md"
+  },
+  {
+   "quando": "2026-10-25 10:58",
+   "quando_br": "25/10/2026 10:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "capa TikTok Short 10 ok, site 200",
+   "fonte": "commit b80e2d5 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 09:33",
+   "quando_br": "25/10/2026 09:33",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit e2f4df1 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 09:05",
+   "quando_br": "25/10/2026 09:05",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 25/10 ok, 0 achados",
+   "fonte": "commit a603e48 (finbook)"
+  },
+  {
+   "quando": "2026-10-25 06:00",
+   "quando_br": "25/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Ciclo: 20/10 19:10 → 25/10 06:00 ≈ 4,5 dias",
+   "fonte": "resumos-clevels/2026-10-25-coo.md"
+  },
+  {
+   "quando": "2026-10-24 23:59",
+   "quando_br": "24/10/2026 23:59",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Atrasado: médios cmo-11 a cmo-16, cto-2, cmo-3 (leitura 28/10); alta 20261022-ceo-2 (CSO, seg 26/10)",
+   "fonte": "resumos-clevels/2026-10-24-coo.md"
+  },
+  {
+   "quando": "2026-10-24 22:57",
+   "quando_br": "24/10/2026 22:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit a06a60a (finbook)"
+  },
+  {
+   "quando": "2026-10-24 20:53",
+   "quando_br": "24/10/2026 20:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 29c1e86 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 20:30",
+   "quando_br": "24/10/2026 20:30",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 68984a3 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 20:27",
+   "quando_br": "24/10/2026 20:27",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "D-018 fim da regra de aprovação de envios (Rodrigo 24/10 20:25); T-008 lote 5 bloqueado por canal",
+   "fonte": "commit 054cfbe (finbook)"
+  },
+  {
+   "quando": "2026-10-24 20:17",
+   "quando_br": "24/10/2026 20:17",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 52fb34d (finbook)"
+  },
+  {
+   "quando": "2026-10-24 19:00",
+   "quando_br": "24/10/2026 19:00",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-038 llms.txt",
+   "fonte": "commit b54b298 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 18:10",
+   "quando_br": "24/10/2026 18:10",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "D-017 formato curto do resumo do CEO ao Rodrigo (24/10)",
+   "fonte": "commit e8225f1 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 18:01",
+   "quando_br": "24/10/2026 18:01",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "seguem abertos os médios cmo-11 a cmo-16, cto-2, e o alta 20261022-ceo-2 (CSO, seg 26/10)",
+   "fonte": "resumos-clevels/2026-10-24-coo.md"
+  },
+  {
+   "quando": "2026-10-24 16:59",
+   "quando_br": "24/10/2026 16:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "Short 10 TikTok público; T-037 travou (limite 7 dias)",
+   "fonte": "commit df3fa43 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 16:58",
+   "quando_br": "24/10/2026 16:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 05c6d91 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 16:53",
+   "quando_br": "24/10/2026 16:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-046 preparo Hotmart (c002) no box",
+   "fonte": "commit 34ecbe0 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 15:49",
+   "quando_br": "24/10/2026 15:49",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 089a43c (finbook)"
+  },
+  {
+   "quando": "2026-10-24 15:30",
+   "quando_br": "24/10/2026 15:30",
+   "empresa": "Vagas SJDR",
+   "cargo": "C-levels (sessão extraordinária)",
+   "resultado": "Sessão extraordinária pedida pelo Rodrigo",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-24 15:05",
+   "quando_br": "24/10/2026 15:05",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO (extra)",
+   "resultado": "8 das 10 vagas de 23/10 publicadas; 2 aguardam ✅ do Rodrigo no Telegram",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-24 15:00",
+   "quando_br": "24/10/2026 15:00",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 5c39e2d (finbook)"
+  },
+  {
+   "quando": "2026-10-24 13:50",
+   "quando_br": "24/10/2026 13:50",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "D-016 (3ª revisão do Short 10, T-059 prazo 26/10)",
+   "fonte": "commit d7aaecd (finbook)"
+  },
+  {
+   "quando": "2026-10-24 13:01",
+   "quando_br": "24/10/2026 13:01",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-037 capas TikTok em andamento",
+   "fonte": "commit b7537db (finbook)"
+  },
+  {
+   "quando": "2026-10-24 12:00",
+   "quando_br": "24/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Ciclo: abertos 20/10 19:10, concluídos 24/10 (~4 dias), dentro do prazo duro de 27/10 09:30",
+   "fonte": "resumos-clevels/2026-10-24-coo.md"
+  },
+  {
+   "quando": "2026-10-24 10:52",
+   "quando_br": "24/10/2026 10:52",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 4405e18 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 09:33",
+   "quando_br": "24/10/2026 09:33",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 8c45380 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 09:00",
+   "quando_br": "24/10/2026 09:00",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura ok, 0 achados",
+   "fonte": "commit 0b67171 (finbook)"
+  },
+  {
+   "quando": "2026-10-24 06:00",
+   "quando_br": "24/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Ciclo: cmo-5/cmo-4 abertos 20/10, concluídos 24/10 (~4 dias)",
+   "fonte": "resumos-clevels/2026-10-24-coo.md"
+  },
+  {
+   "quando": "2026-10-24 00:00",
+   "quando_br": "24/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "itens atrasados ≥ 5; reabertos ou repetidos 0 nesta rodada",
+   "fonte": "resumos-clevels/2026-10-24-coo.md"
+  },
+  {
+   "quando": "2026-10-23 22:51",
+   "quando_br": "23/10/2026 22:51",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-058 (1)-(9) no gerador, sem envio; consentimento no envio",
+   "fonte": "commit 61f116f (finbook)"
+  },
+  {
+   "quando": "2026-10-23 22:30",
+   "quando_br": "23/10/2026 22:30",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 20:53",
+   "quando_br": "23/10/2026 20:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-059 gate v6 reprovado, decisão do CEO",
+   "fonte": "commit 98910c0 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 20:52",
+   "quando_br": "23/10/2026 20:52",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-059 v6 renderizada, gate em andamento",
+   "fonte": "commit bce7a92 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 20:27",
+   "quando_br": "23/10/2026 20:27",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit d9050c1 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 18:56",
+   "quando_br": "23/10/2026 18:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-059 gate v5 reprovado, v6 na próxima rodada",
+   "fonte": "commit 51b3ca0 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 18:56",
+   "quando_br": "23/10/2026 18:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-059 v5 renderizada, gate em andamento",
+   "fonte": "commit c4028a0 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 18:55",
+   "quando_br": "23/10/2026 18:55",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (resumo)",
+   "resultado": "CEO resumo 23/10 enviado; Placar: R$ 20 bruto em outubro (6,7% de ~R$ 300), sem venda nova na semana (último Pix lido…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 17:15",
+   "quando_br": "23/10/2026 17:15",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "2 pedidos na fila do Claude (situação atual: 1 feito, 1 em andamento)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-23 16:57",
+   "quando_br": "23/10/2026 16:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-036 banner YouTube no ar; T-059 gates v3/v4 reprovados, v5 na próxima rodada",
+   "fonte": "commit 41c4552 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 16:40",
+   "quando_br": "23/10/2026 16:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CFO",
+   "resultado": "Lucro de outubro até agora: −R$ 3,34 por competência (−R$ 40 em caixa, domínio de 05/10)",
+   "fonte": "resumos-clevels/2026-10-23-cfo.md"
+  },
+  {
+   "quando": "2026-10-23 16:37",
+   "quando_br": "23/10/2026 16:37",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "Fazendo: T-026 (parte 1 respondida: IA do Direct respondeu o candidato de 21/10 em 1 s; vaga sem dado; empresa não…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 15:52",
+   "quando_br": "23/10/2026 15:52",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 74e1361 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 15:02",
+   "quando_br": "23/10/2026 15:02",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-034 preparo feito; T-059 gate v2 reprovado, v3 com gancho",
+   "fonte": "commit 1e8be88 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 15:01",
+   "quando_br": "23/10/2026 15:01",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-034: banner/bump/obrigado-compra",
+   "fonte": "commit 62e202c (finbook)"
+  },
+  {
+   "quando": "2026-10-23 13:02",
+   "quando_br": "23/10/2026 13:02",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-055 Termos no ar; T-059 Short 10 aguarda gate",
+   "fonte": "commit ce3d0b4 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 11:40",
+   "quando_br": "23/10/2026 11:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "Os 4 e-mails de parceria saíram às 00:04–00:05 e ainda não tiveram resposta (11 h depois)",
+   "fonte": "resumos-clevels/2026-10-23-cs.md"
+  },
+  {
+   "quando": "2026-10-23 11:25",
+   "quando_br": "23/10/2026 11:25",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "5 pedidos na fila do Claude (situação atual: 4 feitos, 1 aberto)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-23 10:59",
+   "quando_br": "23/10/2026 10:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "lastmod da T-052",
+   "fonte": "commit 151c986 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 10:59",
+   "quando_br": "23/10/2026 10:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-044 C-001 publicado no YouTube; T-052 perdão LC 238 em produção",
+   "fonte": "commit fa6d0d0 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 10:47",
+   "quando_br": "23/10/2026 10:47",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "Aguardando Rodrigo: T-006, T-008, T-022, T-023, T-027",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 10:10",
+   "quando_br": "23/10/2026 10:10",
+   "empresa": "Vagas SJDR",
+   "cargo": "CCO",
+   "resultado": "2 casos (empresas 1, candidatos 1), 1 rascunho aguardando aprovação",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 09:55",
+   "quando_br": "23/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "os 8 follow-ups de 21/10 serão lidos em 28/10",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-23 09:40",
+   "quando_br": "23/10/2026 09:40",
+   "empresa": "Vagas SJDR",
+   "cargo": "CFO",
+   "resultado": "receita de outubro R$ 20 bruto (1 POST), R$ 18,01 após Asaas, R$ 10,54 após anúncio (margem 52,7%)",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 09:29",
+   "quando_br": "23/10/2026 09:29",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit e1b155f (finbook)"
+  },
+  {
+   "quando": "2026-10-23 09:25",
+   "quando_br": "23/10/2026 09:25",
+   "empresa": "Finbook",
+   "cargo": "CFO",
+   "resultado": "financeiro (0 vendas, R$0), preços ok, T-052 liberada (D-015), erros + T-060",
+   "fonte": "commit 824fee7 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 09:25",
+   "quando_br": "23/10/2026 09:25",
+   "empresa": "PatentSonar",
+   "cargo": "CFO",
+   "resultado": "",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-23 08:59",
+   "quando_br": "23/10/2026 08:59",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura ok, 0 achados",
+   "fonte": "commit 71545f0 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 08:40",
+   "quando_br": "23/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O 2º canal abriu: os 4 e-mails de parceria saíram e foram entregues hoje às 00:04–00:05, e o alerta de canal único caiu",
+   "fonte": "resumos-clevels/2026-10-23-ceo.md"
+  },
+  {
+   "quando": "2026-10-23 08:38",
+   "quando_br": "23/10/2026 08:38",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã, D-014 (Short 09 encerrado, T-059), D-015 (T-052 publica até 24/10)",
+   "fonte": "commit 99761cc (finbook)"
+  },
+  {
+   "quando": "2026-10-23 08:25",
+   "quando_br": "23/10/2026 08:25",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (manhã)",
+   "resultado": "gasto com anúncio R$ 7,47 (metricas.md, 21/10); Sem venda nova registrada desde então",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 08:05",
+   "quando_br": "23/10/2026 08:05",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 4b82ce4 (finbook)"
+  },
+  {
+   "quando": "2026-10-23 04:31",
+   "quando_br": "23/10/2026 04:31",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-23 00:02",
+   "quando_br": "23/10/2026 00:02",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "o Claude parou duas vezes esperando confirmação",
+   "fonte": "resumos-clevels/2026-10-23-coo.md"
+  },
+  {
+   "quando": "2026-10-23",
+   "quando_br": "23/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "amostras 0/12, testes 0/4",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22 22:57",
+   "quando_br": "22/10/2026 22:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "rodada noturna, site 200",
+   "fonte": "commit b4c940f (finbook)"
+  },
+  {
+   "quando": "2026-10-22 22:33",
+   "quando_br": "22/10/2026 22:33",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis; Nada enviado ao Claude (nenhuma resposta pendente; sem D-001, só leitura; nenhuma decisão…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 20:52",
+   "quando_br": "22/10/2026 20:52",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "gate C-001 aprovado, Short 09 v7 reprovado",
+   "fonte": "commit 2728001 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 20:51",
+   "quando_br": "22/10/2026 20:51",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "registro 19h, gates disparados",
+   "fonte": "commit a067c22 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 20:19",
+   "quando_br": "22/10/2026 20:19",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 1fb2faf (finbook)"
+  },
+  {
+   "quando": "2026-10-22 19:46",
+   "quando_br": "22/10/2026 19:46",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "19h: T-043 vídeo longo C-001 renderizado, aguarda gate",
+   "fonte": "commit ba5389e (finbook)"
+  },
+  {
+   "quando": "2026-10-22 19:25",
+   "quando_br": "22/10/2026 19:25",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "19h: T-022 Short 09 v7, aguarda gate",
+   "fonte": "commit 9227931 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 18:52",
+   "quando_br": "22/10/2026 18:52",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (resumo)",
+   "resultado": "CEO resumo 22/10 enviado; Placar: R$ 20 bruto em outubro (~7% de ~R$ 300)",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 18:02",
+   "quando_br": "22/10/2026 18:02",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Os 4 e-mails de parceria (cmo-1/cmo-2) ainda não tinham saído: 0 de 4 até 18:02",
+   "fonte": "resumos-clevels/2026-10-22-coo.md"
+  },
+  {
+   "quando": "2026-10-22 17:15",
+   "quando_br": "22/10/2026 17:15",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "2 pedidos na fila do Claude (situação atual: 2 feitos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22 17:06",
+   "quando_br": "22/10/2026 17:06",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-022 Short 09 v6 reprovado no gate, diário",
+   "fonte": "commit 19efa0c (finbook)"
+  },
+  {
+   "quando": "2026-10-22 16:36",
+   "quando_br": "22/10/2026 16:36",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis; Nada enviado ao Claude (respostas das 10:30 e 10:35 já registradas por completo; nenhuma…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 15:48",
+   "quando_br": "22/10/2026 15:48",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 157cd02 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 15:08",
+   "quando_br": "22/10/2026 15:08",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-022 v5 reprovado no gate",
+   "fonte": "commit c9e0bac (finbook)"
+  },
+  {
+   "quando": "2026-10-22 15:06",
+   "quando_br": "22/10/2026 15:06",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 69dacbe (finbook)"
+  },
+  {
+   "quando": "2026-10-22 15:06",
+   "quando_br": "22/10/2026 15:06",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit dfe857e (finbook)"
+  },
+  {
+   "quando": "2026-10-22 14:45",
+   "quando_br": "22/10/2026 14:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CISO",
+   "resultado": "Não reconferido por mim hoje",
+   "fonte": "resumos-clevels/2026-10-22-ciso.md"
+  },
+  {
+   "quando": "2026-10-22 13:41",
+   "quando_br": "22/10/2026 13:41",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "13h: T-022 Short 09 v3/v4 reprovados no gate, T-052 em preview, diário",
+   "fonte": "commit 5219d0c (finbook)"
+  },
+  {
+   "quando": "2026-10-22 12:58",
+   "quando_br": "22/10/2026 12:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 49901ab (finbook)"
+  },
+  {
+   "quando": "2026-10-22 11:40",
+   "quando_br": "22/10/2026 11:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "sem dado",
+   "fonte": "resumos-clevels/2026-10-22-cs.md"
+  },
+  {
+   "quando": "2026-10-22 11:20",
+   "quando_br": "22/10/2026 11:20",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "13 pedidos na fila do Claude (situação atual: 12 feitos, 1 em andamento)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22 11:05",
+   "quando_br": "22/10/2026 11:05",
+   "empresa": "Vagas SJDR",
+   "cargo": "CISO",
+   "resultado": "Uma entrada curta por rotina, mais nova no topo",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 11:01",
+   "quando_br": "22/10/2026 11:01",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 5d883bf (finbook)"
+  },
+  {
+   "quando": "2026-10-22 10:00",
+   "quando_br": "22/10/2026 10:00",
+   "empresa": "Vagas SJDR",
+   "cargo": "CCO",
+   "resultado": "0 casos (empresas 0, candidatos 0), 0 rascunhos aguardando aprovação",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 09:55",
+   "quando_br": "22/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "os 8 follow-ups de 21/10 serão lidos em 28/10; 3 primeiros toques SBIR na fila hoje",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22 09:45",
+   "quando_br": "22/10/2026 09:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CLO",
+   "resultado": "receita R$ 0, o % não se calcula",
+   "fonte": "resumos-clevels/2026-10-22-clo.md"
+  },
+  {
+   "quando": "2026-10-22 09:35",
+   "quando_br": "22/10/2026 09:35",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit da823b8 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 09:35",
+   "quando_br": "22/10/2026 09:35",
+   "empresa": "Vagas SJDR",
+   "cargo": "CLO",
+   "resultado": "V-02 parar até revisão (26 ofertas, 0 resposta, risco de mensagem não solicitada)",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 09:25",
+   "quando_br": "22/10/2026 09:25",
+   "empresa": "Finbook",
+   "cargo": "CLO",
+   "resultado": "parecer LC 238, D-001/D-002, T-052..T-055, regras de plataforma",
+   "fonte": "commit 53f5f6a (finbook)"
+  },
+  {
+   "quando": "2026-10-22 09:04",
+   "quando_br": "22/10/2026 09:04",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura ok",
+   "fonte": "commit 1605b27 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 08:38",
+   "quando_br": "22/10/2026 08:38",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã 22/10: placar, fechamento da semana, metas 23-29/10",
+   "fonte": "commit f90fdc3 (finbook)"
+  },
+  {
+   "quando": "2026-10-22 08:35",
+   "quando_br": "22/10/2026 08:35",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O link curto funciona e o teste de amostra por ele levou 63 s, mas seguimos com 0 cliques e 0 amostras em 105 e-mails…",
+   "fonte": "resumos-clevels/2026-10-22-ceo.md"
+  },
+  {
+   "quando": "2026-10-22 08:29",
+   "quando_br": "22/10/2026 08:29",
+   "empresa": "Vagas SJDR",
+   "cargo": "CEO (manhã)",
+   "resultado": "gasto com anúncio R$ 7,47 (metricas.md, 21/10); Vagas: 19 registradas de 19 a 21/10 (15 publicadas sozinhas, 4 para…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 04:33",
+   "quando_br": "22/10/2026 04:33",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-22 00:02",
+   "quando_br": "22/10/2026 00:02",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "claude.ai abriu de novo (o erro de túnel das 18:00 passou); Claude estava parado",
+   "fonte": "resumos-clevels/2026-10-22-coo.md"
+  },
+  {
+   "quando": "2026-10-22",
+   "quando_br": "22/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "Placar out; (meta 31/10): 1º contatos 56/150 (37 %; projeção 57–63 + 3 SBIR na fila)",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22",
+   "quando_br": "22/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CISO",
+   "resultado": "",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-22",
+   "quando_br": "22/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CLO",
+   "resultado": "",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21 22:50",
+   "quando_br": "21/10/2026 22:50",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit f7841bb (finbook)"
+  },
+  {
+   "quando": "2026-10-21 22:34",
+   "quando_br": "21/10/2026 22:34",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis; Nada enviado ao Claude (resposta das 16:38 já registrada por completo; nenhuma pendente)",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-21 20:57",
+   "quando_br": "21/10/2026 20:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 51acf16 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 20:17",
+   "quando_br": "21/10/2026 20:17",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit e603730 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 18:54",
+   "quando_br": "21/10/2026 18:54",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 19754e7 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 17:20",
+   "quando_br": "21/10/2026 17:20",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "3 pedidos na fila do Claude (situação atual: 3 feitos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21 16:57",
+   "quando_br": "21/10/2026 16:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 5921dd4 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 16:34",
+   "quando_br": "21/10/2026 16:34",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "Novo/adiado: T-003 fica para 22/10 10:23; Aguardando Rodrigo: T-006 rodadas 9h/12h/15h paradas desde 19/10 (87…",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-21 15:49",
+   "quando_br": "21/10/2026 15:49",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit af1b4ae (finbook)"
+  },
+  {
+   "quando": "2026-10-21 14:59",
+   "quando_br": "21/10/2026 14:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 94263d7 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 12:58",
+   "quando_br": "21/10/2026 12:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 26aff5d (finbook)"
+  },
+  {
+   "quando": "2026-10-21 11:45",
+   "quando_br": "21/10/2026 11:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "sem dado",
+   "fonte": "resumos-clevels/2026-10-21-cs.md"
+  },
+  {
+   "quando": "2026-10-21 11:30",
+   "quando_br": "21/10/2026 11:30",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "16 pedidos na fila do Claude (situação atual: 11 feitos, 1 em andamento, 4 abertos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21 10:45",
+   "quando_br": "21/10/2026 10:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CTO",
+   "resultado": "sem comparação",
+   "fonte": "resumos-clevels/2026-10-21-cto.md"
+  },
+  {
+   "quando": "2026-10-21 09:55",
+   "quando_br": "21/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "é questão operacional já sinalizada ao COO na própria review, não erro de CS",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21 09:30",
+   "quando_br": "21/10/2026 09:30",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 4b4c8d7 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 09:30",
+   "quando_br": "21/10/2026 09:30",
+   "empresa": "PatentSonar",
+   "cargo": "CTO",
+   "resultado": "",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21 09:25",
+   "quando_br": "21/10/2026 09:25",
+   "empresa": "Finbook",
+   "cargo": "CTO",
+   "resultado": "",
+   "fonte": "commit ee431d9 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 09:04",
+   "quando_br": "21/10/2026 09:04",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "D-011 perfis pessoais do Rodrigo nunca são canal do Finbook",
+   "fonte": "commit d7058d3 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 09:01",
+   "quando_br": "21/10/2026 09:01",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "regra de canais (D-010), canais.md, C-001 YouTube longo, C-002 Hotmart planejado, regra dura de fóruns",
+   "fonte": "commit 5f26262 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 09:00",
+   "quando_br": "21/10/2026 09:00",
+   "empresa": "Abriu Agora",
+   "cargo": "CMO (canais)",
+   "resultado": "O e-mail abre pela dor: indicação \"não tem data\" e o receio de disputar cliente de colega",
+   "fonte": "resumos-clevels/2026-10-21-cmo-canais.md"
+  },
+  {
+   "quando": "2026-10-21 08:40",
+   "quando_br": "21/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O redesign está fechado e, desde a madrugada, os e-mails levam à home por um link curto",
+   "fonte": "resumos-clevels/2026-10-21-ceo.md"
+  },
+  {
+   "quando": "2026-10-21 08:36",
+   "quando_br": "21/10/2026 08:36",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã (1º inscrito, LC 238, prioridades CTO)",
+   "fonte": "commit 5bed5c1 (finbook)"
+  },
+  {
+   "quando": "2026-10-21 00:00",
+   "quando_br": "21/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Portão 1 segue 0 ÷ 3 amostras",
+   "fonte": "resumos-clevels/2026-10-21-coo.md"
+  },
+  {
+   "quando": "2026-10-21",
+   "quando_br": "21/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "Placar out; (meta 31/10): 1º contatos 53/150 (projeção 57–62, ~40 %); respostas 0 % (meta ≥ 5 %)",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-21",
+   "quando_br": "21/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CMO (canais)",
+   "resultado": "Pedido extra do Rodrigo (decisão de 21/10: CMO dono de abrir canais novos; 1 canal grátis por semana; CSO 1 canal de…",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-20 22:53",
+   "quando_br": "20/10/2026 22:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, rodada noturna sem itens novos",
+   "fonte": "commit ce11c88 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 22:32",
+   "quando_br": "20/10/2026 22:32",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 4063f9c (finbook)"
+  },
+  {
+   "quando": "2026-10-20 20:54",
+   "quando_br": "20/10/2026 20:54",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, LC 238 sancionada, T-004 encerrada",
+   "fonte": "commit 2a622a2 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 20:19",
+   "quando_br": "20/10/2026 20:19",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 2798d3f (finbook)"
+  },
+  {
+   "quando": "2026-10-20 19:11",
+   "quando_br": "20/10/2026 19:11",
+   "empresa": "Finbook",
+   "cargo": "CMO",
+   "resultado": "",
+   "fonte": "commit 1ad5eb0 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 19:10",
+   "quando_br": "20/10/2026 19:10",
+   "empresa": "Abriu Agora",
+   "cargo": "CMO (auditoria)",
+   "resultado": "Rodrigo, a pedido seu, olhei tudo o que o cliente vê: as 15 páginas do site, todos os e-mails, a amostra, a planilha e…",
+   "fonte": "resumos-clevels/2026-10-20-cmo-auditoria.md"
+  },
+  {
+   "quando": "2026-10-20 18:55",
+   "quando_br": "20/10/2026 18:55",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, T-007 recheck",
+   "fonte": "commit 48c3ebd (finbook)"
+  },
+  {
+   "quando": "2026-10-20 18:03",
+   "quando_br": "20/10/2026 18:03",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado",
+   "fonte": "resumos-clevels/2026-10-20-coo.md"
+  },
+  {
+   "quando": "2026-10-20 16:56",
+   "quando_br": "20/10/2026 16:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit d443432 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 15:48",
+   "quando_br": "20/10/2026 15:48",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 612a9c5 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 15:01",
+   "quando_br": "20/10/2026 15:01",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 73544ca (finbook)"
+  },
+  {
+   "quando": "2026-10-20 12:59",
+   "quando_br": "20/10/2026 12:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 70455e7 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 12:58",
+   "quando_br": "20/10/2026 12:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit c67cdf3 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 12:00",
+   "quando_br": "20/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude trabalhando, sem cartões; não interrompi nem mandei ordem nova",
+   "fonte": "resumos-clevels/2026-10-20-coo.md"
+  },
+  {
+   "quando": "2026-10-20 11:40",
+   "quando_br": "20/10/2026 11:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "100% das amostras entregues em ≤ 10 min e respondidas no mesmo dia útil",
+   "fonte": "resumos-clevels/2026-10-20-cs.md"
+  },
+  {
+   "quando": "2026-10-20 11:20",
+   "quando_br": "20/10/2026 11:20",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "6 pedidos na fila do Claude (situação atual: 6 feitos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-20 11:04",
+   "quando_br": "20/10/2026 11:04",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-027 bio TikTok salva, ainda não aparece",
+   "fonte": "commit 9f62647 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 11:02",
+   "quando_br": "20/10/2026 11:02",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-021 FB post-09 publicado como a Página",
+   "fonte": "commit c3c2845 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 11:00",
+   "quando_br": "20/10/2026 11:00",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit c113d34 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 09:55",
+   "quando_br": "20/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "Nenhum erro nem tarefa nova",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-20 09:40",
+   "quando_br": "20/10/2026 09:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CMO",
+   "resultado": "E 66 entregues seguem com 0 cliques; O gargalo é antes da página: não sabemos se o e-mail chega na caixa principal do…",
+   "fonte": "resumos-clevels/2026-10-20-cmo.md"
+  },
+  {
+   "quando": "2026-10-20 09:31",
+   "quando_br": "20/10/2026 09:31",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 4f82c48 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 09:29",
+   "quando_br": "20/10/2026 09:29",
+   "empresa": "Finbook",
+   "cargo": "CMO",
+   "resultado": "6 dores reais na abordagem, 9 erros, T-021..T-030, D-004 e D-007 decididas, roteiro Short 09 e FB post-09",
+   "fonte": "commit f76e065 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 09:01",
+   "quando_br": "20/10/2026 09:01",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura ok, 0 achados novos",
+   "fonte": "commit 2b4bac3 (finbook)"
+  },
+  {
+   "quando": "2026-10-20 08:44",
+   "quando_br": "20/10/2026 08:44",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã: placar, ajuste de metas, prioridades",
+   "fonte": "commit cecc74c (finbook)"
+  },
+  {
+   "quando": "2026-10-20 08:40",
+   "quando_br": "20/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O funil segue em 0 amostras a 11 dias do Portão 1; a onda 2 sai hoje às 09:30 e é o 1º teste real da página nova",
+   "fonte": "resumos-clevels/2026-10-20-ceo.md"
+  },
+  {
+   "quando": "2026-10-20 06:00",
+   "quando_br": "20/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude trabalhando desde ~06:00",
+   "fonte": "resumos-clevels/2026-10-20-coo.md"
+  },
+  {
+   "quando": "2026-10-20 00:00",
+   "quando_br": "20/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado desde 19/10 18:15, sem cartões",
+   "fonte": "resumos-clevels/2026-10-20-coo.md"
+  },
+  {
+   "quando": "2026-10-20",
+   "quando_br": "20/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "Placar out; (meta 31/10): 1º contatos 52/150 (projeção ~60, 40 %); respostas 0 % (meta ≥ 5 %)",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-20",
+   "quando_br": "20/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CMO (auditoria)",
+   "resultado": "O funil que existe em outubro é e-mail frio → resposta → \"yes\"/\"trial\"; O site só converte quem chega pela busca (300…",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-20",
+   "quando_br": "20/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CMO",
+   "resultado": "Gmail do Rodrigo; site no ar; Nada foi enviado, rascunhado, rotulado nem alterado no repo, no site ou no Gmail",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 22:55",
+   "quando_br": "19/10/2026 22:55",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit aa3bff9 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 20:58",
+   "quando_br": "19/10/2026 20:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, T-007 sem sanção, fila sem itens executáveis",
+   "fonte": "commit 2287593 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 20:21",
+   "quando_br": "19/10/2026 20:21",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "resumo 19/10 enviado",
+   "fonte": "commit 72a1f24 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 19:21",
+   "quando_br": "19/10/2026 19:21",
+   "empresa": "Finbook",
+   "cargo": "CMO",
+   "resultado": "/COO 19/10: redesign da home (D-006/T-020): dor no topo + calculadora como herói, botões → calculadora, oferta do Kit…",
+   "fonte": "commit 57ec4bb (finbook)"
+  },
+  {
+   "quando": "2026-10-19 18:58",
+   "quando_br": "19/10/2026 18:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, T-007 sem sanção, fila sem itens executáveis",
+   "fonte": "commit cef9306 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 18:00",
+   "quando_br": "19/10/2026 18:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado desde 12:18, sem cartões",
+   "fonte": "resumos-clevels/2026-10-19-coo.md"
+  },
+  {
+   "quando": "2026-10-19 17:15",
+   "quando_br": "19/10/2026 17:15",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "1 pedido na fila do Claude (situação atual: 1 feito)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 16:55",
+   "quando_br": "19/10/2026 16:55",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit da4ac12 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 15:49",
+   "quando_br": "19/10/2026 15:49",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit a769c5c (finbook)"
+  },
+  {
+   "quando": "2026-10-19 15:01",
+   "quando_br": "19/10/2026 15:01",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 1a2fbe5 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 13:19",
+   "quando_br": "19/10/2026 13:19",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit ab82b25 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 12:00",
+   "quando_br": "19/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "A aba do Claude tinha travado; reaberta em aba nova",
+   "fonte": "resumos-clevels/2026-10-19-coo.md"
+  },
+  {
+   "quando": "2026-10-19 11:40",
+   "quando_br": "19/10/2026 11:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "100% das amostras entregues em ≤ 10 min e respondidas no mesmo dia útil",
+   "fonte": "resumos-clevels/2026-10-19-cs.md"
+  },
+  {
+   "quando": "2026-10-19 11:36",
+   "quando_br": "19/10/2026 11:36",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "T-016 rastreio ok ponta a ponta, T-014 FB post-08 publicado, T-015 Short 08 aprovado (publica 21/10)",
+   "fonte": "commit 3d1f857 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 11:25",
+   "quando_br": "19/10/2026 11:25",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "5 pedidos na fila do Claude (situação atual: 5 feitos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 09:55",
+   "quando_br": "19/10/2026 09:55",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "a resposta já tem regra (E-20261019-5/T-20261019-5, com o CSO); Nenhum erro nem tarefa nova",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 09:40",
+   "quando_br": "19/10/2026 09:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CSO",
+   "resultado": "≥ 3 pedidos de amostra até 31/10 (Portão 1), contando todo interesse, inclusive resposta por e-mail",
+   "fonte": "resumos-clevels/2026-10-19-cso.md"
+  },
+  {
+   "quando": "2026-10-19 09:35",
+   "quando_br": "19/10/2026 09:35",
+   "empresa": "PatentSonar",
+   "cargo": "CSO",
+   "resultado": "",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 09:34",
+   "quando_br": "19/10/2026 09:34",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "manhã: 0 venda/cliente/parceiro",
+   "fonte": "commit 97ce2cf (finbook)"
+  },
+  {
+   "quando": "2026-10-19 09:21",
+   "quando_br": "19/10/2026 09:21",
+   "empresa": "Finbook",
+   "cargo": "CSO",
+   "resultado": "placar por canal, D-003, lote 5 em rascunho, T-017..T-019",
+   "fonte": "commit 455433e (finbook)"
+  },
+  {
+   "quando": "2026-10-19 09:04",
+   "quando_br": "19/10/2026 09:04",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 19/10 (0 achados novos)",
+   "fonte": "commit e6da596 (finbook)"
+  },
+  {
+   "quando": "2026-10-19 08:47",
+   "quando_br": "19/10/2026 08:47",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "3 first touches week 43 liberados",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-19 08:44",
+   "quando_br": "19/10/2026 08:44",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit ebe132a (finbook)"
+  },
+  {
+   "quando": "2026-10-19 08:44",
+   "quando_br": "19/10/2026 08:44",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "manhã: placar, ajuste das metas da semana, T-014..T-016",
+   "fonte": "commit b1f25ea (finbook)"
+  },
+  {
+   "quando": "2026-10-19 08:40",
+   "quando_br": "19/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "O funil ainda está em 0 amostras e 0 pagantes, a 12 dias do Portão 1",
+   "fonte": "resumos-clevels/2026-10-19-ceo.md"
+  },
+  {
+   "quando": "2026-10-19 06:00",
+   "quando_br": "19/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado desde 00:07 BRT",
+   "fonte": "resumos-clevels/2026-10-19-coo.md"
+  },
+  {
+   "quando": "2026-10-19 00:00",
+   "quando_br": "19/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado desde 18/10 18:09 BRT, com o lote de 18:00 terminado (CI verde, 237 testes passando, 1 pulado)",
+   "fonte": "resumos-clevels/2026-10-19-coo.md"
+  },
+  {
+   "quando": "2026-10-19",
+   "quando_br": "19/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CMO (design)",
+   "resultado": "Decisão do Rodrigo (19/10/2026): o CMO é dono do design visual e da conversão das páginas",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-18 22:51",
+   "quando_br": "18/10/2026 22:51",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, rodada noturna, fila sem executáveis",
+   "fonte": "commit ba8bea2 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 20:50",
+   "quando_br": "18/10/2026 20:50",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 1e39272 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 20:24",
+   "quando_br": "18/10/2026 20:24",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 7927ce5 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 18:52",
+   "quando_br": "18/10/2026 18:52",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 9c3308a (finbook)"
+  },
+  {
+   "quando": "2026-10-18 18:04",
+   "quando_br": "18/10/2026 18:04",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "237 testes passaram",
+   "fonte": "resumos-clevels/2026-10-18-coo.md"
+  },
+  {
+   "quando": "2026-10-18 16:57",
+   "quando_br": "18/10/2026 16:57",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 55112cd (finbook)"
+  },
+  {
+   "quando": "2026-10-18 15:49",
+   "quando_br": "18/10/2026 15:49",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 540a5d9 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 14:59",
+   "quando_br": "18/10/2026 14:59",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 84f6c15 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 12:58",
+   "quando_br": "18/10/2026 12:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 3789b43 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 12:05",
+   "quando_br": "18/10/2026 12:05",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "CS: 0 amostras, 0 descadastros, 0 mensagens de lead",
+   "fonte": "resumos-clevels/2026-10-18-coo.md"
+  },
+  {
+   "quando": "2026-10-18 10:53",
+   "quando_br": "18/10/2026 10:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 87cd2fe (finbook)"
+  },
+  {
+   "quando": "2026-10-18 09:30",
+   "quando_br": "18/10/2026 09:30",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "manhã: 0 venda/cliente/parceiro",
+   "fonte": "commit 02adf87 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 09:04",
+   "quando_br": "18/10/2026 09:04",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 18/10 (0 achados novos)",
+   "fonte": "commit 9b82411 (finbook)"
+  },
+  {
+   "quando": "2026-10-18 06:00",
+   "quando_br": "18/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado depois de fechar o lote cmo-14, cmo-8 e cfo-1",
+   "fonte": "resumos-clevels/2026-10-18-coo.md"
+  },
+  {
+   "quando": "2026-10-18 00:00",
+   "quando_br": "18/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "cfo-1: falta ler cotas do Resend e taxas do Asaas pela API; plano do Cloudflare não dá para ler",
+   "fonte": "resumos-clevels/2026-10-18-coo.md"
+  },
+  {
+   "quando": "2026-10-17 22:56",
+   "quando_br": "17/10/2026 22:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, 0 venda, T-003/T-004 atrasou -> 18/10",
+   "fonte": "commit 4bcaeed (finbook)"
+  },
+  {
+   "quando": "2026-10-17 20:23",
+   "quando_br": "17/10/2026 20:23",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit ba82e2a (finbook)"
+  },
+  {
+   "quando": "2026-10-17 18:00",
+   "quando_br": "17/10/2026 18:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Não respondido: é decisão do Rodrigo",
+   "fonte": "resumos-clevels/2026-10-17-coo.md"
+  },
+  {
+   "quando": "2026-10-17 15:48",
+   "quando_br": "17/10/2026 15:48",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "tarde: 0 venda/cliente/parceiro",
+   "fonte": "commit b3137b9 (finbook)"
+  },
+  {
+   "quando": "2026-10-17 12:00",
+   "quando_br": "17/10/2026 12:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Sem banner de limite",
+   "fonte": "resumos-clevels/2026-10-17-coo.md"
+  },
+  {
+   "quando": "2026-10-17 09:39",
+   "quando_br": "17/10/2026 09:39",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit 9d532ec (finbook)"
+  },
+  {
+   "quando": "2026-10-17 09:04",
+   "quando_br": "17/10/2026 09:04",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 17/10 (1 fragilidade: deps do wrangler, T-013)",
+   "fonte": "commit b2b51bb (finbook)"
+  },
+  {
+   "quando": "2026-10-17 05:59",
+   "quando_br": "17/10/2026 05:59",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "NÃO respondido: a opção A retoma o envio, e retomar exige OK do Rodrigo",
+   "fonte": "resumos-clevels/2026-10-17-coo.md"
+  },
+  {
+   "quando": "2026-10-16 23:57",
+   "quando_br": "16/10/2026 23:57",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Sem banner de limite",
+   "fonte": "resumos-clevels/2026-10-17-coo.md"
+  },
+  {
+   "quando": "2026-10-16 22:54",
+   "quando_br": "16/10/2026 22:54",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executáveis",
+   "fonte": "commit 62aaa3e (finbook)"
+  },
+  {
+   "quando": "2026-10-16 20:50",
+   "quando_br": "16/10/2026 20:50",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, sanção pendente",
+   "fonte": "commit 9e4ce43 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 20:21",
+   "quando_br": "16/10/2026 20:21",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "",
+   "fonte": "commit 3559dd2 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 18:56",
+   "quando_br": "16/10/2026 18:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, sanção pendente",
+   "fonte": "commit 88375b2 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 18:03",
+   "quando_br": "16/10/2026 18:03",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Sem banner de limite",
+   "fonte": "resumos-clevels/2026-10-16-coo.md"
+  },
+  {
+   "quando": "2026-10-16 16:58",
+   "quando_br": "16/10/2026 16:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, sanção pendente",
+   "fonte": "commit db79317 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 16:45",
+   "quando_br": "16/10/2026 16:45",
+   "empresa": "Abriu Agora",
+   "cargo": "CFO",
+   "resultado": "Lucro de outubro até agora: −R$ 40 em caixa (domínio pago em 05/10) ou −R$ 3,34 por competência mensal",
+   "fonte": "resumos-clevels/2026-10-16-cfo.md"
+  },
+  {
+   "quando": "2026-10-16 15:48",
+   "quando_br": "16/10/2026 15:48",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit aff2741 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 14:58",
+   "quando_br": "16/10/2026 14:58",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, sanção pendente (prazo 06/11)",
+   "fonte": "commit d52bca3 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 12:56",
+   "quando_br": "16/10/2026 12:56",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 60e411f (finbook)"
+  },
+  {
+   "quando": "2026-10-16 12:06",
+   "quando_br": "16/10/2026 12:06",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Nenhuma ordem nova",
+   "fonte": "resumos-clevels/2026-10-16-coo.md"
+  },
+  {
+   "quando": "2026-10-16 11:30",
+   "quando_br": "16/10/2026 11:30",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "100% das amostras entregues em ≤ 10 min e respondidas no mesmo dia útil",
+   "fonte": "resumos-clevels/2026-10-16-cs.md"
+  },
+  {
+   "quando": "2026-10-16 11:25",
+   "quando_br": "16/10/2026 11:25",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "Short 06 v6 publicado, FB post-07, T-012; wrangler fixado em 4.20.0",
+   "fonte": "commit e68ea57 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 11:20",
+   "quando_br": "16/10/2026 11:20",
+   "empresa": "PatentSonar",
+   "cargo": "COO",
+   "resultado": "12 pedidos na fila do Claude (situação atual: 12 feitos)",
+   "fonte": "docs/coo/fila.md (PatentSonar)"
+  },
+  {
+   "quando": "2026-10-16 10:53",
+   "quando_br": "16/10/2026 10:53",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "",
+   "fonte": "commit 81f0469 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 09:50",
+   "quando_br": "16/10/2026 09:50",
+   "empresa": "PatentSonar",
+   "cargo": "CS/CCO",
+   "resultado": "Nenhum erro nem tarefa nova",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-16 09:35",
+   "quando_br": "16/10/2026 09:35",
+   "empresa": "Finbook",
+   "cargo": "CCO",
+   "resultado": "0 venda/cliente/parceiro",
+   "fonte": "commit dd9791e (finbook)"
+  },
+  {
+   "quando": "2026-10-16 09:19",
+   "quando_br": "16/10/2026 09:19",
+   "empresa": "Finbook",
+   "cargo": "CFO",
+   "resultado": "financeiro da semana, preço do Pacote R$10 na Kiwify ≠ site (T-011, T-012)",
+   "fonte": "commit b52a9e2 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 09:16",
+   "quando_br": "16/10/2026 09:16",
+   "empresa": "PatentSonar",
+   "cargo": "CFO",
+   "resultado": "COO enfileirar T-20261016-2",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-16 09:09",
+   "quando_br": "16/10/2026 09:09",
+   "empresa": "Finbook",
+   "cargo": "CISO",
+   "resultado": "varredura 16/10 ok (0 achados)",
+   "fonte": "commit c044bc0 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 08:52",
+   "quando_br": "16/10/2026 08:52",
+   "empresa": "PatentSonar",
+   "cargo": "CEO",
+   "resultado": "Funil: week 42 no teto 50/50",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-16 08:40",
+   "quando_br": "16/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "Funil segue em 0 amostras e 0 pagantes",
+   "fonte": "resumos-clevels/2026-10-16-ceo.md"
+  },
+  {
+   "quando": "2026-10-16 08:37",
+   "quando_br": "16/10/2026 08:37",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "ciclo da manhã 16/10 (placar, metas da semana, D-005, erro COO T-001)",
+   "fonte": "commit edd2248 (finbook)"
+  },
+  {
+   "quando": "2026-10-16 06:05",
+   "quando_br": "16/10/2026 06:05",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "0 pergunta nesta rodada",
+   "fonte": "resumos-clevels/2026-10-16-coo.md"
+  },
+  {
+   "quando": "2026-10-15 23:35",
+   "quando_br": "15/10/2026 23:35",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "abordagem ao cliente passa ao CMO",
+   "fonte": "commit 0002195 (finbook)"
+  },
+  {
+   "quando": "2026-10-15 23:26",
+   "quando_br": "15/10/2026 23:26",
+   "empresa": "Finbook",
+   "cargo": "CEO",
+   "resultado": "decisoes delegadas D-001..D-005",
+   "fonte": "commit 46156cf (finbook)"
+  },
+  {
+   "quando": "2026-10-15 18:10",
+   "quando_br": "15/10/2026 18:10",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude perto do limite de uso semanal (reset sex 16/10 18:00)",
+   "fonte": "resumos-clevels/2026-10-15-coo.md"
+  },
+  {
+   "quando": "2026-10-15 12:05",
+   "quando_br": "15/10/2026 12:05",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "sem interrupção; 0 nova ordem",
+   "fonte": "resumos-clevels/2026-10-15-coo.md"
+  },
+  {
+   "quando": "2026-10-15 11:06",
+   "quando_br": "15/10/2026 11:06",
+   "empresa": "Abriu Agora",
+   "cargo": "CS/CCO",
+   "resultado": "100% das amostras entregues em ≤ 10 min e respondidas no mesmo dia útil",
+   "fonte": "resumos-clevels/2026-10-15-cs.md"
+  },
+  {
+   "quando": "2026-10-15 11:05",
+   "quando_br": "15/10/2026 11:05",
+   "empresa": "Abriu Agora",
+   "cargo": "CFO",
+   "resultado": "1º fechamento sex 16/10",
+   "fonte": "resumos-clevels/2026-10-15-cfo.md"
+  },
+  {
+   "quando": "2026-10-15 11:04",
+   "quando_br": "15/10/2026 11:04",
+   "empresa": "Abriu Agora",
+   "cargo": "CISO",
+   "resultado": "gitleaks no histórico inteiro + busca por padrão + caminhos sensíveis do site",
+   "fonte": "resumos-clevels/2026-10-15-ciso.md"
+  },
+  {
+   "quando": "2026-10-15 11:02",
+   "quando_br": "15/10/2026 11:02",
+   "empresa": "Abriu Agora",
+   "cargo": "CTO",
+   "resultado": "Envio às 09:30 no horário (3 dias seguidos até 23/10)",
+   "fonte": "resumos-clevels/2026-10-15-cto.md"
+  },
+  {
+   "quando": "2026-10-15 11:01",
+   "quando_br": "15/10/2026 11:01",
+   "empresa": "Abriu Agora",
+   "cargo": "CMO",
+   "resultado": "Nenhuma peça nova; 38/38 peças com setembro até 14/11",
+   "fonte": "resumos-clevels/2026-10-15-cmo.md"
+  },
+  {
+   "quando": "2026-10-15 11:00",
+   "quando_br": "15/10/2026 11:00",
+   "empresa": "Abriu Agora",
+   "cargo": "CSO",
+   "resultado": "≥ 3 pedidos de amostra de contador vindos de lead até 31/10; 20 e-mails/dia útil sem acionar o freio",
+   "fonte": "resumos-clevels/2026-10-15-cso.md"
+  },
+  {
+   "quando": "2026-10-15 09:42",
+   "quando_br": "15/10/2026 09:42",
+   "empresa": "Abriu Agora",
+   "cargo": "CLO",
+   "resultado": "e-mails de prospecção com identificação da empresa, motivo do contato, descadastro em 1 clique e no máximo 3 por…",
+   "fonte": "resumos-clevels/2026-10-15-clo.md"
+  },
+  {
+   "quando": "2026-10-15 08:40",
+   "quando_br": "15/10/2026 08:40",
+   "empresa": "Abriu Agora",
+   "cargo": "CEO",
+   "resultado": "Receita ainda zero e 0 amostras: o risco nº 1 é a qualidade da lista (20% de falha) disparar o freio de novo",
+   "fonte": "resumos-clevels/2026-10-15-ceo.md"
+  },
+  {
+   "quando": "2026-10-15 06:12",
+   "quando_br": "15/10/2026 06:12",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "metricas.md pendente pós-envio 09:30",
+   "fonte": "resumos-clevels/2026-10-15-coo.md"
+  },
+  {
+   "quando": "2026-10-15 00:00",
+   "quando_br": "15/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "CHK-2026-10-15-01 aberto",
+   "fonte": "resumos-clevels/2026-10-15-coo.md"
+  },
+  {
+   "quando": "2026-10-15",
+   "quando_br": "15/10/2026",
+   "empresa": "PatentSonar",
+   "cargo": "CMO (dor)",
+   "resultado": "Rodada avulsa pedida pelo Rodrigo após a decisão de 15/10/2026: a abordagem ao cliente começa pela dor e só depois…",
+   "fonte": "clevels/resumos (pasta local do PatentSonar)"
+  },
+  {
+   "quando": "2026-10-14 23:56",
+   "quando_br": "14/10/2026 23:56",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "não interrompido",
+   "fonte": "resumos-clevels/2026-10-15-coo.md"
+  }
+ ],
+ "fontes_historico": [
+  "Abriu Agora: resumos-clevels/ (pasta local da Abriu Agora)",
+  "Finbook: commits das rotinas no repositório finbook",
+  "Vagas SJDR: diario.md dos C-levels (pasta local)",
+  "PatentSonar: docs/coo/fila.md do repositório (itens do COO) + resumos dos C-levels em clevels/resumos (pasta local)",
+  "Edital Lido: commits de decisões do CEO no repositório editallido"
+ ],
+ "janela_historico_dias": 30
+}

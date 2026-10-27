@@ -21,9 +21,9 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "14/10/2026 21:36",
-  "commits_7d": 0,
-  "commits_30d": 37,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 1,
+  "commits_30d": 38,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,7 +144,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 1
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "c0b6c27"
+  },
   {
    "quando": "14/10 21:36",
    "msg": "Espelhamento automatico 2026-10-14 21:36",
@@ -197,14 +202,9 @@
    "quando": "01/10 21:21",
    "msg": "Added Instagram fields w/ test",
    "sha": "456fa84"
-  },
-  {
-   "quando": "01/10 21:21",
-   "msg": "Changes",
-   "sha": "db4077e"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

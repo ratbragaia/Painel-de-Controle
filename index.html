@@ -2,8 +2,12 @@
 <link rel="stylesheet" href="assets/painel.css"><style>
 /* estilos em assets/painel.css */
 </style></head><body><header><h1>Painel de Controle</h1><p>Projetos do Rodrigo · <span id="gerado">carregando…</span></p>
+</header>
+<section id="resumo" class="topo" aria-label="Resumo das 5 empresas"><h2>Resumo das 5 empresas</h2><div id="abas" role="tablist"></div><div id="aba-corpo" role="tabpanel"><p class="vazio">carregando…</p></div></section>
+<section id="historico" class="topo" aria-label="Histórico dos C-levels"><h2>Histórico dos C-levels</h2><p class="dt" id="hist-nota"></p><div id="hist-filtro"></div><div id="hist-lista"></div></section>
+<details id="detalhes"><summary>Detalhes (visão geral, painéis por projeto e canais de venda)</summary>
 <div class="barra"><label for="seletor">Projeto:</label><select id="seletor" aria-label="Escolha o projeto"><option value="">Visão geral (todos os projetos)</option></select></div>
-<div class="sum" id="sum"></div></header>
-<main id="main"><noscript><article class="card"><h2>Ative o JavaScript</h2><p>O painel precisa de JavaScript. Os dados estão em <a href="data/projetos.json">data/projetos.json</a>.</p></article></noscript></main>
+<div class="sum" id="sum"></div><main id="main"><noscript><article class="card"><h2>Ative o JavaScript</h2><p>O painel precisa de JavaScript. Os dados estão em <a href="data/projetos.json">data/projetos.json</a>.</p></article></noscript></main>
+</details>
 <footer>Dados em <a href="data/projetos.json">data/projetos.json</a> e <a href="data/detalhes/index.json">data/detalhes/</a>. Datas no horário de Brasília. Link direto para um projeto: acrescente #nome-do-repo ao endereço (ex.: #abriuagora).</footer>
 <script src="assets/painel.js"></script></body></html>

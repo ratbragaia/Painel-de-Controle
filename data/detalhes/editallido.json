@@ -21,9 +21,9 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "15/10/2026 23:35",
-  "commits_7d": 0,
-  "commits_30d": 146,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 1,
+  "commits_30d": 147,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,15 +144,20 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 1
    }
   ],
   "issues_abertas": 0,
-  "prs_abertos": 0,
+  "prs_abertos": 1,
   "arquivos": 159,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "0f37104"
+  },
   {
    "quando": "15/10 23:35",
    "msg": "Espelhamento automatico 2026-10-15 23:35",
@@ -197,14 +202,9 @@
    "quando": "10/10 11:55",
    "msg": "Amostra: corrige os vetos do guardião no PR #15 (na dúvida, mostrar menos)",
    "sha": "f911bbc"
-  },
-  {
-   "quando": "10/10 11:47",
-   "msg": "Amostra: valor por partes usa a palavra do edital (lotes ou itens)",
-   "sha": "c31f267"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

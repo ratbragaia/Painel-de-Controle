@@ -1,0 +1,232 @@
+{
+ "repo": "PatentSonar",
+ "slug": "patentsonar",
+ "estatisticas": {
+  "linguagem": "TypeScript",
+  "linguagens": [
+   {
+    "nome": "TypeScript",
+    "pct": 65.4
+   },
+   {
+    "nome": "PLpgSQL",
+    "pct": 16.6
+   },
+   {
+    "nome": "HTML",
+    "pct": 13.9
+   },
+   {
+    "nome": "Shell",
+    "pct": 2.5
+   }
+  ],
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 104,
+  "commits_30d": 348,
+  "commits_30d_truncado": false,
+  "por_dia": [
+   {
+    "dia": "2026-09-27",
+    "n": 10
+   },
+   {
+    "dia": "2026-09-28",
+    "n": 40
+   },
+   {
+    "dia": "2026-09-29",
+    "n": 14
+   },
+   {
+    "dia": "2026-09-30",
+    "n": 11
+   },
+   {
+    "dia": "2026-10-01",
+    "n": 47
+   },
+   {
+    "dia": "2026-10-02",
+    "n": 8
+   },
+   {
+    "dia": "2026-10-03",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-04",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-05",
+    "n": 17
+   },
+   {
+    "dia": "2026-10-06",
+    "n": 10
+   },
+   {
+    "dia": "2026-10-07",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-08",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-09",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-10",
+    "n": 16
+   },
+   {
+    "dia": "2026-10-11",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-12",
+    "n": 15
+   },
+   {
+    "dia": "2026-10-13",
+    "n": 11
+   },
+   {
+    "dia": "2026-10-14",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-15",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-16",
+    "n": 6
+   },
+   {
+    "dia": "2026-10-17",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-18",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-19",
+    "n": 14
+   },
+   {
+    "dia": "2026-10-20",
+    "n": 8
+   },
+   {
+    "dia": "2026-10-21",
+    "n": 23
+   },
+   {
+    "dia": "2026-10-22",
+    "n": 22
+   },
+   {
+    "dia": "2026-10-23",
+    "n": 39
+   },
+   {
+    "dia": "2026-10-24",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-25",
+    "n": 0
+   },
+   {
+    "dia": "2026-10-26",
+    "n": 12
+   }
+  ],
+  "issues_abertas": 0,
+  "prs_abertos": 0,
+  "arquivos": 479,
+  "branch": "main"
+ },
+ "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "2855b52"
+  },
+  {
+   "quando": "26/10 16:16",
+   "msg": "ip-address 10.7.5 (Dependabot 1); COO fila: -23-06 and -26-01 feito, -26-02 and -23-07 em andamento",
+   "sha": "f5e5289"
+  },
+  {
+   "quando": "26/10 16:14",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "c1a7998"
+  },
+  {
+   "quando": "26/10 16:08",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "be8aa87"
+  },
+  {
+   "quando": "26/10 16:08",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "d6395fa"
+  },
+  {
+   "quando": "26/10 13:33",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "da30df3"
+  },
+  {
+   "quando": "26/10 12:27",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "d5f52de"
+  },
+  {
+   "quando": "26/10 11:33",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "40be098"
+  },
+  {
+   "quando": "26/10 09:29",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "c71b63d"
+  },
+  {
+   "quando": "26/10 09:29",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "2fa1374"
+  }
+ ],
+ "pendencias": {
+  "fonte": "docs/handoff-checklist.md (itens do fundador)",
+  "itens": [
+   {
+    "titulo": "USD receiving account",
+    "prazo": null
+   }
+  ]
+ },
+ "kpis": {
+  "titulo": "Checklist do fundador",
+  "fontes": [
+   "docs/handoff-checklist.md"
+  ],
+  "tabelas": [],
+  "listas": [],
+  "numeros": [
+   {
+    "rotulo": "Itens concluídos",
+    "valor": "14/17",
+    "detalhe": "1 em aberto"
+   }
+  ]
+ },
+ "gerado_em": "26/10/2026 22:29"
+}

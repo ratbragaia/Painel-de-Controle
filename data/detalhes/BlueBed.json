@@ -6,24 +6,24 @@
   "linguagens": [
    {
     "nome": "HTML",
-    "pct": 78.9
+    "pct": 81.3
    },
    {
     "nome": "JavaScript",
-    "pct": 9.3
+    "pct": 8.4
    },
    {
     "nome": "CSS",
-    "pct": 8.5
+    "pct": 7.4
    },
    {
     "nome": "Python",
-    "pct": 3.3
+    "pct": 2.9
    }
   ],
-  "ultimo_commit": "21/10/2026 16:35",
-  "commits_7d": 3,
-  "commits_30d": 8,
+  "ultimo_commit": "26/10/2026 18:59",
+  "commits_7d": 7,
+  "commits_30d": 12,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -144,15 +144,35 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 4
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 142,
+  "arquivos": 155,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "540d5d5"
+  },
+  {
+   "quando": "26/10 18:35",
+   "msg": "Espelhamento automatico 2026-10-26 18:35",
+   "sha": "446becc"
+  },
+  {
+   "quando": "26/10 14:35",
+   "msg": "Espelhamento automatico 2026-10-26 14:35",
+   "sha": "af9669a"
+  },
+  {
+   "quando": "26/10 13:35",
+   "msg": "Espelhamento automatico 2026-10-26 13:35",
+   "sha": "65f9aeb"
+  },
   {
    "quando": "21/10 16:35",
    "msg": "Espelhamento automatico 2026-10-21 16:35",
@@ -182,19 +202,9 @@
    "quando": "14/10 18:35",
    "msg": "Espelhamento automatico 2026-10-14 18:35",
    "sha": "e6a6448"
-  },
-  {
-   "quando": "14/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-14 17:35",
-   "sha": "c339801"
-  },
-  {
-   "quando": "12/10 11:26",
-   "msg": "Fim do dia 12/10: site no ar em bluebed.com.br",
-   "sha": "1fb5003"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

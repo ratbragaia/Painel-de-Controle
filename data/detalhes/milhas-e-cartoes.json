@@ -9,9 +9,9 @@
     "pct": 100.0
    }
   ],
-  "ultimo_commit": "25/10/2026 12:59",
-  "commits_7d": 6,
-  "commits_30d": 14,
+  "ultimo_commit": "26/10/2026 21:35",
+  "commits_7d": 9,
+  "commits_30d": 17,
   "commits_30d_truncado": false,
   "por_dia": [
    {
@@ -132,7 +132,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 0
+    "n": 3
    }
   ],
   "issues_abertas": 0,
@@ -141,6 +141,21 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 21:35",
+   "msg": "Espelhamento automatico 2026-10-26 21:35",
+   "sha": "189b010"
+  },
+  {
+   "quando": "26/10 18:59",
+   "msg": "docs: regra geral de abrir o Chrome sozinho",
+   "sha": "1a00775"
+  },
+  {
+   "quando": "26/10 09:08",
+   "msg": "Espelhamento automatico 2026-10-26 09:08",
+   "sha": "d2e6953"
+  },
   {
    "quando": "25/10 12:59",
    "msg": "Espelhamento automatico 2026-10-25 12:59",
@@ -175,21 +190,6 @@
    "quando": "19/10 10:35",
    "msg": "Espelhamento automatico 2026-10-19 10:35",
    "sha": "1cbe0f9"
-  },
-  {
-   "quando": "18/10 10:35",
-   "msg": "Espelhamento automatico 2026-10-18 10:35",
-   "sha": "9a61349"
-  },
-  {
-   "quando": "18/10 08:35",
-   "msg": "Espelhamento automatico 2026-10-18 08:35",
-   "sha": "75d07b8"
-  },
-  {
-   "quando": "17/10 08:17",
-   "msg": "Espelhamento automatico 2026-10-17 08:17",
-   "sha": "c037b35"
   }
  ],
  "pendencias": {
@@ -204,7 +204,7 @@
     "prazo": null
    },
    {
-    "titulo": "Cartão XP Legacy aprovado (15/09), ainda não chegou.",
+    "titulo": "💳 Cartão XP Legacy CHEGOU (27/10/2026) — falta desbloquear e configurar no app XP.",
     "prazo": null
    },
    {
@@ -224,15 +224,15 @@
     "prazo": null
    },
    {
-    "titulo": "Usar os 4 acessos DragonPass quando voltar a voar.",
+    "titulo": "(27/10/2026: com o Legacy, este item muda",
     "prazo": null
    },
    {
-    "titulo": "Não mexer no gasto do XP enquanto o lote de acessos atual não for usado (sem pressa, mas vale manter).",
+    "titulo": "(27/10/2026: provavelmente deixa de valer com o Legacy, se a sala VIP ilimitada não exigir gasto mínimo",
     "prazo": null
    }
   ]
  },
  "kpis": null,
- "gerado_em": "26/10/2026 08:02"
+ "gerado_em": "26/10/2026 22:29"
 }

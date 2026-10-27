@@ -26,9 +26,25 @@
     },
     {
       "nome": "PatentSonar",
-      "publico_minimo": true,
-      "site": "https://patentsonar.com",
-      "nota": "Detalhes internos não são exibidos no painel público."
+      "repo": "PatentSonar",
+      "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
+      "status": "Em operação: em 21–22/10 a fila do COO avançou com CI mínima (testes e migrações em Postgres limpo), alerta de deploy atrasado, página pública de acompanhamento de patentes de ímãs ligada à home, modelo novo da edição, 5 parceiros (advogados) com rascunhos na fila e 3 primeiros contatos SBIR enfileirados após o crítico. Resultado de 7 dias dos 18 primeiros contatos v2: 0 respostas, e o crítico de e-mail ficou mais rígido. Um item (contatos de imprensa) travou numa regra de envio.",
+      "recente": [
+        "21/10 07:09 – resumo por tema inclui famílias antigas com publicação nova; página de nitreto de ferro refeita",
+        "21/10 05:24 – home redesenhada (uma oferta, print, faixa de prova, 3 benefícios) e página /methodology",
+        "21/10 05:32 – páginas de tecnologia com oferta de amostra logo após a frase da dor; checagem do site com prints",
+        "21/10 05:28 – 8 seguimentos v2 na fila; envios de 21/10: 1 liberado, 3 segurados pelo crítico",
+        "21/10 05:30 – prospecção sem Hunter: projeção de 57–62 contatos até 31/10",
+        "20/10 16:09 – filtro passa a contar máquinas homopolares de campo bobinado (3 famílias novas)"
+      ],
+      "proximos": [
+        "Enviar o e-mail frio liberado e os seguimentos v2 quando a trava de data permitir",
+        "Medir o lote de e-mails v2 em 22/10",
+        "Atacar a falta de tráfego (300 impressões, 1 clique) e completar a semana 43"
+      ],
+      "atualizado": "22/10/2026 07:15",
+      "url": "https://github.com/ratbragaia/PatentSonar",
+      "categoria": "GitHub"
     },
     {
       "nome": "Finbook",

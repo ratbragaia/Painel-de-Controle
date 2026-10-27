@@ -198,6 +198,133 @@
    }
   ]
  },
+ "PatentSonar": {
+  "empresa": "PatentSonar",
+  "atualizado_em": "2026-10-21",
+  "canais": [
+   {
+    "id": "email-frio",
+    "canal": "E-mail frio a P&D e PI (contatos nomeados)",
+    "grupo": "E-mail frio",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-01",
+    "hipotese": "Quem publica sobre ímãs sem terras raras responde quando o 1º e-mail abre pela dor do próprio trabalho.",
+    "metrica": "respostas humanas ÷ 1º contatos (meta ≥ 5%)",
+    "numeros": {
+     "alcance": {
+      "valor": "53",
+      "nota": "1º contatos enviados (meta 150 em 31/10)"
+     },
+     "cliques": null,
+     "leads": {
+      "valor": "0",
+      "nota": "respostas humanas"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "clientes"
+     },
+     "receita": null,
+     "outros": {
+      "Liberados pelo crítico em 21/10": "2 (+ 8 seguimentos na fila)",
+      "Segurados pelo crítico em 21/10": "1",
+      "Entregabilidade (mail-tester)": "9,4/10",
+      "Devoluções": "2",
+      "Descadastros": "1"
+     }
+    },
+    "periodo": "01/10 a 21/10/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "meta-mensal.md (CEO) e docs/reviews/email/2026-10-21.md",
+    "decisao": "Assunto pela dor a partir de 21/10; medir o lote v2 em 22/10 e comparar respostas em 27–28/10.",
+    "palavras": [
+     "e-mail frio",
+     "email frio"
+    ]
+   },
+   {
+    "id": "busca-organica",
+    "canal": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
+    "tipo": "aquisição",
+    "status": "ativo",
+    "inicio": "2026-10-01",
+    "hipotese": "Times de P&D acham as páginas de tecnologia pela busca e pedem a edição grátis.",
+    "metrica": "pedidos de amostra ÷ cliques da busca",
+    "numeros": {
+     "alcance": {
+      "valor": "300",
+      "nota": "impressões no Google (28 dias)"
+     },
+     "cliques": {
+      "valor": "1",
+      "nota": "clique da busca (28 dias)"
+     },
+     "leads": {
+      "valor": "0",
+      "nota": "pedidos de amostra desde 01/10"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "periodo": "últimos 28 dias até 20/10/2026",
+    "medido_em": "2026-10-20",
+    "fonte": "clevels/resumos/cmo-2026-10-20.md (CMO)",
+    "decisao": "Formulário logo após a frase de dor nas páginas de tecnologia (onde caem 296 das 300 impressões).",
+    "palavras": [
+     "busca organica"
+    ]
+   },
+   {
+    "id": "imprensa",
+    "canal": "E-mail para imprensa (press routing)",
+    "grupo": "E-mail para imprensa",
+    "tipo": "aquisição",
+    "status": "encerrado",
+    "motivo": "modelos v1 aposentados em 15/10 (começavam pelo produto, não pela dor)",
+    "inicio": "2026-10-01",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": {
+      "valor": "0",
+      "nota": "respostas humanas"
+     },
+     "vendas": null,
+     "receita": null
+    },
+    "medido_em": "2026-10-21",
+    "fonte": "docs/reviews/email/2026-10-21.md"
+   },
+   {
+    "id": "assinatura",
+    "canal": "Assinatura semanal (cobrança pelo Paddle)",
+    "tipo": "venda",
+    "status": "parado",
+    "motivo": "cobrança pelo Paddle ainda não ativada",
+    "metrica": "clientes pagantes e MRR",
+    "numeros": {
+     "alcance": null,
+     "cliques": null,
+     "leads": {
+      "valor": null,
+      "nota": "testes grátis ativos (meta 4)"
+     },
+     "vendas": {
+      "valor": "0",
+      "nota": "clientes pagantes"
+     },
+     "receita": {
+      "valor": "US$ 0",
+      "nota": "MRR"
+     }
+    },
+    "periodo": "outubro/2026",
+    "medido_em": "2026-10-21",
+    "fonte": "meta-mensal.md (CEO)"
+   }
+  ]
+ },
  "finbook": {
   "empresa": "Finbook",
   "atualizado_em": "2026-10-21",

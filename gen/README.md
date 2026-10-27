@@ -36,6 +36,7 @@ históricos e usam caminhos absolutos de `/workspace/painel/site`.
 | `--site PASTA` | pasta-mãe de `gen/` | onde estão `data/` e `index.html` |
 | `--abriu PASTA` ou `ABRIU_LOCAL=PASTA` | `/workspace/abriuagora` | arquivos locais da Abriu Agora (`objetivos.md`, `meta-mensal.md`, `registro-ajustes.md`, `resumos-clevels/`) — não estão no repositório do GitHub |
 | `--sem-index` | — | não regravar `index.html` |
+| `PATENT_LOCAL=PASTA` | `/workspace/patentsonar/clevels` | registro de canais, `meta-mensal.md` e resumos locais do PatentSonar |
 | `FINBOOK_LOCAL=PASTA` | `/workspace/kit-mei-em-dia` | cópia local do Finbook (`ceo/canais.md`) |
 | `GH_TOKEN` / `GITHUB_TOKEN` | `gh auth token` | autenticação no GitHub |
 
@@ -59,13 +60,16 @@ arquivo anterior. Nesse caso, apague o item do JSON anterior antes de rodar.
 
 ## Modo público mínimo (`gen/publico_minimo.json`)
 
-Projetos listados em `gen/publico_minimo.json` aparecem no site **só com nome + site** (e uma nota neutra).
-O gerador: reescreve a entrada deles em `data/projetos.json` (o que a rotina diária escrever ali é descartado),
-não consulta o GitHub, apaga `data/detalhes/<repo>.json`, não gera canais (nem do arquivo anterior nem do
-`canais_base.json`), troca por "[omitido no painel público]" qualquer texto de outro projeto que cite o nome e
-remove de `gen/update_*.py` os blocos `p = P["<projeto>"]`. Hoje: **PatentSonar** (pedido do PatentSonar por
-privacidade de prospects, aprovado pelo Rodrigo em 22/10/2026). Para sair do modo mínimo, tire o projeto da lista.
-Não escreva status, números, prospects nem resumos desses projetos em nenhum arquivo deste repositório.
+A lista está **vazia** desde 26/10/2026 (Rodrigo liberou tudo, inclusive o PatentSonar). O mecanismo continua disponível:
+projetos listados aparecem no site **só com nome + site**; o gerador reescreve a entrada em `data/projetos.json`, não consulta o
+GitHub, apaga `data/detalhes/<repo>.json`, não gera canais, troca por "[omitido no painel público]" textos de outros projetos que citem
+o nome e (se a lista voltar a ter itens) remove de `gen/update_*.py` os blocos `p = P["<projeto>"]`.
+
+## Dashboard resumido (`gen/resumo.py`)
+
+Gera `data/resumo.json` (abas meta x resultado + histórico dos C-levels) a partir de `gen/resumo_base.json` e das fontes locais/GitHub.
+Variáveis: `VAGAS_CLEVELS` (padrão `/workspace/clevels/vagas-sjdr`), `PATENT_LOCAL` (padrão `/workspace/patentsonar/clevels`), `ABRIU_LOCAL`.
+Detalhes e regras de privacidade em `gen/COMO-ATUALIZAR.md`.
 
 ## Segurança (site público)
 
