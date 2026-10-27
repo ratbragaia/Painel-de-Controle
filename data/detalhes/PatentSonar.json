@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 65.4
+    "pct": 64.6
    },
    {
     "nome": "PLpgSQL",
-    "pct": 16.6
+    "pct": 17.2
    },
    {
     "nome": "HTML",
-    "pct": 13.9
+    "pct": 14.0
    },
    {
     "nome": "Shell",
     "pct": 2.5
    }
   ],
-  "ultimo_commit": "26/10/2026 18:59",
-  "commits_7d": 104,
-  "commits_30d": 348,
+  "ultimo_commit": "27/10/2026 07:25",
+  "commits_7d": 117,
+  "commits_30d": 359,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-27",
-    "n": 10
-   },
    {
     "dia": "2026-09-28",
     "n": 40
@@ -145,63 +141,67 @@
    {
     "dia": "2026-10-26",
     "n": 12
+   },
+   {
+    "dia": "2026-10-27",
+    "n": 21
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 479,
+  "arquivos": 505,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "26/10 18:59",
-   "msg": "docs: regra geral de abrir o Chrome sozinho",
-   "sha": "2855b52"
-  },
-  {
-   "quando": "26/10 16:16",
-   "msg": "ip-address 10.7.5 (Dependabot 1); COO fila: -23-06 and -26-01 feito, -26-02 and -23-07 em andamento",
-   "sha": "f5e5289"
-  },
-  {
-   "quando": "26/10 16:14",
+   "quando": "27/10 07:25",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "c1a7998"
+   "sha": "228c837"
   },
   {
-   "quando": "26/10 16:08",
+   "quando": "27/10 06:21",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "be8aa87"
+   "sha": "595d778"
   },
   {
-   "quando": "26/10 16:08",
+   "quando": "27/10 06:19",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "d6395fa"
+   "sha": "4c62fa5"
   },
   {
-   "quando": "26/10 13:33",
+   "quando": "27/10 06:12",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "da30df3"
+   "sha": "03e6bae"
   },
   {
-   "quando": "26/10 12:27",
+   "quando": "27/10 06:10",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "d5f52de"
+   "sha": "a710364"
   },
   {
-   "quando": "26/10 11:33",
+   "quando": "27/10 06:09",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "40be098"
+   "sha": "65525ef"
   },
   {
-   "quando": "26/10 09:29",
-   "msg": "[mensagem omitida no painel público]",
-   "sha": "c71b63d"
+   "quando": "27/10 05:19",
+   "msg": "COO-2026-10-21-16 feito; drop a mock print (critic made the real one)",
+   "sha": "e70a54a"
   },
   {
-   "quando": "26/10 09:29",
+   "quando": "27/10 05:18",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "2fa1374"
+   "sha": "3a02828"
+  },
+  {
+   "quando": "27/10 05:15",
+   "msg": "Site finishing (COO-2026-10-21-16): system pages on the site stylesheet with viewport and 52 px button, privacy tables scroll in place,…",
+   "sha": "9cbf615"
+  },
+  {
+   "quando": "27/10 05:14",
+   "msg": "[mensagem omitida no painel público]",
+   "sha": "7e71b21"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "26/10/2026 22:29"
+ "gerado_em": "27/10/2026 08:07"
 }

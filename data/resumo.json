@@ -1,6 +1,6 @@
 {
  "titulo": "Resumo das empresas",
- "gerado_em": "26/10/2026 22:29 (horário de Brasília)",
+ "gerado_em": "27/10/2026 08:07 (horário de Brasília)",
  "nota": "Só meta x resultado, copiados dos arquivos de cada empresa; nada é estimado. \"sem dado\" = não medido; \"meta não definida\" = sem meta escrita.",
  "empresas": [
   {
@@ -135,9 +135,9 @@
      "resultado": {
       "texto": "69",
       "num": 69,
-      "medido_em": "2026-10-23",
-      "fonte": "contagem do COO de 23/10 (meta-mensal.md)",
-      "medido_br": "23/10/2026"
+      "medido_em": "2026-10-27 06:21",
+      "fonte": "pipeline §9 do COO, checkpoint de 27/10",
+      "medido_br": "27/10/2026 06:21"
      },
      "pct": 46
     },
@@ -152,9 +152,9 @@
      "resultado": {
       "texto": "0 de 69 (0 %)",
       "num": 0,
-      "medido_em": "2026-10-26",
-      "fonte": "meta-mensal.md do CEO, snapshot de 26/10",
-      "medido_br": "26/10/2026"
+      "medido_em": "2026-10-27 06:21",
+      "fonte": "pipeline §9 do COO, checkpoint de 27/10",
+      "medido_br": "27/10/2026 06:21"
      },
      "pct": 0
     },
@@ -233,9 +233,9 @@
      "resultado": {
       "texto": "5",
       "num": 5,
-      "medido_em": "2026-10-26 22:29",
+      "medido_em": "2026-10-27 08:07",
       "fonte": "registro-publicadas.csv (desde seg 26/10)",
-      "medido_br": "26/10/2026 22:29"
+      "medido_br": "27/10/2026 08:07"
      },
      "pct": 25
     },
@@ -246,9 +246,9 @@
      "resultado": {
       "texto": "124",
       "num": 124,
-      "medido_em": "2026-10-26 22:29",
+      "medido_em": "2026-10-27 08:07",
       "fonte": "registro-publicadas.csv",
-      "medido_br": "26/10/2026 22:29"
+      "medido_br": "27/10/2026 08:07"
      },
      "pct": null
     },
@@ -327,6 +327,46 @@
   }
  ],
  "historico": [
+  {
+   "quando": "2026-10-27 06:00",
+   "quando_br": "27/10/2026 06:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Claude estava parado; enviada ~06:10 a ordem de fechamento de 20261026-cso-1 e 20261026-ceo-2",
+   "fonte": "resumos-clevels/2026-10-27-coo.md"
+  },
+  {
+   "quando": "2026-10-27 04:37",
+   "quando_br": "27/10/2026 04:37",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "fila sem itens executáveis nesta rodada",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
+  {
+   "quando": "2026-10-27 00:00",
+   "quando_br": "27/10/2026 00:00",
+   "empresa": "Abriu Agora",
+   "cargo": "COO",
+   "resultado": "Em andamento sem hash visível: 20261026-cso-1 (instalar só após OK do CLO, qui 29/10), 20261026-ceo-2",
+   "fonte": "resumos-clevels/2026-10-27-coo.md"
+  },
+  {
+   "quando": "2026-10-26 22:52",
+   "quando_br": "26/10/2026 22:52",
+   "empresa": "Finbook",
+   "cargo": "COO",
+   "resultado": "site 200, fila sem itens executaveis",
+   "fonte": "commit 48f13ef (finbook)"
+  },
+  {
+   "quando": "2026-10-26 22:37",
+   "quando_br": "26/10/2026 22:37",
+   "empresa": "Vagas SJDR",
+   "cargo": "COO",
+   "resultado": "1 mensagem ao Claude (22:34, só n8n, sem Chrome), resposta 22:36",
+   "fonte": "diario.md dos C-levels do Vagas SJDR"
+  },
   {
    "quando": "2026-10-26 20:53",
    "quando_br": "26/10/2026 20:53",
@@ -492,7 +532,7 @@
    "quando_br": "26/10/2026 11:35",
    "empresa": "PatentSonar",
    "cargo": "COO",
-   "resultado": "5 pedidos na fila do Claude (situação atual: 1 feito, 1 em andamento, 3 abertos)",
+   "resultado": "5 pedidos na fila do Claude (situação atual: 3 feitos, 2 abertos)",
    "fonte": "docs/coo/fila.md (PatentSonar)"
   },
   {
@@ -1012,7 +1052,7 @@
    "quando_br": "23/10/2026 17:15",
    "empresa": "PatentSonar",
    "cargo": "COO",
-   "resultado": "2 pedidos na fila do Claude (situação atual: 1 feito, 1 em andamento)",
+   "resultado": "2 pedidos na fila do Claude (situação atual: 1 feito, 1 travado)",
    "fonte": "docs/coo/fila.md (PatentSonar)"
   },
   {
@@ -1084,7 +1124,7 @@
    "quando_br": "23/10/2026 11:25",
    "empresa": "PatentSonar",
    "cargo": "COO",
-   "resultado": "5 pedidos na fila do Claude (situação atual: 4 feitos, 1 aberto)",
+   "resultado": "5 pedidos na fila do Claude (situação atual: 5 feitos)",
    "fonte": "docs/coo/fila.md (PatentSonar)"
   },
   {
@@ -1628,7 +1668,7 @@
    "quando_br": "21/10/2026 11:30",
    "empresa": "PatentSonar",
    "cargo": "COO",
-   "resultado": "16 pedidos na fila do Claude (situação atual: 11 feitos, 1 em andamento, 4 abertos)",
+   "resultado": "16 pedidos na fila do Claude (situação atual: 14 feitos, 1 em andamento, 1 aberto)",
    "fonte": "docs/coo/fila.md (PatentSonar)"
   },
   {

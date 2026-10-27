@@ -9,15 +9,11 @@
     "pct": 100.0
    }
   ],
-  "ultimo_commit": "26/10/2026 21:35",
+  "ultimo_commit": "26/10/2026 22:35",
   "commits_7d": 9,
-  "commits_30d": 17,
+  "commits_30d": 18,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-27",
-    "n": 0
-   },
    {
     "dia": "2026-09-28",
     "n": 0
@@ -132,7 +128,11 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 3
+    "n": 4
+   },
+   {
+    "dia": "2026-10-27",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
@@ -141,6 +141,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 22:35",
+   "msg": "Espelhamento automatico 2026-10-26 22:35",
+   "sha": "4959df9"
+  },
   {
    "quando": "26/10 21:35",
    "msg": "Espelhamento automatico 2026-10-26 21:35",
@@ -185,11 +190,6 @@
    "quando": "20/10 09:35",
    "msg": "Espelhamento automatico 2026-10-20 09:35",
    "sha": "a25ebb6"
-  },
-  {
-   "quando": "19/10 10:35",
-   "msg": "Espelhamento automatico 2026-10-19 10:35",
-   "sha": "1cbe0f9"
   }
  ],
  "pendencias": {
@@ -201,10 +201,6 @@
    },
    {
     "titulo": "Conferir em outubro o 1º crédito dos 2.000 pontos extras da Livelo.",
-    "prazo": null
-   },
-   {
-    "titulo": "💳 Cartão XP Legacy CHEGOU (27/10/2026) — falta desbloquear e configurar no app XP.",
     "prazo": null
    },
    {
@@ -224,15 +220,11 @@
     "prazo": null
    },
    {
-    "titulo": "(27/10/2026: com o Legacy, este item muda",
-    "prazo": null
-   },
-   {
-    "titulo": "(27/10/2026: provavelmente deixa de valer com o Legacy, se a sala VIP ilimitada não exigir gasto mínimo",
+    "titulo": "Sala VIP pelo XP Legacy quando voltar a voar",
     "prazo": null
    }
   ]
  },
  "kpis": null,
- "gerado_em": "26/10/2026 22:29"
+ "gerado_em": "27/10/2026 08:07"
 }

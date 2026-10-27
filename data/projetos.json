@@ -1,18 +1,19 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "26/10/2026 08:10 (horário de Brasília)",
+  "gerado_em": "27/10/2026 08:15 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Seguem os ajustes de conversão do CMO: em 25/10 a home passou a ter um só botão principal de assinar, e em 26/10 a página /obrigado ganhou o mês real, aviso para olhar Promoções/Spam e um só botão. As 4 parcerias de 23/10 seguem sem resposta registrada; os assuntos novos da prospecção começam em 26/10. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
+      "status": "Em operação ativa: onda 2 ligou em 20/10; a onda 3 segue sem ligar (0 pedidos de amostra vindos de lead). Em 26/10 o servidor foi atualizado (home com um só botão de assinar e /obrigado com o mês real no ar), a Política de Privacidade 1.4 passou a mostrar o encarregado e a Página da Abriu Agora no LinkedIn foi criada. Em 27/10 ficou pronta a simulação da oferta de troca (plano anual), que segue desligada até 30/10. A linha de indicação espera o OK do CLO em 29/10. Portão 1 segue em 0 de 3 amostras; conta no Asaas ainda pendente.",
       "recente": [
+        "27/10 06:10 – simulação da oferta de troca pronta (segue desligada até 30/10)",
+        "26/10 18:03 – Página da Abriu Agora no LinkedIn criada e preenchida",
+        "26/10 16:51 – Política de Privacidade 1.4 com o encarregado publicado",
+        "26/10 11:49 – servidor atualizado: home com um botão de assinar e /obrigado novo no ar",
         "26/10 06:06 – página /obrigado: mês real, aviso de Promoções/Spam e um só botão",
-        "25/10 18:01 – home com um só botão principal de assinar",
-        "25/10 06:05 – /para-contadores com até 600 palavras visíveis",
-        "24/10 18:07 – formulário da amostra: campo Ramo e linha de aceite abaixo do botão",
-        "24/10 00:04 – prospecção: convite A/B, D+3 e D+7 curtos, preço de fundador só no D+7 e rodapé curto"
+        "25/10 18:01 – home com um só botão principal de assinar"
       ],
       "proximos": [
         "Acompanhar as respostas das 4 parcerias enviadas em 23/10",
@@ -20,7 +21,7 @@
         "Resolver a lista do mês 2026-09 atrasada",
         "Rodrigo cadastrar a conta bancária no Asaas; Portão 1: ~170 convites até 30/10"
       ],
-      "atualizado": "26/10/2026 06:06",
+      "atualizado": "27/10/2026 06:10",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -28,21 +29,20 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: em 21–22/10 a fila do COO avançou com CI mínima (testes e migrações em Postgres limpo), alerta de deploy atrasado, página pública de acompanhamento de patentes de ímãs ligada à home, modelo novo da edição, 5 parceiros (advogados) com rascunhos na fila e 3 primeiros contatos SBIR enfileirados após o crítico. Resultado de 7 dias dos 18 primeiros contatos v2: 0 respostas, e o crítico de e-mail ficou mais rígido. Um item (contatos de imprensa) travou numa regra de envio.",
+      "status": "Em operação: 69 primeiros contatos enviados até agora e 0 respostas humanas (meta de 150 até 31/10; projeção de 74). Em 27/10 o COO preparou o lote 2 da semana 44 (3 compradores de programas públicos e eventos, mais 1 rascunho refeito), revisado pelo crítico e ainda sem envio, e fez o acabamento do site (página de obrigado, páginas de tecnologia, 404 e páginas legais). A edição passou a ler a data de prioridade correta de cada patente. A Eslovênia ficou só com contato autorizado. Um item de segurança travou porque exige versões maiores proibidas pela tarefa.",
       "recente": [
-        "21/10 07:09 – resumo por tema inclui famílias antigas com publicação nova; página de nitreto de ferro refeita",
-        "21/10 05:24 – home redesenhada (uma oferta, print, faixa de prova, 3 benefícios) e página /methodology",
-        "21/10 05:32 – páginas de tecnologia com oferta de amostra logo após a frase da dor; checagem do site com prints",
-        "21/10 05:28 – 8 seguimentos v2 na fila; envios de 21/10: 1 liberado, 3 segurados pelo crítico",
-        "21/10 05:30 – prospecção sem Hunter: projeção de 57–62 contatos até 31/10",
-        "20/10 16:09 – filtro passa a contar máquinas homopolares de campo bobinado (3 famílias novas)"
+        "27/10 07:25 – lote 2 da semana 44 revisado pelo crítico (3 liberados, 1 refeito, 1 segurado); sem envio",
+        "27/10 07:20 – checkpoint: 69 primeiros contatos, 0 respostas, projeção de 74 de 150",
+        "27/10 05:15 – acabamento do site: obrigado, tecnologia, 404 e páginas legais",
+        "27/10 04:14 – edição passa a usar a data de prioridade correta de cada patente",
+        "26/10 16:14 – aviso no Telegram quando o servidor fica parado 6 horas úteis"
       ],
       "proximos": [
-        "Enviar o e-mail frio liberado e os seguimentos v2 quando a trava de data permitir",
-        "Medir o lote de e-mails v2 em 22/10",
-        "Atacar a falta de tráfego (300 impressões, 1 clique) e completar a semana 43"
+        "Liberar o lote 2 da semana 44",
+        "Checkpoint dos 150 contatos em 31/10",
+        "Resolver o item de segurança travado (exige versões maiores)"
       ],
-      "atualizado": "22/10/2026 07:15",
+      "atualizado": "27/10/2026 07:25",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -50,21 +50,20 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas (CCO em 25/10); meta de 1ª venda até 31/10. Em 25/10: 51 visitas e 63 pageviews em 7 dias; o Short 10 no TikTok chegou a 143 views e 5 curtidas; parceria da Qipu só com resposta automática. A fila do COO ficou sem itens executáveis no domingo (aguardando CLO, CMO em 27/10 e o lote de parceiros). O envio do próximo lote de parceiros passou a ser decisão do CEO.",
+      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas (CCO em 26/10); meta de 1ª venda até 31/10. No resumo do CEO de 26/10: 38 visitas e 49 pageviews em 7 dias; o Short 10 do perdão chegou a 197 views; Página do Finbook no LinkedIn no ar; Hotmart descartada por exigir exclusividade. O Kit foi testado no Google Planilhas e a projeção anual do Controle do Limite foi corrigida no gerador (T-068). WhatsApp e Telegram próprios seguem parados até haver um chip que receba SMS.",
       "recente": [
-        "25/10 20:24 – CEO: resumo diário (0 venda; 51 visitas em 7 dias)",
-        "25/10 15:50 – CCO: 0 venda, cliente ou parceiro",
-        "25/10 10:58 – COO: capa do Short 10 no TikTok conferida (143 views, 5 curtidas)",
-        "25/10 09:05 – CISO: varredura de segurança sem achados",
-        "24/10 22:57 – COO: obrigado da newsletter sem formulário repetido, com chamada para a calculadora do limite"
+        "26/10 20:55 – COO: corrige a projeção anual do Controle do Limite (T-068)",
+        "26/10 20:25 – CEO: resumo diário (0 venda; 38 visitas em 7 dias)",
+        "26/10 19:10 – CEO: Página do Finbook no LinkedIn no ar; Kit testado no Google Planilhas",
+        "26/10 18:55 – COO: ferramenta de deploy atualizada, prévia com 25/25 páginas ok",
+        "26/10 12:59 – CEO: YouTube verificado; legenda, capa e banners da Kiwify"
       ],
       "proximos": [
-        "Rodrigo: verificação por telefone do YouTube (T-036 b)",
-        "CEO decidir o envio do lote de parceiros (T-008) no ciclo de 26/10",
-        "CMO decidir em 27/10 se republica posts para trocar capas no TikTok",
-        "CLO conferir os termos da Hotmart e abrir a conta (T-057)"
+        "Rodrigo: confirmar se o chip da IA recebe SMS ou aprovar um chip novo (gasto)",
+        "CMO/CLO liberarem a página GEO e o post do perdão (T-063, T-065)",
+        "T-064 em 28/10; prévias do Kit corrigido junto com a T-040"
       ],
-      "atualizado": "25/10/2026 22:55",
+      "atualizado": "26/10/2026 22:52",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -73,19 +72,21 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "O n8n voltou e as vagas de 23/10 saíram: 8 publicadas automaticamente e 2 enviadas para aprovação. Em 24 e 25/10 a coleta trouxe 1 vaga nova por dia, enviadas para aprovação. Pendente: arquivar 2 fluxos temporários no n8n (aguardando ok escrito). Sem README.",
+      "status": "Publicação em dia: 5 vagas em 26/10, 17 desde 23/10 e 124 em outubro. Instagram com 354.737 visualizações em 28 dias e 124 conversas no Direct. Receita de outubro em R$ 20 (cerca de 7% da meta de ~R$ 300, que não será batida). Em 26/10 a IA do Direct passou a nunca dizer \"vou confirmar\" e a encaminhar a dúvida; o CEO aprovou começar um canal novo em escada a partir de 02/11, após o CLO. A aquisição ainda depende só do Instagram.",
       "recente": [
+        "26/10 22:37 – COO: regra da IA do Direct de encaminhar em vez de \"vou confirmar\" testada 3/3",
+        "26/10 19:00 – CEO: resumo (124 vagas em outubro, receita R$ 20)",
+        "26/10 16:40 – COO: prévia recusada no Telegram conferida (vaga fora da área)",
         "25/10 17:35 – 1 vaga nova de 25/10 enviada para aprovação",
-        "24/10 17:36 – 1 vaga nova de 24/10 enviada para aprovação",
-        "24/10 15:36 – vagas de 23/10: 8 publicadas automaticamente, 2 aguardando aprovação",
-        "22/10 17:36 – vagas de 22/10 coletadas, 3 aguardando aprovação",
-        "21/10 17:35 – 5 vagas novas (SJDR e Tiradentes) com artes, aguardando aprovação"
+        "24/10 17:36 – 1 vaga nova de 24/10 enviada para aprovação"
       ],
       "proximos": [
-        "Arquivar os 2 fluxos TEMP do n8n após ok escrito",
-        "Criar README"
+        "CMO: 1º teste de canal novo em 27/10",
+        "CEO/CFO decidirem o preço do Fixado (T-037)",
+        "Canal novo em escada a partir de 02/11, após o CLO (T-035)",
+        "Rodrigo: créditos da API até 04/11 (pagamento)"
       ],
-      "atualizado": "25/10/2026 17:35",
+      "atualizado": "27/10/2026 04:37",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },

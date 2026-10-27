@@ -1,6 +1,6 @@
 {
  "titulo": "Canais de venda e aquisição",
- "gerado_em": "26/10/2026 22:29 (horário de Brasília)",
+ "gerado_em": "27/10/2026 08:07 (horário de Brasília)",
  "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
  "empresas": [
   {
@@ -1931,7 +1931,7 @@
       "alcance": {
        "valor": "49",
        "nota": "convites enviados",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1966,7 +1966,7 @@
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "prazo": "",
      "registros": [
       "ceo/canais.md (pasta local)"
@@ -2383,7 +2383,7 @@
       "leads": {
        "valor": "124",
        "nota": "vagas publicadas desde 02/10/2026",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -2413,7 +2413,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "prazo": "",
      "registros": []
     },

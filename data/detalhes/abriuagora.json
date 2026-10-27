@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 65.1
+    "pct": 65.2
    },
    {
     "nome": "HTML",
-    "pct": 33.7
+    "pct": 33.6
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "26/10/2026 18:59",
-  "commits_7d": 31,
-  "commits_30d": 204,
+  "ultimo_commit": "27/10/2026 00:06",
+  "commits_7d": 28,
+  "commits_30d": 205,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-27",
-    "n": 0
-   },
    {
     "dia": "2026-09-28",
     "n": 0
@@ -145,14 +141,23 @@
    {
     "dia": "2026-10-26",
     "n": 11
+   },
+   {
+    "dia": "2026-10-27",
+    "n": 1
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 273,
+  "arquivos": 274,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "27/10 00:06",
+   "msg": "cso-4: simulação da oferta_troca ligada (projetar --com-oferta-troca); dor mantida, troca segue desligada",
+   "sha": "69bb901"
+  },
   {
    "quando": "26/10 18:59",
    "msg": "docs: regra geral de abrir o Chrome sozinho",
@@ -197,11 +202,6 @@
    "quando": "26/10 11:49",
    "msg": "Checklist: cs-1 fechado sem mudar código; cmo-11 e cmo-12 instalados (servidor em d7a112d)",
    "sha": "14dd1d1"
-  },
-  {
-   "quando": "26/10 10:46",
-   "msg": "Checklist: relatório semanal de 26/10 adiado até o servidor voltar",
-   "sha": "d7a112d"
   }
  ],
  "pendencias": {
@@ -260,12 +260,12 @@
    {
     "rotulo": "Ajustes dos C-levels em aberto",
     "valor": "52",
-    "detalhe": "de 89 registrados · 15 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 4 em andamento   brt c, 1 reaberto"
+    "detalhe": "de 89 registrados · 14 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 5 em andamento   brt c, 1 reaberto"
    },
    {
     "rotulo": "Resumos de C-levels",
-    "valor": "4",
-    "detalhe": "em 26/10/2026: CEO, COO, CS, CSO"
+    "valor": "1",
+    "detalhe": "em 27/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -641,7 +641,7 @@
       "id": "20261019-cso-4",
       "cargo": "CSO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Em andamento   brt c",
       "titulo": "A oferta_troca (plano anual) foi preparada em 15/10 12:05, antes dos textos novos pela dor (cmo-3 a cmo-7).…"
      },
      {
@@ -733,5 +733,5 @@
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "26/10/2026 22:29"
+ "gerado_em": "27/10/2026 08:07"
 }

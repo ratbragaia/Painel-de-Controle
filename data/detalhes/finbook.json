@@ -21,15 +21,11 @@
     "pct": 0.9
    }
   ],
-  "ultimo_commit": "26/10/2026 20:53",
-  "commits_7d": 123,
-  "commits_30d": 181,
+  "ultimo_commit": "26/10/2026 22:52",
+  "commits_7d": 105,
+  "commits_30d": 182,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-27",
-    "n": 0
-   },
    {
     "dia": "2026-09-28",
     "n": 0
@@ -144,7 +140,11 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 20
+    "n": 21
+   },
+   {
+    "dia": "2026-10-27",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "26/10 22:52",
+   "msg": "COO 22:52: site 200, fila sem itens executaveis",
+   "sha": "48f13ef"
+  },
   {
    "quando": "26/10 20:53",
    "msg": "COO 20:55: T-068 corrige projecao anual do Controle do Limite no gerador",
@@ -197,11 +202,6 @@
    "quando": "26/10 16:54",
    "msg": "COO 26/10 16:55: T-033(d) 404 com sugestões (produção bd1658dd)",
    "sha": "5218c96"
-  },
-  {
-   "quando": "26/10 16:50",
-   "msg": "CEO: D-020 alçada ampliada (só cobrança ou ação física vai ao Rodrigo); T-040, T-056, novas T-066 e T-067",
-   "sha": "3cbf931"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "26/10/2026 22:29"
+ "gerado_em": "27/10/2026 08:07"
 }
