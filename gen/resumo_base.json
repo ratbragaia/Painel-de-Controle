@@ -23,8 +23,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-26 08:40",
-      "fonte": "resumo do CEO de 26/10 (resumos-clevels)"
+      "medido_em": "2026-10-27 08:45",
+      "fonte": "resumo do CEO de 27/10 (resumos-clevels)"
      }
     },
     {
@@ -38,8 +38,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-26 08:40",
-      "fonte": "resumo do CEO de 26/10 (resumos-clevels)"
+      "medido_em": "2026-10-27 08:45",
+      "fonte": "resumo do CEO de 27/10 (resumos-clevels)"
      }
     },
     {
@@ -74,8 +74,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-26 20:25",
-      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)"
+      "medido_em": "2026-10-27 08:40",
+      "fonte": "ciclo da manhã do CEO de 27/10 (ceo/diario.md)"
      }
     },
     {
@@ -89,8 +89,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-26 20:25",
-      "fonte": "resumo do CEO de 26/10 (ceo/diario.md)"
+      "medido_em": "2026-10-27 08:40",
+      "fonte": "ciclo da manhã do CEO de 27/10 (ceo/diario.md)"
      }
     },
     {
@@ -104,8 +104,8 @@
      "resultado": {
       "texto": "38",
       "num": 38,
-      "medido_em": "2026-10-26 20:22",
-      "fonte": "resumo do CEO de 26/10 (visitas.py)"
+      "medido_em": "2026-10-27 08:40",
+      "fonte": "ciclo da manhã do CEO de 27/10 (ceo/diario.md)"
      }
     }
    ]
@@ -124,10 +124,10 @@
       "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar) (plano de 90 dias)"
      },
      "resultado": {
-      "texto": "69",
-      "num": 69,
-      "medido_em": "2026-10-27 06:21",
-      "fonte": "pipeline §9 do COO, checkpoint de 27/10"
+      "texto": "72",
+      "num": 72,
+      "medido_em": "2026-10-28 05:09",
+      "fonte": "métrica diária do COO (fila de 28/10, dado de 27/10)"
      }
     },
     {
@@ -139,10 +139,10 @@
       "fonte": "meta-mensal.md do CEO (pasta clevels do PatentSonar)"
      },
      "resultado": {
-      "texto": "0 de 69 (0 %)",
+      "texto": "0 de 72 (0 %)",
       "num": 0,
-      "medido_em": "2026-10-27 06:21",
-      "fonte": "pipeline §9 do COO, checkpoint de 27/10"
+      "medido_em": "2026-10-28 05:09",
+      "fonte": "métrica diária do COO (fila de 28/10, dado de 27/10)"
      }
     },
     {
@@ -197,8 +197,8 @@
      "resultado": {
       "texto": "R$ 20",
       "num": 20,
-      "medido_em": "2026-10-26 19:00",
-      "fonte": "resumo do CEO de 26/10 (diario.md)"
+      "medido_em": "2026-10-27 18:55",
+      "fonte": "resumo do CEO de 27/10 (diario.md)"
      }
     },
     {
@@ -223,8 +223,8 @@
      "resultado": {
       "texto": "124",
       "num": 124,
-      "medido_em": "2026-10-26 19:00",
-      "fonte": "resumo do CEO de 26/10 (registro-publicadas.csv)"
+      "medido_em": "2026-10-27 18:55",
+      "fonte": "resumo do CEO de 27/10 (registro-publicadas.csv)"
      }
     },
     {

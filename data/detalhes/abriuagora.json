@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 65.2
+    "pct": 67.0
    },
    {
     "nome": "HTML",
-    "pct": 33.6
+    "pct": 31.9
    },
    {
     "nome": "CSS",
-    "pct": 1.0
+    "pct": 0.9
    },
    {
     "nome": "Shell",
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "27/10/2026 00:06",
-  "commits_7d": 28,
-  "commits_30d": 205,
+  "ultimo_commit": "27/10/2026 23:39",
+  "commits_7d": 30,
+  "commits_30d": 211,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-28",
-    "n": 0
-   },
    {
     "dia": "2026-09-29",
     "n": 0
@@ -144,15 +140,49 @@
    },
    {
     "dia": "2026-10-27",
-    "n": 1
+    "n": 7
+   },
+   {
+    "dia": "2026-10-28",
+    "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 274,
+  "arquivos": 281,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "27/10 23:39",
+   "msg": "Amostra direta: atividade curta no corpo do e-mail (o CSV leva a descrição inteira)",
+   "sha": "7d479e8"
+  },
+  {
+   "quando": "27/10 23:37",
+   "msg": "Amostra direta: até 15 escritórios recebem 10 empresas da cidade já prontas (CSV), seguimento de uma linha em 48 h",
+   "sha": "f145edc"
+  },
+  {
+   "quando": "27/10 21:27",
+   "msg": "Páginas por cidade e ramo: lote 2 com 56 páginas para o crédito que sobrar",
+   "sha": "4580f75"
+  },
+  {
+   "quando": "27/10 21:24",
+   "msg": "Páginas por cidade e ramo: teto travado passa a US$ 35 no total (pedido do Rodrigo, 28/10/2026)",
+   "sha": "aae040a"
+  },
+  {
+   "quando": "27/10 20:45",
+   "msg": "Páginas de busca por cidade e ramo (438 com dados reais, teto de US$ 30)",
+   "sha": "260ef67"
+  },
+  {
+   "quando": "27/10 12:08",
+   "msg": "cmo-2: chamada para a amostra logo abaixo dos números nas 19 páginas de cidade",
+   "sha": "7949679"
+  },
   {
    "quando": "27/10 00:06",
    "msg": "cso-4: simulação da oferta_troca ligada (projetar --com-oferta-troca); dor mantida, troca segue desligada",
@@ -172,36 +202,6 @@
    "quando": "26/10 16:54",
    "msg": "Checklist: encarregado designado e publicado (Política 1.4); LinkedIn/Instagram pendentes por decisão do Rodrigo",
    "sha": "6c88ac7"
-  },
-  {
-   "quando": "26/10 16:51",
-   "msg": "Política de Privacidade 1.4: encarregado publicado (ADR 0013)",
-   "sha": "add958f"
-  },
-  {
-   "quando": "26/10 12:45",
-   "msg": "Tira o cso-1 da main até o OK do CLO (reverte fddecfe)",
-   "sha": "eab2077"
-  },
-  {
-   "quando": "26/10 12:43",
-   "msg": "Ato do encarregado preenchido e página privada de assinatura (ADR 0013)",
-   "sha": "aa5aeff"
-  },
-  {
-   "quando": "26/10 12:11",
-   "msg": "ceo-2: seção \"Envio de 26/10/2026\" em docs/envios-diarios.md",
-   "sha": "04e4f79"
-  },
-  {
-   "quando": "26/10 12:08",
-   "msg": "cso-1: linha de indicação entre contadores na amostra e em /obrigado",
-   "sha": "fddecfe"
-  },
-  {
-   "quando": "26/10 11:49",
-   "msg": "Checklist: cs-1 fechado sem mudar código; cmo-11 e cmo-12 instalados (servidor em d7a112d)",
-   "sha": "14dd1d1"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "52",
-    "detalhe": "de 89 registrados · 14 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 5 em andamento   brt c, 1 reaberto"
+    "valor": "60",
+    "detalhe": "de 97 registrados · 17 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 1 ceo  coocsocscmo cla, 1 claude no chrome do , 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 6 em andamento   brt c, 1 em gerarcidadespy se, 1 reaberto, 1 substituído   brt pe"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 27/10/2026: COO"
+    "detalhe": "em 28/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -364,6 +364,20 @@
     "titulo": "Ajustes em aberto (C-levels → COO)",
     "tipo": "ajustes",
     "itens": [
+     {
+      "id": "20261027-ceo-1",
+      "cargo": "CEO → CMO",
+      "prioridade": "URGENTE",
+      "status": "Aberto",
+      "titulo": "Semana 26/10–01/11 sem canal novo de AQUISIÇÃO aberto (regra do Rodrigo de 21/10)"
+     },
+     {
+      "id": "20261027-ceo-4",
+      "cargo": "Métrica diária (1…",
+      "prioridade": "URGENTE",
+      "status": "Ceo  coocsocscmo cla",
+      "titulo": "prazo: 15 amostras até qua 28/10 18:00"
+     },
      {
       "id": "20261015-cmo-13",
       "cargo": "CMO",
@@ -468,6 +482,20 @@
       "prioridade": "alta",
       "status": "Em andamento   brt c",
       "titulo": "Canal de venda de outubro (regra do Rodrigo de 21/10) decidido pelo CSO: indicação entre contadores de…"
+     },
+     {
+      "id": "20261027-ceo-2",
+      "cargo": "CEO → COO",
+      "prioridade": "alta",
+      "status": "Em andamento   brt c",
+      "titulo": "Números do envio de 27/10 e tipo da devolução de 26/10 ainda não registrados"
+     },
+     {
+      "id": "20261027-ceo-3",
+      "cargo": "CEO → COO",
+      "prioridade": "alta",
+      "status": "Aberto",
+      "titulo": "20261026-ceo-2 já entregue (04e4f79) e ainda aberto"
      },
      {
       "id": "20261015-ciso-1",
@@ -596,6 +624,20 @@
       "titulo": "Item técnico/segurança (detalhe só no registro interno)"
      },
      {
+      "id": "20261027-cmo-3",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "O teste de SEO só vale com leitura no meio e no fim | Sem número, a decisão do dia 14 fica no achismo | No…"
+     },
+     {
+      "id": "20261027-cmo-4",
+      "cargo": "CMO",
+      "prioridade": "média",
+      "status": "Aberto",
+      "titulo": "Os últimos prints das páginas são de 20/10"
+     },
+     {
       "id": "20261015-cto-3",
       "cargo": "CTO",
       "prioridade": "baixa",
@@ -648,7 +690,7 @@
       "id": "20261020-cmo-6",
       "cargo": "CMO",
       "prioridade": "baixa",
-      "status": "Aberto",
+      "status": "Substituído   brt pe",
       "titulo": "Páginas de cidade (19): sem menu, sem formulário, H1 só de número (\"768 empresas abriram CNPJ em Divinópolis…"
      },
      {
@@ -727,11 +769,25 @@
       "prioridade": "—",
       "status": "Em andamento   brt c",
       "titulo": "Regra do Rodrigo de 21/10: 1 canal NOVO de VENDA por mês, aberto até o dia 20. Em 22/10 o único candidato…"
+     },
+     {
+      "id": "20261027-cmo-1",
+      "cargo": "URGENTE (canal da…",
+      "prioridade": "—",
+      "status": "Claude no chrome do ",
+      "titulo": "EM ANDAMENTO 2026-10-27 12:04 BRT"
+     },
+     {
+      "id": "20261027-cmo-2",
+      "cargo": "ALTA (substitui o…",
+      "prioridade": "—",
+      "status": "Em gerarcidadespy se",
+      "titulo": "EM ANDAMENTO 2026-10-27 18:00 BRT"
      }
     ]
    }
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "27/10/2026 08:07"
+ "gerado_em": "28/10/2026 08:02"
 }

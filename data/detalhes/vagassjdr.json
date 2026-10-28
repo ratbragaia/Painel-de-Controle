@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "JavaScript",
-    "pct": 83.9
+    "pct": 81.2
    },
    {
     "nome": "HTML",
-    "pct": 11.7
+    "pct": 11.3
    },
    {
     "nome": "Python",
-    "pct": 3.8
+    "pct": 6.0
    },
    {
     "nome": "PowerShell",
-    "pct": 0.5
+    "pct": 1.5
    }
   ],
-  "ultimo_commit": "26/10/2026 19:35",
-  "commits_7d": 11,
-  "commits_30d": 36,
+  "ultimo_commit": "27/10/2026 23:35",
+  "commits_7d": 14,
+  "commits_30d": 40,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-28",
-    "n": 0
-   },
    {
     "dia": "2026-09-29",
     "n": 0
@@ -144,15 +140,39 @@
    },
    {
     "dia": "2026-10-27",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-28",
     "n": 0
    }
   ],
   "issues_abertas": 0,
-  "prs_abertos": 0,
-  "arquivos": 699,
+  "prs_abertos": 2,
+  "arquivos": 774,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "27/10 23:35",
+   "msg": "Espelhamento automatico 2026-10-27 23:35",
+   "sha": "3ab51b4"
+  },
+  {
+   "quando": "27/10 20:35",
+   "msg": "Espelhamento automatico 2026-10-27 20:35",
+   "sha": "6483eb8"
+  },
+  {
+   "quando": "27/10 20:02",
+   "msg": "Espelhamento automatico 2026-10-27 20:02",
+   "sha": "ffd556c"
+  },
+  {
+   "quando": "27/10 13:27",
+   "msg": "fix: acordar-chrome fecha sozinho a janela da extensão",
+   "sha": "daa6de9"
+  },
   {
    "quando": "26/10 19:35",
    "msg": "Espelhamento automatico 2026-10-26 19:35",
@@ -182,26 +202,6 @@
    "quando": "25/10 17:35",
    "msg": "Espelhamento automatico 2026-10-25 17:35",
    "sha": "87a27d2"
-  },
-  {
-   "quando": "24/10 17:36",
-   "msg": "Espelhamento automatico 2026-10-24 17:36",
-   "sha": "066a467"
-  },
-  {
-   "quando": "24/10 15:36",
-   "msg": "Espelhamento automatico 2026-10-24 15:36",
-   "sha": "a3e1a71"
-  },
-  {
-   "quando": "23/10 17:36",
-   "msg": "Espelhamento automatico 2026-10-23 17:36",
-   "sha": "bceed23"
-  },
-  {
-   "quando": "22/10 17:36",
-   "msg": "Espelhamento automatico 2026-10-22 17:36",
-   "sha": "4ac2a26"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "124",
-    "detalhe": "de 02/10/2026 a 26/10/2026"
+    "valor": "128",
+    "detalhe": "de 02/10/2026 a 27/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "25",
+    "valor": "24",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "119",
+    "valor": "123",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "27/10/2026 08:07"
+ "gerado_em": "28/10/2026 08:02"
 }

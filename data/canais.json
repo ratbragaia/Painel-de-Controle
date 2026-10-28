@@ -1,6 +1,6 @@
 {
  "titulo": "Canais de venda e aquisição",
- "gerado_em": "27/10/2026 08:07 (horário de Brasília)",
+ "gerado_em": "28/10/2026 08:02 (horário de Brasília)",
  "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
  "empresas": [
   {
@@ -171,13 +171,13 @@
      "grupo": "E-mail frio",
      "tipo": "aquisição",
      "status": "ativo",
-     "motivo": "único canal. Antes de decidir, falta saber onde o e-mail cai (20261020-cmo-1/cmo-22)",
+     "motivo": "Leitura do Portão 1 em 31/10 (hoje 0 ÷ 3); troca de oferta pronta (69bb901), desligada até 30/10",
      "inicio": "13/10/2026",
      "hipotese": "Contador da cidade que recebe o convite pela dor pede a amostra grátis de 10 empresas",
      "metrica": "Pedidos de amostra ÷ entregues; visitas com origem; respostas; descadastros/spam",
      "decisao": "",
-     "periodo": "13/10 a 26/10/2026",
-     "fonte": "resumos-clevels/2026-10-26-ceo.md (CEO)",
+     "periodo": "13/10 a 27/10/2026",
+     "fonte": "resumos-clevels/2026-10-27-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": "105",
@@ -197,13 +197,13 @@
        "valor": "0",
        "nota": "pedidos de amostra (meta 3)",
        "medido_em": "26/10/2026",
-       "origem": "extraído",
-       "mantido": false
+       "origem": "anterior",
+       "mantido": true
       },
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -242,7 +242,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "prazo": "31/10/2026",
      "registros": [
       "canais.md (pasta local)"
@@ -253,11 +253,11 @@
      "canal": "Site e busca orgânica (home, /para-contadores, páginas de cidade)",
      "grupo": "Site e busca orgânica (home, /para-contadores, páginas de cidade)",
      "tipo": "aquisição",
-     "status": "planejado",
-     "motivo": "Candidato da semana de 26/10: logo depois que as páginas virarem \"setembro\" (20261020-cmo-5, 24–25/10), pedir a…",
-     "inicio": "05/10/2026",
-     "hipotese": "Contador que busca a cidade chega à página e pede a amostra pelo formulário do topo.",
-     "metrica": "pedidos de amostra pelo formulário ÷ visitas",
+     "status": "em teste",
+     "motivo": "APROVADO PELO CMO 27/10 09:55 → vira EM TESTE no envio do sitemap",
+     "inicio": "28/10/2026",
+     "hipotese": "Quem busca \"empresas abertas em \" quer cliente novo sem esperar indicação. As 19 páginas já têm dado próprio de setembro (total, MEI × sociedades, ramos, bairros, média de 12 meses, 5 exemplos), então podem ser…",
+     "metrica": "Principal: impressões e cliques orgânicos das /cidade/. Apoio: páginas indexadas (de 19); visitas a /cidade/ sem origem de teste; pedidos…",
      "decisao": "Home redesenhada no ar desde 20/10; medir formulário ÷ visitas a partir de 27/10.",
      "periodo": "semana 12–18/10/2026",
      "fonte": "resumos-clevels/2026-10-20-cmo.md (CMO)",
@@ -301,7 +301,7 @@
      "outros": [],
      "origem": "registro do painel",
      "medido_em": "20/10/2026",
-     "prazo": "",
+     "prazo": "28/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -376,7 +376,7 @@
      "metrica": "pagantes e receita recebida",
      "decisao": "",
      "periodo": "outubro/2026",
-     "fonte": "resumos-clevels/2026-10-26-ceo.md (CEO)",
+     "fonte": "resumos-clevels/2026-10-27-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": null,
@@ -402,21 +402,21 @@
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "receita": {
        "valor": "R$ 0",
        "nota": "receita recebida",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "extraído",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "prazo": "",
      "registros": []
     },
@@ -425,56 +425,56 @@
      "canal": "Parceria com entidades contábeis de MG — canal da semana 1",
      "grupo": "Parceria com entidades contábeis de MG — canal da semana 1",
      "tipo": "aquisição",
-     "status": "planejado",
-     "motivo": "PRONTO PARA EXECUTAR → vira EM TESTE no 1º envio",
+     "status": "em teste",
+     "motivo": "desde 23/10/2026. Leitura de meio em qua 28/10 (20261021-cmo-3 / 20261027-ceo-2)",
      "inicio": "22/10/2026",
      "hipotese": "Sindicatos e entidades de contabilistas repassam aos associados uma oferta útil e grátis (amostra de 10 empresas novas da cidade + um texto pronto para o informativo). Basta 1 entidade publicar para a oferta chegar a…",
      "metrica": "(1) pedidos de amostra com origem=canal:parceria:; (2) entidades que respondem \"sim\" ou publicam; (3) visitas com essa origem. Leitura no…",
      "decisao": "",
      "prazo": "04/11/2026",
-     "resultado": "0 enviados (21/10 09:00)",
+     "resultado": "4 enviados em 23/10 00:04–00:05 BRT, 4 entregues; 0 respostas (CS 26/10 11:45); 0 visitas canal:parceria (até 23/10 15:09 UTC)",
      "periodo": "",
      "fonte": "canais.md (pasta local)",
      "numeros": {
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -498,42 +498,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -557,42 +557,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -616,42 +616,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -676,44 +676,45 @@
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       }
      },
      "outros": [],
-     "origem": "registro do CMO",
+     "origem": "anterior",
      "medido_em": "26/10/2026",
      "registros": [
       "canais.md (pasta local)"
-     ]
+     ],
+     "canal_mantido": true
     },
     {
      "id": "perfil-da-empresa-no-google",
@@ -734,42 +735,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -794,44 +795,45 @@
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
        "medido_em": "26/10/2026",
-       "origem": "registro do CMO",
+       "origem": "anterior",
        "mantido": false
       }
      },
      "outros": [],
-     "origem": "registro do CMO",
+     "origem": "anterior",
      "medido_em": "26/10/2026",
      "registros": [
       "canais.md (pasta local)"
-     ]
+     ],
+     "canal_mantido": true
     },
     {
      "id": "grupo-ou-canal-gratuito-no-whatsapp-empresas-abertas-esta-se",
@@ -852,42 +854,278 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "pagina-da-empresa-no-linkedin-https-www-linkedin-com-company",
+     "canal": "Página da empresa no LinkedIn ([link] criada pelo Rodrigo e preenchida em 26/10, d398ed8)",
+     "grupo": "Página da empresa no LinkedIn ([link] criada pelo Rodrigo e preenchida em 26/10, d398ed8)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "Candidato nº 1 da semana de 02/11. CEO liberou em 27/10. Plano: 3 posts por semana com o dado do mês por cidade,…",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "artigo-de-convidado-em-portal-ou-newsletter-para-contadores-",
+     "canal": "Artigo de convidado em portal ou newsletter para contadores (doc. 3.21, novo em 26/10)",
+     "grupo": "Artigo de convidado em portal ou newsletter para contadores (doc. 3.21, novo em 26/10)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "Candidato nº 2: 1 pauta por portal, pela dor e com o dado de setembro de MG, assinada pela empresa",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "diretorios-de-software-g2-capterra-doc-3-23",
+     "canal": "Diretórios de software (G2, Capterra; doc. 3.23)",
+     "grupo": "Diretórios de software (G2, Capterra; doc. 3.23)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "carta-comercial-a-escritorios-doc-9-1-r-3-85-por-carta",
+     "canal": "Carta comercial a escritórios (doc. 9.1, R$ 3,85 por carta)",
+     "grupo": "Carta comercial a escritórios (doc. 9.1, R$ 3,85 por carta)",
+     "tipo": "aquisição",
+     "status": "planejado",
+     "motivo": "",
+     "inicio": "",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais.md (pasta local)"
      ]
@@ -895,17 +1133,19 @@
    ],
    "contagem": {
     "ativo": 1,
-    "em teste": 2,
-    "planejado": 6,
+    "em teste": 4,
+    "planejado": 8,
     "parado": 3,
     "encerrado": 1
    },
-   "aquisicao_ativos": 1,
+   "aquisicao_ativos": 3,
    "venda_ativos": 1,
    "canais_aquisicao_ativos": [
-    "E-mail frio"
+    "E-mail frio",
+    "Parceria com entidades contábeis de MG — canal da semana 1",
+    "Site e busca orgânica (home, /para-contadores, páginas de cidade)"
    ],
-   "alerta": "Só 1 canal de aquisição ativo (E-mail frio): toda a aquisição depende dele."
+   "alerta": null
   },
   {
    "nome": "PatentSonar",
@@ -920,8 +1160,8 @@
      "canal": "E-mail frio a P&D e PI (contatos nomeados)",
      "grupo": "E-mail frio",
      "tipo": "aquisição",
-     "status": "ativo",
-     "motivo": "lote pela dor lido a partir de 27–28/10",
+     "status": "planejado",
+     "motivo": "",
      "inicio": "01/10/2026",
      "hipotese": "Quem publica sobre ímãs sem terras raras responde quando o 1º e-mail abre pela dor do próprio trabalho.",
      "metrica": "respostas humanas ÷ 1º contatos (meta ≥ 5%)",
@@ -1018,8 +1258,8 @@
      "canal": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
      "grupo": "Busca orgânica (site e 6 páginas de tecnologia, Google Search Console)",
      "tipo": "aquisição",
-     "status": "parado",
-     "motivo": "passivo: existe, mas não é canal com teste nem dono; vira o C1 abaixo",
+     "status": "planejado",
+     "motivo": "",
      "inicio": "01/10/2026",
      "hipotese": "Times de P&D acham as páginas de tecnologia pela busca e pedem a edição grátis.",
      "metrica": "pedidos de amostra ÷ cliques da busca",
@@ -1202,42 +1442,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais-aquisicao.md (pasta local)"
      ]
@@ -1261,42 +1501,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais-aquisicao.md (pasta local)"
      ]
@@ -1320,42 +1560,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais-aquisicao.md (pasta local)"
      ]
@@ -1379,42 +1619,278 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "e-mail-frio-a-compradores-nomeados-adr-0026-0027",
+     "canal": "E-mail frio a compradores nomeados (ADR 0026/0027)",
+     "grupo": "E-mail frio a compradores nomeados (ADR 0026/0027)",
+     "tipo": "aquisição",
+     "status": "ativo",
+     "motivo": "lote pela dor lido a partir de 27–28/10",
+     "inicio": "01/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "53 primeiros contatos (meta 150; projeção 31/10: 57–62); 0 respostas humanas (0 %, meta ≥ 5 %); 0 pedidos de amostra (meta 12); 0 testes (meta 4); 1 opt-out, 1 bounce; entrega: mail-tester 9,4/10, Gmail na aba…",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "busca-organica-paginas-de-tecnologia-adr-0024",
+     "canal": "Busca orgânica (páginas de tecnologia, ADR 0024)",
+     "grupo": "Busca orgânica (páginas de tecnologia, ADR 0024)",
+     "tipo": "aquisição",
+     "status": "parado",
+     "motivo": "passivo: existe, mas não é canal com teste nem dono; vira o C1 abaixo",
+     "inicio": "01/10/2026",
+     "hipotese": "",
+     "metrica": "",
+     "decisao": "",
+     "prazo": "",
+     "resultado": "300 impressões e 1 clique em 28 dias (posição média 21); 296 nas 6 páginas de tecnologia, 1 na home; 0 pedidos de amostra",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c0",
+     "canal": "C0 Formulário nas páginas de tecnologia (27/10)",
+     "grupo": "C0 Formulário nas páginas de tecnologia (27/10)",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "27/10/2026",
+     "hipotese": "Quem chega pelo Google numa página de tecnologia procura a rota dele; com a oferta logo abaixo da frase de dor e a edição real ao lado, parte dessas visitas vira pedido de amostra",
+     "metrica": "Manter se ≥ 1 pedido com source=topic--top ou landscape-2026-08-top ou cliques subindo contra os 14 dias anteriores; ampliar se ≥ 2…",
+     "decisao": "",
+     "prazo": "10/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "canais-aquisicao.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c11",
+     "canal": "C11 Artigo de convidado (27/10, canal novo da semana 44)",
+     "grupo": "C11 Artigo de convidado (27/10, canal novo da semana 44)",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "27/10/2026",
+     "hipotese": "Um artigo útil, pela dor do leitor e com o nosso dado, numa publicação que head de PI e engenheiro de motor já leem, alcança comprador que não responde e-mail frio",
+     "metrica": "Manter se ≥ 1 pauta aceita até 10/11; ampliar se ≥ 1 artigo publicado com link; fechar se nenhum portal responder em 2 ciclos (pauta + 1…",
+     "decisao": "",
+     "prazo": "10/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "canais-aquisicao.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
      "registros": [
       "canais-aquisicao.md (pasta local)"
      ]
@@ -1422,17 +1898,19 @@
    ],
    "contagem": {
     "ativo": 1,
-    "em teste": 3,
-    "planejado": 1,
+    "em teste": 5,
+    "planejado": 3,
     "parado": 2,
     "encerrado": 1
    },
-   "aquisicao_ativos": 3,
+   "aquisicao_ativos": 5,
    "venda_ativos": 1,
    "canais_aquisicao_ativos": [
+    "C0 Formulário nas páginas de tecnologia (27/10)",
     "C1 Tracker público",
+    "C11 Artigo de convidado (27/10, canal novo da semana 44)",
     "C2 Dados para mídia",
-    "E-mail frio"
+    "E-mail frio a compradores nomeados (ADR 0026/0027)"
    ],
    "alerta": null
   },
@@ -1931,7 +2409,7 @@
       "alcance": {
        "valor": "49",
        "nota": "convites enviados",
-       "medido_em": "27/10/2026",
+       "medido_em": "28/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -1966,7 +2444,7 @@
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "27/10/2026",
+     "medido_em": "28/10/2026",
      "prazo": "",
      "registros": [
       "ceo/canais.md (pasta local)"
@@ -2047,42 +2525,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2106,42 +2584,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2165,42 +2643,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2224,42 +2702,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2269,7 +2747,7 @@
      "canal": "C004 · Afiliados por convite direto na Kiwify: criadores de conteúdo pequenos e médios sobre MEI (substitui o C-002…",
      "grupo": "C004 · Afiliados por convite direto na Kiwify: criadores de conteúdo pequenos e médios sobre MEI (substitui o C-002…",
      "tipo": "venda",
-     "status": "planejado",
+     "status": "em teste",
      "motivo": "",
      "inicio": "28/10/2026",
      "hipotese": "Criador que já ensina DAS e limite tem o nosso MEI como público. Se o convite abre pela dúvida que aparece nos comentários dele, dá 2 calculadoras grátis para indicar e oferece 40% com material pronto, ele aceita a…",
@@ -2283,42 +2761,101 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "26/10/2026",
+       "medido_em": "27/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "26/10/2026",
+     "medido_em": "27/10/2026",
+     "registros": [
+      "ceo/canais.md (pasta local)"
+     ]
+    },
+    {
+     "id": "c005",
+     "canal": "C005 · Busca Google/Bing: indexação das 2 calculadoras, canal novo da semana 26/10–01/11 (sugestão nº 3 do…",
+     "grupo": "C005 · Busca Google/Bing: indexação das 2 calculadoras, canal novo da semana 26/10–01/11 (sugestão nº 3 do…",
+     "tipo": "aquisição",
+     "status": "em teste",
+     "motivo": "",
+     "inicio": "27/10/2026",
+     "hipotese": "As calculadoras têm 0 impressões no Google e no Bing, mas estão indexáveis (200, index, follow, canonical certo, no sitemap de 25 URLs, conferido 27/10). Hipótese: o Google ainda não rastreou ou escolheu não indexar…",
+     "metrica": "Impressões das 2 URLs no GSC (meta: >0 nas 2 até 10/11; manter se ≥50 impressões somadas e ≥1 visita de buscador em visitas.py --ref)",
+     "decisao": "em teste",
+     "prazo": "10/11/2026",
+     "resultado": "",
+     "periodo": "",
+     "fonte": "ceo/canais.md (pasta local)",
+     "numeros": {
+      "alcance": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "cliques": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "leads": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "vendas": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      },
+      "receita": {
+       "valor": null,
+       "nota": "",
+       "medido_em": "27/10/2026",
+       "origem": "registro do CMO",
+       "mantido": false
+      }
+     },
+     "outros": [],
+     "origem": "registro do CMO",
+     "medido_em": "27/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2326,16 +2863,17 @@
    ],
    "contagem": {
     "ativo": 8,
-    "em teste": 2,
-    "planejado": 1,
+    "em teste": 4,
+    "planejado": 0,
     "parado": 1,
     "encerrado": 2
    },
-   "aquisicao_ativos": 9,
-   "venda_ativos": 1,
+   "aquisicao_ativos": 10,
+   "venda_ativos": 2,
    "canais_aquisicao_ativos": [
     "Busca do Google e do Bing (Search Console e Bing Webmaster)",
     "C001 · YouTube: vídeo longo de busca (16:9, 6–8 min), no canal @finbookbr que já existe",
+    "C005 · Busca Google/Bing: indexação das 2 calculadoras, canal novo da semana 26/10–01/11 (sugestão nº 3 do…",
     "Newsletter",
     "Pinterest",
     "Página do Facebook",
@@ -2381,9 +2919,9 @@
        "mantido": false
       },
       "leads": {
-       "valor": "124",
+       "valor": "128",
        "nota": "vagas publicadas desde 02/10/2026",
-       "medido_em": "27/10/2026",
+       "medido_em": "28/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -2413,7 +2951,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "27/10/2026",
+     "medido_em": "28/10/2026",
      "prazo": "",
      "registros": []
     },

@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 64.6
+    "pct": 64.5
    },
    {
     "nome": "PLpgSQL",
-    "pct": 17.2
+    "pct": 17.5
    },
    {
     "nome": "HTML",
-    "pct": 14.0
+    "pct": 13.4
    },
    {
     "nome": "Shell",
     "pct": 2.5
    }
   ],
-  "ultimo_commit": "27/10/2026 07:25",
-  "commits_7d": 117,
-  "commits_30d": 359,
+  "ultimo_commit": "28/10/2026 07:10",
+  "commits_7d": 129,
+  "commits_30d": 354,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-28",
-    "n": 40
-   },
    {
     "dia": "2026-09-29",
     "n": 14
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-27",
-    "n": 21
+    "n": 36
+   },
+   {
+    "dia": "2026-10-28",
+    "n": 20
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 505,
+  "arquivos": 554,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "27/10 07:25",
+   "quando": "28/10 07:10",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "228c837"
+   "sha": "50760e3"
   },
   {
-   "quando": "27/10 06:21",
+   "quando": "28/10 05:49",
+   "msg": "COO-2026-10-27-02: pipeline §10 (yield per source, 4 of +10 on day 1); queue evidence",
+   "sha": "aab2129"
+  },
+  {
+   "quando": "28/10 05:48",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "595d778"
+   "sha": "e534454"
   },
   {
-   "quando": "27/10 06:19",
+   "quando": "28/10 05:36",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "4c62fa5"
+   "sha": "26393a8"
   },
   {
-   "quando": "27/10 06:12",
+   "quando": "28/10 05:36",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "03e6bae"
+   "sha": "1b81f47"
   },
   {
-   "quando": "27/10 06:10",
+   "quando": "28/10 05:30",
+   "msg": "COO fila: -27-10 feito, -26-04 / -27-06 / -27-13 em andamento com evidência de 28/10",
+   "sha": "01771e8"
+  },
+  {
+   "quando": "28/10 05:30",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "a710364"
+   "sha": "89923d8"
   },
   {
-   "quando": "27/10 06:09",
+   "quando": "28/10 05:28",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "65525ef"
+   "sha": "e2cd150"
   },
   {
-   "quando": "27/10 05:19",
-   "msg": "COO-2026-10-21-16 feito; drop a mock print (critic made the real one)",
-   "sha": "e70a54a"
-  },
-  {
-   "quando": "27/10 05:18",
+   "quando": "28/10 05:24",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "3a02828"
+   "sha": "8b12b7b"
   },
   {
-   "quando": "27/10 05:15",
-   "msg": "Site finishing (COO-2026-10-21-16): system pages on the site stylesheet with viewport and 52 px button, privacy tables scroll in place,…",
-   "sha": "9cbf615"
-  },
-  {
-   "quando": "27/10 05:14",
+   "quando": "28/10 05:21",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "7e71b21"
+   "sha": "48c968e"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "27/10/2026 08:07"
+ "gerado_em": "28/10/2026 08:02"
 }
