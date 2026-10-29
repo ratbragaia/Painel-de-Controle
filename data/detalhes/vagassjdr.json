@@ -21,15 +21,11 @@
     "pct": 1.5
    }
   ],
-  "ultimo_commit": "27/10/2026 23:35",
-  "commits_7d": 14,
-  "commits_30d": 40,
+  "ultimo_commit": "28/10/2026 13:35",
+  "commits_7d": 16,
+  "commits_30d": 43,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-29",
-    "n": 0
-   },
    {
     "dia": "2026-09-30",
     "n": 0
@@ -144,15 +140,34 @@
    },
    {
     "dia": "2026-10-28",
+    "n": 3
+   },
+   {
+    "dia": "2026-10-29",
     "n": 0
    }
   ],
   "issues_abertas": 0,
-  "prs_abertos": 2,
-  "arquivos": 774,
+  "prs_abertos": 4,
+  "arquivos": 776,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "28/10 13:35",
+   "msg": "Espelhamento automatico 2026-10-28 13:35",
+   "sha": "7b319a4"
+  },
+  {
+   "quando": "28/10 12:35",
+   "msg": "Espelhamento automatico 2026-10-28 12:35",
+   "sha": "02e0094"
+  },
+  {
+   "quando": "28/10 11:40",
+   "msg": "chore: tira a Lista de Empresas do git (fica so local)",
+   "sha": "fffa911"
+  },
   {
    "quando": "27/10 23:35",
    "msg": "Espelhamento automatico 2026-10-27 23:35",
@@ -187,21 +202,6 @@
    "quando": "26/10 17:35",
    "msg": "Espelhamento automatico 2026-10-26 17:35",
    "sha": "ffb6fa3"
-  },
-  {
-   "quando": "26/10 12:35",
-   "msg": "Espelhamento automatico 2026-10-26 12:35",
-   "sha": "acea151"
-  },
-  {
-   "quando": "26/10 11:36",
-   "msg": "Espelhamento automatico 2026-10-26 11:36",
-   "sha": "5298f08"
-  },
-  {
-   "quando": "25/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-25 17:35",
-   "sha": "87a27d2"
   }
  ],
  "pendencias": {
@@ -227,7 +227,7 @@
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "24",
+    "valor": "21",
     "detalhe": ""
    },
    {
@@ -239,5 +239,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "28/10/2026 08:02"
+ "gerado_em": "29/10/2026 08:06"
 }

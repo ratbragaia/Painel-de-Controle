@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "TypeScript",
-    "pct": 64.5
+    "pct": 64.1
    },
    {
     "nome": "PLpgSQL",
-    "pct": 17.5
+    "pct": 17.3
    },
    {
     "nome": "HTML",
-    "pct": 13.4
+    "pct": 14.1
    },
    {
     "nome": "Shell",
-    "pct": 2.5
+    "pct": 2.4
    }
   ],
-  "ultimo_commit": "28/10/2026 07:10",
-  "commits_7d": 129,
-  "commits_30d": 354,
+  "ultimo_commit": "29/10/2026 05:41",
+  "commits_7d": 128,
+  "commits_30d": 361,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-29",
-    "n": 14
-   },
    {
     "dia": "2026-09-30",
     "n": 11
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-28",
-    "n": 20
+    "n": 32
+   },
+   {
+    "dia": "2026-10-29",
+    "n": 9
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 0,
-  "arquivos": 554,
+  "arquivos": 604,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "28/10 07:10",
+   "quando": "29/10 05:41",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "50760e3"
+   "sha": "978f8cd"
   },
   {
-   "quando": "28/10 05:49",
-   "msg": "COO-2026-10-27-02: pipeline §10 (yield per source, 4 of +10 on day 1); queue evidence",
-   "sha": "aab2129"
-  },
-  {
-   "quando": "28/10 05:48",
+   "quando": "29/10 05:41",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "e534454"
+   "sha": "ffdbfb8"
   },
   {
-   "quando": "28/10 05:36",
+   "quando": "29/10 05:33",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "26393a8"
+   "sha": "b3790fe"
   },
   {
-   "quando": "28/10 05:36",
+   "quando": "29/10 05:15",
+   "msg": "COO fila 29/10: -28-01/-21-15 e -27-09 feitos; -26-04, -27-08, -27-13 com evidência",
+   "sha": "f19fc73"
+  },
+  {
+   "quando": "29/10 05:14",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "1b81f47"
+   "sha": "454edc4"
   },
   {
-   "quando": "28/10 05:30",
-   "msg": "COO fila: -27-10 feito, -26-04 / -27-06 / -27-13 em andamento com evidência de 28/10",
-   "sha": "01771e8"
-  },
-  {
-   "quando": "28/10 05:30",
+   "quando": "29/10 05:12",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "89923d8"
+   "sha": "57c5bc9"
   },
   {
-   "quando": "28/10 05:28",
+   "quando": "29/10 05:12",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "e2cd150"
+   "sha": "404e847"
   },
   {
-   "quando": "28/10 05:24",
+   "quando": "29/10 05:10",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "8b12b7b"
+   "sha": "b551c3e"
   },
   {
-   "quando": "28/10 05:21",
+   "quando": "29/10 05:08",
+   "msg": "COO-2026-10-27-08/-09: technology pages get the home's dark hero, text menu and proof line; issue image replaced by one live-text entry of…",
+   "sha": "1e13097"
+  },
+  {
+   "quando": "28/10 16:16",
    "msg": "[mensagem omitida no painel público]",
-   "sha": "48c968e"
+   "sha": "a6ffc3b"
   }
  ],
  "pendencias": {
@@ -228,5 +228,5 @@
    }
   ]
  },
- "gerado_em": "28/10/2026 08:02"
+ "gerado_em": "29/10/2026 08:06"
 }

@@ -21,15 +21,11 @@
     "pct": 0.2
    }
   ],
-  "ultimo_commit": "27/10/2026 23:39",
+  "ultimo_commit": "28/10/2026 12:09",
   "commits_7d": 30,
-  "commits_30d": 211,
+  "commits_30d": 212,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-29",
-    "n": 0
-   },
    {
     "dia": "2026-09-30",
     "n": 0
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-28",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-29",
     "n": 0
    }
   ],
@@ -153,6 +153,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "28/10 12:09",
+   "msg": "Prospecção com teto de 5 em 29/10 para as 15 amostras diretas caberem no teto de 20 do dia",
+   "sha": "776aaee"
+  },
   {
    "quando": "27/10 23:39",
    "msg": "Amostra direta: atividade curta no corpo do e-mail (o CSV leva a descrição inteira)",
@@ -197,11 +202,6 @@
    "quando": "26/10 18:03",
    "msg": "Checklist: Página da Abriu Agora no LinkedIn criada e preenchida; Instagram segue pendente",
    "sha": "d398ed8"
-  },
-  {
-   "quando": "26/10 16:54",
-   "msg": "Checklist: encarregado designado e publicado (Política 1.4); LinkedIn/Instagram pendentes por decisão do Rodrigo",
-   "sha": "6c88ac7"
   }
  ],
  "pendencias": {
@@ -259,13 +259,13 @@
    },
    {
     "rotulo": "Ajustes dos C-levels em aberto",
-    "valor": "60",
-    "detalhe": "de 97 registrados · 17 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 1 ceo  coocsocscmo cla, 1 claude no chrome do , 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 6 em andamento   brt c, 1 em gerarcidadespy se, 1 reaberto, 1 substituído   brt pe"
+    "valor": "61",
+    "detalhe": "de 98 registrados · 18 aberto, 2 bloqueado   brt coo , 1 canaismd docsparceri, 1 ceo  coocsocscmo cla, 1 claude no chrome do , 37 concluído, 1 concluído   brt, 2 concluído   brt coo, 22 concluído   brt coo , 1 concluído   brt regr, 1 concluído   brt seçã, 1 curl i httpabriuagor, 1 em andamento, 6 em andamento   brt c, 1 em gerarcidadespy se, 1 reaberto, 1 substituído   brt pe"
    },
    {
     "rotulo": "Resumos de C-levels",
     "valor": "1",
-    "detalhe": "em 28/10/2026: COO"
+    "detalhe": "em 29/10/2026: COO"
    },
    {
     "rotulo": "Entregues",
@@ -377,6 +377,13 @@
       "prioridade": "URGENTE",
       "status": "Ceo  coocsocscmo cla",
       "titulo": "prazo: 15 amostras até qua 28/10 18:00"
+     },
+     {
+      "id": "20261028-ceo-1",
+      "cargo": "CEO → COO",
+      "prioridade": "URGENTE",
+      "status": "Aberto",
+      "titulo": "A linha diária \"amostras enviadas, respostas, interessados\" ainda não existe em docs/envios-diarios.md, e o…"
      },
      {
       "id": "20261015-cmo-13",
@@ -789,5 +796,5 @@
   ],
   "nota": "Números copiados dos arquivos do CEO/COO; nada é estimado pelo painel."
  },
- "gerado_em": "28/10/2026 08:02"
+ "gerado_em": "29/10/2026 08:06"
 }

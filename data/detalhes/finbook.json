@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 66.4
+    "pct": 66.9
    },
    {
     "nome": "HTML",
-    "pct": 29.8
+    "pct": 29.4
    },
    {
     "nome": "JavaScript",
@@ -21,15 +21,11 @@
     "pct": 0.8
    }
   ],
-  "ultimo_commit": "27/10/2026 23:26",
-  "commits_7d": 112,
-  "commits_30d": 206,
+  "ultimo_commit": "28/10/2026 22:52",
+  "commits_7d": 108,
+  "commits_30d": 222,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-29",
-    "n": 0
-   },
    {
     "dia": "2026-09-30",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-28",
+    "n": 16
+   },
+   {
+    "dia": "2026-10-29",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 1,
-  "arquivos": 926,
+  "arquivos": 943,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "27/10 23:26",
-   "msg": "CEO D-022: estoque primeiro — revisar a01–a12, Short/dia, métrica diária",
-   "sha": "17eb129"
+   "quando": "28/10 22:52",
+   "msg": "COO 22:55: site 200, fila sem itens executáveis",
+   "sha": "344c14c"
   },
   {
-   "quando": "27/10 22:56",
-   "msg": "COO 22:56: site 200, fila sem itens executáveis",
-   "sha": "baa2837"
+   "quando": "28/10 20:56",
+   "msg": "COO 20:55: site 200, fila sem itens executáveis",
+   "sha": "ce8c653"
   },
   {
-   "quando": "27/10 22:23",
-   "msg": "content(pacotes): 12 artigos SEO/GEO + Shorts s37–s51 (batch2)",
-   "sha": "500817a"
+   "quando": "28/10 20:25",
+   "msg": "CEO resumo 28/10 enviado",
+   "sha": "dc58dec"
   },
   {
-   "quando": "27/10 21:19",
-   "msg": "CEO: T-074 produzir Shorts dos 28 pacotes prontos",
-   "sha": "45d9b1b"
+   "quando": "28/10 18:50",
+   "msg": "COO 18:55 28/10: rodada sem itens executáveis",
+   "sha": "43db07c"
   },
   {
-   "quando": "27/10 21:19",
-   "msg": "fix(pacotes): make Shorts/longos publishable after Opus re-review",
-   "sha": "265a6ce"
+   "quando": "28/10 16:58",
+   "msg": "COO 28/10 17:00: site 200, fila sem itens executáveis",
+   "sha": "31ef455"
   },
   {
-   "quando": "27/10 20:52",
-   "msg": "COO 20:55 27/10",
-   "sha": "76d594c"
+   "quando": "28/10 15:44",
+   "msg": "CCO 15:44 28/10: 0 venda/cliente/parceiro",
+   "sha": "7cb310d"
   },
   {
-   "quando": "27/10 20:41",
-   "msg": "docs(pacotes): drop key-prefix string from INDICE note",
-   "sha": "8e7903e"
+   "quando": "28/10 15:00",
+   "msg": "COO 28/10 15:05: T-064 placar lote 5 (0 humana); JM Contábil mudou e-mail",
+   "sha": "107046e"
   },
   {
-   "quando": "27/10 20:41",
-   "msg": "CMO/COO: 25 Shorts + 3 longos text packages (Anthropic, pt-BR)",
-   "sha": "27ee7a5"
+   "quando": "28/10 12:54",
+   "msg": "COO 28/10 12:55: T-062 C-004 lote 1 enviado (8/8); T-079 importador dos pacotes",
+   "sha": "890eb15"
   },
   {
-   "quando": "27/10 20:23",
-   "msg": "CEO resumo 27/10 enviado",
-   "sha": "84c9598"
+   "quando": "28/10 12:06",
+   "msg": "CEO: correção D-012 (28/10) sobre o número [telefone]",
+   "sha": "49a191e"
   },
   {
-   "quando": "27/10 18:55",
-   "msg": "COO 18:55 27/10: site 200; print 390 da T-063 travou de novo",
-   "sha": "224c8b2"
+   "quando": "28/10 12:05",
+   "msg": "CEO: canal Telegram Finbook (t.me/finbookbr), T-081",
+   "sha": "d939289"
   }
  ],
  "pendencias": {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "28/10/2026 08:02"
+ "gerado_em": "29/10/2026 08:06"
 }

@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 81.9
+    "pct": 82.1
    },
    {
     "nome": "HTML",
-    "pct": 15.5
+    "pct": 15.4
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "26/10/2026 18:59",
-  "commits_7d": 1,
-  "commits_30d": 147,
+  "ultimo_commit": "28/10/2026 11:19",
+  "commits_7d": 10,
+  "commits_30d": 156,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-29",
-    "n": 0
-   },
    {
     "dia": "2026-09-30",
     "n": 0
@@ -136,7 +132,7 @@
    },
    {
     "dia": "2026-10-26",
-    "n": 1
+    "n": 3
    },
    {
     "dia": "2026-10-27",
@@ -144,67 +140,71 @@
    },
    {
     "dia": "2026-10-28",
+    "n": 7
+   },
+   {
+    "dia": "2026-10-29",
     "n": 0
    }
   ],
   "issues_abertas": 0,
-  "prs_abertos": 1,
-  "arquivos": 159,
+  "prs_abertos": 0,
+  "arquivos": 163,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "28/10 11:19",
+   "msg": "Merge pull request #18 from ratbragaia/claude/project-thread-f5icrv",
+   "sha": "1dd5f91"
+  },
+  {
+   "quando": "28/10 11:19",
+   "msg": "Link curto responde também a HEAD (302), para filtros de link",
+   "sha": "3c29a80"
+  },
+  {
+   "quando": "28/10 11:13",
+   "msg": "Merge pull request #17 from ratbragaia/claude/project-thread-f5icrv",
+   "sha": "d1b435b"
+  },
+  {
+   "quando": "28/10 11:12",
+   "msg": "E-mail frio em texto puro: link curto, linha do edital e rodapé arejado",
+   "sha": "3186bdd"
+  },
+  {
+   "quando": "28/10 08:12",
+   "msg": "Merge pull request #16 from ratbragaia/claude/project-thread-f5icrv",
+   "sha": "32ff65a"
+  },
+  {
+   "quando": "28/10 08:11",
+   "msg": "E-mail frio: rodapé diz de onde veio o contato (--fonte-contato obrigatório)",
+   "sha": "12e4b35"
+  },
+  {
+   "quando": "28/10 08:11",
+   "msg": "Merge remote-tracking branch 'origin/main' into claude/project-thread-f5icrv",
+   "sha": "522c69f"
+  },
   {
    "quando": "26/10 18:59",
    "msg": "docs: regra geral de abrir o Chrome sozinho",
    "sha": "0f37104"
   },
   {
-   "quando": "15/10 23:35",
-   "msg": "Espelhamento automatico 2026-10-15 23:35",
-   "sha": "80dc2c7"
+   "quando": "26/10 16:54",
+   "msg": "ADR 0010: o CEO decide tudo, menos o que gera cobrança; resultado do teste de entrega",
+   "sha": "4e3ee76"
   },
   {
-   "quando": "14/10 21:35",
-   "msg": "Espelhamento automatico 2026-10-14 21:35",
-   "sha": "b887a99"
-  },
-  {
-   "quando": "14/10 19:26",
-   "msg": "Adiciona CLAUDE.md",
-   "sha": "759897f"
-  },
-  {
-   "quando": "14/10 18:36",
-   "msg": "Espelhamento automatico 2026-10-14 18:36",
-   "sha": "ebb7ae9"
-  },
-  {
-   "quando": "14/10 17:37",
-   "msg": "Espelhamento automatico 2026-10-14 17:36",
-   "sha": "cd8f84b"
-  },
-  {
-   "quando": "10/10 12:08",
-   "msg": "Merge pull request #15 from ratbragaia/claude/amostra-dados-reais",
-   "sha": "323a9ba"
-  },
-  {
-   "quando": "10/10 12:06",
-   "msg": "Amostra: garantia 'não exigida' vira 'ver edital' (negação pode ser de outra garantia ou ter condição); prévia do resumir com valor do PNCP",
-   "sha": "b9f5499"
-  },
-  {
-   "quando": "10/10 12:03",
-   "msg": "Amostra: regras conservadoras de garantia, atestado e valor (rodada 8)",
-   "sha": "b87339c"
-  },
-  {
-   "quando": "10/10 11:55",
-   "msg": "Amostra: corrige os vetos do guardião no PR #15 (na dúvida, mostrar menos)",
-   "sha": "f911bbc"
+   "quando": "26/10 11:47",
+   "msg": "ADR 0009: e-mail frio a 5 por dia útil e sequência pós-teste ligada",
+   "sha": "b4ed4ae"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "28/10/2026 08:02"
+ "gerado_em": "29/10/2026 08:06"
 }
