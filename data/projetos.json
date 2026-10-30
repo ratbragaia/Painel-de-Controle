@@ -1,28 +1,29 @@
 {
   "titulo": "Painel de Controle",
-  "gerado_em": "29/10/2026 08:20 (horário de Brasília)",
+  "gerado_em": "30/10/2026 08:15 (horário de Brasília)",
   "projetos": [
     {
       "nome": "Abriu Agora",
       "repo": "abriuagora",
       "objetivo": "Lista mensal de empresas recém-abertas (dados abertos do CNPJ), filtrada por microrregião e CNAE, vendida a escritórios de contabilidade; operada pela Rockfort Hub.",
-      "status": "Em operação ativa, funil ainda em zero: Portão 1 em 0 de 3 amostras a 2 dias do prazo (31/10). O envio das 15 amostras diretas (10 empresas da cidade prontas para cada escritório) atrasou um dia e está agendado no servidor para 29/10 09:45, com follow-up em 30/10; a prospecção do dia ficou com teto de 5 para caber no limite de 20 envios. O CEO congelou até 01/11 tudo que não leve amostra a cliente (SEO, instalação das páginas por cidade). Parceria em 0 de 4 respostas; a linha de indicação espera o OK do CLO hoje. Conta no Asaas ainda pendente.",
+      "status": "Em operação ativa: Portão 1 em 1 de 3 a 1 dia do prazo (31/10), com o 1º pedido real de amostra vindo do envio de 27/10 (20 enviados, 19 entregues). As 15 amostras diretas saíram em 29/10 (12:08–12:15) e foram entregues, ainda sem resposta; follow-up de 48h no sábado 31/10. Parceria segue em 0 de 4 respostas (mantida sem ampliar, fecha em 06/11 se seguir zero). Política v1.5 publicada e exemplos públicos sem nome de pessoa prontos no código para instalar antes de 01/11. Pagantes 0, receita R$ 0.",
       "recente": [
+        "30/10 06:06 – COO: exemplos públicos sem nome de pessoa prontos (CI verde), instalação pedida",
+        "30/10 00:01 – envio de 27/10: 19 entregues e 1 pedido real de amostra; Portão 1 em 1 de 3",
+        "29/10 12:15 – 15 amostras diretas enviadas e entregues (0 respostas até agora)",
+        "29/10 18:03 – Política v1.5 concluída",
+        "29/10 08:40 – CEO: prospecção volta a 20 por dia a partir de 30/10",
         "29/10 06:02 – COO: 15 amostras diretas agendadas para hoje 09:45",
-        "28/10 15:09 – prospecção com teto de 5 em 29/10 para caber o envio das amostras",
-        "28/10 08:45 – CEO: congelamento até 01/11 do que não leva amostra a cliente",
-        "27/10 23:39 – amostra direta: até 15 escritórios recebem 10 empresas da cidade prontas",
-        "27/10 21:27 – páginas por cidade e ramo: lote 2 com 56 páginas",
-        "27/10 20:45 – 438 páginas de busca por cidade e ramo com dados reais"
+        "28/10 15:09 – prospecção com teto de 5 em 29/10 para caber o envio das amostras"
       ],
       "proximos": [
-        "Envio das 15 amostras diretas hoje 09:45 e linha diária de métrica",
-        "Follow-up das amostras em 30/10",
-        "OK do CLO na linha de indicação em 29/10",
-        "Portão 1 em 31/10; troca de oferta pronta se falhar",
+        "Follow-up de 48h das 15 amostras em 31/10",
+        "Decisão do Portão 1 em 30/10, confirmada em 02/11 com os dados de 31/10",
+        "Instalar os exemplos públicos antes de 01/11",
+        "Post na Página da empresa no LinkedIn em 01/11",
         "Rodrigo: colar a chave da API no servidor e cadastrar a conta bancária no Asaas"
       ],
-      "atualizado": "29/10/2026 06:02",
+      "atualizado": "30/10/2026 06:06",
       "url": "https://github.com/ratbragaia/abriuagora",
       "categoria": "GitHub"
     },
@@ -30,22 +31,21 @@
       "nome": "PatentSonar",
       "repo": "PatentSonar",
       "objetivo": "Empresa operada por agentes que vende assinatura semanal de inteligência de patentes sobre ímãs permanentes sem terras raras para times de P&D/PI.",
-      "status": "Em operação: 77 primeiros contatos até 28/10 e 0 respostas (meta de 150 até 31/10, que não deve ser batida). Em 28–29/10 o crítico aprovou os follow-ups a compradores e parceiros, mais 4 compradores americanos foram importados (semana 44 com 15 contatos novos; 2 na fila de hoje) e o C11 (portais de imprensa) foi encerrado sem envio. O Panorama 2025-26 foi aprovado pelo crítico (11 de 12) e ganhou uma página-amostra grátis (ainda sem link). No site: páginas de tecnologia com a cara da home, redirecionamento das páginas sem .html e checagem de disponibilidade a cada hora.",
+      "status": "Em operação: 77 primeiros contatos até 28/10 e 0 respostas (meta de 150 até 31/10, projeção de 80 a 82). Em 29/10 o site comprador passou no crítico (12 de 12), saiu a página do trecho grátis do Panorama 2025–26 (ainda sem link), a semana 44 chegou a 15 compradores nomeados com 2 contatos na fila e começaram os follow-ups a parceiros. Nenhuma resposta de prospect até agora; se seguir em 0 em 02/11, entra a corretiva de oferta ou público.",
       "recente": [
-        "29/10 05:41 – 4 compradores importados; 2 contatos aprovados na fila de hoje",
-        "29/10 05:10 – página-amostra grátis do Panorama 2025-26 (sem link ainda)",
-        "29/10 05:08 – páginas de tecnologia com o visual da home; métrica de 28/10 (77 contatos, 0 respostas)",
-        "28/10 13:17 – checagem de disponibilidade por hora e redirecionamento sem .html",
-        "28/10 16:16 – Panorama 2025-26 aprovado pelo crítico (11 de 12)",
-        "28/10 – CEO: C11 (portais de imprensa) encerrado sem envio"
+        "29/10 – CEO: placar de outubro (77 de 150, 0 respostas, US$ 0 de receita recorrente)",
+        "29/10 05:41 – +4 compradores nomeados (semana 44 com 15); 2 contatos na fila",
+        "29/10 05:10 – página do trecho grátis do Panorama 2025–26 (sem link ainda)",
+        "29/10 05:08 – páginas de tecnologia com o visual da home (crítico 12 de 12)",
+        "29/10 – follow-ups a parceiros a partir de hoje"
       ],
       "proximos": [
-        "Follow-ups a parceiros e compradores a partir de 29–30/10; 5 editores em 30/10",
+        "Follow-ups a 2 parceiros e 5 editores em 30/10",
         "Checkpoint dos 150 contatos em 31/10",
-        "Ligar a amostra do Panorama aos contatos",
+        "Ligar o trecho grátis do Panorama ao formulário da página técnica",
         "Se em 02/11 houver 0 resposta, corretiva de oferta ou público"
       ],
-      "atualizado": "29/10/2026 05:41",
+      "atualizado": "29/10/2026 08:41",
       "url": "https://github.com/ratbragaia/PatentSonar",
       "categoria": "GitHub"
     },
@@ -53,22 +53,21 @@
       "nome": "Finbook",
       "categoria": "GitHub + Assistente Grok Bot",
       "objetivo": "Vender o Kit MEI em Dia (planilhas MEI R$37, Pacote Profissões R$10, combo R$47) pelo Kiwify, com tráfego orgânico. Metas: 1ª venda até 31/10 e 10 vendas até 30/11.",
-      "status": "finbook.com.br no ar (site 200). Ainda 0 vendas e 0 cliques em comprar (o CTO provou em 28/10 que a medição funciona); a meta de 1ª venda até 31/10 não deve ser batida. Visitas em 7 dias: 38 (meta da semana 75). Em 28/10 saíram 8 convites a afiliados (1º lote do canal C-004), o lote 5 de parceiros fechou com 0 resposta humana, ficou pronto o importador dos 12 artigos para o blog e foi criado o canal do Telegram t.me/finbookbr. O Short diário segue travado (2 versões reprovadas pela pronúncia de \"MEI\"), e o WhatsApp do número da empresa passou ao Vagas SJDR.",
+      "status": "finbook.com.br no ar (site 200, sitemap com 38 URLs). Ainda 0 vendas e 0 cliques em comprar; a meta de 1ª venda até 31/10 não deve ser batida e a oferta e o funil serão revistos em 02/11. Em 29/10 entraram no ar os 12 artigos novos do blog (revisados pelo CLO), a Política de Privacidade v2 e o 1º Short desde 24/10 (s30, YouTube e TikTok, narração sem \"MEI\" falado). Visitas em 7 dias: 30 (meta da semana 75, não batida). Convites a afiliados do C-004: 0 resposta humana.",
       "recente": [
-        "28/10 20:25 – CEO: resumo diário (0 venda, 8 convites a afiliados)",
-        "28/10 15:05 – placar do lote 5 de parceiros: 0 resposta humana",
-        "28/10 12:55 – 8 convites C-004 enviados; importador dos 12 artigos pronto",
-        "28/10 12:05 – canal do Telegram t.me/finbookbr criado",
-        "28/10 11:15 – Short s30 reprovado no gate pela pronúncia de \"MEI\"",
-        "28/10 09:25 – CTO: 26 URLs 200 e clique em comprar provado na medição"
+        "29/10 12:55 – Short s30 postado no TikTok (em análise)",
+        "29/10 11:05 – 12 artigos novos no blog, Privacidade v2 em produção e Short s30 no YouTube",
+        "29/10 09:20 – CLO: 12 de 12 artigos aprovados com correção; regras do Telegram e da Kiwify conferidas",
+        "29/10 08:45 – CEO: 30 visitas em 7 dias, 0 clique; fim do impasse do \"MEI\" falado",
+        "28/10 12:55 – 8 convites a afiliados enviados"
       ],
       "proximos": [
-        "CMO+CLO revisarem os artigos a01–a12 até 29/10; COO publica até 30/10",
-        "Posts no canal do Telegram a partir de 29/10 (T-081)",
-        "Destravar o Short diário (decisão do CMO sobre o \"MEI\" falado)",
-        "Follow-up único dos convites a afiliados em 01/11; revisão de oferta em 02/11 se outubro fechar sem venda"
+        "1º post no canal do Telegram (T-081)",
+        "Short diário a partir dos pacotes, com \"microempreendedor\" na narração",
+        "Fechar a verificação do app \"fluke\" (CTO, novo prazo 30/10)",
+        "Follow-up dos convites a afiliados em 01/11; revisão de oferta e funil em 02/11"
       ],
-      "atualizado": "29/10/2026 01:52",
+      "atualizado": "29/10/2026 22:58",
       "origem": "Arquivos do assistente Finbook (Grok Bot) e repositório ratbragaia/finbook",
       "repo": "finbook",
       "url": "https://github.com/ratbragaia/finbook"
@@ -77,22 +76,22 @@
       "nome": "Vagas SJDR",
       "repo": "vagassjdr",
       "objetivo": "Divulgação de vagas de emprego em São João del-Rei com fluxos n8n (aprovação, post pago, cobrança Asaas, Telegram); há plano de monetização.",
-      "status": "Publicação em dia; receita de outubro em R$ 20 (cerca de 7% da meta de ~R$ 300) e 0 Pix de 22 a 28/10. Instagram com 413 mil visualizações em 30 dias. Em 28/10 a IA do Direct foi corrigida contra confirmação falsa de pagamento (28 de 28 e 87 de 87 testes sem falha), 252 rascunhos de oferta ficaram prontos (não enviados) e o WhatsApp do número da empresa foi conectado (instância vagas-sjdr, 0 envios). O fluxo do WhatsApp passou 20 de 20 no teste simulado e espera ativação; as 20 ofertas e a página \"Vagas de hoje\" dependem da conferência do CLO hoje. A aquisição ainda depende só do Instagram.",
+      "status": "Publicação em dia; receita de outubro em R$ 20 (cerca de 7% da meta de ~R$ 300). Em 29/10 saíram 10 ofertas de POST pago pelo Direct (2 respostas, 0 Pix; 1 \"Sim\" não reconhecido por um bug já corrigido). O fluxo do WhatsApp passou no teste real às 21:53 e, desde 30/10 8h, o grupo recebe 1 post por vaga nova (Status e Pix ainda desligados). O registro de vagas não espelha desde 28/10 por o notebook estar desligado; o plano de levar a rotina das 17h para a VPS está pronto e espera escolha do Rodrigo. A aquisição ainda depende só do Instagram.",
       "recente": [
-        "29/10 04:23 – COO: fluxo do WhatsApp desligado testado (20 de 20 no simulado)",
-        "28/10 18:58 – CEO: resumo (R$ 20 no mês, 413 mil visualizações em 30 dias)",
-        "28/10 16:55 – IA do Direct corrigida contra pagamento falso e publicada (T-051)",
-        "28/10 16:55 – 252 rascunhos de oferta prontos (não enviados)",
-        "28/10 – WhatsApp da empresa conectado à instância vagas-sjdr"
+        "30/10 08:00 – grupo do WhatsApp passa a 1 post por vaga nova",
+        "29/10 22:38 – COO: teste real do WhatsApp ok e plano da rotina das 17h na VPS pronto",
+        "29/10 19:05 – CEO: resumo (10 ofertas, 2 respostas, mês R$ 20)",
+        "29/10 12:09 – 10 ofertas de POST pago enviadas pelo Direct",
+        "29/10 10:41 – trava contra oferta duplicada publicada"
       ],
       "proximos": [
-        "CLO confere as 20 ofertas, a página C-008 e os rascunhos em 29/10",
-        "Envio das 20 ofertas e link da página nova na bio depois do CLO",
-        "Ativar o fluxo do WhatsApp (credencial, webhook e teste real)",
+        "Responder a empresa que disse \"Sim\" e gerar o Pix",
+        "5 convites de collab, ofertas e troca do endereço da Página do Facebook em 30/10",
         "Revisão das ideias de monetização em 30/10; fim do patrocínio Hub em 31/10",
-        "Rodrigo: créditos da API até 04/11 (pagamento) e ok para 5 convites de collab"
+        "Rodrigo: escolher como espelhar o registro de vagas e decidir a 1ª parte da rotina das 17h na VPS",
+        "Nota fiscal em toda venda (com o contador, prazo 05/11)"
       ],
-      "atualizado": "29/10/2026 04:34",
+      "atualizado": "30/10/2026 04:35",
       "url": "https://github.com/ratbragaia/vagassjdr",
       "categoria": "GitHub"
     },

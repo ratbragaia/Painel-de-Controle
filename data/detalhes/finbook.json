@@ -6,30 +6,26 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 66.9
+    "pct": 61.4
    },
    {
     "nome": "HTML",
-    "pct": 29.4
+    "pct": 35.4
    },
    {
     "nome": "JavaScript",
-    "pct": 2.6
+    "pct": 2.2
    },
    {
     "nome": "CSS",
-    "pct": 0.8
+    "pct": 0.7
    }
   ],
-  "ultimo_commit": "28/10/2026 22:52",
+  "ultimo_commit": "29/10/2026 22:59",
   "commits_7d": 108,
-  "commits_30d": 222,
+  "commits_30d": 240,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-30",
-    "n": 0
-   },
    {
     "dia": "2026-10-01",
     "n": 0
@@ -144,64 +140,68 @@
    },
    {
     "dia": "2026-10-29",
+    "n": 18
+   },
+   {
+    "dia": "2026-10-30",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 1,
-  "arquivos": 943,
+  "arquivos": 965,
   "branch": "main"
  },
  "commits": [
   {
-   "quando": "28/10 22:52",
-   "msg": "COO 22:55: site 200, fila sem itens executáveis",
-   "sha": "344c14c"
+   "quando": "29/10 22:59",
+   "msg": "COO 22:58 29/10: site 200, fila sem itens executáveis",
+   "sha": "0c28dd0"
   },
   {
-   "quando": "28/10 20:56",
-   "msg": "COO 20:55: site 200, fila sem itens executáveis",
-   "sha": "ce8c653"
+   "quando": "29/10 20:50",
+   "msg": "COO 20:49 29/10: site 200, T-069 atrasou",
+   "sha": "487959f"
   },
   {
-   "quando": "28/10 20:25",
-   "msg": "CEO resumo 28/10 enviado",
-   "sha": "dc58dec"
+   "quando": "29/10 18:52",
+   "msg": "COO 18:55 29/10: site 200, fila sem itens executáveis",
+   "sha": "83fabb3"
   },
   {
-   "quando": "28/10 18:50",
-   "msg": "COO 18:55 28/10: rodada sem itens executáveis",
-   "sha": "43db07c"
+   "quando": "29/10 16:56",
+   "msg": "COO 16:55: site 200, fila sem itens executáveis",
+   "sha": "88e7992"
   },
   {
-   "quando": "28/10 16:58",
-   "msg": "COO 28/10 17:00: site 200, fila sem itens executáveis",
-   "sha": "31ef455"
+   "quando": "29/10 15:43",
+   "msg": "CCO 15:43 29/10: 0 venda/cliente/parceiro",
+   "sha": "7f708d7"
   },
   {
-   "quando": "28/10 15:44",
-   "msg": "CCO 15:44 28/10: 0 venda/cliente/parceiro",
-   "sha": "7cb310d"
+   "quando": "29/10 14:53",
+   "msg": "COO 14:55 29/10: site 200, fila sem itens executáveis",
+   "sha": "ee59bc9"
   },
   {
-   "quando": "28/10 15:00",
-   "msg": "COO 28/10 15:05: T-064 placar lote 5 (0 humana); JM Contábil mudou e-mail",
-   "sha": "107046e"
+   "quando": "29/10 12:56",
+   "msg": "COO 12:55 29/10: TikTok do s30 postado (em análise)",
+   "sha": "8418450"
   },
   {
-   "quando": "28/10 12:54",
-   "msg": "COO 28/10 12:55: T-062 C-004 lote 1 enviado (8/8); T-079 importador dos pacotes",
-   "sha": "890eb15"
+   "quando": "29/10 11:10",
+   "msg": "diario: conferencia credito Anthropic 29/10",
+   "sha": "22a9f6c"
   },
   {
-   "quando": "28/10 12:06",
-   "msg": "CEO: correção D-012 (28/10) sobre o número [telefone]",
-   "sha": "49a191e"
+   "quando": "29/10 11:05",
+   "msg": "COO 11:05 29/10: 12 artigos no ar, Privacidade v2, Short s30 no YouTube",
+   "sha": "827686a"
   },
   {
-   "quando": "28/10 12:05",
-   "msg": "CEO: canal Telegram Finbook (t.me/finbookbr), T-081",
-   "sha": "d939289"
+   "quando": "29/10 11:02",
+   "msg": "COO 29/10 11:00: T-074 s30 v5 (narração sem 'MEI' falado, voz Francisca) pronta para o gate",
+   "sha": "14d6ae9"
   }
  ],
  "pendencias": {
@@ -309,7 +309,7 @@
    },
    {
     "rotulo": "Artigos no blog",
-    "valor": "16",
+    "valor": "28",
     "detalhe": "páginas em site/blog"
    },
    {
@@ -321,5 +321,5 @@
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "29/10/2026 08:06"
+ "gerado_em": "30/10/2026 08:06"
 }

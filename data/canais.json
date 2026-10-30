@@ -1,6 +1,6 @@
 {
  "titulo": "Canais de venda e aquisição",
- "gerado_em": "29/10/2026 08:06 (horário de Brasília)",
+ "gerado_em": "30/10/2026 08:06 (horário de Brasília)",
  "nota": "Números copiados dos arquivos de cada empresa (registro do CMO, resumos dos C-levels, métricas); nada é estimado pelo painel. \"sem dado\" = não medido.",
  "empresas": [
   {
@@ -176,8 +176,8 @@
      "hipotese": "Contador da cidade que recebe o convite pela dor pede a amostra grátis de 10 empresas",
      "metrica": "Pedidos de amostra ÷ entregues; visitas com origem; respostas; descadastros/spam",
      "decisao": "",
-     "periodo": "13/10 a 28/10/2026",
-     "fonte": "resumos-clevels/2026-10-28-ceo.md (CEO)",
+     "periodo": "13/10 a 29/10/2026",
+     "fonte": "resumos-clevels/2026-10-29-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": "105",
@@ -203,7 +203,7 @@
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -242,7 +242,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "prazo": "31/10/2026",
      "registros": [
       "canais.md (pasta local)"
@@ -376,7 +376,7 @@
      "metrica": "pagantes e receita recebida",
      "decisao": "",
      "periodo": "outubro/2026",
-     "fonte": "resumos-clevels/2026-10-28-ceo.md (CEO)",
+     "fonte": "resumos-clevels/2026-10-29-ceo.md (CEO)",
      "numeros": {
       "alcance": {
        "valor": null,
@@ -402,21 +402,21 @@
       "vendas": {
        "valor": "0",
        "nota": "pagantes",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "extraído",
        "mantido": false
       },
       "receita": {
        "valor": "R$ 0",
        "nota": "receita recebida",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "extraído",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "prazo": "",
      "registros": []
     },
@@ -2409,7 +2409,7 @@
       "alcance": {
        "valor": "57",
        "nota": "convites enviados",
-       "medido_em": "29/10/2026",
+       "medido_em": "30/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -2444,7 +2444,7 @@
      },
      "outros": [],
      "origem": "registro do painel",
-     "medido_em": "29/10/2026",
+     "medido_em": "30/10/2026",
      "prazo": "",
      "registros": [
       "ceo/canais.md (pasta local)"
@@ -2525,42 +2525,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2584,42 +2584,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2643,42 +2643,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2702,42 +2702,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2761,42 +2761,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2820,42 +2820,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2879,42 +2879,42 @@
       "alcance": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "cliques": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "leads": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "vendas": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       },
       "receita": {
        "valor": null,
        "nota": "",
-       "medido_em": "28/10/2026",
+       "medido_em": "29/10/2026",
        "origem": "registro do CMO",
        "mantido": false
       }
      },
      "outros": [],
      "origem": "registro do CMO",
-     "medido_em": "28/10/2026",
+     "medido_em": "29/10/2026",
      "registros": [
       "ceo/canais.md (pasta local)"
      ]
@@ -2979,9 +2979,9 @@
        "mantido": false
       },
       "leads": {
-       "valor": "128",
+       "valor": "141",
        "nota": "vagas publicadas desde 02/10/2026",
-       "medido_em": "29/10/2026",
+       "medido_em": "30/10/2026",
        "origem": "extraído",
        "mantido": false
       },
@@ -3011,7 +3011,7 @@
       }
      ],
      "origem": "registro do painel",
-     "medido_em": "29/10/2026",
+     "medido_em": "30/10/2026",
      "prazo": "",
      "registros": []
     },

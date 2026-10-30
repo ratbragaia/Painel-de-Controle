@@ -21,15 +21,11 @@
     "pct": 1.5
    }
   ],
-  "ultimo_commit": "28/10/2026 13:35",
-  "commits_7d": 16,
-  "commits_30d": 43,
+  "ultimo_commit": "29/10/2026 17:35",
+  "commits_7d": 17,
+  "commits_30d": 45,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-30",
-    "n": 0
-   },
    {
     "dia": "2026-10-01",
     "n": 0
@@ -144,15 +140,29 @@
    },
    {
     "dia": "2026-10-29",
+    "n": 2
+   },
+   {
+    "dia": "2026-10-30",
     "n": 0
    }
   ],
   "issues_abertas": 0,
   "prs_abertos": 4,
-  "arquivos": 776,
+  "arquivos": 836,
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "29/10 17:35",
+   "msg": "Espelhamento automatico 2026-10-29 17:35",
+   "sha": "a4a7062"
+  },
+  {
+   "quando": "29/10 10:49",
+   "msg": "Espelhamento automatico 2026-10-29 10:49",
+   "sha": "c6ba8a0"
+  },
   {
    "quando": "28/10 13:35",
    "msg": "Espelhamento automatico 2026-10-28 13:35",
@@ -192,16 +202,6 @@
    "quando": "26/10 19:35",
    "msg": "Espelhamento automatico 2026-10-26 19:35",
    "sha": "380c01d"
-  },
-  {
-   "quando": "26/10 18:59",
-   "msg": "docs: regra geral de abrir o Chrome sozinho",
-   "sha": "fcd035b"
-  },
-  {
-   "quando": "26/10 17:35",
-   "msg": "Espelhamento automatico 2026-10-26 17:35",
-   "sha": "ffb6fa3"
   }
  ],
  "pendencias": {
@@ -222,22 +222,22 @@
   "numeros": [
    {
     "rotulo": "Vagas publicadas",
-    "valor": "128",
-    "detalhe": "de 02/10/2026 a 27/10/2026"
+    "valor": "141",
+    "detalhe": "de 02/10/2026 a 29/10/2026"
    },
    {
     "rotulo": "Publicadas nos últimos 7 dias",
-    "valor": "21",
+    "valor": "24",
     "detalhe": ""
    },
    {
     "rotulo": "Vagas na fila (n8n/pendentes)",
-    "valor": "123",
+    "valor": "136",
     "detalhe": "aguardando aprovação"
    }
   ],
   "tabelas": [],
   "listas": []
  },
- "gerado_em": "29/10/2026 08:06"
+ "gerado_em": "30/10/2026 08:06"
 }

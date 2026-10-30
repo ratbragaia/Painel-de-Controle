@@ -6,11 +6,11 @@
   "linguagens": [
    {
     "nome": "Python",
-    "pct": 82.1
+    "pct": 82.2
    },
    {
     "nome": "HTML",
-    "pct": 15.4
+    "pct": 15.3
    },
    {
     "nome": "CSS",
@@ -21,15 +21,11 @@
     "pct": 0.5
    }
   ],
-  "ultimo_commit": "28/10/2026 11:19",
-  "commits_7d": 10,
-  "commits_30d": 156,
+  "ultimo_commit": "29/10/2026 10:32",
+  "commits_7d": 14,
+  "commits_30d": 160,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-30",
-    "n": 0
-   },
    {
     "dia": "2026-10-01",
     "n": 8
@@ -144,6 +140,10 @@
    },
    {
     "dia": "2026-10-29",
+    "n": 4
+   },
+   {
+    "dia": "2026-10-30",
     "n": 0
    }
   ],
@@ -153,6 +153,26 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "29/10 10:32",
+   "msg": "Merge pull request #20 from ratbragaia/claude/project-thread-f5icrv",
+   "sha": "d4aabcb"
+  },
+  {
+   "quando": "29/10 10:32",
+   "msg": "Teste do seguimento: relógio da base anda com o dia simulado",
+   "sha": "533d1f4"
+  },
+  {
+   "quando": "29/10 10:29",
+   "msg": "Merge pull request #19 from ratbragaia/claude/project-thread-f5icrv",
+   "sha": "1c2f683"
+  },
+  {
+   "quando": "29/10 10:29",
+   "msg": "PNCP: baixar o arquivo sem a porta aleatória na URL",
+   "sha": "cfaee36"
+  },
   {
    "quando": "28/10 11:19",
    "msg": "Merge pull request #18 from ratbragaia/claude/project-thread-f5icrv",
@@ -182,29 +202,9 @@
    "quando": "28/10 08:11",
    "msg": "E-mail frio: rodapé diz de onde veio o contato (--fonte-contato obrigatório)",
    "sha": "12e4b35"
-  },
-  {
-   "quando": "28/10 08:11",
-   "msg": "Merge remote-tracking branch 'origin/main' into claude/project-thread-f5icrv",
-   "sha": "522c69f"
-  },
-  {
-   "quando": "26/10 18:59",
-   "msg": "docs: regra geral de abrir o Chrome sozinho",
-   "sha": "0f37104"
-  },
-  {
-   "quando": "26/10 16:54",
-   "msg": "ADR 0010: o CEO decide tudo, menos o que gera cobrança; resultado do teste de entrega",
-   "sha": "4e3ee76"
-  },
-  {
-   "quando": "26/10 11:47",
-   "msg": "ADR 0009: e-mail frio a 5 por dia útil e sequência pós-teste ligada",
-   "sha": "b4ed4ae"
   }
  ],
  "pendencias": null,
  "kpis": null,
- "gerado_em": "29/10/2026 08:06"
+ "gerado_em": "30/10/2026 08:06"
 }

@@ -9,15 +9,11 @@
     "pct": 100.0
    }
   ],
-  "ultimo_commit": "27/10/2026 09:03",
+  "ultimo_commit": "29/10/2026 10:49",
   "commits_7d": 8,
-  "commits_30d": 19,
+  "commits_30d": 20,
   "commits_30d_truncado": false,
   "por_dia": [
-   {
-    "dia": "2026-09-30",
-    "n": 0
-   },
    {
     "dia": "2026-10-01",
     "n": 0
@@ -132,6 +128,10 @@
    },
    {
     "dia": "2026-10-29",
+    "n": 1
+   },
+   {
+    "dia": "2026-10-30",
     "n": 0
    }
   ],
@@ -141,6 +141,11 @@
   "branch": "main"
  },
  "commits": [
+  {
+   "quando": "29/10 10:49",
+   "msg": "Espelhamento automatico 2026-10-29 10:49",
+   "sha": "3a28a3a"
+  },
   {
    "quando": "27/10 09:03",
    "msg": "Espelhamento automatico 2026-10-27 09:03",
@@ -185,11 +190,6 @@
    "quando": "22/10 08:35",
    "msg": "Espelhamento automatico 2026-10-22 08:35",
    "sha": "27eda9b"
-  },
-  {
-   "quando": "21/10 08:35",
-   "msg": "Espelhamento automatico 2026-10-21 08:35",
-   "sha": "d490563"
   }
  ],
  "pendencias": {
@@ -226,5 +226,5 @@
   ]
  },
  "kpis": null,
- "gerado_em": "29/10/2026 08:06"
+ "gerado_em": "30/10/2026 08:06"
 }

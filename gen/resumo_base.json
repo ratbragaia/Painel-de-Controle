@@ -21,10 +21,10 @@
       "fonte": "objetivos.md e meta-mensal.md (CEO)"
      },
      "resultado": {
-      "texto": "0",
-      "num": 0,
-      "medido_em": "2026-10-28 08:45",
-      "fonte": "resumo do CEO de 28/10 (resumos-clevels)"
+      "texto": "1",
+      "num": 1,
+      "medido_em": "2026-10-30 00:01",
+      "fonte": "rodada do COO de 30/10 00:01 (resumos-clevels e registro-ajustes.md)"
      }
     },
     {
@@ -38,8 +38,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-28 08:45",
-      "fonte": "resumo do CEO de 28/10 (resumos-clevels)"
+      "medido_em": "2026-10-30 00:01",
+      "fonte": "rodada do COO de 30/10 00:01 (resumos-clevels e registro-ajustes.md)"
      }
     },
     {
@@ -74,8 +74,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-28 08:45",
-      "fonte": "ciclo da manhã do CEO de 28/10 (ceo/diario.md)"
+      "medido_em": "2026-10-29 08:45",
+      "fonte": "ciclo da manhã do CEO de 29/10 (ceo/diario.md)"
      }
     },
     {
@@ -89,8 +89,8 @@
      "resultado": {
       "texto": "0",
       "num": 0,
-      "medido_em": "2026-10-28 08:45",
-      "fonte": "ciclo da manhã do CEO de 28/10 (ceo/diario.md)"
+      "medido_em": "2026-10-29 08:45",
+      "fonte": "ciclo da manhã do CEO de 29/10 (ceo/diario.md)"
      }
     },
     {
@@ -102,10 +102,10 @@
       "fonte": "ceo/metas.md (metas da semana 23–29/10)"
      },
      "resultado": {
-      "texto": "38",
-      "num": 38,
-      "medido_em": "2026-10-28 08:45",
-      "fonte": "ciclo da manhã do CEO de 28/10 (ceo/diario.md)"
+      "texto": "30",
+      "num": 30,
+      "medido_em": "2026-10-29 08:45",
+      "fonte": "ciclo da manhã do CEO de 29/10 (ceo/diario.md)"
      }
     }
    ]
@@ -197,8 +197,8 @@
      "resultado": {
       "texto": "R$ 20",
       "num": 20,
-      "medido_em": "2026-10-28 18:58",
-      "fonte": "resumo do CEO de 28/10 (diario.md)"
+      "medido_em": "2026-10-29 19:05",
+      "fonte": "resumo do CEO de 29/10 (diario.md)"
      }
     },
     {
