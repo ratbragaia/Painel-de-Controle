@@ -135,27 +135,6 @@
       "categoria": "GitHub"
     },
     {
-      "nome": "Editallido",
-      "repo": "editallido",
-      "objetivo": "Radar de licitações (boletim de editais) para construtoras pequenas, com amostra grátis, e-mail frio e cobrança; plano de 90 dias.",
-      "status": "Em construção/teste com dados reais; preparando o e-mail frio com revisores. Sem README.",
-      "recente": [
-        "14/10 – prompts dos revisores do e-mail frio",
-        "14/10 – ajuste no script de contatos do PNCP",
-        "14/10 19:26 – CLAUDE.md adicionado",
-        "10/10 12:08 – merge do PR #15 (amostra com dados reais)",
-        "10/10 – regras conservadoras de garantia/atestado/valor (rodada 8)"
-      ],
-      "proximos": [
-        "Disparar o lote 1 de e-mail frio (script armar-lote1.sh existe; não sei se rodou)",
-        "Concluir revisão jurídica (legal/REVIEW_STATUS.md)",
-        "Criar README"
-      ],
-      "atualizado": "14/10/2026 21:35",
-      "url": "https://github.com/ratbragaia/editallido",
-      "categoria": "GitHub"
-    },
-    {
       "nome": "Milhas e Cartões",
       "repo": "milhas-e-cartoes",
       "objetivo": "Hub pessoal de decisões sobre cartões de crédito, milhas e passagens, com radar diário de promoções e revisão mensal.",

@@ -98,20 +98,6 @@
    "tem_kpis": true
   },
   {
-   "nome": "Editallido",
-   "slug": "editallido",
-   "repo": "editallido",
-   "arquivo": "data/detalhes/editallido.json",
-   "commits_7d": 14,
-   "commits_30d": 160,
-   "ultimo_commit": "29/10/2026 10:32",
-   "linguagem": "Python",
-   "prs_abertos": 0,
-   "issues_abertas": 0,
-   "pendencias": null,
-   "tem_kpis": false
-  },
-  {
    "nome": "Milhas e Cartões",
    "slug": "milhas-e-cartoes",
    "repo": "milhas-e-cartoes",

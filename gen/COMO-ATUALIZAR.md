@@ -140,7 +140,7 @@ nem corpo de e-mail. O painel limpa o que reconhece, mas o site é público.
 
 ## Dashboard resumido do topo (`data/resumo.json`)
 
-No topo da página: 5 abas (Abriu Agora, Finbook, PatentSonar, Vagas SJDR, Edital Lido), cada uma só com **meta x resultado**
+No topo da página: 4 abas (Abriu Agora, Finbook, PatentSonar, Vagas SJDR), cada uma só com **meta x resultado**
 e barra de progresso, e abaixo o **Histórico dos C-levels** (mais novo primeiro, data e hora de Brasília, empresa, cargo e resultado
 em uma linha). O conteúdo longo antigo (dropdown, visão geral, painéis por projeto, canais) fica em **"Detalhes"** (recolhido;
 abre sozinho quando a URL tem `#projeto`). O `gen/build_detalhes.py` gera tudo: não há passo manual extra além do comando diário.
@@ -152,17 +152,16 @@ abre sozinho quando a URL tem `#projeto`). O `gen/build_detalhes.py` gera tudo: 
    Finbook linha "CEO resumo DD/MM enviado" em `ceo/diario.md`; Vagas SJDR `registro-publicadas.csv` (semana e mês),
    `metricas.md` (Instagram) e "receita <mês> R$ X" no `diario.md` dos C-levels (pasta `$VAGAS_CLEVELS`, padrão
    `/workspace/clevels/vagas-sjdr`); PatentSonar `meta-mensal.md` (pasta `$PATENT_LOCAL`, padrão `/workspace/patentsonar/clevels`).
-   Edital Lido não tem extração automática (os dados ficam no VPS): atualize o `resumo_base.json`.
 3. Se uma extração falha ou volta vazia, vale o valor anterior de `data/resumo.json` (marcado "valor mantido da última medição").
 4. **Histórico (últimos 30 dias, só evidência real):** Abriu Agora `resumos-clevels/` (pasta local); Finbook commits com prefixo de
    cargo; Vagas SJDR `diario.md` dos C-levels; PatentSonar `docs/coo/fila.md` do repositório (uma linha por rodada do COO, só contagens)
-   e `resumos/` dos C-levels (pasta local); Edital Lido commits de decisões do CEO (ADRs). Entradas antigas são preservadas do arquivo anterior.
+   e `resumos/` dos C-levels (pasta local). Entradas antigas são preservadas do arquivo anterior.
 5. Privacidade: cada frase de resultado passa por um filtro de lista de palavras (`PERMITIDAS` em `gen/resumo.py`): trecho com palavra
    capitalizada desconhecida (nome de pessoa/empresa/prospect), e-mail, telefone, caminho, hash, senha/token etc. é descartado.
    Linha sem trecho publicável aparece como "execução registrada, sem resumo público". Mensagens de commit do PatentSonar
    em `data/detalhes/` passam pelo mesmo filtro. Se quiser liberar uma palavra legítima, acrescente-a em `PERMITIDAS`.
 
 **Rotina diária — o que fazer com o resumo:** depois de ler os relatórios dos C-levels, atualize em `gen/resumo_base.json` os
-`resultado` que não têm extração automática (Edital Lido; e qualquer número novo vindo dos relatórios do CEO), sempre com
+`resultado` que não têm extração automática (qualquer número novo vindo dos relatórios do CEO), sempre com
 `medido_em` (AAAA-MM-DD HH:MM, horário de Brasília) e `fonte`. **Na virada do mês** troque rótulos e metas mensais (ex.:
 "Receita bruta de out/2026" da Vagas SJDR, "1ª venda até 31/10" do Finbook) e confira as datas-limite. Depois rode o comando diário normal.
