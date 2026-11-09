@@ -12,7 +12,6 @@ De onde vem o histórico (só evidência real de execução):
   * Abriu Agora:  $ABRIU_LOCAL/resumos-clevels/AAAA-MM-DD-<cargo>.md (cada "Rodada" do COO conta uma vez);
   * Finbook:      commits do repositório finbook cuja mensagem começa pelo cargo (CEO, COO, CCO, CISO…);
   * Vagas SJDR:   $VAGAS_CLEVELS/diario.md (cabeçalhos "### DD/MM HH:MM — <rotina>");
-  * Edital Lido:  commits de decisões (ADR) em qualquer branch do repositório editallido cujo texto diz que o CEO decidiu;
   * o histórico anterior (data/resumo.json) é mantido quando a fonte some (janela de DIAS_HIST dias).
 Projetos que voltarem a gen/publico_minimo.json aparecem só com nome + site: sem indicadores nem histórico (lista vazia desde 26/10/2026).
 Site público: textos passam por limpar(); a frase de resultado só sai se não tiver nome próprio desconhecido
@@ -33,7 +32,7 @@ CARGOS = ('CEO', 'COO', 'CCO', 'CISO', 'CSO', 'CMO', 'CFO', 'CLO', 'CTO', 'CS')
 # Qualquer outra palavra com maiúscula (em geral nome de prospect, cliente ou pessoa) derruba o trecho.
 PERMITIDAS = set('''
 CEO COO CCO CISO CSO CMO CFO CLO CTO CS C-levels C-level Diretoria Rodrigo Claude Grok Bot Assistente Pessoal
-Abriu Agora Finbook Vagas SJDR Edital Lido Kit MEI Dia Pacote Profissões Combo Controle Limite Calculadora
+Abriu Agora Finbook Vagas SJDR Kit MEI Dia Pacote Profissões Combo Controle Limite Calculadora
 Instagram Facebook TikTok YouTube LinkedIn Shorts Short Kiwify Hotmart Asaas Resend Gmail Google Search Console GSC
 Cloudflare Pix Dependabot Outlook Paddle DMARC PECR SBIR OPS BigQuery Hunter G2 Capterra PatentSonar Supabase GitHub Postgres RLS CI SMS Pull Request PR
 Cloudflare Pix POST STORY STORYs Fixado Direct Telegram Meta Business Suite Insights WhatsApp Chrome
@@ -352,29 +351,7 @@ def hist_vagas(local, limpar, hoje):
                     'fonte': 'diario.md dos C-levels do Vagas SJDR'})
     return out
 
-def hist_editallido(api, paged, owner, limpar, desde, brt):
-    out, vistos = [], set()
-    since = dt.datetime.combine(desde, dt.time(), brt).astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    for b in api(f'repos/{owner}/editallido/branches?per_page=100') or []:
-        for c in paged(f'repos/{owner}/editallido/commits?sha={b["name"]}&path=decisoes&per_page=100&since={since}', 300):
-            if c['sha'] in vistos: continue
-            vistos.add(c['sha'])
-            msg = c['commit']['message'].splitlines()[0]
-            m = re.match(r'ADR (\d{4}):\s*(.*)', msg)
-            if not m: continue
-            det = api(f'repos/{owner}/editallido/commits/{c["sha"]}') or {}
-            texto = ''
-            for f in det.get('files', []):
-                if f['filename'].startswith('decisoes/') and f['filename'][9:13] == m.group(1):
-                    texto = '\n'.join(l[1:] for l in (f.get('patch') or '').splitlines() if l.startswith('+'))
-            if not re.search(r'\bCEO\b', texto): continue   # só decisões tomadas pelo CEO
-            quando = dt.datetime.fromisoformat(c['commit']['committer']['date'].replace('Z', '+00:00')).astimezone(brt)
-            out.append({'dia': quando.date(), 'hora': quando.strftime('%H:%M'), 'cargo': 'CEO',
-                        'resultado': frase(f'Decisão {m.group(1)}: ' + m.group(2), limpar),
-                        'fonte': f'commit {c["sha"][:7]} (editallido, decisoes/{m.group(1)})'})
-    return out
 
-# ------------------------------------------------------------------ montagem
 def _mais_novo(a, b):
     """Resultado com medido_em mais recente (b = extraído vence empate)."""
     if not a or a.get('texto') is None: return b or a
@@ -440,8 +417,7 @@ def montar(site, base_path, api, paged, arquivo_de, limpar, tirar_mencoes, minim
             ('Abriu Agora', lambda: hist_abriu(abriu_local, limpar, desde), 'Abriu Agora: resumos-clevels/ (pasta local da Abriu Agora)'),
             ('Finbook', lambda: hist_finbook(paged, owner, limpar, desde, brt), 'Finbook: commits das rotinas no repositório finbook'),
             ('Vagas SJDR', lambda: hist_vagas(VAGAS_CLEVELS, limpar, hoje), 'Vagas SJDR: diario.md dos C-levels (pasta local)'),
-            ('PatentSonar', lambda: hist_patentsonar(arquivo_de('PatentSonar'), PATENT_LOCAL, limpar, desde, agora), 'PatentSonar: docs/coo/fila.md do repositório (itens do COO) + resumos dos C-levels em clevels/resumos (pasta local)'),
-            ('Edital Lido', lambda: hist_editallido(api, paged, owner, limpar, desde, brt), 'Edital Lido: commits de decisões do CEO no repositório editallido')):
+            ('PatentSonar', lambda: hist_patentsonar(arquivo_de('PatentSonar'), PATENT_LOCAL, limpar, desde, agora), 'PatentSonar: docs/coo/fila.md do repositório (itens do COO) + resumos dos C-levels em clevels/resumos (pasta local)'),):
         if emp.lower() in nomes_min: continue
         try:
             r = f()

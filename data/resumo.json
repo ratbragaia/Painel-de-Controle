@@ -266,64 +266,6 @@
      "pct": null
     }
    ]
-  },
-  {
-   "nome": "Edital Lido",
-   "repo": "editallido",
-   "slug": "editallido",
-   "indicadores": [
-    {
-     "id": "testes-out",
-     "rotulo": "Testes grátis iniciados (gatilho de 31/10/2026)",
-     "meta": {
-      "texto": "≥ 3",
-      "num": 3,
-      "fonte": "decisoes/0003 (gatilho de 31/10)"
-     },
-     "resultado": {
-      "texto": "0",
-      "num": 0,
-      "medido_em": "2026-10-26",
-      "fonte": "relatório do CEO de 26/10 e decisoes/0009",
-      "medido_br": "26/10/2026"
-     },
-     "pct": 0
-    },
-    {
-     "id": "primeiro-pagante",
-     "rotulo": "Primeiro cliente pagante (até 15/11/2026)",
-     "meta": {
-      "texto": "1",
-      "num": 1,
-      "fonte": "decisoes/0003 (metas de 90 dias)"
-     },
-     "resultado": {
-      "texto": "0",
-      "num": 0,
-      "medido_em": "2026-10-26",
-      "fonte": "relatório do CEO de 26/10",
-      "medido_br": "26/10/2026"
-     },
-     "pct": 0
-    },
-    {
-     "id": "pagantes-dez",
-     "rotulo": "Clientes pagantes (até 31/12/2026)",
-     "meta": {
-      "texto": "6",
-      "num": 6,
-      "fonte": "PLANO-90-dias.md (meta ajustada de 5 para 6)"
-     },
-     "resultado": {
-      "texto": "0",
-      "num": 0,
-      "medido_em": "2026-10-26",
-      "fonte": "relatório do CEO de 26/10",
-      "medido_br": "26/10/2026"
-     },
-     "pct": 0
-    }
-   ]
   }
  ],
  "historico": [
@@ -1376,14 +1318,6 @@
    "fonte": "commit 5218c96 (finbook)"
   },
   {
-   "quando": "2026-10-26 16:54",
-   "quando_br": "26/10/2026 16:54",
-   "empresa": "Edital Lido",
-   "cargo": "CEO",
-   "resultado": "Decisão 0010: o CEO decide tudo, menos o que gera cobrança; resultado do teste de entrega",
-   "fonte": "commit 4e3ee76 (editallido, decisoes/0010)"
-  },
-  {
    "quando": "2026-10-26 16:50",
    "quando_br": "26/10/2026 16:50",
    "empresa": "Finbook",
@@ -1438,14 +1372,6 @@
    "cargo": "COO",
    "resultado": "Claude parado → enviada às 12:01 a ordem 20261026-cso-1 + 20261026-ceo-2 (seção \"Envio de 26/10/2026\" + Portão 1)",
    "fonte": "resumos-clevels/2026-10-26-coo.md"
-  },
-  {
-   "quando": "2026-10-26 11:47",
-   "quando_br": "26/10/2026 11:47",
-   "empresa": "Edital Lido",
-   "cargo": "CEO",
-   "resultado": "Decisão 0009: e-mail frio a 5 por dia útil e sequência pós-teste ligada",
-   "fonte": "commit b4ed4ae (editallido, decisoes/0009)"
   },
   {
    "quando": "2026-10-26 11:45",
@@ -3532,8 +3458,7 @@
   "Abriu Agora: resumos-clevels/ (pasta local da Abriu Agora)",
   "Finbook: commits das rotinas no repositório finbook",
   "Vagas SJDR: diario.md dos C-levels (pasta local)",
-  "PatentSonar: docs/coo/fila.md do repositório (itens do COO) + resumos dos C-levels em clevels/resumos (pasta local)",
-  "Edital Lido: commits de decisões do CEO no repositório editallido"
+  "PatentSonar: docs/coo/fila.md do repositório (itens do COO) + resumos dos C-levels em clevels/resumos (pasta local)"
  ],
  "janela_historico_dias": 30
 }
